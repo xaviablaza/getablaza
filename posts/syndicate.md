@@ -1,8 +1,8 @@
 ---
 title: The Ablaza Syndicate
 description: A group of 100+ startup founders & operators led by Xavi Ablaza that builds knowledge & provides capital to world-class founders.
-date: Last Modified
-scheduled: 2023-12-31
+date: 2023-12-26
+scheduled: 2023-12-26
 tags:
   - syndicate
   - technology
