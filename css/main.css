@@ -114,6 +114,10 @@ header aside {
   margin-bottom: 0.5em;
 }
 
+#title-custom-font {
+  font-size: 4em;
+}
+
 /* https://github.com/rsms/inter/blob/master/LICENSE.txt
 
 Copyright (c) 2016-2020 The Inter Project Authors.
@@ -872,7 +876,6 @@ header label {
 }
 header {
   padding: 4.5em 1.5em 3em;
-  width: 37.5em;
   margin: 0 auto;
   text-align: center;
   max-width: 100%;

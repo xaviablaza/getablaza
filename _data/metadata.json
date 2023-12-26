@@ -1,26 +1,26 @@
 {
-  "title": "Title of the website. Update me.",
-  "url": "https://update-me.com",
-  "domain": "update-me.com",
-  "description": "Description of the website. Update me.",
-  "genre": "Insert a schema.org genre",
+  "title": "ABLAZA",
+  "url": "https://getablaza.com",
+  "domain": "getablaza.com",
+  "description": "Indiehacker insights, technology syndication, & polarizing opinions by Xavi Ablaza",
+  "genre": "Technology",
   "googleAnalyticsId": "GA ID. Update me. Note, that this is not compatible with the not-yet-commonly used version 4 of Google Analytics",
   "sendWebVitals": false,
   "feed": {
-    "subtitle": "Subtitle. Update me.",
+    "subtitle": "Indiehacker insights, technology syndication, & polarizing opinions by Xavi Ablaza",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://update-me.com"
+    "id": "https://getablaza.com"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://update-me.com/feed/feed.json"
+    "url": "https://getablaza.com/feed/feed.json"
   },
   "author": {
-    "name": "Author Name. Update me.",
-    "twitterHandle": "update_me"
+    "name": "Xavi Ablaza",
+    "twitterHandle": "xaviablaza"
   },
   "publisher": {
-    "name": "Publisher name. Update me."
+    "name": "Xavi Ablaza"
   }
 }
