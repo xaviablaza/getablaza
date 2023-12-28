@@ -2,6 +2,7 @@
 layout: layouts/base.njk
 title: About
 templateClass: tmpl-post
+image: https://getablaza.com/img/ablaza-fb-og.png
 eleventyNavigation:
   key: About
   order: 2

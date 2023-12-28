@@ -7,14 +7,14 @@ tags:
   - syndicate
   - technology
 layout: layouts/post-no-readtime.njk
-image: https://cdn.pixabay.com/photo/2020/08/30/20/54/rice-field-5530707_1280.jpg
+image: https://getablaza.com/img/ablaza-fb-og.png
 ---
 
 A trusted, and tight-knit group of startup founders & operators led by Xavi Ablaza that builds knowledge & provides capital to world-class founders.
 
-🚀🚀🚀 **FOUNDERS & OPERATORS: [Apply for Membership & Funding](https://forms.gle/EtEVRXZ8XSRHxkw97) from the Ablaza Syndicate**
+🚀 **FOUNDERS & OPERATORS: [Apply for Membership & Funding](https://forms.gle/EtEVRXZ8XSRHxkw97) from the Ablaza Syndicate**
 
-💰💰💰 **INVESTORS: [Join the Ablaza Syndicate](https://forms.gle/mmhYrASfCDPF6uaR9)**
+💰 **INVESTORS: [Join the Ablaza Syndicate](https://forms.gle/mmhYrASfCDPF6uaR9)**
 
 #### Current Cohort
 
