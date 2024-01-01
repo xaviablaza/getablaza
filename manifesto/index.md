@@ -5,6 +5,7 @@ templateClass: tmpl-post
 eleventyNavigation:
   key: Manifesto
   order: 3
+image: https://getablaza.com/img/ablaza-fb-og.png
 ---
 
 I believe that founders should strive to keep control of their companies for as long as possible, by fully owning every decision that is made to drive the company forward.
