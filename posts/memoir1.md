@@ -2,7 +2,8 @@
 title: The future is now.
 description: A memoir to my mother who raised me.
 date: 2023-11-21
-scheduled: 2023-12-30
+scheduled: 2099-12-30
+draft: true
 tags:
   - respect
 layout: layouts/post.njk
