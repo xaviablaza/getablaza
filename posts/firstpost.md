@@ -1,8 +1,8 @@
 ---
 title: This is my first post.
 description: This is a post on My Blog about agile frameworks.
-date: 2099-05-01
-scheduled: 2099-05-01
+date: 2025-04-17
+scheduled: 2025-04-17
 tags:
   - another-tag
 layout: layouts/post.njk
