@@ -40,15 +40,15 @@
     "markdown-it": "^12.3.2",
     "markdown-it-anchor": "^5.2.5",
     "node-fetch": "^2.6.7",
-    "pre-commit": "^1.2.2",
-    "pre-push": "^0.1.4",
+    "pre-commit": "^1.0.10",
+    "pre-push": "^0.1.1",
     "rollup-plugin-terser": "^6.1.0",
     "shorthash": "0.0.2"
   },
   "dependencies": {
-    "@ampproject/toolbox-optimizer": "^2.9.0",
+    "@ampproject/toolbox-optimizer": "^2.4.0",
     "any-shell-escape": "^0.1.1",
-    "browser-sync": "^2.29.3",
+    "browser-sync": "^3.0.4",
     "clean-css": "^4.2.3",
     "concurrently": "^7.0.0",
     "csp-hash-generator": "0.0.3",
@@ -59,15 +59,15 @@
     "hasha": "^5.2.0",
     "html-minifier": "^4.0.0",
     "image-size": "^0.8.3",
-    "lru-cache": "^5.1.1",
+    "lru-cache": "^11.1.0",
     "mocha": "^10.1.0",
     "phin": "^3.5.0",
     "purge-from-html": "^1.0.3",
     "purgecss": "^4.0.3",
     "querystring": "^0.2.0",
     "rollup": "^2.23.0",
-    "sharp": "^0.30.5",
+    "sharp": "^0.34.1",
     "touch": "^3.1.0",
-    "twitter": "^1.7.1"
+    "twitter": "^1.1.0"
   }
 }
