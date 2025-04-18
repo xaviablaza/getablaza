@@ -2,7 +2,7 @@
 title: The Ablaza Syndicate
 description: A trusted, and tight-knit group of startup founders & operators led by Xavi Ablaza that builds knowledge & provides capital to world-class founders.
 date: 2023-12-26
-scheduled: 2023-12-26
+scheduled: 2100-12-26
 tags:
   - syndicate
   - technology
