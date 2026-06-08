@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" role="img" aria-labelledby="title desc">
+  <title id="title">Hostari logo placeholder</title>
+  <desc id="desc">Dark rounded card with Hostari wordmark.</desc>
+  <rect width="1000" height="420" rx="40" fill="#05070b"/>
+  <circle cx="190" cy="210" r="72" fill="#1f6feb" opacity="0.22"/>
+  <path d="M145 245 V175 h28 v27 h34 v-27 h28 v70 h-28 v-27 h-34 v27z" fill="#e6edf3"/>
+  <text x="300" y="232" font-family="Inter, Arial, sans-serif" font-size="86" font-weight="800" fill="#e6edf3">Hostari</text>
+  <text x="304" y="285" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="500" fill="#8b949e">infrastructure for operators</text>
+</svg>

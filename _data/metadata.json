@@ -2,12 +2,12 @@
   "title": "ABLAZA",
   "url": "https://getablaza.com",
   "domain": "getablaza.com",
-  "description": "Indiehacker insights, technology syndication, & polarizing opinions by Xavi Ablaza",
+  "description": "P&L engineering notes, operating frameworks, and financially legible technical decisions by Xavi Ablaza",
   "genre": "Technology",
   "googleAnalyticsId": "GA ID. Update me. Note, that this is not compatible with the not-yet-commonly used version 4 of Google Analytics",
   "sendWebVitals": false,
   "feed": {
-    "subtitle": "Indiehacker insights, technology syndication, & polarizing opinions by Xavi Ablaza",
+    "subtitle": "P&L engineering notes, operating frameworks, and financially legible technical decisions by Xavi Ablaza",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://getablaza.com"
