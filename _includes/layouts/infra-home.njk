@@ -44,7 +44,7 @@
         line-height: 1.55;
       }
       a { color: inherit; text-decoration: none; }
-      .wrap { width: min(1040px, calc(100vw - 40px)); margin: 0 auto; }
+      .wrap { width: min(1040px, calc(100% - 40px)); margin: 0 auto; }
       .topbar {
         position: sticky; top: 0; z-index: 10;
         backdrop-filter: blur(18px);
@@ -122,22 +122,85 @@
       body { margin:0 !important; background: radial-gradient(circle at 50% -12%, rgba(83,168,255,.14), transparent 34rem), linear-gradient(180deg, #07090f 0%, var(--bg) 42rem) !important; color:var(--ink) !important; font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important; }
       body :is(h1,h2,h3,p,a,b,strong,span,div,input,button) { font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important; }
       body :is(h1,h2,h3,p,a,b,strong,span,div) { font-style:normal !important; }
-      header.topbar { position:sticky !important; top:0 !important; width:auto !important; padding:0 !important; background:rgba(5,7,11,.74) !important; text-align:initial !important; }
-      header.topbar nav.nav { position:static !important; width:min(1040px, calc(100vw - 40px)) !important; padding:0 !important; background:transparent !important; text-align:initial !important; font-weight:inherit !important; }
-      header.topbar a { color:inherit !important; }
-      .hero h2 { font-style:normal !important; font-size:clamp(34px, 6.2vw, 72px) !important; line-height:.93 !important; }
+      header.topbar { display:block !important; flex-direction:initial !important; align-items:initial !important; position:sticky !important; top:0 !important; width:auto !important; max-width:none !important; margin:0 !important; padding:0 !important; background:rgba(5,7,11,.74) !important; text-align:initial !important; }
+      header.topbar nav.nav { position:static !important; width:min(1040px, calc(100% - 40px)) !important; padding:0 !important; background:transparent !important; text-align:initial !important; font-weight:inherit !important; }
+      header.topbar a { color:inherit !important; margin:0 !important; }
+      main.wrap { display:block !important; border-top:0 !important; }
+      main.wrap > section,
+      main.wrap > aside,
+      .hero,
+      .hero-copy,
+      .identity,
+      .metric-grid,
+      .split,
+      .cta,
+      .card-grid,
+      .frameworks,
+      .graphs,
+      .subscribe,
+      article.stage-card { width:100% !important; max-width:100% !important; margin-left:0 !important; margin-right:0 !important; min-width:0 !important; }
+      .hero h2 { width:100% !important; max-width:100% !important; overflow-wrap:normal !important; font-style:normal !important; font-size:clamp(34px, 6.2vw, 72px) !important; line-height:.93 !important; }
+      .lede { width:100% !important; max-width:780px !important; }
+      .email-form { border:0 !important; padding:0 !important; margin:0 !important; }
+      .email-form input { margin:0 !important; border:1px solid var(--line) !important; background:#11141a !important; color:var(--ink) !important; }
+      .email-form button { margin:0 !important; background:#f2f5fb !important; color:#05070b !important; }
+      footer > * { margin-left:auto !important; margin-right:auto !important; }
       .identity h1 { font-size:clamp(34px, 5vw, 54px) !important; line-height:.96 !important; }
       .wrap { max-width:none !important; }
 
       @media (max-width: 760px) {
-        .wrap { width:min(100% - 24px, 1040px); }
-        .nav { align-items:flex-start; padding:14px 0; }
-        .navlinks { display:none; }
-        .hero { padding-top:42px; }
-        .identity { align-items:flex-start; }
-        .portrait { width:64px; height:64px; }
-        .metric-grid, .split, .card-grid.bottom, .framework-list, .email-form { grid-template-columns:1fr; }
-        .linkrow { grid-template-columns:1fr; gap:4px; }
+        html, body { max-width:100% !important; overflow-x:hidden !important; }
+        .wrap,
+        header.topbar nav.nav { width:min(100% - 24px, 1040px) !important; }
+        .nav { min-height:56px !important; align-items:center !important; padding:10px 0 !important; }
+        .navlinks { display:none !important; }
+        .brand { gap:10px !important; font-size:15px !important; }
+        .mark { width:32px !important; height:32px !important; border-radius:8px !important; }
+        .hero { padding:34px 0 26px !important; }
+        .identity { align-items:center !important; gap:14px !important; margin-bottom:30px !important; }
+        .portrait { width:58px !important; height:58px !important; flex:0 0 58px !important; }
+        .identity h1 { font-size:34px !important; letter-spacing:-.055em !important; }
+        .subtitle { font-size:14px !important; line-height:1.35 !important; margin-top:5px !important; }
+        .eyebrow { font-size:11px !important; line-height:1.35 !important; letter-spacing:.13em !important; }
+        .hero h2 { font-size:clamp(36px, 12.2vw, 48px) !important; line-height:.98 !important; letter-spacing:-.065em !important; text-wrap:balance !important; }
+        .lede { font-size:17px !important; line-height:1.45 !important; margin-top:18px !important; }
+        .metric-grid, .split, .card-grid.bottom, .framework-list, .email-form { grid-template-columns:1fr !important; }
+        .metric-grid { gap:10px !important; margin:26px 0 30px !important; }
+        .metric { padding:16px !important; text-align:left !important; }
+        .metric b { font-size:24px !important; }
+        .split { gap:26px !important; padding:26px 0 !important; }
+        .chain, .roles { gap:8px !important; line-height:1.7 !important; }
+        .cta { padding:28px 0 34px !important; }
+        .buttons { display:grid !important; grid-template-columns:1fr !important; gap:10px !important; }
+        .button { min-height:44px !important; display:flex !important; align-items:center !important; justify-content:center !important; padding:10px 14px !important; }
+        .quote { margin:18px 0 40px !important; padding:20px !important; }
+        .card-grid { gap:14px !important; margin-bottom:44px !important; }
+        .stage-card { padding:18px !important; border-radius:12px !important; }
+        .stage-card h3 { font-size:22px !important; line-height:1.15 !important; }
+        .stage-card p { font-size:15px !important; line-height:1.45 !important; }
+        .viz { min-height:190px !important; overflow-x:auto !important; overflow-y:hidden !important; -webkit-overflow-scrolling:touch !important; }
+        .viz svg { min-width:620px !important; min-height:190px !important; display:block !important; }
+        .card-grid.bottom .viz svg { min-width:420px !important; }
+        .frameworks, .graphs, .subscribe { margin-bottom:48px !important; }
+        .framework { min-height:auto !important; padding:15px !important; }
+        .linkrow { grid-template-columns:1fr !important; gap:4px !important; padding:13px 0 !important; }
+        .linkrow b { font-size:18px !important; }
+        .subscribe { padding:20px !important; }
+        .email-form { gap:10px !important; }
+        .email-form input,
+        .email-form button { width:100% !important; min-height:48px !important; }
+        footer { padding:28px 0 44px !important; }
+        footer .links { display:grid !important; grid-template-columns:1fr !important; gap:10px !important; }
+      }
+
+      @media (max-width: 420px) {
+        .wrap,
+        header.topbar nav.nav { width:calc(100% - 20px) !important; }
+        .hero h2 { font-size:clamp(33px, 11.4vw, 42px) !important; }
+        .identity h1 { font-size:30px !important; }
+        .subtitle { font-size:13px !important; }
+        .stage-card { padding:16px !important; }
+        .viz { margin-inline:-6px !important; border-inline:0 !important; border-radius:8px !important; }
       }
     </style>
   </head>
