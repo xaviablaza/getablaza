@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <linearGradient id="fadeAmber" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fadeEmerald" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect fill="#09090b" />
+
+  <!-- Main Title -->
+  <text x="400" y="35" fill="#ffffff" font-size="16" font-weight="bold" text-anchor="middle" letter-spacing="0.5">Targets vs. Ratchets</text>
+
+  <!-- ========================================== -->
+  <!-- LEFT CHART: Targets (Oscillating)          -->
+  <!-- ========================================== -->
+  
+  <!-- Left Chart Title -->
+  <text x="220" y="75" fill="#f59e0b" font-size="14" font-weight="600" text-anchor="middle">Targets: Quality Oscillates</text>
+
+  <!-- Left Axes -->
+  <path d="M 80 80 L 80 320 L 360 320" stroke="#3f3f46" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Left Axis Labels -->
+  <text x="220" y="360" fill="#a1a1aa" font-size="12" text-anchor="middle">Time (sprints)</text>
+  <text x="-200" y="40" fill="#a1a1aa" font-size="12" text-anchor="middle" transform="rotate(-90)">Coverage %</text>
+
+  <!-- Left Y-Axis Ticks & Values -->
+  <text x="70" y="132" fill="#71717a" font-size="10" text-anchor="end">80%</text>
+  <text x="70" y="228" fill="#71717a" font-size="10" text-anchor="end">70%</text>
+  <text x="70" y="324" fill="#71717a" font-size="10" text-anchor="end">60%</text>
+  <path d="M 76 128 L 80 128 M 76 224 L 80 224 M 76 320 L 80 320" stroke="#3f3f46" stroke-width="2" fill="none" />
+
+  <!-- Left X-Axis Ticks -->
+  <path d="M 108 320 L 108 324 M 136 320 L 136 324 M 164 320 L 164 324 M 192 320 L 192 324 M 220 320 L 220 324 M 248 320 L 248 324 M 276 320 L 276 324 M 304 320 L 304 324 M 332 320 L 332 324 M 360 320 L 360 324" stroke="#3f3f46" stroke-width="2" fill="none" />
+
+  <!-- Target Line -->
+  <path d="M 80 128 L 360 128" stroke="#71717a" stroke-width="2" stroke-dasharray="6 4" fill="none" />
+  <text x="355" y="120" fill="#71717a" font-size="12" text-anchor="end">Target</text>
+
+  <!-- Left Chart Area Fill -->
+  <polygon points="80,320 80,272 108,243.2 136,185.6 164,128 192,204.8 220,252.8 248,176 276,118.4 304,166.4 332,233.6 360,195.2 360,320" fill="url(#fadeAmber)" />
+
+  <!-- Left Chart Line (Oscillating) -->
+  <!-- Glow -->
+  <path d="M 80 272 L 108 243.2 L 136 185.6 L 164 128 L 192 204.8 L 220 252.8 L 248 176 L 276 118.4 L 304 166.4 L 332 233.6 L 360 195.2" stroke="#f59e0b" stroke-width="6" opacity="0.15" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Main Line -->
+  <path d="M 80 272 L 108 243.2 L 136 185.6 L 164 128 L 192 204.8 L 220 252.8 L 248 176 L 276 118.4 L 304 166.4 L 332 233.6 L 360 195.2" stroke="#f59e0b" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Data Points -->
+  <circle cx="80" cy="272" r="3" fill="#09090b" stroke="#f59e0b" stroke-width="2" />
+  <circle cx="360" cy="195.2" r="3" fill="#09090b" stroke="#f59e0b" stroke-width="2" />
+
+
+  <!-- ========================================== -->
+  <!-- RIGHT CHART: Ratchet (Monotonic)           -->
+  <!-- ========================================== -->
+
+  <!-- Right Chart Title -->
+  <text x="590" y="75" fill="#10b981" font-size="14" font-weight="600" text-anchor="middle">Ratchet: Quality Only Goes Up</text>
+
+  <!-- Right Axes -->
+  <path d="M 450 80 L 450 320 L 730 320" stroke="#3f3f46" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Right Axis Labels -->
+  <text x="590" y="360" fill="#a1a1aa" font-size="12" text-anchor="middle">Time (sprints)</text>
+  <text x="-200" y="410" fill="#a1a1aa" font-size="12" text-anchor="middle" transform="rotate(-90)">Coverage %</text>
+
+  <!-- Right Y-Axis Ticks & Values -->
+  <text x="440" y="132" fill="#71717a" font-size="10" text-anchor="end">80%</text>
+  <text x="440" y="228" fill="#71717a" font-size="10" text-anchor="end">70%</text>
+  <text x="440" y="324" fill="#71717a" font-size="10" text-anchor="end">60%</text>
+  <path d="M 446 128 L 450 128 M 446 224 L 450 224 M 446 320 L 450 320" stroke="#3f3f46" stroke-width="2" fill="none" />
+
+  <!-- Right X-Axis Ticks -->
+  <path d="M 480 320 L 480 324 M 510 320 L 510 324 M 550 320 L 550 324 M 590 320 L 590 324 M 630 320 L 630 324 M 670 320 L 670 324 M 710 320 L 710 324 M 730 320 L 730 324" stroke="#3f3f46" stroke-width="2" fill="none" />
+
+  <!-- Floor Lines (The Ratchet Effect) -->
+  <path d="M 480 204.8 L 730 204.8" stroke="#10b981" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.3" fill="none" />
+  <path d="M 510 195.2 L 730 195.2" stroke="#10b981" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.3" fill="none" />
+  <path d="M 550 185.6 L 730 185.6" stroke="#10b981" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.3" fill="none" />
+  <path d="M 590 166.4 L 730 166.4" stroke="#10b981" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.3" fill="none" />
+  <path d="M 630 147.2 L 730 147.2" stroke="#10b981" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.3" fill="none" />
+  <path d="M 670 128.0 L 730 128.0" stroke="#10b981" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.3" fill="none" />
+  <path d="M 710 118.4 L 730 118.4" stroke="#10b981" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.5" fill="none" />
+  
+  <text x="725" y="110" fill="#10b981" font-size="11" text-anchor="end" opacity="0.8">New Minimum</text>
+
+  <!-- Right Chart Area Fill -->
+  <polygon points="450,320 450,224 480,224 480,204.8 510,204.8 510,195.2 550,195.2 550,185.6 590,185.6 590,166.4 630,166.4 630,147.2 670,147.2 670,128 710,128 710,118.4 730,118.4 730,320" fill="url(#fadeEmerald)" />
+
+  <!-- Right Chart Line (Step Function) -->
+  <!-- Glow -->
+  <path d="M 450 224 L 480 224 L 480 204.8 L 510 204.8 L 510 195.2 L 550 195.2 L 550 185.6 L 590 185.6 L 590 166.4 L 630 166.4 L 630 147.2 L 670 147.2 L 670 128 L 710 128 L 710 118.4 L 730 118.4" stroke="#10b981" stroke-width="6" opacity="0.15" fill="none" stroke-linejoin="round" />
+  <!-- Main Line -->
+  <path d="M 450 224 L 480 224 L 480 204.8 L 510 204.8 L 510 195.2 L 550 195.2 L 550 185.6 L 590 185.6 L 590 166.4 L 630 166.4 L 630 147.2 L 670 147.2 L 670 128 L 710 128 L 710 118.4 L 730 118.4" stroke="#10b981" stroke-width="2" fill="none" stroke-linejoin="round" />
+
+  <!-- Upward Arrow at the end -->
+  <path d="M 730 118.4 L 730 92 M 724 99 L 730 92 L 736 99" stroke="#10b981" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Data Points -->
+  <circle cx="450" cy="224" r="3" fill="#09090b" stroke="#10b981" stroke-width="2" />
+
+</svg>

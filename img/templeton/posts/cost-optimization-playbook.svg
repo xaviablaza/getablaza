@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+    <defs>
+        <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto">
+            <path d="M 3 3 L 9 6 L 3 9" fill="none" stroke="#52525b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </marker>
+    </defs>
+
+    <!-- Background -->
+    <rect fill="#09090b"/>
+
+    <!-- Titles -->
+    <text x="400" y="40" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="600" text-anchor="middle">Cost Audit System Architecture</text>
+    <text x="400" y="62" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="12" text-anchor="middle">Visibility before optimization</text>
+
+    <!-- STAGE 1: Data Sources -->
+    <g>
+        <rect x="50" y="90" width="130" height="270" rx="8" fill="none" stroke="#3f3f46" stroke-width="1.5"/>
+        <text x="115" y="120" fill="#f4f4f5" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" text-anchor="middle">Data Sources</text>
+        
+        <!-- AWS -->
+        <rect x="65" y="149" width="100" height="24" rx="4" fill="#18181b" stroke="#27272a" stroke-width="1"/>
+        <svg x="72" y="153" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#a1a1aa" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>
+        </svg>
+        <text x="94" y="165" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="11">AWS</text>
+        
+        <!-- GCP -->
+        <rect x="65" y="181" width="100" height="24" rx="4" fill="#18181b" stroke="#27272a" stroke-width="1"/>
+        <text x="85" y="197" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="11">GCP</text>
+        
+        <!-- SaaS -->
+        <rect x="65" y="213" width="100" height="24" rx="4" fill="#18181b" stroke="#27272a" stroke-width="1"/>
+        <text x="85" y="229" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="11">SaaS</text>
+        
+        <!-- HRIS -->
+        <rect x="65" y="245" width="100" height="24" rx="4" fill="#18181b" stroke="#27272a" stroke-width="1"/>
+        <text x="85" y="261" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="11">HRIS</text>
+        
+        <!-- Vendors -->
+        <rect x="65" y="277" width="100" height="24" rx="4" fill="#18181b" stroke="#27272a" stroke-width="1"/>
+        <text x="85" y="293" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="11">Vendors</text>
+    </g>
+
+    <!-- STAGE 2: Cost Data Lake -->
+    <g>
+        <rect x="240" y="90" width="130" height="270" rx="8" fill="rgba(59, 130, 246, 0.08)" stroke="#3b82f6" stroke-width="1.5"/>
+        <text x="305" y="120" fill="#f4f4f5" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" text-anchor="middle">Cost Data Lake</text>
+        
+        <!-- Raw -->
+        <rect x="255" y="161" width="100" height="28" rx="4" fill="#18181b" stroke="rgba(59, 130, 246, 0.3)" stroke-width="1"/>
+        <text x="305" y="179" fill="#d4d4d8" font-family="system-ui, -apple-system, sans-serif" font-size="11" text-anchor="middle">Raw</text>
+        
+        <!-- Arrow Down -->
+        <line x1="305" y1="189" x2="305" y2="205" stroke="#52525b" stroke-width="1.5" marker-end="url(#arrow)"/>
+        
+        <!-- Normalized -->
+        <rect x="255" y="211" width="100" height="28" rx="4" fill="#18181b" stroke="rgba(59, 130, 246, 0.3)" stroke-width="1"/>
+        <text x="305" y="229" fill="#d4d4d8" font-family="system-ui, -apple-system, sans-serif" font-size="11" text-anchor="middle">Normalized</text>
+        
+        <!-- Arrow Down -->
+        <line x1="305" y1="239" x2="305" y2="255" stroke="#52525b" stroke-width="1.5" marker-end="url(#arrow)"/>
+        
+        <!-- Enriched -->
+        <rect x="255" y="261" width="100" height="28" rx="4" fill="#18181b" stroke="rgba(59, 130, 246, 0.3)" stroke-width="1"/>
+        <text x="305" y="279" fill="#d4d4d8" font-family="system-ui, -apple-system, sans-serif" font-size="11" text-anchor="middle">Enriched</text>
+    </g>
+
+    <!-- STAGE 3: Analysis -->
+    <g>
+        <rect x="430" y="90" width="130" height="270" rx="8" fill="rgba(99, 102, 241, 0.08)" stroke="#6366f1" stroke-width="1.5"/>
+        <text x="495" y="120" fill="#f4f4f5" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" text-anchor="middle">Analysis</text>
+        
+        <rect x="445" y="159" width="100" height="24" rx="4" fill="#18181b" stroke="rgba(99, 102, 241, 0.3)" stroke-width="1"/>
+        <text x="495" y="175" fill="#d4d4d8" font-family="system-ui, -apple-system, sans-serif" font-size="11" text-anchor="middle">Categories</text>
+        
+        <rect x="445" y="195" width="100" height="24" rx="4" fill="#18181b" stroke="rgba(99, 102, 241, 0.3)" stroke-width="1"/>
+        <text x="495" y="211" fill="#d4d4d8" font-family="system-ui, -apple-system, sans-serif" font-size="11" text-anchor="middle">Benchmarks</text>
+        
+        <rect x="445" y="231" width="100" height="24" rx="4" fill="#18181b" stroke="rgba(99, 102, 241, 0.3)" stroke-width="1"/>
+        <text x="495" y="247" fill="#d4d4d8" font-family="system-ui, -apple-system, sans-serif" font-size="11" text-anchor="middle">Trends</text>
+        
+        <rect x="445" y="267" width="100" height="24" rx="4" fill="#18181b" stroke="rgba(99, 102, 241, 0.3)" stroke-width="1"/>
+        <text x="495" y="283" fill="#d4d4d8" font-family="system-ui, -apple-system, sans-serif" font-size="11" text-anchor="middle">Anomalies</text>
+    </g>
+
+    <!-- STAGE 4: Decision Support -->
+    <g>
+        <rect x="620" y="90" width="130" height="270" rx="8" fill="rgba(16, 185, 129, 0.08)" stroke="#10b981" stroke-width="1.5"/>
+        <text x="685" y="120" fill="#f4f4f5" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" text-anchor="middle">Decision Support</text>
+        
+        <rect x="635" y="159" width="100" height="24" rx="4" fill="#18181b" stroke="rgba(16, 185, 129, 0.3)" stroke-width="1"/>
+        <text x="685" y="175" fill="#d4d4d8" font-family="system-ui, -apple-system, sans-serif" font-size="11" text-anchor="middle">Dashboard</text>
+        
+        <rect x="635" y="195" width="100" height="24" rx="4" fill="#18181b" stroke="rgba(16, 185, 129, 0.3)" stroke-width="1"/>
+        <text x="685" y="211" fill="#d4d4d8" font-family="system-ui, -apple-system, sans-serif" font-size="11" text-anchor="middle">Alerts</text>
+        
+        <rect x="635" y="231" width="100" height="24" rx="4" fill="#18181b" stroke="rgba(16, 185, 129, 0.3)" stroke-width="1"/>
+        <text x="685" y="247" fill="#d4d4d8" font-family="system-ui, -apple-system, sans-serif" font-size="11" text-anchor="middle">Board Reports</text>
+        
+        <rect x="635" y="267" width="100" height="24" rx="4" fill="#18181b" stroke="rgba(16, 185, 129, 0.3)" stroke-width="1"/>
+        <text x="685" y="283" fill="#d4d4d8" font-family="system-ui, -apple-system, sans-serif" font-size="11" text-anchor="middle">Actions</text>
+    </g>
+
+    <!-- Connecting Arrows -->
+    <line x1="180" y1="225" x2="232" y2="225" stroke="#52525b" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="370" y1="225" x2="422" y2="225" stroke="#52525b" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="560" y1="225" x2="612" y2="225" stroke="#52525b" stroke-width="2" marker-end="url(#arrow)"/>
+</svg>

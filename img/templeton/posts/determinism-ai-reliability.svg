@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" style="background-color: #09090b; font-family: system-ui, -apple-system, sans-serif;">
+  <defs>
+    <!-- Arrowhead for Violet (Generator to Gate) -->
+    <marker id="arrow-violet" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 2 L 6 5 L 0 8 z" fill="#6366f1" />
+    </marker>
+    
+    <!-- Arrowhead for Emerald (Pass Path) -->
+    <marker id="arrow-emerald" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 2 L 6 5 L 0 8 z" fill="#10b981" />
+    </marker>
+    
+    <!-- Arrowhead for Red (Fail Path) -->
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 2 L 6 5 L 0 8 z" fill="#ef4444" />
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect fill="#09090b" />
+
+  <!-- Top Title -->
+  <text x="400" y="60" fill="#ffffff" font-size="16" font-weight="600" text-anchor="middle" letter-spacing="0.5">The Gate, Not the Generator</text>
+
+  <!-- Bottom Annotation -->
+  <text x="400" y="360" fill="#a1a1aa" font-size="12" text-anchor="middle">Stochastic generation + deterministic validation = reliable output</text>
+
+  <!-- LEFT SIDE: LLM Generator (Stochastic) -->
+  <g transform="translate(0, 0)">
+    <!-- Outer dashed ring to suggest stochastic/cloud nature -->
+    <circle cx="200" cy="180" r="75" stroke="#6366f1" stroke-width="1.5" stroke-dasharray="6 4" fill="none" opacity="0.5" />
+    <!-- Main circle -->
+    <circle cx="200" cy="180" r="65" stroke="#6366f1" stroke-width="2" fill="#6366f1" fill-opacity="0.1" />
+    
+    <!-- Wavy/Random lines inside -->
+    <path d="M 150 165 Q 165 145 180 165 T 210 165 T 240 165" stroke="#6366f1" stroke-width="2" fill="none" opacity="0.6" stroke-linecap="round" />
+    <path d="M 160 195 Q 175 215 190 195 T 220 195 T 250 195" stroke="#6366f1" stroke-width="2" fill="none" opacity="0.6" stroke-linecap="round" />
+    <path d="M 155 180 Q 180 160 200 180 T 245 180" stroke="#6366f1" stroke-width="2" fill="none" opacity="0.3" stroke-linecap="round" />
+    
+    <!-- Label -->
+    <text x="200" y="185" fill="#ffffff" font-size="14" font-weight="600" text-anchor="middle">LLM Generator</text>
+  </g>
+
+  <!-- CENTER: Thick Arrow -->
+  <g>
+    <path d="M 285 180 L 505 180" stroke="#6366f1" stroke-width="4" fill="none" marker-end="url(#arrow-violet)" />
+  </g>
+
+  <!-- RIGHT SIDE: Deterministic Gate -->
+  <g transform="translate(0, 0)">
+    <!-- Hard-edged rectangle -->
+    <rect x="520" y="130" width="160" height="100" stroke="#10b981" stroke-width="2" fill="#10b981" fill-opacity="0.1" />
+    
+    <!-- Label -->
+    <text x="600" y="165" fill="#ffffff" font-size="14" font-weight="600" text-anchor="middle">Deterministic Gate</text>
+    
+    <!-- Checkmark -->
+    <path d="M 585 195 L 595 205 L 615 180" stroke="#10b981" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- BOTTOM: Branching Paths -->
+  
+  <!-- Pass Path (Forward) -->
+  <g>
+    <path d="M 680 180 L 755 180" stroke="#10b981" stroke-width="3" fill="none" marker-end="url(#arrow-emerald)" />
+    <text x="720" y="168" fill="#10b981" font-size="12" font-weight="600" text-anchor="middle">Pass - Ship</text>
+  </g>
+
+  <!-- Fail Path (Retry Loop) -->
+  <g>
+    <path d="M 600 230 L 600 290 Q 600 300 590 300 L 210 300 Q 200 300 200 290 L 200 265" stroke="#ef4444" stroke-width="2" fill="none" marker-end="url(#arrow-red)" stroke-linejoin="round" />
+    <text x="400" y="290" fill="#ef4444" font-size="12" font-weight="600" text-anchor="middle">Fail - Retry</text>
+  </g>
+
+</svg>

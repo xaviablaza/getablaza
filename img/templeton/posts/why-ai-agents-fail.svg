@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" style="background-color: #09090b; font-family: system-ui, -apple-system, sans-serif;">
+    <defs>
+        <marker id="arrow-red" viewBox="0 0 6 6" refX="6" refY="3" markerWidth="6" markerHeight="6" orient="auto">
+            <path d="M 0 0 L 6 3 L 0 6 z" fill="#ef4444" />
+        </marker>
+        <marker id="arrow-emerald" viewBox="0 0 6 6" refX="6" refY="3" markerWidth="8" markerHeight="8" orient="auto">
+            <path d="M 0 0 L 6 3 L 0 6 z" fill="#10b981" />
+        </marker>
+        <marker id="arrow-gray" viewBox="0 0 6 6" refX="6" refY="3" markerWidth="6" markerHeight="6" orient="auto">
+            <path d="M 0 0 L 6 3 L 0 6 z" fill="#52525b" />
+        </marker>
+    </defs>
+
+    <!-- Background -->
+    <rect width="800" height="400" fill="#09090b" />
+
+    <!-- Main Title -->
+    <text x="400" y="40" fill="#ffffff" font-size="16" font-weight="600" text-anchor="middle" letter-spacing="0.5">Three Ways AI Agents Die</text>
+
+    <!-- CARD 1: The Review Trap -->
+    <g transform="translate(35, 80)">
+        <rect width="220" height="200" rx="12" fill="#ef4444" fill-opacity="0.06" stroke="#ef4444" stroke-opacity="0.3" stroke-width="1.5" />
+        <text x="110" y="35" fill="#ef4444" font-size="14" font-weight="600" text-anchor="middle">The Review Trap</text>
+        
+        <!-- Icon: Circular Loop -->
+        <g transform="translate(0, 10)">
+            <!-- Agent Box -->
+            <rect x="90" y="45" width="40" height="20" rx="4" fill="#ef4444" fill-opacity="0.1" stroke="#ef4444" stroke-width="1" />
+            <text x="110" y="59" fill="#fca5a5" font-size="10" font-weight="500" text-anchor="middle">Agent</text>
+
+            <!-- Review Box -->
+            <rect x="130" y="85" width="44" height="20" rx="4" fill="#ef4444" fill-opacity="0.1" stroke="#ef4444" stroke-width="1" />
+            <text x="152" y="99" fill="#fca5a5" font-size="10" font-weight="500" text-anchor="middle">Review</text>
+
+            <!-- Fix Box -->
+            <rect x="46" y="85" width="40" height="20" rx="4" fill="#ef4444" fill-opacity="0.1" stroke="#ef4444" stroke-width="1" />
+            <text x="66" y="99" fill="#fca5a5" font-size="10" font-weight="500" text-anchor="middle">Fix</text>
+
+            <!-- Arrows -->
+            <!-- Agent to Review -->
+            <path d="M 130 55 Q 152 55 152 80" fill="none" stroke="#ef4444" stroke-width="1.5" marker-end="url(#arrow-red)"/>
+            <!-- Review to Fix -->
+            <path d="M 130 95 L 91 95" fill="none" stroke="#ef4444" stroke-width="1.5" marker-end="url(#arrow-red)"/>
+            <!-- Fix to Agent -->
+            <path d="M 66 85 Q 66 55 85 55" fill="none" stroke="#ef4444" stroke-width="1.5" marker-end="url(#arrow-red)"/>
+        </g>
+
+        <!-- Separator -->
+        <line x1="20" y1="150" x2="200" y2="150" stroke="#ef4444" stroke-opacity="0.2" stroke-width="1" />
+        
+        <!-- Key Stat -->
+        <text x="110" y="175" fill="#71717a" font-size="12" text-anchor="middle">Net savings approach zero</text>
+    </g>
+
+    <!-- CARD 2: Demo-to-Production Gap -->
+    <g transform="translate(290, 80)">
+        <rect width="220" height="200" rx="12" fill="#f59e0b" fill-opacity="0.06" stroke="#f59e0b" stroke-opacity="0.3" stroke-width="1.5" />
+        <text x="110" y="35" fill="#f59e0b" font-size="14" font-weight="600" text-anchor="middle">Demo-to-Production Gap</text>
+        
+        <!-- Icon: Split Data -->
+        <g transform="translate(0, 10)">
+            <!-- Split Line -->
+            <line x1="110" y1="45" x2="110" y2="125" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.5" />
+            
+            <!-- Demo Side -->
+            <rect x="40" y="45" width="40" height="16" rx="3" fill="#f59e0b" fill-opacity="0.1" stroke="#f59e0b" stroke-width="1" />
+            <text x="60" y="56" fill="#fcd34d" font-size="9" font-weight="600" text-anchor="middle" letter-spacing="0.5">DEMO</text>
+            
+            <rect x="45" y="75" width="30" height="8" rx="2" fill="#f59e0b" fill-opacity="0.8" />
+            <rect x="45" y="90" width="30" height="8" rx="2" fill="#f59e0b" fill-opacity="0.8" />
+            <rect x="45" y="105" width="30" height="8" rx="2" fill="#f59e0b" fill-opacity="0.8" />
+
+            <!-- Prod Side -->
+            <rect x="140" y="45" width="40" height="16" rx="3" fill="#f59e0b" fill-opacity="0.1" stroke="#f59e0b" stroke-width="1" />
+            <text x="160" y="56" fill="#fcd34d" font-size="9" font-weight="600" text-anchor="middle" letter-spacing="0.5">PROD</text>
+            
+            <rect x="135" y="75" width="25" height="8" rx="2" fill="#f59e0b" fill-opacity="0.4" transform="rotate(10 147 79)" />
+            <rect x="165" y="85" width="15" height="12" rx="2" fill="#f59e0b" fill-opacity="0.6" transform="rotate(-15 172 91)" />
+            <rect x="140" y="105" width="35" height="6" rx="2" fill="#f59e0b" fill-opacity="0.3" transform="rotate(5 157 108)" />
+            <circle cx="185" cy="115" r="4" fill="#f59e0b" fill-opacity="0.7" />
+            <path d="M 130 120 L 140 110 L 145 125 Z" fill="#f59e0b" fill-opacity="0.5" />
+        </g>
+
+        <!-- Separator -->
+        <line x1="20" y1="150" x2="200" y2="150" stroke="#f59e0b" stroke-opacity="0.2" stroke-width="1" />
+        
+        <!-- Key Stat -->
+        <text x="110" y="175" fill="#71717a" font-size="12" text-anchor="middle">Edge cases are infinite</text>
+    </g>
+
+    <!-- CARD 3: Trust Collapse -->
+    <g transform="translate(545, 80)">
+        <rect width="220" height="200" rx="12" fill="#6366f1" fill-opacity="0.06" stroke="#6366f1" stroke-opacity="0.3" stroke-width="1.5" />
+        <text x="110" y="35" fill="#6366f1" font-size="14" font-weight="600" text-anchor="middle">Trust Collapse</text>
+        
+        <!-- Icon: Graph Drop -->
+        <g transform="translate(0, 10)">
+            <!-- Grid Lines -->
+            <line x1="50" y1="95" x2="170" y2="95" stroke="#3f3f46" stroke-width="1" stroke-dasharray="2 2" />
+            <line x1="50" y1="70" x2="170" y2="70" stroke="#3f3f46" stroke-width="1" stroke-dasharray="2 2" />
+            
+            <!-- Axes -->
+            <line x1="50" y1="120" x2="170" y2="120" stroke="#52525b" stroke-width="1.5" marker-end="url(#arrow-gray)" />
+            <line x1="50" y1="120" x2="50" y2="45" stroke="#52525b" stroke-width="1.5" marker-end="url(#arrow-gray)" />
+            
+            <!-- Graph Line -->
+            <path d="M 50 60 L 70 55 L 90 60 L 100 60 L 115 115 L 165 115" fill="none" stroke="#6366f1" stroke-width="2" stroke-linejoin="round" />
+            
+            <!-- Incident Marker -->
+            <circle cx="100" cy="60" r="4" fill="#ef4444" />
+            <circle cx="100" cy="60" r="8" fill="none" stroke="#ef4444" stroke-width="1" opacity="0.5" />
+            <text x="100" y="45" fill="#ef4444" font-size="10" font-weight="600" text-anchor="middle">Incident</text>
+        </g>
+
+        <!-- Separator -->
+        <line x1="20" y1="150" x2="200" y2="150" stroke="#6366f1" stroke-opacity="0.2" stroke-width="1" />
+        
+        <!-- Key Stat -->
+        <text x="110" y="175" fill="#71717a" font-size="12" text-anchor="middle">One visible mistake kills adoption</text>
+    </g>
+
+    <!-- Bottom Section: Solution -->
+    <g transform="translate(0, 30)">
+        <!-- Main Arrow -->
+        <line x1="150" y1="300" x2="640" y2="300" stroke="#10b981" stroke-width="2" marker-end="url(#arrow-emerald)" />
+        
+        <!-- Qualification Gates -->
+        <line x1="275" y1="292" x2="275" y2="308" stroke="#10b981" stroke-width="2" />
+        <line x1="400" y1="292" x2="400" y2="308" stroke="#10b981" stroke-width="2" />
+        <line x1="525" y1="292" x2="525" y2="308" stroke="#10b981" stroke-width="2" />
+
+        <!-- Gate Labels -->
+        <text x="212.5" y="286" fill="#10b981" font-size="11" font-weight="500" text-anchor="middle" opacity="0.9">Shadow Mode</text>
+        <text x="337.5" y="286" fill="#10b981" font-size="11" font-weight="500" text-anchor="middle" opacity="0.9">Human-in-Loop</text>
+        <text x="462.5" y="286" fill="#10b981" font-size="11" font-weight="500" text-anchor="middle" opacity="0.9">Supervised</text>
+        <text x="587.5" y="286" fill="#10b981" font-size="11" font-weight="500" text-anchor="middle" opacity="0.9">Autonomy</text>
+
+        <!-- Solution Text -->
+        <text x="400" y="340" fill="#10b981" font-size="14" font-weight="600" text-anchor="middle">Solution: Graduated autonomy with qualification gates</text>
+    </g>
+</svg>

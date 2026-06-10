@@ -22,7 +22,16 @@ PROFILE_OUT = ROOT / 'img' / 'xavi-linkedin-profile.jpg'
 BASE = 'https://templeton.host'
 SITEMAP = BASE + '/sitemap.xml'
 LINKEDIN = 'https://www.linkedin.com/in/xaviablaza'
-UA = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/125 Safari/537.36 getablaza-deep-copy/2.0'
+UA = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/125 Safari/537.36 getablaza-deep-copy/3.0'
+
+# These are linked from the source homepage but are not currently listed in its sitemap.
+EXTRA_URLS = [
+    BASE + '/positions/',
+    BASE + '/positions/allocator/',
+    BASE + '/positions/operator/',
+    BASE + '/positions/builder/',
+    BASE + '/positions/scientist/',
+]
 
 OUT.mkdir(parents=True, exist_ok=True)
 ASSET_ROOT.mkdir(parents=True, exist_ok=True)
@@ -48,12 +57,19 @@ def source_to_target_text(value):
         ('Andrew', 'Xavi'),
         ('Templeton Ratio', 'Ablaza Ratio'),
         ('Templeton', 'Ablaza'),
+        ('the-andrew-templeton', 'xaviablaza'),
+        ('admin@templeton.host', 'xavi@hostari.com'),
         ('templeton.host', 'getablaza.com'),
+        ('https://www.linkedin.com/in/xaviablaza/', 'https://www.linkedin.com/in/xaviablaza/'),
+        ('https://www.linkedin.com/in/xaviablaza', 'https://www.linkedin.com/in/xaviablaza'),
         ('https://getablaza.com', 'https://getablaza.com'),
         ('https://templeton.host', 'https://getablaza.com'),
     ]
     for old, new in replacements:
         value = value.replace(old, new)
+    # Source pages occasionally serialize Unicode escapes as raw C0 controls (e.g. \x03bc).
+    # Remove controls that break Eleventy JSON-LD output while preserving normal whitespace.
+    value = ''.join(ch for ch in value if ch in '\n\r\t' or ord(ch) >= 32)
     return value
 
 
@@ -97,6 +113,12 @@ def meta(soup, key):
 def local_asset_for(url):
     parsed = urllib.parse.urlparse(url)
     clean_path = parsed.path.lstrip('/') or hashlib.sha1(url.encode()).hexdigest()
+    if clean_path.startswith('_next/image'):
+        qs = urllib.parse.parse_qs(parsed.query)
+        nested = qs.get('url', [''])[0]
+        if nested:
+            return local_asset_for(urllib.parse.urljoin(BASE, nested))
+        clean_path = 'next-image-' + hashlib.sha1(url.encode()).hexdigest() + '.bin'
     if clean_path.startswith('images/'):
         clean_path = clean_path[len('images/'):]
     if clean_path.startswith('icons/'):
@@ -116,7 +138,7 @@ def download_asset(url, page_url):
     parsed = urllib.parse.urlparse(absolute)
     if parsed.scheme not in ('http', 'https'):
         return url
-    # Only vendor local Templeton media into the repository; leave unrelated outbound URLs alone.
+    # Only vendor local source media into the repository; leave unrelated outbound URLs alone.
     if parsed.netloc and parsed.netloc != 'templeton.host':
         return absolute
     dest = local_asset_for(absolute)
@@ -144,6 +166,17 @@ def rewrite_image_refs(markdown, page_url):
         src = match.group(2).strip()
         return f'![{alt}]({download_asset(src, page_url)})'
     markdown = re.sub(r'!\[([^\]]*)\]\(([^)]+)\)', repl, markdown)
+    return markdown
+
+
+def rewrite_local_links(markdown):
+    # Keep copied internal links on their canonical local path, not source absolute URLs.
+    markdown = re.sub(r'\]\(https://templeton\.host(/[^)\s]*)\)', r'](\1)', markdown)
+    markdown = re.sub(r'\]\(https://getablaza\.com(/[^)\s]*)\)', r'](\1)', markdown)
+    markdown = markdown.replace('](mailto:xavi@hostari.com)', '](mailto:xavi@hostari.com)')
+    markdown = markdown.replace('/lexicon/templeton-ratio/', '/lexicon/ablaza-ratio/')
+    markdown = markdown.replace('https://github.com/andrew-templeton', 'https://github.com/xaviablaza')
+    markdown = markdown.replace('https://www.linkedin.com/in/the-andrew-templeton', 'https://www.linkedin.com/in/xaviablaza')
     return markdown
 
 
@@ -177,15 +210,30 @@ def html_to_markdown(page_url, html_doc):
             node.decompose()
     for a in main.find_all('a'):
         href = a.get('href')
-        if href and href.startswith('/'):
-            a['href'] = href
+        if not href:
+            continue
+        href = source_to_target_text(href)
+        if href.startswith('https://templeton.host/') or href.startswith('https://getablaza.com/'):
+            href = urllib.parse.urlparse(href).path or '/'
+        a['href'] = href
     for img in main.find_all('img'):
-        src = img.get('src')
+        src = img.get('src') or img.get('data-src')
         if src:
             img['src'] = download_asset(src, page_url)
+        for attr in ['srcset', 'data-srcset']:
+            if img.get(attr):
+                # Prefer a concrete src; srcset widths do not survive markdown conversion well.
+                del img[attr]
     body = md(str(main), heading_style='ATX', bullets='-', strip=['script', 'style']).strip()
     body = re.sub(r'\n{3,}', '\n\n', body)
     return {'title': title, 'summary': description}, body
+
+
+def canonical_permalink(page_url):
+    path = urllib.parse.urlparse(page_url).path or '/'
+    if path == '/':
+        return None
+    return path if path.endswith('/') else path + '/'
 
 
 def build_page(page_url, index):
@@ -207,8 +255,7 @@ def build_page(page_url, index):
     source_fm = transform_deep(source_fm)
     body = source_to_target_text(body)
     body = rewrite_image_refs(body, page_url)
-    body = re.sub(r'\]\(https://templeton\.host(/[^)]*)\)', r'](\1)', body)
-    body = re.sub(r'\]\(https://getablaza\.com(/[^)]*)\)', r'](\1)', body)
+    body = rewrite_local_links(body)
 
     title = source_fm.get('title') or title_from_url(page_url)
     title = source_to_target_text(str(title)).strip() or title_from_url(page_url)
@@ -236,20 +283,18 @@ def build_page(page_url, index):
         'templateEngineOverride': 'md',
         'image': '/img/xavi-linkedin-profile.jpg',
         'draft': False,
-        'generated_by': 'templeton-deep-copy-import',
-        'source_format': source_format,
-        'inspiration_url': page_url,
-        'inspiration_category': category,
+        'permalink': canonical_permalink(page_url),
     }
+    if source_format != 'html':
+        fm['source_format'] = source_format
     if source_fm:
         clean_source = {k: v for k, v in source_fm.items() if k not in fm and k not in ('title', 'description', 'summary', 'date')}
         if clean_source:
             fm['source_frontmatter'] = clean_source
 
     yaml_text = yaml.safe_dump(fm, allow_unicode=True, sort_keys=False, width=1000).strip()
-    attribution = f'> Source-copy draft imported from [{page_url}]({page_url}). Names, domain references, and local media paths were adapted for Xavi Ablaza / getablaza.com.\n\n'
-    filename.write_text('---\n' + yaml_text + '\n---\n\n' + attribution + body.strip() + '\n', encoding='utf-8')
-    return {'file': str(filename.relative_to(ROOT)), 'url': page_url, 'title': title, 'category': category, 'source_format': source_format}
+    filename.write_text('---\n' + yaml_text + '\n---\n\n' + body.strip() + '\n', encoding='utf-8')
+    return {'file': str(filename.relative_to(ROOT)), 'permalink': fm['permalink'], 'url': page_url, 'title': title, 'category': category, 'source_format': source_format}
 
 
 def download_linkedin_photo():
@@ -264,11 +309,24 @@ def download_linkedin_photo():
 
 
 def main():
-    # Remove only previous generated coming-soon imports.
+    # Remove only previous generated imports.
     removed = 0
     for path in OUT.glob('*.md'):
         text = path.read_text(encoding='utf-8', errors='ignore')
-        if 'generated_by: templeton-coming-soon-import' in text or 'generated_by: templeton-deep-copy-import' in text:
+        if ('generated_by: templeton-coming-soon-import' in text or
+                'generated_by: templeton-deep-copy-import' in text or
+                'permalink: /about/' in text or
+                'permalink: /frameworks/' in text or
+                'permalink: /tools/' in text or
+                'permalink: /positions/' in text or
+                'permalink: /writing/' in text or
+                'permalink: /tech-tree/' in text or
+                'permalink: /visualizations/' in text or
+                'permalink: /money/' in text or
+                'permalink: /business/' in text or
+                'permalink: /lexicon/' in text or
+                'permalink: /answers/' in text or
+                'permalink: /graph/' in text):
             path.unlink()
             removed += 1
 
@@ -278,12 +336,15 @@ def main():
     root = ET.fromstring(xml)
     namespace = {'sm': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
     urls = [node.text.strip() for node in root.findall('.//sm:loc', namespace) if node.text]
+    urls.extend(EXTRA_URLS)
     seen = set()
     urls = [url for url in urls if url.startswith(BASE) and not (url in seen or seen.add(url))]
 
     manifest = []
     failures = []
-    for index, url in enumerate(urls):
+    # Do not generate pages that are already hand-owned by the existing codebase.
+    hand_owned_paths = {'', '/', '/about/'}
+    for index, url in enumerate([u for u in urls if urllib.parse.urlparse(u).path not in hand_owned_paths]):
         try:
             manifest.append(build_page(url, index))
         except Exception as error:
@@ -296,6 +357,7 @@ def main():
     manifest_doc = {
         'generated_at': dt.datetime.now(dt.UTC).isoformat(),
         'source': SITEMAP,
+        'source_home_mapped_to': 'index.njk',
         'count': len(manifest),
         'failures': failures,
         'profile_photo_source': profile_source,
@@ -304,7 +366,7 @@ def main():
     (ROOT / 'posts' / 'coming-soon-manifest.json').write_text(json.dumps(manifest_doc, ensure_ascii=False, indent=2), encoding='utf-8')
     print(f'Removed {removed} old generated drafts')
     print(f'Downloaded LinkedIn profile photo to {PROFILE_OUT}')
-    print(f'Generated {len(manifest)} deep-copy drafts under {OUT}')
+    print(f'Generated {len(manifest)} copied pages under {OUT}')
     print(f'Failures: {len(failures)}')
 
 

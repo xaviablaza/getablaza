@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+    <defs>
+        <clipPath id="timeline-clip">
+            <rect x="120" y="270" width="560" height="40" rx="6" />
+        </clipPath>
+    </defs>
+
+    <!-- Background -->
+    <rect fill="#09090b" />
+
+    <g font-family="system-ui, -apple-system, sans-serif">
+        <!-- Title -->
+        <text x="400" y="35" fill="#ffffff" font-size="16" font-weight="600" text-anchor="middle" letter-spacing="0.5">The PE CTO Timeline</text>
+
+        <!-- Vertical Guides -->
+        <line x1="120" y1="60" x2="120" y2="265" stroke="#3f3f46" stroke-width="1" stroke-dasharray="4 4" />
+        <line x1="288" y1="60" x2="288" y2="265" stroke="#3f3f46" stroke-width="1" stroke-dasharray="4 4" />
+        <line x1="512" y1="60" x2="512" y2="265" stroke="#3f3f46" stroke-width="1" stroke-dasharray="4 4" />
+        <line x1="680" y1="60" x2="680" y2="265" stroke="#3f3f46" stroke-width="1" stroke-dasharray="4 4" />
+
+        <!-- Priorities (Above Timeline) -->
+        <!-- 1. Keep legacy alive -->
+        <rect x="120" y="70" width="560" height="24" fill="#ef4444" fill-opacity="0.05" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="6 4" rx="4" />
+        <text x="132" y="86" fill="#f87171" font-size="12" font-weight="500">Keep legacy alive</text>
+
+        <!-- 2. Cut costs -->
+        <rect x="120" y="115" width="560" height="24" fill="#f59e0b" fill-opacity="0.05" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="6 4" rx="4" />
+        <text x="132" y="131" fill="#fbbf24" font-size="12" font-weight="500">Cut costs</text>
+
+        <!-- 3. Build new capabilities -->
+        <rect x="288" y="160" width="392" height="24" fill="#3b82f6" fill-opacity="0.15" stroke="#3b82f6" stroke-width="1.5" rx="4" />
+        <text x="300" y="176" fill="#60a5fa" font-size="12" font-weight="500">Build new capabilities</text>
+
+        <!-- 4. Reduce tech debt (Grows) -->
+        <polygon points="120,216 680,205 680,229 120,218" fill="#6366f1" fill-opacity="0.15" stroke="#6366f1" stroke-width="1.5" stroke-linejoin="round" />
+        <text x="132" y="221" fill="#818cf8" font-size="12" font-weight="500">Reduce tech debt</text>
+
+        <!-- Timeline Bar -->
+        <g clip-path="url(#timeline-clip)">
+            <!-- Phase 1: Triage -->
+            <rect x="120" y="270" width="168" height="40" fill="#ef4444" fill-opacity="0.08" />
+            <!-- Phase 2: Build -->
+            <rect x="288" y="270" width="224" height="40" fill="#f59e0b" fill-opacity="0.08" />
+            <!-- Phase 3: Scale -->
+            <rect x="512" y="270" width="168" height="40" fill="#10b981" fill-opacity="0.08" />
+        </g>
+        
+        <!-- Timeline Border & Dividers -->
+        <rect x="120" y="270" width="560" height="40" fill="none" stroke="#52525b" stroke-width="1.5" rx="6" />
+        <line x1="288" y1="270" x2="288" y2="310" stroke="#52525b" stroke-width="1.5" />
+        <line x1="512" y1="270" x2="512" y2="310" stroke="#52525b" stroke-width="1.5" />
+
+        <!-- Timeline Labels (Above) -->
+        <text x="204" y="258" fill="#ef4444" font-size="14" font-weight="600" text-anchor="middle">Triage</text>
+        <text x="400" y="258" fill="#f59e0b" font-size="14" font-weight="600" text-anchor="middle">Build</text>
+        <text x="596" y="258" fill="#10b981" font-size="14" font-weight="600" text-anchor="middle">Scale</text>
+
+        <!-- Timeline Labels (Below) -->
+        <text x="204" y="335" fill="#71717a" font-size="12" text-anchor="middle">Stop the bleeding</text>
+        <text x="400" y="335" fill="#71717a" font-size="12" text-anchor="middle">Sharp wedges, unit economics</text>
+        <text x="596" y="335" fill="#71717a" font-size="12" text-anchor="middle">Platform investment</text>
+
+        <!-- Edges (Day 1 & Exit) -->
+        <line x1="120" y1="310" x2="120" y2="320" stroke="#ffffff" stroke-width="1.5" />
+        <text x="120" y="335" fill="#ffffff" font-size="12" font-weight="600" text-anchor="middle">Day 1</text>
+
+        <line x1="680" y1="310" x2="680" y2="320" stroke="#ffffff" stroke-width="1.5" />
+        <text x="680" y="335" fill="#ffffff" font-size="12" font-weight="600" text-anchor="middle">Exit</text>
+
+        <!-- Bottom Annotation -->
+        <text x="400" y="380" fill="#a1a1aa" font-size="12" text-anchor="middle">The sequence matters: stabilize economics first, then build</text>
+    </g>
+</svg>

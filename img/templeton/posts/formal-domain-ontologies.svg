@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <marker id="arrow-down" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 8 5 L 0 9 Z" fill="#52525b"/>
+    </marker>
+    <marker id="arrow-shift" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 8 5 L 0 9 Z" fill="#71717a"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect fill="#09090b"/>
+
+  <!-- Title -->
+  <text x="400" y="35" fill="#ffffff" font-size="16px" font-weight="600" text-anchor="middle" letter-spacing="0.5">Structure Before Prompting</text>
+
+  <!-- LEFT SIDE: Traditional Prompting -->
+  <g id="left-side">
+    <text x="200" y="80" fill="#f59e0b" font-size="14px" font-weight="600" text-anchor="middle">Traditional Prompting</text>
+    
+    <!-- Blob / Cloud -->
+    <path d="M 130 150 C 130 110, 160 100, 200 110 C 240 100, 270 110, 270 150 C 270 190, 240 200, 200 190 C 160 200, 130 190, 130 150 Z" fill="#18181b" stroke="#3f3f46" stroke-width="1.5" stroke-dasharray="5 4"/>
+    
+    <!-- Scattered Words -->
+    <text x="170" y="135" fill="#a1a1aa" font-size="11px" transform="rotate(-6 170 135)" text-anchor="middle">Be specific</text>
+    <text x="235" y="150" fill="#d4d4d8" font-size="11px" transform="rotate(4 235 150)" text-anchor="middle">Give examples</text>
+    <text x="195" y="175" fill="#a1a1aa" font-size="11px" transform="rotate(-2 195 175)" text-anchor="middle">Chain of thought</text>
+    
+    <!-- Decorative dots in blob -->
+    <circle cx="150" cy="160" r="1.5" fill="#52525b"/>
+    <circle cx="245" cy="125" r="1" fill="#52525b"/>
+    <circle cx="220" cy="185" r="2" fill="#52525b"/>
+
+    <!-- Arrow Down -->
+    <line x1="200" y1="215" x2="200" y2="250" stroke="#52525b" stroke-width="1.5" marker-end="url(#arrow-down)"/>
+
+    <!-- AI Output Box -->
+    <rect x="140" y="265" width="120" height="40" rx="6" fill="#18181b" stroke="#52525b" stroke-width="1.5"/>
+    <text x="180" y="290" fill="#e4e4e7" font-size="13px" font-weight="500" text-anchor="middle">AI Output</text>
+    <text x="230" y="291" fill="#f59e0b" font-size="16px" font-weight="bold" text-anchor="middle">??</text>
+
+    <!-- Bottom Label -->
+    <text x="200" y="335" fill="#71717a" font-size="12px" text-anchor="middle">Pattern matching</text>
+  </g>
+
+  <!-- CENTER: The Shift -->
+  <g id="center-arrow">
+    <line x1="290" y1="150" x2="460" y2="150" stroke="#71717a" stroke-width="1.5" stroke-dasharray="4 4" marker-end="url(#arrow-shift)"/>
+    <rect x="345" y="132" width="60" height="16" fill="#09090b"/>
+    <text x="375" y="144" fill="#a1a1aa" font-size="12px" text-anchor="middle">The shift</text>
+  </g>
+
+  <!-- RIGHT SIDE: Ontology-First Prompting -->
+  <g id="right-side">
+    <text x="600" y="80" fill="#10b981" font-size="14px" font-weight="600" text-anchor="middle">Ontology-First Prompting</text>
+
+    <!-- Tree Lines (Drawn first to be under nodes) -->
+    <!-- L1 to L2 -->
+    <path d="M 600 124 L 600 132 L 520 132 L 520 142" fill="none" stroke="#059669" stroke-width="1.5"/>
+    <path d="M 600 124 L 600 142" fill="none" stroke="#059669" stroke-width="1.5"/>
+    <path d="M 600 132 L 680 132 L 680 142" fill="none" stroke="#059669" stroke-width="1.5"/>
+    
+    <!-- L2 to L3 -->
+    <path d="M 520 164 L 520 174 L 505 174 L 505 183" fill="none" stroke="#059669" stroke-width="1.5"/>
+    <path d="M 520 174 L 535 174 L 535 183" fill="none" stroke="#059669" stroke-width="1.5"/>
+    
+    <path d="M 600 164 L 600 174 L 585 174 L 585 183" fill="none" stroke="#059669" stroke-width="1.5"/>
+    <path d="M 600 174 L 615 174 L 615 183" fill="none" stroke="#059669" stroke-width="1.5"/>
+    
+    <path d="M 680 164 L 680 174 L 665 174 L 665 183" fill="none" stroke="#059669" stroke-width="1.5"/>
+    <path d="M 680 174 L 695 174 L 695 183" fill="none" stroke="#059669" stroke-width="1.5"/>
+
+    <!-- Nodes -->
+    <!-- Top Node -->
+    <rect x="560" y="100" width="80" height="24" rx="4" fill="#022c22" stroke="#10b981" stroke-width="1.5"/>
+    <text x="600" y="116" fill="#34d399" font-size="11px" font-weight="600" text-anchor="middle">Domain</text>
+
+    <!-- Level 2 Nodes -->
+    <rect x="490" y="142" width="60" height="22" rx="4" fill="#064e3b" stroke="#059669" stroke-width="1.5"/>
+    <text x="520" y="157" fill="#a7f3d0" font-size="10px" text-anchor="middle">Entities</text>
+
+    <rect x="565" y="142" width="70" height="22" rx="4" fill="#064e3b" stroke="#059669" stroke-width="1.5"/>
+    <text x="600" y="157" fill="#a7f3d0" font-size="10px" text-anchor="middle">Relations</text>
+
+    <rect x="650" y="142" width="60" height="22" rx="4" fill="#064e3b" stroke="#059669" stroke-width="1.5"/>
+    <text x="680" y="157" fill="#a7f3d0" font-size="10px" text-anchor="middle">Rules</text>
+
+    <!-- Level 3 Sub-nodes -->
+    <circle cx="505" cy="185" r="3.5" fill="#34d399"/>
+    <circle cx="535" cy="185" r="3.5" fill="#34d399"/>
+    <circle cx="585" cy="185" r="3.5" fill="#34d399"/>
+    <circle cx="615" cy="185" r="3.5" fill="#34d399"/>
+    <circle cx="665" cy="185" r="3.5" fill="#34d399"/>
+    <circle cx="695" cy="185" r="3.5" fill="#34d399"/>
+
+    <!-- Arrow Down -->
+    <line x1="600" y1="215" x2="600" y2="250" stroke="#52525b" stroke-width="1.5" marker-end="url(#arrow-down)"/>
+
+    <!-- AI Output Box -->
+    <rect x="540" y="265" width="120" height="40" rx="6" fill="#022c22" stroke="#10b981" stroke-width="1.5"/>
+    <text x="580" y="290" fill="#e4e4e7" font-size="13px" font-weight="500" text-anchor="middle">AI Output</text>
+    <path d="M 622 285 L 627 290 L 636 279" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Bottom Label -->
+    <text x="600" y="335" fill="#71717a" font-size="12px" text-anchor="middle">Constrained reasoning</text>
+  </g>
+
+  <!-- BOTTOM: Result -->
+  <g id="bottom-result">
+    <rect x="175" y="360" width="450" height="30" rx="6" fill="#10b981" fill-opacity="0.1" stroke="#10b981" stroke-opacity="0.2" stroke-width="1"/>
+    <text x="400" y="380" fill="#10b981" font-size="12px" font-weight="500" text-anchor="middle">Result: Catches $245K in billing errors the AI would otherwise miss</text>
+  </g>
+
+</svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" style="background-color:#09090b; font-family:system-ui, -apple-system, sans-serif;">
+  <defs>
+    <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" opacity="0.03"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#71717a"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect fill="#09090b"/>
+  <rect fill="url(#dots)"/>
+
+  <!-- Header -->
+  <text x="400" y="35" text-anchor="middle" fill="#ffffff" font-size="16px" font-weight="600" letter-spacing="0.5px">The Counterparty Modeling Survey</text>
+  <text x="400" y="55" text-anchor="middle" fill="#a1a1aa" font-size="12px">16 questions that produce explicit, testable assumptions</text>
+
+  <!-- Connecting Paths -->
+  <g stroke="#71717a" stroke-width="1.5" fill="none" opacity="0.6">
+    <!-- Left to Center -->
+    <path d="M 320 125 C 360 125, 360 215, 395 215"/>
+    <path d="M 320 185 C 360 185, 360 215, 395 215"/>
+    <path d="M 320 245 C 360 245, 360 215, 395 215"/>
+    <path d="M 320 305 C 360 305, 360 215, 395 215"/>
+    
+    <!-- Center to Right -->
+    <path d="M 405 215 C 440 215, 440 135, 475 135" marker-end="url(#arrow)"/>
+    <path d="M 405 215 L 475 215" marker-end="url(#arrow)"/>
+    <path d="M 405 215 C 440 215, 440 295, 475 295" marker-end="url(#arrow)"/>
+  </g>
+
+  <!-- Center Node -->
+  <circle cx="400" cy="215" r="5" fill="#27272a" stroke="#71717a" stroke-width="1.5"/>
+
+  <!-- LEFT SIDE: Survey Sections -->
+  <g stroke-width="1.5">
+    <!-- Section 1 -->
+    <rect x="80" y="102.5" width="240" height="45" rx="6" fill="rgba(59, 130, 246, 0.06)" stroke="#3b82f6"/>
+    <text x="95" y="122.5" fill="#f4f4f5" font-size="14px" font-weight="500">Relationship Dynamics</text>
+    <text x="95" y="138.5" fill="#a1a1aa" font-size="12px">4 questions</text>
+
+    <!-- Section 2 -->
+    <rect x="80" y="162.5" width="240" height="45" rx="6" fill="rgba(99, 102, 241, 0.06)" stroke="#6366f1"/>
+    <text x="95" y="182.5" fill="#f4f4f5" font-size="14px" font-weight="500">Counterparty Constraints</text>
+    <text x="95" y="198.5" fill="#a1a1aa" font-size="12px">4 questions</text>
+
+    <!-- Section 3 -->
+    <rect x="80" y="222.5" width="240" height="45" rx="6" fill="rgba(245, 158, 11, 0.06)" stroke="#f59e0b"/>
+    <text x="95" y="242.5" fill="#f4f4f5" font-size="14px" font-weight="500">Decision Process</text>
+    <text x="95" y="258.5" fill="#a1a1aa" font-size="12px">4 questions</text>
+
+    <!-- Section 4 -->
+    <rect x="80" y="282.5" width="240" height="45" rx="6" fill="rgba(16, 185, 129, 0.06)" stroke="#10b981"/>
+    <text x="95" y="302.5" fill="#f4f4f5" font-size="14px" font-weight="500">Information Gaps</text>
+    <text x="95" y="318.5" fill="#a1a1aa" font-size="12px">4 questions</text>
+  </g>
+
+  <!-- RIGHT SIDE: Outputs -->
+  <g stroke-width="1.5">
+    <!-- Output 1 -->
+    <rect x="480" y="107.5" width="240" height="55" rx="6" fill="rgba(16, 185, 129, 0.06)" stroke="#10b981"/>
+    <text x="495" y="131.5" fill="#f4f4f5" font-size="14px" font-weight="500">Saddle Point Range</text>
+    <text x="495" y="149.5" fill="#a1a1aa" font-size="12px">min they'd accept</text>
+
+    <!-- Output 2 -->
+    <rect x="480" y="187.5" width="240" height="55" rx="6" fill="rgba(245, 158, 11, 0.06)" stroke="#f59e0b"/>
+    <text x="495" y="211.5" fill="#f4f4f5" font-size="14px" font-weight="500">Probing Risk Score</text>
+    <text x="495" y="229.5" fill="#a1a1aa" font-size="12px">how aggressive safely</text>
+
+    <!-- Output 3 -->
+    <rect x="480" y="267.5" width="240" height="55" rx="6" fill="rgba(59, 130, 246, 0.06)" stroke="#3b82f6"/>
+    <text x="495" y="291.5" fill="#f4f4f5" font-size="14px" font-weight="500">Model Confidence</text>
+    <text x="495" y="309.5" fill="#a1a1aa" font-size="12px">how sure are you</text>
+  </g>
+
+  <!-- Bottom Annotation -->
+  <text x="400" y="375" text-anchor="middle" fill="#a1a1aa" font-size="12px" font-style="italic">Structured uncertainty, not fake confidence</text>
+</svg>

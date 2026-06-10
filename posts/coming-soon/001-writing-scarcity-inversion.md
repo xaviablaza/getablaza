@@ -11,10 +11,8 @@ layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
 draft: false
-generated_by: templeton-deep-copy-import
+permalink: /writing/scarcity-inversion/
 source_format: markdown
-inspiration_url: https://templeton.host/writing/scarcity-inversion/
-inspiration_category: writing
 source_frontmatter:
   pillar: allocator
   status: published
@@ -25,8 +23,6 @@ source_frontmatter:
   draft_id: 199757137
   staged_at: 2026-05-29 15:18
 ---
-
-> Source-copy draft imported from [https://templeton.host/writing/scarcity-inversion/](https://templeton.host/writing/scarcity-inversion/). Names, domain references, and local media paths were adapted for Xavi Ablaza / getablaza.com.
 
 ## Prologue: Labor Was Hiding the Real Constraint
 

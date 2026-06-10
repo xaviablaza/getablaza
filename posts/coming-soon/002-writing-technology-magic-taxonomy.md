@@ -11,10 +11,8 @@ layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
 draft: false
-generated_by: templeton-deep-copy-import
+permalink: /writing/technology-magic-taxonomy/
 source_format: markdown
-inspiration_url: https://templeton.host/writing/technology-magic-taxonomy/
-inspiration_category: writing
 source_frontmatter:
   pillar: ai-engineering
   status: published
@@ -26,8 +24,6 @@ source_frontmatter:
   teaser: Once a technology collapses a specific friction, winners are the actors who find the new scarcity and move from execution to orchestration fastest. The protocol decomposes the collapse, tests who remains exposed, identifies complements, maps migration, recalculates bet size, and times adoption. The printing press gives the historical calibration; LLMs make it urgent because language without a mind puts commodity intellectual output directly in the blast radius.
   published_at: '2026-06-09'
 ---
-
-> Source-copy draft imported from [https://templeton.host/writing/technology-magic-taxonomy/](https://templeton.host/writing/technology-magic-taxonomy/). Names, domain references, and local media paths were adapted for Xavi Ablaza / getablaza.com.
 
 # Any Sufficiently Advanced Technology: A Taxonomy of Magic
 
