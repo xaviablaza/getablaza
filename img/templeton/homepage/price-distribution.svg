@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <rect width="100%" height="100%" fill="#09090b" rx="4" />
+
+  <!-- Axes -->
+  <path d="M 60 370 L 740 370" stroke="#3f3f46" stroke-width="1.5" fill="none" />
+  <path d="M 60 40 L 60 370" stroke="#3f3f46" stroke-width="1.5" fill="none" />
+  <path d="M 60 370 L 60 375 M 196 370 L 196 375 M 332 370 L 332 375 M 468 370 L 468 375 M 604 370 L 604 375 M 740 370 L 740 375" stroke="#3f3f46" stroke-width="1.5" fill="none" />
+
+  <!-- Tick Labels -->
+  <text x="60" y="392" fill="#71717a" font-size="11" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">-$50K</text>
+  <text x="196" y="392" fill="#71717a" font-size="11" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">$0</text>
+  <text x="332" y="392" fill="#71717a" font-size="11" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">$50K</text>
+  <text x="468" y="392" fill="#71717a" font-size="11" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">$100K</text>
+  <text x="604" y="392" fill="#71717a" font-size="11" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">$150K</text>
+  <text x="740" y="392" fill="#71717a" font-size="11" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">$200K</text>
+
+  <!-- Rejected Distribution -->
+  <path d="M 60 370 C 130 370, 160 250, 223 250 C 286 250, 320 370, 380 370" stroke="#52525b" stroke-width="1.5" fill="none" opacity="0.3" />
+  <text x="223" y="240" fill="#71717a" font-size="10" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">rejected</text>
+
+  <!-- Main Distribution Fills -->
+  <path d="M 60 370 C 200 370, 260 350, 305 276 C 340 210, 380 88, 433 88 C 486 88, 540 240, 604 320 C 650 360, 700 370, 740 370 Z" fill="#f59e0b" opacity="0.15" />
+  <path d="M 305 370 L 305 276 C 340 210, 380 88, 433 88 C 486 88, 540 240, 604 320 C 650 360, 700 370, 740 370 Z" fill="#f59e0b" opacity="0.25" />
+
+  <!-- Main Distribution Stroke -->
+  <path d="M 60 370 C 200 370, 260 350, 305 276 C 340 210, 380 88, 433 88 C 486 88, 540 240, 604 320 C 650 360, 700 370, 740 370" stroke="#f59e0b" stroke-width="2" fill="none" opacity="0.8" />
+
+  <!-- Break-even Line & Label -->
+  <path d="M 196 280 L 196 370" stroke="#a1a1aa" stroke-width="1.5" stroke-dasharray="4 4" fill="none" />
+  <text x="196" y="270" fill="#a1a1aa" font-size="11" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">break-even</text>
+
+  <!-- Hurdle Line & Label -->
+  <path d="M 305 200 L 305 370" stroke="#f59e0b" stroke-width="1.5" fill="none" />
+  <text x="305" y="190" fill="#f59e0b" font-size="12" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">hurdle (θ*)</text>
+
+  <!-- Expected Return Label -->
+  <text x="433" y="75" fill="#e4e4e7" font-size="12" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">E[R] = $87K</text>
+
+  <!-- Sigma Bracket & Label -->
+  <path d="M 380 175 L 380 170 L 486 170 L 486 175" stroke="#a1a1aa" stroke-width="1.5" fill="none" />
+  <text x="433" y="162" fill="#a1a1aa" font-size="11" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">σ = $31K</text>
+
+  <!-- Bottom Labels -->
+  <text x="400" y="425" fill="#71717a" font-size="12" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">Annual Return ($)</text>
+  <text x="740" y="425" fill="#f59e0b" font-size="12" font-family="system-ui, -apple-system, sans-serif" text-anchor="end">Sharpe = E[R] / σ = 2.81</text>
+  <text x="400" y="445" fill="#52525b" font-size="11" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">Every instrument has a return distribution. Price it before you fund it.</text>
+</svg>

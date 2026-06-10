@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 380" font-family="JetBrains Mono, monospace">
+  <style>
+    @keyframes drawVector {
+      from { stroke-dashoffset: 300; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes pulseOriginal {
+      0%, 100% { stroke-width: 4; filter: drop-shadow(0 0 3px #22c55e); }
+      50% { stroke-width: 5; filter: drop-shadow(0 0 8px #22c55e); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateX(-10px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+    .vec-original { stroke-dasharray: 300; animation: drawVector 0.6s ease-out forwards, pulseOriginal 2s ease-in-out infinite; }
+    .vec-double { stroke-dasharray: 300; animation: drawVector 0.8s ease-out forwards; animation-delay: 0.4s; stroke-dashoffset: 300; }
+    .vec-half { stroke-dasharray: 300; animation: drawVector 0.5s ease-out forwards; animation-delay: 0.8s; stroke-dashoffset: 300; }
+    .vec-neg { stroke-dasharray: 300; animation: drawVector 0.6s ease-out forwards; animation-delay: 1.2s; stroke-dashoffset: 300; }
+    .legend-item { animation: fadeIn 0.4s ease-out forwards; opacity: 0; }
+    .legend-1 { animation-delay: 0.2s; }
+    .legend-2 { animation-delay: 0.6s; }
+    .legend-3 { animation-delay: 1s; }
+    .legend-4 { animation-delay: 1.4s; }
+  </style>
+
+  <!-- Background -->
+  <rect width="550" height="380" fill="#000"/>
+
+  <!-- Title -->
+  <text x="275" y="30" font-size="16" font-weight="600" fill="#4ade80" text-anchor="middle">Scalar Multiplication: Scaling Vectors</text>
+
+  <!-- Arrows -->
+  <defs>
+    <marker id="origArrow" markerWidth="14" markerHeight="10" refX="12" refY="5" orient="auto">
+      <polygon points="0 0, 14 5, 0 10, 2 5" fill="#22c55e"/>
+    </marker>
+    <marker id="doubleArrow" markerWidth="14" markerHeight="10" refX="12" refY="5" orient="auto">
+      <polygon points="0 0, 14 5, 0 10, 2 5" fill="#3b82f6"/>
+    </marker>
+    <marker id="negArrow" markerWidth="14" markerHeight="10" refX="12" refY="5" orient="auto">
+      <polygon points="0 0, 14 5, 0 10, 2 5" fill="#ef4444"/>
+    </marker>
+    <marker id="halfArrow" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto">
+      <polygon points="0 0, 12 4, 0 8, 2 4" fill="#f59e0b"/>
+    </marker>
+  </defs>
+
+  <!-- Subtle radial guide lines from origin -->
+  <g stroke="#1a3a1a" stroke-width="0.5" stroke-dasharray="4,4">
+    <line x1="275" y1="200" x2="500" y2="90"/>
+    <line x1="275" y1="200" x2="50" y2="310"/>
+  </g>
+
+  <!-- Origin with label -->
+  <circle cx="275" cy="200" r="5" fill="#737373"/>
+  <text x="255" y="220" font-size="10" fill="#525252">origin</text>
+
+  <!-- Original vector v = (2, 1) - 50px per unit -->
+  <line class="vec-original" x1="275" y1="200" x2="375" y2="150" stroke="#22c55e" stroke-width="4" marker-end="url(#origArrow)"/>
+  <text x="350" y="135" font-size="13" fill="#22c55e" font-weight="bold">v = (2, 1)</text>
+
+  <!-- 2v (double length, same direction) -->
+  <line class="vec-double" x1="275" y1="200" x2="470" y2="100" stroke="#3b82f6" stroke-width="3" marker-end="url(#doubleArrow)"/>
+  <text x="440" y="85" font-size="13" fill="#3b82f6" font-weight="bold">2v = (4, 2)</text>
+
+  <!-- 0.5v (half length) -->
+  <line class="vec-half" x1="275" y1="200" x2="325" y2="175" stroke="#f59e0b" stroke-width="3" marker-end="url(#halfArrow)"/>
+  <text x="330" y="185" font-size="13" fill="#f59e0b" font-weight="bold">0.5v</text>
+
+  <!-- -v (opposite direction) -->
+  <line class="vec-neg" x1="275" y1="200" x2="175" y2="250" stroke="#ef4444" stroke-width="3" marker-end="url(#negArrow)"/>
+  <text x="115" y="275" font-size="13" fill="#ef4444" font-weight="bold">-v = (-2, -1)</text>
+
+  <!-- Legend box -->
+  <rect x="50" y="55" width="160" height="115" fill="#0a0a0a" stroke="#1f2937" rx="4"/>
+  <text x="60" y="75" font-size="11" fill="#86efac" font-weight="bold">Scalar Effects:</text>
+  <g class="legend-item legend-1">
+    <circle cx="70" cy="92" r="4" fill="#22c55e"/>
+    <text x="80" y="96" font-size="10" fill="#22c55e">v (original)</text>
+  </g>
+  <g class="legend-item legend-2">
+    <circle cx="70" cy="112" r="4" fill="#3b82f6"/>
+    <text x="80" y="116" font-size="10" fill="#3b82f6">× 2 = twice as long</text>
+  </g>
+  <g class="legend-item legend-3">
+    <circle cx="70" cy="132" r="4" fill="#f59e0b"/>
+    <text x="80" y="136" font-size="10" fill="#f59e0b">× 0.5 = half as long</text>
+  </g>
+  <g class="legend-item legend-4">
+    <circle cx="70" cy="152" r="4" fill="#ef4444"/>
+    <text x="80" y="156" font-size="10" fill="#ef4444">× -1 = flipped</text>
+  </g>
+
+  <!-- Formula box -->
+  <rect x="50" y="310" width="450" height="60" fill="#052e05" rx="4"/>
+  <text x="275" y="332" font-size="13" fill="#86efac" text-anchor="middle">
+    Multiply each component by the scalar:
+  </text>
+  <text x="275" y="355" font-size="14" fill="#4ade80" text-anchor="middle" font-weight="bold">
+    c × (x, y) = (c×x, c×y)  →  2 × (2, 1) = (4, 2)
+  </text>
+</svg>

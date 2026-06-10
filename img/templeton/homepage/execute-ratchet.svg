@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <style>
+    text {
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+  </style>
+  
+  <rect id="bg" x="0" y="0" width="800" height="450" fill="#09090b" rx="4" />
+  
+  <rect id="band-autonomous" x="80" y="60" width="680" height="110" fill="#10b981" opacity="0.04" rx="4" />
+  <rect id="band-hitl" x="80" y="170" width="680" height="110" fill="#f59e0b" opacity="0.04" rx="4" />
+  <rect id="band-disabled" x="80" y="280" width="680" height="110" fill="#ef4444" opacity="0.04" rx="4" />
+  
+  <text id="label-autonomous" x="88" y="76" fill="#10b981" opacity="0.4" font-size="10" font-weight="bold" letter-spacing="0.1em">AUTONOMOUS</text>
+  <text id="label-hitl" x="88" y="186" fill="#f59e0b" opacity="0.4" font-size="10" font-weight="bold" letter-spacing="0.1em">HITL</text>
+  <text id="label-disabled" x="88" y="296" fill="#ef4444" opacity="0.4" font-size="10" font-weight="bold" letter-spacing="0.1em">DISABLED</text>
+  
+  <g id="band-dividers">
+    <path d="M 80 170 L 760 170 M 80 280 L 760 280" stroke="#3f3f46" stroke-width="1" stroke-dasharray="4 4" fill="none" />
+  </g>
+  
+  <g id="axes">
+    <path d="M 80 40 L 80 390 L 760 390" stroke="#3f3f46" stroke-width="2" fill="none" />
+    <path d="M 75 48 L 80 40 L 85 48 Z" fill="#3f3f46" />
+    <path d="M 752 385 L 760 390 L 752 395 Z" fill="#3f3f46" />
+  </g>
+  
+  <text id="y-axis-label" x="80" y="25" fill="#3f3f46" font-size="12" text-anchor="middle">Quality</text>
+  <text id="x-axis-label" x="730" y="415" fill="#3f3f46" font-size="12">Time</text>
+  
+  <g id="comparison-line">
+    <path d="M 80 350 Q 100 320 120 340 T 160 360 T 200 320 T 240 370 T 280 330 T 320 380 T 360 340 T 400 360 T 440 310 T 480 350 T 520 380 T 560 330 T 600 360 T 640 320 T 680 370 T 720 340 T 760 350" stroke="#ef4444" stroke-width="1.5" fill="none" opacity="0.3" stroke-dasharray="6 4" />
+  </g>
+  
+  <g id="transition-markers">
+    <path d="M 220 280 L 220 390 M 480 170 L 480 390" stroke="#3f3f46" stroke-width="1.5" stroke-dasharray="4 4" fill="none" />
+  </g>
+  
+  <g id="ratchet-line">
+    <path d="M 80 350 L 120 350 L 120 330 L 180 330 L 180 310 L 220 310 L 220 280 L 270 280 L 270 260 L 310 260 L 310 250 L 380 250 L 380 210 L 430 210 L 430 190 L 480 190 L 480 170 L 530 170 L 530 140 L 590 140 L 590 120 L 640 120 L 640 100 L 700 100 L 700 80 L 760 80" stroke="#10b981" stroke-width="2.5" fill="none" stroke-linecap="square" />
+  </g>
+  
+  <circle id="gate-1" cx="220" cy="280" r="3" fill="#09090b" stroke="#10b981" stroke-width="2" />
+  <circle id="gate-2" cx="480" cy="170" r="3" fill="#09090b" stroke="#10b981" stroke-width="2" />
+  
+  <g id="legend-ratchet-line">
+    <path d="M 570 56 L 590 56" stroke="#10b981" stroke-width="2.5" fill="none" stroke-linecap="square" />
+  </g>
+  <text id="legend-ratchet-text" x="600" y="60" fill="#e4e4e7" font-size="11">Ratcheted (monotonic)</text>
+  
+  <g id="legend-intention-line">
+    <path d="M 570 76 L 590 76" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.5" fill="none" />
+  </g>
+  <text id="legend-intention-text" x="600" y="80" fill="#e4e4e7" font-size="11">Intention-based</text>
+  
+  <text id="footer-text" x="400" y="440" fill="#52525b" font-size="11" text-anchor="middle">Improvements locked in. Regressions blocked. Autonomy earned.</text>
+</svg>

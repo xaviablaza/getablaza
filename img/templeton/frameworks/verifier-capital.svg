@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="100%">
+  <defs>
+    <marker id="vc-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#3f3f46" />
+    </marker>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#09090b" rx="4" />
+
+  <!-- shaded zone under the appreciating ratchet -->
+  <path d="M 60 290 L 100 290 L 100 270 L 160 270 L 160 245 L 220 245 L 220 220 L 290 220 L 290 195 L 370 195 L 370 170 L 450 170 L 450 145 L 530 145 L 530 120 L 620 120 L 620 95 L 740 95 L 740 320 L 60 320 Z" fill="#14b8a6" opacity="0.05" stroke="none" />
+
+  <!-- Axes -->
+  <path d="M 60 320 L 740 320" stroke="#3f3f46" stroke-width="1.5" fill="none" marker-end="url(#vc-arrow)" />
+  <path d="M 60 320 L 60 45" stroke="#3f3f46" stroke-width="1.5" fill="none" marker-end="url(#vc-arrow)" />
+
+  <!-- Depreciation curve: truck, machine, brand, software -->
+  <path d="M 60 80 C 200 130, 380 220, 560 290 C 640 308, 700 318, 740 320" stroke="#ef4444" stroke-width="8" opacity="0.15" fill="none" />
+  <path d="M 60 80 C 200 130, 380 220, 560 290 C 640 308, 700 318, 740 320" stroke="#ef4444" stroke-width="2.5" fill="none" />
+
+  <!-- Appreciation ratchet: each step = one adversarial case caught -->
+  <path d="M 60 290 L 100 290 L 100 270 L 160 270 L 160 245 L 220 245 L 220 220 L 290 220 L 290 195 L 370 195 L 370 170 L 450 170 L 450 145 L 530 145 L 530 120 L 620 120 L 620 95 L 740 95" stroke="#14b8a6" stroke-width="8" opacity="0.15" fill="none" />
+  <path d="M 60 290 L 100 290 L 100 270 L 160 270 L 160 245 L 220 245 L 220 220 L 290 220 L 290 195 L 370 195 L 370 170 L 450 170 L 450 145 L 530 145 L 530 120 L 620 120 L 620 95 L 740 95" stroke="#14b8a6" stroke-width="2.5" fill="none" />
+
+  <!-- Step markers (failure cases caught) -->
+  <circle cx="100" cy="270" r="3" fill="#09090b" stroke="#14b8a6" stroke-width="1.5" />
+  <circle cx="220" cy="220" r="3" fill="#09090b" stroke="#14b8a6" stroke-width="1.5" />
+  <circle cx="370" cy="170" r="3" fill="#09090b" stroke="#14b8a6" stroke-width="1.5" />
+  <circle cx="530" cy="120" r="3" fill="#09090b" stroke="#14b8a6" stroke-width="1.5" />
+
+  <!-- Labels -->
+  <text x="70" y="65" fill="#ef4444" font-size="10.5" font-family="system-ui, -apple-system, sans-serif" text-anchor="start">Truck. Machine. Brand. Software stack.</text>
+  <text x="730" y="55" fill="#14b8a6" font-size="10.5" font-family="system-ui, -apple-system, sans-serif" text-anchor="end">Verifier (every caught case = permanent rise)</text>
+  <text x="380" y="180" fill="#14b8a6" font-size="9.5" opacity="0.7" font-style="italic" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">each step: one new failure mode encoded</text>
+  <text x="600" y="280" fill="#ef4444" font-size="9.5" opacity="0.7" font-style="italic" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">use degrades the asset</text>
+
+  <!-- Axis labels -->
+  <text x="740" y="340" fill="#a1a1aa" font-size="12" font-family="system-ui, -apple-system, sans-serif" text-anchor="end">Cumulative operating use</text>
+  <text x="60" y="30" fill="#a1a1aa" font-size="12" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">Value</text>
+
+  <!-- Caption -->
+  <text x="400" y="380" fill="#71717a" font-size="13" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">A verifier appreciates through operating use. Almost no other capital asset does.</text>
+</svg>

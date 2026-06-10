@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 420" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="480" height="420" fill="#09090b"/>
+
+  <!-- Circle fills (low opacity for overlap blending) -->
+  <circle cx="180" cy="160" r="120" fill="#a78bfa" fill-opacity="0.06" stroke="#a78bfa" stroke-opacity="0.25" stroke-width="1.5"/>
+  <circle cx="300" cy="160" r="120" fill="#fbbf24" fill-opacity="0.06" stroke="#fbbf24" stroke-opacity="0.25" stroke-width="1.5"/>
+  <circle cx="180" cy="270" r="120" fill="#34d399" fill-opacity="0.06" stroke="#34d399" stroke-opacity="0.25" stroke-width="1.5"/>
+  <circle cx="300" cy="270" r="120" fill="#60a5fa" fill-opacity="0.06" stroke="#60a5fa" stroke-opacity="0.25" stroke-width="1.5"/>
+
+  <!-- Labels - positioned in non-overlapping regions -->
+  <!-- Allocator (top-left) -->
+  <text x="110" y="104" font-size="13" font-weight="600" fill="#a78bfa" text-anchor="middle">Allocator</text>
+  <text x="110" y="120" font-size="10" fill="#71717a" text-anchor="middle">Which bets to make.</text>
+  <text x="110" y="133" font-size="10" fill="#71717a" text-anchor="middle">Capital, not just code.</text>
+
+  <!-- Operator (top-right) -->
+  <text x="370" y="104" font-size="13" font-weight="600" fill="#fbbf24" text-anchor="middle">Operator</text>
+  <text x="370" y="120" font-size="10" fill="#71717a" text-anchor="middle">$1B revenue, PE portfolios,</text>
+  <text x="370" y="133" font-size="10" fill="#71717a" text-anchor="middle">real P&amp;L.</text>
+
+  <!-- Builder (bottom-left) -->
+  <text x="110" y="318" font-size="13" font-weight="600" fill="#34d399" text-anchor="middle">Builder</text>
+  <text x="110" y="334" font-size="10" fill="#71717a" text-anchor="middle">Ships it, owns it.</text>
+  <text x="110" y="347" font-size="10" fill="#71717a" text-anchor="middle">Production systems.</text>
+
+  <!-- Scientist (bottom-right) -->
+  <text x="370" y="318" font-size="13" font-weight="600" fill="#60a5fa" text-anchor="middle">Scientist</text>
+  <text x="370" y="334" font-size="10" fill="#71717a" text-anchor="middle">Proves it, models it.</text>
+  <text x="370" y="347" font-size="10" fill="#71717a" text-anchor="middle">Published research.</text>
+
+  <!-- Center label -->
+  <rect x="186" y="198" width="108" height="38" rx="4" fill="#09090b" fill-opacity="0.9" stroke="#3f3f46" stroke-width="1"/>
+  <text x="240" y="215" font-size="11" font-weight="600" fill="#fafafa" text-anchor="middle">Excellence by</text>
+  <text x="240" y="230" font-size="11" font-weight="600" fill="#fafafa" text-anchor="middle">Design</text>
+</svg>

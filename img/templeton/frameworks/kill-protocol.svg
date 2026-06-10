@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <rect x="0" y="0" width="800" height="450" fill="#09090b" rx="4" />
+
+  <!-- Title -->
+  <text x="400" y="32" fill="#a1a1aa" font-size="13" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" letter-spacing="0.05em">KILL PROTOCOL: THREE DECISION GATES</text>
+
+  <!-- Gate 1: Marginal Sharpe -->
+  <rect x="60" y="60" width="200" height="100" rx="6" fill="none" stroke="#52525b" stroke-width="1.5" />
+  <text x="160" y="85" fill="#fbbf24" font-size="11" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" font-weight="600">GATE 1</text>
+  <text x="160" y="105" fill="#e4e4e7" font-size="12" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">Marginal Sharpe</text>
+  <text x="160" y="125" fill="#a1a1aa" font-size="10" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">Does adding this instrument</text>
+  <text x="160" y="140" fill="#a1a1aa" font-size="10" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">improve the portfolio?</text>
+
+  <!-- Gate 2: Left Tail -->
+  <rect x="300" y="60" width="200" height="100" rx="6" fill="none" stroke="#52525b" stroke-width="1.5" />
+  <text x="400" y="85" fill="#fbbf24" font-size="11" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" font-weight="600">GATE 2</text>
+  <text x="400" y="105" fill="#e4e4e7" font-size="12" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">Left-Tail Survivability</text>
+  <text x="400" y="125" fill="#a1a1aa" font-size="10" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">Can the organization absorb</text>
+  <text x="400" y="140" fill="#a1a1aa" font-size="10" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">the -2σ outcome?</text>
+
+  <!-- Gate 3: Base Rate -->
+  <rect x="540" y="60" width="200" height="100" rx="6" fill="none" stroke="#52525b" stroke-width="1.5" />
+  <text x="640" y="85" fill="#fbbf24" font-size="11" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" font-weight="600">GATE 3</text>
+  <text x="640" y="105" fill="#e4e4e7" font-size="12" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">Base Rate Verification</text>
+  <text x="640" y="125" fill="#a1a1aa" font-size="10" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">Does the historical success</text>
+  <text x="640" y="140" fill="#a1a1aa" font-size="10" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">rate support the estimate?</text>
+
+  <!-- Arrows between gates -->
+  <path d="M 260 110 L 300 110" stroke="#22c55e" stroke-width="2" fill="none" marker-end="url(#arrow-green)" />
+  <text x="280" y="103" fill="#22c55e" font-size="9" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">pass</text>
+  <path d="M 500 110 L 540 110" stroke="#22c55e" stroke-width="2" fill="none" marker-end="url(#arrow-green)" />
+  <text x="520" y="103" fill="#22c55e" font-size="9" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">pass</text>
+
+  <!-- Kill paths (downward) -->
+  <path d="M 160 160 L 160 200" stroke="#ef4444" stroke-width="2" fill="none" marker-end="url(#arrow-red)" />
+  <text x="148" y="185" fill="#ef4444" font-size="9" font-family="system-ui, -apple-system, sans-serif" text-anchor="end">fail</text>
+  <path d="M 400 160 L 400 200" stroke="#ef4444" stroke-width="2" fill="none" marker-end="url(#arrow-red)" />
+  <text x="388" y="185" fill="#ef4444" font-size="9" font-family="system-ui, -apple-system, sans-serif" text-anchor="end">fail</text>
+  <path d="M 640 160 L 640 200" stroke="#ef4444" stroke-width="2" fill="none" marker-end="url(#arrow-red)" />
+  <text x="628" y="185" fill="#ef4444" font-size="9" font-family="system-ui, -apple-system, sans-serif" text-anchor="end">fail</text>
+
+  <!-- Kill Type 1: Correlation-dominated -->
+  <rect x="60" y="205" width="200" height="110" rx="6" fill="#ef4444" fill-opacity="0.08" stroke="#ef4444" stroke-width="1.5" stroke-opacity="0.3" />
+  <text x="160" y="230" fill="#ef4444" font-size="11" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" font-weight="600">KILL: CORRELATION</text>
+  <text x="160" y="252" fill="#a1a1aa" font-size="10" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">Individual Sharpe is positive</text>
+  <text x="160" y="267" fill="#a1a1aa" font-size="10" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">but marginal Sharpe is low</text>
+  <text x="160" y="282" fill="#a1a1aa" font-size="10" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">due to ρ with funded projects.</text>
+  <text x="160" y="302" fill="#71717a" font-size="9" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" font-style="italic">Reallocate slot to uncorrelated G.</text>
+
+  <!-- Kill Type 2: Tail Risk -->
+  <rect x="300" y="205" width="200" height="110" rx="6" fill="#ef4444" fill-opacity="0.08" stroke="#ef4444" stroke-width="1.5" stroke-opacity="0.3" />
+  <text x="400" y="230" fill="#ef4444" font-size="11" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" font-weight="600">KILL: TAIL RISK</text>
+  <text x="400" y="252" fill="#a1a1aa" font-size="10" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">The -2σ case violates a</text>
+  <text x="400" y="267" fill="#a1a1aa" font-size="10" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">board constraint: market share</text>
+  <text x="400" y="282" fill="#a1a1aa" font-size="10" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">loss, cash flow timing, or</text>
+  <text x="400" y="297" fill="#a1a1aa" font-size="10" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">capacity breach.</text>
+
+  <!-- Kill Type 3: Base Rate -->
+  <rect x="540" y="205" width="200" height="110" rx="6" fill="#ef4444" fill-opacity="0.08" stroke="#ef4444" stroke-width="1.5" stroke-opacity="0.3" />
+  <text x="640" y="230" fill="#ef4444" font-size="11" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" font-weight="600">KILL: BASE RATE</text>
+  <text x="640" y="252" fill="#a1a1aa" font-size="10" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">Team estimates P(success) = 0.8.</text>
+  <text x="640" y="267" fill="#a1a1aa" font-size="10" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">Historical base rate for this</text>
+  <text x="640" y="282" fill="#a1a1aa" font-size="10" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">class of build: 0.3.</text>
+  <text x="640" y="302" fill="#71717a" font-size="9" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" font-style="italic">Spread goes negative at true rate.</text>
+
+  <!-- Fund path (rightward from Gate 3) -->
+  <path d="M 740 110 L 770 110" stroke="#22c55e" stroke-width="2" fill="none" />
+  <text x="770" y="103" fill="#22c55e" font-size="10" font-family="system-ui, -apple-system, sans-serif" font-weight="600">FUND</text>
+
+  <!-- Bottom: The Invariant -->
+  <rect x="100" y="345" width="600" height="80" rx="6" fill="#18181b" stroke="#3f3f46" stroke-width="1" />
+  <text x="400" y="370" fill="#71717a" font-size="10" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" text-anchor="middle"># The invariant</text>
+  <text x="400" y="390" fill="#e4e4e7" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" text-anchor="middle">The opportunity cost of "yes" is every "no" it implies.</text>
+  <text x="400" y="408" fill="#e4e4e7" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" text-anchor="middle">A dominated instrument consuming a slot is a portfolio drag.</text>
+
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrow-green" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M 0 0 L 8 3 L 0 6" fill="none" stroke="#22c55e" stroke-width="1.5" />
+    </marker>
+    <marker id="arrow-red" markerWidth="8" markerHeight="6" refX="3" refY="6" orient="auto">
+      <path d="M 0 0 L 3 6 L 6 0" fill="none" stroke="#ef4444" stroke-width="1.5" />
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" font-family="JetBrains Mono, monospace">
+  <style>
+    @keyframes drawTriangle {
+      from { stroke-dashoffset: 400; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes pulseHypotenuse {
+      0%, 100% { stroke-width: 4; filter: drop-shadow(0 0 3px #22c55e); }
+      50% { stroke-width: 5; filter: drop-shadow(0 0 10px #22c55e); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes fillSquare {
+      from { opacity: 0; transform: scale(0.8); }
+      to { opacity: 0.3; transform: scale(1); }
+    }
+    .leg-horizontal { stroke-dasharray: 400; animation: drawTriangle 0.8s ease-out forwards; }
+    .leg-vertical { stroke-dasharray: 400; animation: drawTriangle 0.8s ease-out forwards; animation-delay: 0.4s; stroke-dashoffset: 400; }
+    .hypotenuse { stroke-dasharray: 400; animation: drawTriangle 0.8s ease-out forwards, pulseHypotenuse 2s ease-in-out infinite; animation-delay: 0.8s; stroke-dashoffset: 400; }
+    .square { animation: fillSquare 0.5s ease-out forwards; opacity: 0; }
+    .square-a { animation-delay: 1.2s; }
+    .square-b { animation-delay: 1.4s; }
+    .square-c { animation-delay: 1.6s; }
+    .label { animation: fadeIn 0.5s ease-out forwards; opacity: 0; }
+    .label-a { animation-delay: 0.5s; }
+    .label-b { animation-delay: 0.9s; }
+    .label-c { animation-delay: 1.3s; }
+  </style>
+
+  <!-- Background -->
+  <rect width="500" height="400" fill="#000"/>
+
+  <!-- Title -->
+  <text x="250" y="30" font-size="16" font-weight="600" fill="#4ade80" text-anchor="middle">Magnitude: The Pythagorean Connection</text>
+
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="magArrow" markerWidth="14" markerHeight="10" refX="12" refY="5" orient="auto">
+      <polygon points="0 0, 14 5, 0 10, 2 5" fill="#22c55e"/>
+    </marker>
+  </defs>
+
+  <!-- Coordinate system -->
+  <line x1="80" y1="280" x2="380" y2="280" stroke="#525252" stroke-width="1"/>
+  <line x1="80" y1="280" x2="80" y2="80" stroke="#525252" stroke-width="1"/>
+  <text x="65" y="290" font-size="10" fill="#525252">0</text>
+
+  <!-- Visual squares on sides (a² + b² = c²) -->
+  <rect class="square square-a" x="80" y="280" width="180" height="30" fill="#3b82f6" transform="rotate(0)"/>
+  <rect class="square square-b" x="260" y="120" width="30" height="160" fill="#f59e0b"/>
+
+  <!-- Right triangle -->
+  <!-- Horizontal leg (x = 3, scaled to 180px) -->
+  <line class="leg-horizontal" x1="80" y1="280" x2="260" y2="280" stroke="#3b82f6" stroke-width="4"/>
+  <text class="label label-a" x="170" y="305" font-size="16" fill="#3b82f6" text-anchor="middle" font-weight="bold">3</text>
+  <text x="170" y="320" font-size="10" fill="#3b82f6" text-anchor="middle">(x component)</text>
+
+  <!-- Vertical leg (y = 4, scaled to 160px) -->
+  <line class="leg-vertical" x1="260" y1="280" x2="260" y2="120" stroke="#f59e0b" stroke-width="4"/>
+  <text class="label label-b" x="285" y="205" font-size="16" fill="#f59e0b" font-weight="bold">4</text>
+  <text x="285" y="220" font-size="10" fill="#f59e0b">(y component)</text>
+
+  <!-- Right angle indicator -->
+  <path d="M 240 280 L 240 260 L 260 260" fill="none" stroke="#737373" stroke-width="2"/>
+
+  <!-- Hypotenuse (the vector) -->
+  <line class="hypotenuse" x1="80" y1="280" x2="250" y2="120" stroke="#22c55e" stroke-width="4" marker-end="url(#magArrow)"/>
+
+  <!-- Magnitude label on hypotenuse -->
+  <text class="label label-c" x="145" y="175" font-size="18" fill="#22c55e" font-weight="bold" transform="rotate(-42, 145, 175)">||v|| = 5</text>
+
+  <!-- Vector notation -->
+  <text x="300" y="100" font-size="15" fill="#4ade80" font-weight="bold">v = (3, 4)</text>
+
+  <!-- Formula derivation box -->
+  <rect x="40" y="335" width="420" height="55" fill="#052e05" rx="4"/>
+  <text x="250" y="355" font-size="12" fill="#86efac" text-anchor="middle">
+    Pythagorean theorem: a² + b² = c²
+  </text>
+  <text x="250" y="378" font-size="15" fill="#4ade80" text-anchor="middle" font-weight="bold">
+    ||v|| = √(3² + 4²) = √(9 + 16) = √25 = 5
+  </text>
+</svg>

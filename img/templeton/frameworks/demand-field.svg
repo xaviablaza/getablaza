@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#09090b"/>
+  <defs>
+    <marker id="av" viewBox="0 0 6 6" refX="5" refY="3" markerWidth="4" markerHeight="4" orient="auto">
+      <path d="M 0 0.5 L 6 3 L 0 5.5 z" fill="#f97316" opacity="0.35"/>
+    </marker>
+    <marker id="at" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 8 4 L 0 7 z" fill="#10b981"/>
+    </marker>
+  </defs>
+  <g font-family="system-ui, sans-serif">
+    <!-- Demand gravity well -->
+    <circle cx="650" cy="200" r="80" fill="#f97316" opacity="0.03"/>
+    <circle cx="650" cy="200" r="55" fill="#f97316" opacity="0.04"/>
+    <circle cx="650" cy="200" r="30" fill="#f97316" opacity="0.06"/>
+    <text x="650" y="205" fill="#f97316" font-size="14" font-weight="600" text-anchor="middle">Real Demand</text>
+
+    <!-- Vector field arrows - all point roughly toward (650,200) -->
+    <!-- Row 1 (y=80) -->
+    <line x1="100" y1="80" x2="118" y2="88" stroke="#f97316" stroke-width="1" opacity="0.25" marker-end="url(#av)"/>
+    <line x1="200" y1="80" x2="218" y2="87" stroke="#f97316" stroke-width="1" opacity="0.25" marker-end="url(#av)"/>
+    <line x1="300" y1="80" x2="317" y2="87" stroke="#f97316" stroke-width="1" opacity="0.25" marker-end="url(#av)"/>
+    <line x1="400" y1="80" x2="416" y2="88" stroke="#f97316" stroke-width="1" opacity="0.25" marker-end="url(#av)"/>
+    <line x1="500" y1="80" x2="514" y2="90" stroke="#f97316" stroke-width="1" opacity="0.3" marker-end="url(#av)"/>
+    <!-- Row 2 (y=160) -->
+    <line x1="100" y1="160" x2="119" y2="164" stroke="#f97316" stroke-width="1" opacity="0.25" marker-end="url(#av)"/>
+    <line x1="200" y1="160" x2="219" y2="163" stroke="#f97316" stroke-width="1" opacity="0.25" marker-end="url(#av)"/>
+    <line x1="300" y1="160" x2="319" y2="163" stroke="#f97316" stroke-width="1" opacity="0.3" marker-end="url(#av)"/>
+    <line x1="400" y1="160" x2="419" y2="164" stroke="#f97316" stroke-width="1" opacity="0.3" marker-end="url(#av)"/>
+    <line x1="500" y1="160" x2="518" y2="168" stroke="#f97316" stroke-width="1" opacity="0.35" marker-end="url(#av)"/>
+    <!-- Row 3 (y=200) -->
+    <line x1="100" y1="200" x2="120" y2="200" stroke="#f97316" stroke-width="1" opacity="0.25" marker-end="url(#av)"/>
+    <line x1="200" y1="200" x2="220" y2="200" stroke="#f97316" stroke-width="1" opacity="0.25" marker-end="url(#av)"/>
+    <line x1="300" y1="200" x2="320" y2="200" stroke="#f97316" stroke-width="1" opacity="0.3" marker-end="url(#av)"/>
+    <line x1="400" y1="200" x2="420" y2="200" stroke="#f97316" stroke-width="1" opacity="0.35" marker-end="url(#av)"/>
+    <line x1="500" y1="200" x2="520" y2="200" stroke="#f97316" stroke-width="1" opacity="0.4" marker-end="url(#av)"/>
+    <!-- Row 4 (y=240) -->
+    <line x1="100" y1="240" x2="119" y2="236" stroke="#f97316" stroke-width="1" opacity="0.25" marker-end="url(#av)"/>
+    <line x1="200" y1="240" x2="219" y2="237" stroke="#f97316" stroke-width="1" opacity="0.25" marker-end="url(#av)"/>
+    <line x1="300" y1="240" x2="319" y2="237" stroke="#f97316" stroke-width="1" opacity="0.3" marker-end="url(#av)"/>
+    <line x1="400" y1="240" x2="419" y2="236" stroke="#f97316" stroke-width="1" opacity="0.3" marker-end="url(#av)"/>
+    <line x1="500" y1="240" x2="518" y2="232" stroke="#f97316" stroke-width="1" opacity="0.35" marker-end="url(#av)"/>
+    <!-- Row 5 (y=320) -->
+    <line x1="100" y1="320" x2="118" y2="312" stroke="#f97316" stroke-width="1" opacity="0.25" marker-end="url(#av)"/>
+    <line x1="200" y1="320" x2="218" y2="313" stroke="#f97316" stroke-width="1" opacity="0.25" marker-end="url(#av)"/>
+    <line x1="300" y1="320" x2="317" y2="313" stroke="#f97316" stroke-width="1" opacity="0.25" marker-end="url(#av)"/>
+    <line x1="400" y1="320" x2="416" y2="312" stroke="#f97316" stroke-width="1" opacity="0.25" marker-end="url(#av)"/>
+    <line x1="500" y1="320" x2="514" y2="310" stroke="#f97316" stroke-width="1" opacity="0.3" marker-end="url(#av)"/>
+
+    <!-- Trajectory 1: demand-aligned (green, curves toward demand) -->
+    <path d="M 120 220 C 250 215, 400 210, 600 205" fill="none" stroke="#10b981" stroke-width="2.5" marker-end="url(#at)"/>
+    <text x="130" y="245" fill="#10b981" font-size="12" font-weight="500">demand-aligned</text>
+
+    <!-- Trajectory 2: orthogonal (amber, goes upward) -->
+    <path d="M 150 200 C 200 170, 280 120, 360 80" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.8"/>
+    <circle cx="360" cy="80" r="3" fill="#f59e0b" opacity="0.5"/>
+    <text x="370" y="75" fill="#f59e0b" font-size="12" font-weight="500">orthogonal</text>
+
+    <!-- Trajectory 3: supply-push (red, goes left/away) -->
+    <path d="M 180 190 C 160 185, 120 178, 80 175" fill="none" stroke="#ef4444" stroke-width="2" opacity="0.7"/>
+    <circle cx="80" cy="175" r="3" fill="#ef4444" opacity="0.4"/>
+    <text x="70" y="165" fill="#ef4444" font-size="12" font-weight="500">supply-push</text>
+
+    <!-- Footer -->
+    <text x="400" y="385" fill="#71717a" font-size="12" text-anchor="middle">Demand is the field. Products are trajectories. Align or decay.</text>
+  </g>
+</svg>

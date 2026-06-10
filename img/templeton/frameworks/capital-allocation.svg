@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <rect id="bg-rect" x="0" y="0" width="800" height="450" fill="#09090b" rx="4" />
+  <path id="suboptimal-region" d="M 130 320 C 200 250, 300 170, 400 130 C 500 90, 600 70, 700 65 L 700 370 L 130 370 Z" fill="#8b5cf6" opacity="0.03" />
+  <path id="axes-lines" d="M 80 40 L 80 370 L 760 370" stroke="#52525b" stroke-width="2" fill="none" />
+  <path id="axes-ticks" d="M 72 100 L 80 100 M 72 180 L 80 180 M 72 260 L 80 260 M 72 340 L 80 340 M 200 370 L 200 378 M 320 370 L 320 378 M 440 370 L 440 378 M 560 370 L 560 378 M 680 370 L 680 378" stroke="#52525b" stroke-width="2" fill="none" />
+  <text id="y-axis-label" x="35" y="205" transform="rotate(-90 35 205)" fill="#a1a1aa" font-size="14" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">Expected Return E[R]</text>
+  <text id="x-axis-label" x="420" y="410" fill="#a1a1aa" font-size="14" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">Risk (σ)</text>
+  <text id="dominated-text" x="740" y="350" fill="#52525b" font-size="10" font-style="italic" font-family="system-ui, -apple-system, sans-serif" text-anchor="end">dominated</text>
+  <path id="frontier-glow" d="M 130 320 C 200 250, 300 170, 400 130 C 500 90, 600 70, 700 65" stroke="#8b5cf6" stroke-width="8" opacity="0.12" fill="none" stroke-linecap="round" />
+  <path id="frontier-line" d="M 130 320 C 200 250, 300 170, 400 130 C 500 90, 600 70, 700 65" stroke="#8b5cf6" stroke-width="3" fill="none" stroke-linecap="round" />
+  <circle id="pt-infra-1" cx="150" cy="290" r="7" fill="#f59e0b" />
+  <circle id="pt-infra-2" cx="200" cy="310" r="7" fill="#f59e0b" />
+  <circle id="pt-infra-3" cx="250" cy="260" r="7" fill="#f59e0b" />
+  <circle id="pt-process-1" cx="300" cy="230" r="7" fill="#10b981" />
+  <circle id="pt-process-2" cx="350" cy="270" r="7" fill="#10b981" />
+  <circle id="pt-process-3" cx="280" cy="195" r="7" fill="#10b981" />
+  <circle id="pt-ai-1" cx="450" cy="125" r="7" fill="#8b5cf6" />
+  <circle id="pt-ai-2" cx="550" cy="100" r="7" fill="#8b5cf6" />
+  <circle id="pt-ai-3" cx="650" cy="75" r="7" fill="#8b5cf6" />
+  <circle id="pt-rejected-1" cx="500" cy="300" r="7" fill="#ef4444" />
+  <circle id="pt-rejected-2" cx="620" cy="260" r="7" fill="#ef4444" />
+  <path id="rejected-x-marks" d="M 495 295 L 505 305 M 505 295 L 495 305 M 615 255 L 625 265 M 625 255 L 615 265" stroke="#ffffff" stroke-width="2" fill="none" />
+  <text id="label-sku" x="462" y="120" fill="#a1a1aa" font-size="10" font-family="system-ui, -apple-system, sans-serif">SKU ingestion</text>
+  <text id="label-price" x="292" y="190" fill="#a1a1aa" font-size="10" font-family="system-ui, -apple-system, sans-serif">Price optimization</text>
+  <text id="label-vendor" x="150" y="278" fill="#a1a1aa" font-size="10" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">Vendor portal</text>
+  <text id="label-replatform" x="512" y="296" fill="#a1a1aa" font-size="10" font-family="system-ui, -apple-system, sans-serif">Full replatform</text>
+  <text id="label-doc" x="240" y="256" fill="#a1a1aa" font-size="10" font-family="system-ui, -apple-system, sans-serif" text-anchor="end">Doc standardization</text>
+  <circle id="portfolio-halo" cx="400" cy="135" r="16" stroke="#8b5cf6" stroke-width="2" opacity="0.3" fill="none" />
+  <circle id="portfolio-pt" cx="400" cy="135" r="9" fill="#8b5cf6" />
+  <circle id="legend-dot-infra" cx="245" cy="427" r="4" fill="#f59e0b" />
+  <text id="legend-text-infra" x="255" y="430" fill="#71717a" font-size="9" font-family="system-ui, -apple-system, sans-serif">Infrastructure</text>
+  <circle id="legend-dot-process" cx="345" cy="427" r="4" fill="#10b981" />
+  <text id="legend-text-process" x="355" y="430" fill="#71717a" font-size="9" font-family="system-ui, -apple-system, sans-serif">Process</text>
+  <circle id="legend-dot-ai" cx="415" cy="427" r="4" fill="#8b5cf6" />
+  <text id="legend-text-ai" x="425" y="430" fill="#71717a" font-size="9" font-family="system-ui, -apple-system, sans-serif">AI automation</text>
+  <circle id="legend-dot-rejected" cx="525" cy="427" r="4" fill="#ef4444" />
+  <text id="legend-text-rejected" x="535" y="430" fill="#71717a" font-size="9" font-family="system-ui, -apple-system, sans-serif">Rejected</text>
+  <text id="footer-text" x="400" y="445" fill="#52525b" font-size="11" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">The optimal portfolio is not the set of individually best instruments.</text>
+  <line x1="340" y1="85" x2="392" y2="120" stroke="#a1a1aa" stroke-width="1" />
+  <text x="335" y="89" fill="#e4e4e7" font-size="13" font-family="system-ui, -apple-system, sans-serif" text-anchor="end">Your Portfolio</text>
+</svg>

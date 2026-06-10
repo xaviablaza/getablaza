@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#06b6d4" />
+    </marker>
+    <marker id="axis-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#3f3f46" />
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#09090b" />
+
+  <!-- Axes -->
+  <g stroke="#3f3f46" stroke-width="1.5">
+    <line x1="60" y1="340" x2="740" y2="340" marker-end="url(#axis-arrow)" />
+    <line x1="60" y1="340" x2="60" y2="40" marker-end="url(#axis-arrow)" />
+  </g>
+
+  <!-- Axis Labels -->
+  <g font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#a1a1aa">
+    <text x="400" y="375" text-anchor="middle">Dimension A</text>
+    <text x="25" y="190" text-anchor="middle" transform="rotate(-90, 25, 190)">Dimension B</text>
+  </g>
+
+  <!-- Dot Cloud (~35 dots) -->
+  <g fill="#06b6d4" opacity="0.3">
+    <!-- Core / Median Cluster -->
+    <circle cx="242" cy="261" r="3" />
+    <circle cx="255" cy="248" r="3" />
+    <circle cx="268" cy="272" r="3" />
+    <circle cx="274" cy="238" r="3" />
+    <circle cx="281" cy="264" r="3" />
+    <circle cx="292" cy="251" r="3" />
+    <circle cx="258" cy="232" r="3" />
+    <circle cx="265" cy="221" r="3" />
+    <circle cx="287" cy="236" r="3" />
+    <circle cx="302" cy="247" r="3" />
+    <circle cx="311" cy="268" r="3" />
+    <circle cx="322" cy="254" r="3" />
+    <circle cx="296" cy="277" r="3" />
+    <circle cx="278" cy="282" r="3" />
+    <circle cx="232" cy="246" r="3" />
+    <circle cx="247" cy="224" r="3" />
+    <circle cx="306" cy="227" r="3" />
+    <circle cx="316" cy="234" r="3" />
+    <circle cx="332" cy="241" r="3" />
+    <circle cx="341" cy="262" r="3" />
+    <circle cx="285" cy="255" r="3" />
+    <circle cx="270" cy="250" r="3" />
+    
+    <!-- Mid-range spreading towards frontier -->
+    <circle cx="355" cy="212" r="3" />
+    <circle cx="372" cy="228" r="3" />
+    <circle cx="384" cy="192" r="3" />
+    <circle cx="405" cy="208" r="3" />
+    <circle cx="422" cy="174" r="3" />
+    <circle cx="445" cy="188" r="3" />
+    <circle cx="462" cy="152" r="3" />
+    <circle cx="485" cy="168" r="3" />
+    <circle cx="512" cy="142" r="3" />
+    <circle cx="545" cy="164" r="3" />
+    <circle cx="562" cy="192" r="3" />
+    <circle cx="585" cy="222" r="3" />
+    
+    <!-- High performers near frontier -->
+    <circle cx="325" cy="132" r="3" />
+    <circle cx="385" cy="142" r="3" />
+    <circle cx="452" cy="128" r="3" />
+    <circle cx="522" cy="122" r="3" />
+    <circle cx="572" cy="152" r="3" />
+    <circle cx="605" cy="202" r="3" />
+    <circle cx="410" cy="115" r="3" />
+    <circle cx="490" cy="105" r="3" />
+  </g>
+
+  <!-- Performance Frontier Curve -->
+  <path id="frontier-path" d="M 260 120 C 400 40, 600 40, 650 280" fill="none" stroke="#06b6d4" stroke-width="2" stroke-dasharray="6,4" />
+
+  <!-- Frontier Label -->
+  <text font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#06b6d4" font-weight="500" letter-spacing="0.5">
+    <textPath href="#frontier-path" startOffset="50%" text-anchor="middle">
+      <tspan dy="-8">performance frontier (99th percentile)</tspan>
+    </textPath>
+  </text>
+
+  <!-- Where value lives -->
+  <text x="450" y="270" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#a1a1aa" font-style="italic" text-anchor="middle">where value lives</text>
+
+  <!-- Oracle Gradient Arrow -->
+  <line x1="194" y1="294" x2="682" y2="68" stroke="#06b6d4" stroke-width="3" marker-end="url(#arrow)" />
+
+  <!-- Oracle Gradient Label (with dark stroke for readability over dots) -->
+  <text x="438" y="181" dy="-10" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#06b6d4" text-anchor="middle" transform="rotate(-24.8, 438, 181)" stroke="#09090b" stroke-width="4" stroke-linejoin="round">Oracle Gradient</text>
+  <text x="438" y="181" dy="-10" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#06b6d4" text-anchor="middle" transform="rotate(-24.8, 438, 181)">Oracle Gradient</text>
+
+  <!-- Current Position -->
+  <circle cx="180" cy="300" r="12" fill="#06b6d4" opacity="0.2" />
+  <circle cx="180" cy="300" r="6" fill="#ffffff" stroke="#06b6d4" stroke-width="2" />
+  <text x="180" y="325" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle">current position</text>
+
+  <!-- Oracle Marker -->
+  <circle cx="700" cy="60" r="16" fill="#ffffff" opacity="0.05" />
+  <circle cx="700" cy="60" r="8" fill="#ffffff" opacity="0.1" />
+  <path d="M 700 45 Q 700 60 685 60 Q 700 60 700 75 Q 700 60 715 60 Q 700 60 700 45 Z" fill="#ffffff" opacity="0.9" />
+  <text x="700" y="35" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="1">Oracle</text>
+
+</svg>

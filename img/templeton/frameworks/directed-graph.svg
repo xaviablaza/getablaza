@@ -1,0 +1,153 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="a-gray" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#3f3f46" />
+    </marker>
+    <marker id="a-amber" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#f59e0b" />
+    </marker>
+    <marker id="a-red" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#ef4444" />
+    </marker>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#09090b" />
+
+  <!-- ===== EDGES: Normal causal flow ===== -->
+  <g opacity="0.55">
+    <!-- Mktg -> Pipeline -->
+    <path d="M 130 100 C 180 85, 230 68, 274 60" stroke="#3f3f46" stroke-width="1.5" fill="none" marker-end="url(#a-gray)"/>
+    <!-- Mktg -> Win Rate -->
+    <path d="M 130 116 C 180 130, 230 142, 274 148" stroke="#3f3f46" stroke-width="1.5" fill="none" marker-end="url(#a-gray)"/>
+    <!-- Pipeline -> Win Rate -->
+    <path d="M 340 74 L 340 132" stroke="#3f3f46" stroke-width="1.5" marker-end="url(#a-gray)"/>
+    <!-- Pipeline -> Inventory -->
+    <path d="M 368 60 C 410 52, 460 50, 510 52" stroke="#3f3f46" stroke-width="1.5" fill="none" marker-end="url(#a-gray)"/>
+    <!-- Win Rate -> ARR -->
+    <path d="M 398 148 C 460 130, 560 100, 630 88" stroke="#3f3f46" stroke-width="1.5" fill="none" marker-end="url(#a-gray)"/>
+    <!-- Inventory -> Fulfillment -->
+    <path d="M 570 68 C 600 76, 620 88, 632 100" stroke="#3f3f46" stroke-width="1.5" fill="none" marker-end="url(#a-gray)"/>
+    <!-- Fulfillment -> CSAT -->
+    <path d="M 670 126 C 660 148, 640 170, 610 188" stroke="#3f3f46" stroke-width="1.5" fill="none" marker-end="url(#a-gray)"/>
+    <!-- CSAT -> Expansion -->
+    <path d="M 606 204 C 630 210, 660 216, 688 220" stroke="#3f3f46" stroke-width="1.5" fill="none" marker-end="url(#a-gray)"/>
+    <!-- Expansion -> ARR (dashed up) -->
+    <path d="M 730 218 C 740 180, 730 130, 700 100" stroke="#3f3f46" stroke-width="1.2" stroke-dasharray="4 3" fill="none" marker-end="url(#a-gray)"/>
+    <!-- Pricing -> Margin -->
+    <path d="M 230 240 C 260 244, 280 246, 296 248" stroke="#3f3f46" stroke-width="1.5" fill="none" marker-end="url(#a-gray)"/>
+    <!-- Margin -> ARR -->
+    <path d="M 380 248 C 480 236, 580 190, 632 138" stroke="#3f3f46" stroke-width="1.2" stroke-dasharray="4 3" fill="none" marker-end="url(#a-gray)"/>
+  </g>
+
+  <!-- ===== EDGES: Soft spots (amber value leaks) ===== -->
+  <g>
+    <!-- Vendor Data -> Rework Loop (MAIN soft spot) -->
+    <path d="M 128 310 C 190 310, 250 312, 316 316" stroke="#f59e0b" stroke-width="3.5" fill="none" marker-end="url(#a-amber)"/>
+    <!-- Rework Loop -> Time to Market -->
+    <path d="M 406 316 C 440 318, 480 320, 510 322" stroke="#f59e0b" stroke-width="3.5" fill="none" marker-end="url(#a-amber)"/>
+    <!-- Time to Market -> Churn -->
+    <path d="M 554 338 C 546 350, 530 360, 510 368" stroke="#f59e0b" stroke-width="2.5" fill="none" marker-end="url(#a-amber)"/>
+    <!-- Support Load -> CSAT (negative) -->
+    <path d="M 128 208 C 200 210, 380 210, 520 200" stroke="#f59e0b" stroke-width="2.5" fill="none" marker-end="url(#a-amber)"/>
+    <!-- CSAT -> Churn -->
+    <path d="M 554 216 C 540 260, 520 320, 500 356" stroke="#f59e0b" stroke-width="2.5" fill="none" marker-end="url(#a-amber)"/>
+  </g>
+
+  <!-- Negative feedback: Churn -> ARR -->
+  <path d="M 454 372 C 360 392, 200 392, 140 352 C 80 310, 54 210, 70 140 C 82 100, 160 72, 274 62" stroke="#ef4444" stroke-width="1.2" stroke-dasharray="5 4" fill="none" marker-end="url(#a-red)" opacity="0.45"/>
+
+  <!-- Soft spot glow -->
+  <g opacity="0.12">
+    <path d="M 128 310 C 190 310, 250 312, 316 316" stroke="#f59e0b" stroke-width="16" fill="none"/>
+    <path d="M 406 316 C 440 318, 480 320, 510 322" stroke="#f59e0b" stroke-width="16" fill="none"/>
+  </g>
+
+  <!-- Edge annotation -->
+  <text x="222" y="304" fill="#f59e0b" font-size="10.5" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-style="italic">3.2 touches/SKU</text>
+
+  <!-- ===== NODES ===== -->
+
+  <!-- Cost nodes (red border) -->
+  <g>
+    <rect x="58" y="92" width="72" height="30" fill="#18181b" stroke="#ef4444" stroke-width="1" stroke-opacity="0.4" rx="5"/>
+    <text x="94" y="111" fill="#fca5a5" font-size="10" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" dominant-baseline="middle">Mktg Spend</text>
+  </g>
+  <g>
+    <rect x="58" y="194" width="72" height="30" fill="#18181b" stroke="#ef4444" stroke-width="1" stroke-opacity="0.4" rx="5"/>
+    <text x="94" y="213" fill="#fca5a5" font-size="10" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" dominant-baseline="middle">Support</text>
+  </g>
+  <g>
+    <rect x="58" y="298" width="72" height="30" fill="#18181b" stroke="#f59e0b" stroke-width="1.5" stroke-opacity="0.6" rx="5"/>
+    <text x="94" y="317" fill="#fcd34d" font-size="10" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" dominant-baseline="middle">Vendor Data</text>
+  </g>
+  <g>
+    <rect x="166" y="226" width="66" height="28" fill="#18181b" stroke="#ef4444" stroke-width="1" stroke-opacity="0.4" rx="5"/>
+    <text x="199" y="244" fill="#fca5a5" font-size="10" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" dominant-baseline="middle">Pricing</text>
+  </g>
+
+  <!-- Mechanism nodes (blue border) -->
+  <g>
+    <rect x="274" y="44" width="128" height="28" fill="#18181b" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.4" rx="5"/>
+    <text x="338" y="62" fill="#93c5fd" font-size="10" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" dominant-baseline="middle">Pipeline Volume</text>
+  </g>
+  <g>
+    <rect x="274" y="134" width="128" height="28" fill="#18181b" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.4" rx="5"/>
+    <text x="338" y="152" fill="#93c5fd" font-size="10" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" dominant-baseline="middle">Win Rate</text>
+  </g>
+  <g>
+    <rect x="510" y="42" width="80" height="28" fill="#18181b" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.4" rx="5"/>
+    <text x="550" y="60" fill="#93c5fd" font-size="10" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" dominant-baseline="middle">Inventory</text>
+  </g>
+  <g>
+    <rect x="620" y="96" width="90" height="28" fill="#18181b" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.4" rx="5"/>
+    <text x="665" y="114" fill="#93c5fd" font-size="10" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" dominant-baseline="middle">Fulfillment</text>
+  </g>
+  <g>
+    <rect x="520" y="188" width="88" height="28" fill="#18181b" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.4" rx="5"/>
+    <text x="564" y="206" fill="#93c5fd" font-size="10" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" dominant-baseline="middle">CSAT</text>
+  </g>
+  <g>
+    <rect x="296" y="234" width="86" height="28" fill="#18181b" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.4" rx="5"/>
+    <text x="339" y="252" fill="#93c5fd" font-size="10" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" dominant-baseline="middle">Margin</text>
+  </g>
+
+  <!-- Soft spot mechanism nodes (amber border) -->
+  <g>
+    <rect x="316" y="302" width="92" height="28" fill="#18181b" stroke="#f59e0b" stroke-width="1.5" stroke-opacity="0.5" rx="5"/>
+    <text x="362" y="320" fill="#fcd34d" font-size="10" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" dominant-baseline="middle">Rework Loop</text>
+  </g>
+  <g>
+    <rect x="510" y="310" width="88" height="28" fill="#18181b" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.4" rx="5"/>
+    <text x="554" y="328" fill="#fcd34d" font-size="9.5" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" dominant-baseline="middle">Time to Mkt</text>
+  </g>
+
+  <!-- Outcome nodes (emerald) -->
+  <g>
+    <rect x="630" y="72" width="100" height="32" fill="#18181b" stroke="#10b981" stroke-width="1.5" stroke-opacity="0.5" rx="5"/>
+    <text x="680" y="92" fill="#6ee7b7" font-size="13" font-family="system-ui, -apple-system, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">ARR</text>
+  </g>
+  <g>
+    <rect x="688" y="212" width="68" height="28" fill="#18181b" stroke="#10b981" stroke-width="1" stroke-opacity="0.4" rx="5"/>
+    <text x="722" y="230" fill="#6ee7b7" font-size="9.5" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" dominant-baseline="middle">Expansion</text>
+  </g>
+  <g>
+    <rect x="454" y="348" width="80" height="28" fill="#18181b" stroke="#ef4444" stroke-width="1.5" stroke-opacity="0.5" rx="5"/>
+    <text x="494" y="366" fill="#fca5a5" font-size="11" font-family="system-ui, -apple-system, sans-serif" font-weight="600" text-anchor="middle" dominant-baseline="middle">Churn</text>
+  </g>
+
+  <!-- Legend -->
+  <g>
+    <circle cx="58" cy="420" r="3" fill="#ef4444" opacity="0.5"/>
+    <text x="66" y="420" fill="#71717a" font-size="9" font-family="system-ui, -apple-system, sans-serif" dominant-baseline="middle">Cost</text>
+    <circle cx="108" cy="420" r="3" fill="#3b82f6" opacity="0.5"/>
+    <text x="116" y="420" fill="#71717a" font-size="9" font-family="system-ui, -apple-system, sans-serif" dominant-baseline="middle">Mechanism</text>
+    <circle cx="182" cy="420" r="3" fill="#10b981" opacity="0.5"/>
+    <text x="190" y="420" fill="#71717a" font-size="9" font-family="system-ui, -apple-system, sans-serif" dominant-baseline="middle">Revenue</text>
+    <circle cx="250" cy="420" r="3" fill="#f59e0b" opacity="0.5"/>
+    <text x="258" y="420" fill="#71717a" font-size="9" font-family="system-ui, -apple-system, sans-serif" dominant-baseline="middle">Soft spot</text>
+    <line x1="320" y1="420" x2="340" y2="420" stroke="#ef4444" stroke-width="1.2" stroke-dasharray="4 3" opacity="0.5"/>
+    <text x="346" y="420" fill="#71717a" font-size="9" font-family="system-ui, -apple-system, sans-serif" dominant-baseline="middle">Negative feedback</text>
+
+    <text x="750" y="420" fill="#52525b" font-size="10" font-family="system-ui, -apple-system, sans-serif" text-anchor="end" dominant-baseline="middle">The interesting part is the edges.</text>
+  </g>
+</svg>

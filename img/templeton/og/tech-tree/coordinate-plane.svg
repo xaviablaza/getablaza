@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#111111"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Top accent line -->
+  <rect x="0" y="0" width="1200" height="4" fill="#f59e0b"/>
+
+  <!-- Category pill -->
+  <rect x="80" y="60" width="128" height="36" rx="18" fill="#f59e0b" opacity="0.15"/>
+  <rect x="80" y="60" width="128" height="36" rx="18" fill="none" stroke="#f59e0b" stroke-width="1.5" opacity="0.4"/>
+  <text x="144" y="83" fill="#f59e0b" font-size="16" font-weight="600" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif">Calculus</text>
+
+  <!-- Title -->
+  <text x="80" y="170" fill="#ffffff" font-size="56" font-weight="bold" font-family="system-ui, -apple-system, sans-serif">Coordinate Systems</text>
+
+  <!-- Description -->
+  <text x="80" y="230" fill="#a1a1aa" font-size="22" font-family="system-ui, -apple-system, sans-serif">Cartesian coordinates, plotting points, distance formula.</text>
+
+  <!-- Divider -->
+  <rect x="80" y="270" width="1040" height="1" fill="#27272a"/>
+
+  <!-- Stats row -->
+  <text x="80" y="330" fill="#22c55e" font-size="28" font-family="system-ui, sans-serif">★☆☆☆☆</text>
+  <text x="310" y="330" fill="#52525b" font-size="20" font-family="system-ui, sans-serif">Difficulty 1/5</text>
+
+  <text x="560" y="330" fill="#52525b" font-size="20" font-family="system-ui, sans-serif">Depth: 6</text>
+
+  <text x="760" y="330" fill="#52525b" font-size="20" font-family="system-ui, sans-serif">0 prerequisites</text>
+
+  <!-- Decorative grid (subtle) -->
+  <line x1="80" y1="380" x2="80" y2="560" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="220" y1="380" x2="220" y2="560" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="360" y1="380" x2="360" y2="560" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="500" y1="380" x2="500" y2="560" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="640" y1="380" x2="640" y2="560" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="780" y1="380" x2="780" y2="560" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="920" y1="380" x2="920" y2="560" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="1060" y1="380" x2="1060" y2="560" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="80" y1="380" x2="1120" y2="380" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="80" y1="440" x2="1120" y2="440" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="80" y1="500" x2="1120" y2="500" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="80" y1="560" x2="1120" y2="560" stroke="#1a1a1a" stroke-width="1"/>
+
+  <!-- Node visualization hint (abstract graph snippet) -->
+  <circle cx="200" cy="470" r="24" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.3"/>
+  <circle cx="200" cy="470" r="8" fill="#f59e0b" opacity="0.5"/>
+  <line x1="224" y1="470" x2="340" y2="430" stroke="#f59e0b" stroke-width="1.5" opacity="0.2"/>
+  <line x1="224" y1="470" x2="340" y2="510" stroke="#f59e0b" stroke-width="1.5" opacity="0.2"/>
+  <circle cx="350" cy="430" r="16" fill="none" stroke="#f59e0b" stroke-width="1.5" opacity="0.15"/>
+  <circle cx="350" cy="510" r="16" fill="none" stroke="#f59e0b" stroke-width="1.5" opacity="0.15"/>
+  <line x1="366" y1="430" x2="460" y2="450" stroke="#f59e0b" stroke-width="1" opacity="0.1"/>
+  <line x1="366" y1="510" x2="460" y2="490" stroke="#f59e0b" stroke-width="1" opacity="0.1"/>
+  <circle cx="470" cy="470" r="12" fill="none" stroke="#f59e0b" stroke-width="1" opacity="0.1"/>
+
+  <!-- Footer -->
+  <text x="80" y="595" fill="#3f3f46" font-size="18" font-family="system-ui, sans-serif">Tech Tree</text>
+  <text x="1120" y="595" fill="#3f3f46" font-size="18" text-anchor="end" font-family="system-ui, sans-serif">templeton.host</text>
+</svg>

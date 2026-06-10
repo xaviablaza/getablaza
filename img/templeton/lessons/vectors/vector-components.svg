@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" font-family="JetBrains Mono, monospace">
+  <style>
+    @keyframes drawLine {
+      from { stroke-dashoffset: 200; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes pulseVector {
+      0%, 100% { stroke-width: 4; filter: drop-shadow(0 0 2px #22c55e); }
+      50% { stroke-width: 5; filter: drop-shadow(0 0 8px #22c55e); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes dashMove {
+      from { stroke-dashoffset: 0; }
+      to { stroke-dashoffset: 18; }
+    }
+    .vector-main { animation: pulseVector 2s ease-in-out infinite; }
+    .component-x { stroke-dasharray: 200; animation: drawLine 1s ease-out forwards, dashMove 1s linear infinite; animation-delay: 0.3s; stroke-dashoffset: 200; }
+    .component-y { stroke-dasharray: 200; animation: drawLine 1s ease-out forwards, dashMove 1s linear infinite reverse; animation-delay: 0.6s; stroke-dashoffset: 200; }
+    .label { animation: fadeIn 0.5s ease-out forwards; opacity: 0; }
+    .label-x { animation-delay: 0.8s; }
+    .label-y { animation-delay: 1s; }
+    .label-v { animation-delay: 1.2s; }
+  </style>
+
+  <!-- Background -->
+  <rect width="500" height="350" fill="#000"/>
+
+  <!-- Title -->
+  <text x="250" y="30" font-size="16" font-weight="600" fill="#4ade80" text-anchor="middle">Vector Components</text>
+
+  <!-- Axes -->
+  <defs>
+    <marker id="axisArrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#525252"/>
+    </marker>
+    <marker id="vecArrow" markerWidth="14" markerHeight="10" refX="12" refY="5" orient="auto">
+      <polygon points="0 0, 14 5, 0 10, 2 5" fill="#22c55e"/>
+    </marker>
+  </defs>
+
+  <!-- Coordinate system -->
+  <line x1="80" y1="270" x2="400" y2="270" stroke="#525252" stroke-width="1.5" marker-end="url(#axisArrow)"/>
+  <line x1="80" y1="270" x2="80" y2="60" stroke="#525252" stroke-width="1.5" marker-end="url(#axisArrow)"/>
+  <text x="410" y="275" font-size="12" fill="#737373">x</text>
+  <text x="75" y="50" font-size="12" fill="#737373">y</text>
+  <text x="65" y="280" font-size="10" fill="#525252">0</text>
+
+  <!-- Grid lines -->
+  <g stroke="#1a3a1a" stroke-width="0.5" stroke-dasharray="4,4">
+    <line x1="180" y1="60" x2="180" y2="270"/>
+    <line x1="280" y1="60" x2="280" y2="270"/>
+    <line x1="80" y1="170" x2="400" y2="170"/>
+  </g>
+  <text x="180" y="285" font-size="10" fill="#525252">2</text>
+  <text x="280" y="285" font-size="10" fill="#525252">4</text>
+  <text x="60" y="175" font-size="10" fill="#525252">2</text>
+
+  <!-- Right angle indicator -->
+  <rect x="260" y="250" width="20" height="20" fill="none" stroke="#737373" stroke-width="1"/>
+
+  <!-- Component lines (animated dashed) -->
+  <line class="component-x" x1="80" y1="270" x2="280" y2="270" stroke="#3b82f6" stroke-width="3" stroke-dasharray="6,3"/>
+  <line class="component-y" x1="280" y1="270" x2="280" y2="170" stroke="#f59e0b" stroke-width="3" stroke-dasharray="6,3"/>
+
+  <!-- Vector v = (4, 2) -->
+  <line class="vector-main" x1="80" y1="270" x2="272" y2="170" stroke="#22c55e" stroke-width="4" marker-end="url(#vecArrow)"/>
+
+  <!-- Component labels -->
+  <text class="label label-x" x="170" y="295" font-size="15" fill="#3b82f6" text-anchor="middle" font-weight="bold">x = 4</text>
+  <text class="label label-y" x="310" y="220" font-size="15" fill="#f59e0b" font-weight="bold">y = 2</text>
+
+  <!-- Vector label -->
+  <text class="label label-v" x="200" y="200" font-size="17" fill="#4ade80" font-weight="bold">v = (4, 2)</text>
+
+  <!-- Explanation box -->
+  <rect x="50" y="305" width="400" height="35" fill="#052e05" rx="4"/>
+  <text x="250" y="320" font-size="11" fill="#86efac" text-anchor="middle">
+    Components tell you: "go 4 units right, then 2 units up"
+  </text>
+  <text x="250" y="335" font-size="10" fill="#4ade80" text-anchor="middle">
+    Written as: v = (4, 2) or v = 4i + 2j
+  </text>
+</svg>

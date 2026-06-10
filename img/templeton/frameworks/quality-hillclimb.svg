@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="system-ui, -apple-system, sans-serif">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#09090b"/>
+
+  <!-- Axes -->
+  <g stroke="#3f3f46" stroke-width="2">
+    <!-- X-axis -->
+    <line x1="60" y1="340" x2="740" y2="340"/>
+    <!-- Y-axis -->
+    <line x1="60" y1="340" x2="60" y2="40"/>
+  </g>
+
+  <!-- Axis Labels -->
+  <text x="400" y="370" fill="#a1a1aa" font-size="13" text-anchor="middle" font-weight="500">Iterations</text>
+  <text x="40" y="190" fill="#a1a1aa" font-size="13" text-anchor="middle" font-weight="500" transform="rotate(-90 40 190)">Quality Score</text>
+
+  <!-- Ratchet Floors (Dashed Lines) -->
+  <g stroke="#14b8a6" stroke-width="1" stroke-dasharray="4 4" opacity="0.3">
+    <line x1="100" y1="277" x2="740" y2="277"/>
+    <line x1="150" y1="242" x2="740" y2="242"/>
+    <line x1="260" y1="212" x2="740" y2="212"/>
+    <line x1="370" y1="181" x2="740" y2="181"/>
+    <line x1="480" y1="155" x2="740" y2="155"/>
+    <line x1="530" y1="134" x2="740" y2="134"/>
+    <line x1="640" y1="112" x2="740" y2="112"/>
+    <line x1="690" y1="95" x2="740" y2="95"/>
+  </g>
+
+  <!-- Main Ascending Path -->
+  <polyline 
+    points="100,277 150,242 180,268 210,242 260,212 290,233 320,212 370,181 400,199 430,181 480,155 530,134 560,168 590,134 640,112 690,95" 
+    fill="none" 
+    stroke="#14b8a6" 
+    stroke-width="2" 
+    stroke-linejoin="round"
+  />
+
+  <!-- Markers -->
+  <!-- Rejected (Red Xs) -->
+  <g stroke="#ef4444" stroke-width="2" stroke-linecap="round">
+    <g transform="translate(180,268)"><path d="M-4,-4 L4,4 M-4,4 L4,-4"/></g>
+    <g transform="translate(290,233)"><path d="M-4,-4 L4,4 M-4,4 L4,-4"/></g>
+    <g transform="translate(400,199)"><path d="M-4,-4 L4,4 M-4,4 L4,-4"/></g>
+    <g transform="translate(560,168)"><path d="M-4,-4 L4,4 M-4,4 L4,-4"/></g>
+  </g>
+
+  <!-- Accepted (Teal Circles) -->
+  <g fill="#09090b" stroke="#14b8a6" stroke-width="2">
+    <circle cx="100" cy="277" r="4"/>
+    <circle cx="150" cy="242" r="4"/>
+    <circle cx="260" cy="212" r="4"/>
+    <circle cx="370" cy="181" r="4"/>
+    <circle cx="480" cy="155" r="4"/>
+    <circle cx="530" cy="134" r="4"/>
+    <circle cx="640" cy="112" r="4"/>
+    <circle cx="690" cy="95" r="4"/>
+  </g>
+
+  <!-- Annotations & Labels -->
+  <!-- Ratchet Floor Label -->
+  <text x="735" y="175" fill="#14b8a6" font-size="12" text-anchor="end" opacity="0.8">ratchet floor</text>
+
+  <!-- Rejected Label -->
+  <g opacity="0.9">
+    <text x="400" y="228" fill="#ef4444" font-size="12" text-anchor="middle">rejected (below floor)</text>
+    <line x1="400" y1="216" x2="400" y2="207" stroke="#ef4444" stroke-width="1" opacity="0.5"/>
+  </g>
+
+  <!-- Accepted Label -->
+  <g opacity="0.9">
+    <text x="480" y="128" fill="#14b8a6" font-size="12" text-anchor="middle">accepted (new floor)</text>
+    <line x1="480" y1="134" x2="480" y2="145" stroke="#14b8a6" stroke-width="1" opacity="0.5"/>
+  </g>
+
+  <!-- Footer Text -->
+  <text x="400" y="392" fill="#71717a" font-size="12" text-anchor="middle">The gate rejects. The ratchet locks. Quality is monotonically non-decreasing.</text>
+</svg>

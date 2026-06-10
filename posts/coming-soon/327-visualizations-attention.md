@@ -1,0 +1,45 @@
+---
+title: attention-mechanism
+description: Attention matrix showing how each token attends to other tokens. Query token row highlighted with attention weights.
+date: '2026-07-01'
+scheduled: '2027-05-23'
+tags:
+- p-and-l-engineering
+- coming-soon
+- visualizations
+layout: layouts/post.njk
+templateEngineOverride: md
+image: /img/xavi-linkedin-profile.jpg
+draft: true
+generated_by: templeton-deep-copy-import
+source_format: html
+inspiration_url: https://templeton.host/visualizations/attention/
+inspiration_category: visualizations
+---
+
+> Source-copy draft imported from [https://templeton.host/visualizations/attention/](https://templeton.host/visualizations/attention/). Names, domain references, and local media paths were adapted for Xavi Ablaza / getablaza.com.
+
+[← ~/visualizations](/visualizations/)
+
+# attention-mechanism
+
+Attention matrix showing how each token attends to other tokens. Query token row highlighted with attention weights.
+
+canvasclick to interact
+
+⏮◀◀▶▶STEP0.25x1xZOOM
+
+t=0s
+
+## practical uses
+
+- 01.Teaching transformer architecture
+- 02.Explaining self-attention
+- 03.Visualizing token relationships
+- 04.Demonstrating QKV computation
+
+## technical notes
+
+5x5 attention matrix with token labels. Active query row highlighted. Cell intensity = attention weight.
+
+[← dijkstra's-algorithm](/visualizations/dijkstra/)[word-embeddings →](/visualizations/embedding/)
