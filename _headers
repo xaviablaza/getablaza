@@ -3,6 +3,10 @@
   X-Frame-Options: SAMEORIGIN
   X-XSS-Protection: 1; mode=block
 
+/
+  cache-control: no-cache, must-revalidate
+/index.html
+  cache-control: no-cache, must-revalidate
 /img/*
   cache-control: public,max-age=31536000,immutable
 /js/*
