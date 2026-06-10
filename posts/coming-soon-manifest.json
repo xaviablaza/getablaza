@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-10T05:24:59.156420+00:00",
+  "generated_at": "2026-06-10T20:13:27.234863+00:00",
   "source": "https://templeton.host/sitemap.xml",
   "source_home_mapped_to": "index.njk",
-  "count": 527,
+  "count": 532,
   "failures": [],
-  "profile_photo_source": "https://media.licdn.com/dms/image/v2/D4E03AQE70k3kiJZfww/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1724940880415?e=2147483647&v=beta&t=rFIm1nH_IIzh2vdEpqll_BrQuhuiPVRLrNG42RoSrXw",
+  "profile_photo_source": "existing local profile photo",
   "items": [
     {
       "file": "posts/coming-soon/001-writing-scarcity-inversion.md",
@@ -23,7 +23,15 @@
       "source_format": "markdown"
     },
     {
-      "file": "posts/coming-soon/003-frameworks.md",
+      "file": "posts/coming-soon/003-about.md",
+      "permalink": "/about/",
+      "url": "https://templeton.host/about/",
+      "title": "Your Attention Is Expensive",
+      "category": "about",
+      "source_format": "html"
+    },
+    {
+      "file": "posts/coming-soon/004-frameworks.md",
       "permalink": "/frameworks/",
       "url": "https://templeton.host/frameworks/",
       "title": "Frameworks",
@@ -31,7 +39,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/004-tools.md",
+      "file": "posts/coming-soon/005-tools.md",
       "permalink": "/tools/",
       "url": "https://templeton.host/tools/",
       "title": "AI Operations Tools",
@@ -39,7 +47,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/005-lexicon.md",
+      "file": "posts/coming-soon/006-lexicon.md",
       "permalink": "/lexicon/",
       "url": "https://templeton.host/lexicon/",
       "title": "Lexicon",
@@ -47,7 +55,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/006-answers.md",
+      "file": "posts/coming-soon/007-answers.md",
       "permalink": "/answers/",
       "url": "https://templeton.host/answers/",
       "title": "I Have This Problem",
@@ -55,7 +63,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/007-tech-tree.md",
+      "file": "posts/coming-soon/008-tech-tree.md",
       "permalink": "/tech-tree/",
       "url": "https://templeton.host/tech-tree/",
       "title": "Machine Learning Prerequisites Map",
@@ -63,7 +71,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/008-tech-tree-inventory.md",
+      "file": "posts/coming-soon/009-tech-tree-inventory.md",
       "permalink": "/tech-tree/inventory/",
       "url": "https://templeton.host/tech-tree/inventory/",
       "title": "Xavi Ablaza - Allocator & Technologist",
@@ -71,7 +79,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/009-tech-tree-graph.md",
+      "file": "posts/coming-soon/010-tech-tree-graph.md",
       "permalink": "/tech-tree/graph/",
       "url": "https://templeton.host/tech-tree/graph/",
       "title": "Dependency Graph",
@@ -79,7 +87,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/010-visualizations.md",
+      "file": "posts/coming-soon/011-visualizations.md",
       "permalink": "/visualizations/",
       "url": "https://templeton.host/visualizations/",
       "title": "~/visualizations",
@@ -87,7 +95,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/011-writing.md",
+      "file": "posts/coming-soon/012-writing.md",
       "permalink": "/writing/",
       "url": "https://templeton.host/writing/",
       "title": "Writing",
@@ -95,7 +103,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/012-frameworks-capital-allocation.md",
+      "file": "posts/coming-soon/013-frameworks-capital-allocation.md",
       "permalink": "/frameworks/capital-allocation/",
       "url": "https://templeton.host/frameworks/capital-allocation/",
       "title": "Capital Allocation",
@@ -103,7 +111,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/013-frameworks-correlation.md",
+      "file": "posts/coming-soon/014-frameworks-correlation.md",
       "permalink": "/frameworks/correlation/",
       "url": "https://templeton.host/frameworks/correlation/",
       "title": "Correlated Execution Risk",
@@ -111,7 +119,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/014-frameworks-deity-problem.md",
+      "file": "posts/coming-soon/015-frameworks-deity-problem.md",
       "permalink": "/frameworks/deity-problem/",
       "url": "https://templeton.host/frameworks/deity-problem/",
       "title": "The Deity Problem",
@@ -119,7 +127,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/015-frameworks-demand-field.md",
+      "file": "posts/coming-soon/016-frameworks-demand-field.md",
       "permalink": "/frameworks/demand-field/",
       "url": "https://templeton.host/frameworks/demand-field/",
       "title": "The Demand Field",
@@ -127,7 +135,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/016-frameworks-designed-convergence.md",
+      "file": "posts/coming-soon/017-frameworks-designed-convergence.md",
       "permalink": "/frameworks/designed-convergence/",
       "url": "https://templeton.host/frameworks/designed-convergence/",
       "title": "Designed Convergence",
@@ -135,7 +143,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/017-frameworks-directed-graph.md",
+      "file": "posts/coming-soon/018-frameworks-directed-graph.md",
       "permalink": "/frameworks/directed-graph/",
       "url": "https://templeton.host/frameworks/directed-graph/",
       "title": "Your Chart of Accounts Is a Directed Graph",
@@ -143,7 +151,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/018-frameworks-efficient-frontier.md",
+      "file": "posts/coming-soon/019-frameworks-efficient-frontier.md",
       "permalink": "/frameworks/efficient-frontier/",
       "url": "https://templeton.host/frameworks/efficient-frontier/",
       "title": "The Operating Efficient Frontier",
@@ -151,7 +159,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/019-frameworks-factory-typology.md",
+      "file": "posts/coming-soon/020-frameworks-factory-typology.md",
       "permalink": "/frameworks/factory-typology/",
       "url": "https://templeton.host/frameworks/factory-typology/",
       "title": "The Factory Typology",
@@ -159,7 +167,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/020-frameworks-kill-protocol.md",
+      "file": "posts/coming-soon/021-frameworks-kill-protocol.md",
       "permalink": "/frameworks/kill-protocol/",
       "url": "https://templeton.host/frameworks/kill-protocol/",
       "title": "Kill Protocol",
@@ -167,7 +175,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/021-frameworks-knowledge-capital.md",
+      "file": "posts/coming-soon/022-frameworks-knowledge-capital.md",
       "permalink": "/frameworks/knowledge-capital/",
       "url": "https://templeton.host/frameworks/knowledge-capital/",
       "title": "Knowledge Work as Capital",
@@ -175,7 +183,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/022-frameworks-performance-frontier.md",
+      "file": "posts/coming-soon/023-frameworks-performance-frontier.md",
       "permalink": "/frameworks/performance-frontier/",
       "url": "https://templeton.host/frameworks/performance-frontier/",
       "title": "The Performance Frontier",
@@ -183,7 +191,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/023-frameworks-promotion-protocol.md",
+      "file": "posts/coming-soon/024-frameworks-promotion-protocol.md",
       "permalink": "/frameworks/promotion-protocol/",
       "url": "https://templeton.host/frameworks/promotion-protocol/",
       "title": "The Promotion Protocol",
@@ -191,7 +199,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/024-frameworks-quality-hillclimb.md",
+      "file": "posts/coming-soon/025-frameworks-quality-hillclimb.md",
       "permalink": "/frameworks/quality-hillclimb/",
       "url": "https://templeton.host/frameworks/quality-hillclimb/",
       "title": "Quality Hillclimb",
@@ -199,7 +207,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/025-frameworks-risk-tolerance.md",
+      "file": "posts/coming-soon/026-frameworks-risk-tolerance.md",
       "permalink": "/frameworks/risk-tolerance/",
       "url": "https://templeton.host/frameworks/risk-tolerance/",
       "title": "The Risk Tolerance Map",
@@ -207,7 +215,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/026-frameworks-verifier-capital.md",
+      "file": "posts/coming-soon/027-frameworks-verifier-capital.md",
       "permalink": "/frameworks/verifier-capital/",
       "url": "https://templeton.host/frameworks/verifier-capital/",
       "title": "The Capital Value of Verifiers",
@@ -215,7 +223,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/027-tools-automation-npv.md",
+      "file": "posts/coming-soon/028-tools-automation-npv.md",
       "permalink": "/tools/automation-npv/",
       "url": "https://templeton.host/tools/automation-npv/",
       "title": "Automation NPV",
@@ -223,7 +231,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/028-tools-dollarized-confusion-matrix.md",
+      "file": "posts/coming-soon/029-tools-dollarized-confusion-matrix.md",
       "permalink": "/tools/dollarized-confusion-matrix/",
       "url": "https://templeton.host/tools/dollarized-confusion-matrix/",
       "title": "The Dollarized Confusion Matrix",
@@ -231,7 +239,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/029-tools-factory-typology.md",
+      "file": "posts/coming-soon/030-tools-factory-typology.md",
       "permalink": "/tools/factory-typology/",
       "url": "https://templeton.host/tools/factory-typology/",
       "title": "What Factory Are You?",
@@ -239,7 +247,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/030-tools-good-dog.md",
+      "file": "posts/coming-soon/031-tools-good-dog.md",
       "permalink": "/tools/good-dog/",
       "url": "https://templeton.host/tools/good-dog/",
       "title": "The DoG Test",
@@ -247,7 +255,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/031-tools-quadrant-shifting.md",
+      "file": "posts/coming-soon/032-tools-quadrant-shifting.md",
       "permalink": "/tools/quadrant-shifting/",
       "url": "https://templeton.host/tools/quadrant-shifting/",
       "title": "Quadrant Shifting",
@@ -255,7 +263,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/032-tools-taskvector.md",
+      "file": "posts/coming-soon/033-tools-taskvector.md",
       "permalink": "/tools/taskvector/",
       "url": "https://templeton.host/tools/taskvector/",
       "title": "TaskVector",
@@ -263,7 +271,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/033-tools-verification-quadrant.md",
+      "file": "posts/coming-soon/034-tools-verification-quadrant.md",
       "permalink": "/tools/verification-quadrant/",
       "url": "https://templeton.host/tools/verification-quadrant/",
       "title": "The Verification Quadrant",
@@ -271,7 +279,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/034-tech-tree-functions-basic.md",
+      "file": "posts/coming-soon/035-tech-tree-functions-basic.md",
       "permalink": "/tech-tree/functions-basic/",
       "url": "https://templeton.host/tech-tree/functions-basic/",
       "title": "Functions",
@@ -279,7 +287,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/035-tech-tree-coordinate-plane.md",
+      "file": "posts/coming-soon/036-tech-tree-coordinate-plane.md",
       "permalink": "/tech-tree/coordinate-plane/",
       "url": "https://templeton.host/tech-tree/coordinate-plane/",
       "title": "Coordinate Systems",
@@ -287,7 +295,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/036-tech-tree-limits.md",
+      "file": "posts/coming-soon/037-tech-tree-limits.md",
       "permalink": "/tech-tree/limits/",
       "url": "https://templeton.host/tech-tree/limits/",
       "title": "Limits",
@@ -295,7 +303,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/037-tech-tree-slope.md",
+      "file": "posts/coming-soon/038-tech-tree-slope.md",
       "permalink": "/tech-tree/slope/",
       "url": "https://templeton.host/tech-tree/slope/",
       "title": "Slope and Rate of Change",
@@ -303,7 +311,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/038-tech-tree-derivatives-basic.md",
+      "file": "posts/coming-soon/039-tech-tree-derivatives-basic.md",
       "permalink": "/tech-tree/derivatives-basic/",
       "url": "https://templeton.host/tech-tree/derivatives-basic/",
       "title": "Derivatives",
@@ -311,7 +319,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/039-tech-tree-vectors-intro.md",
+      "file": "posts/coming-soon/040-tech-tree-vectors-intro.md",
       "permalink": "/tech-tree/vectors-intro/",
       "url": "https://templeton.host/tech-tree/vectors-intro/",
       "title": "Vectors Introduction",
@@ -319,7 +327,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/040-tech-tree-counting-basic.md",
+      "file": "posts/coming-soon/041-tech-tree-counting-basic.md",
       "permalink": "/tech-tree/counting-basic/",
       "url": "https://templeton.host/tech-tree/counting-basic/",
       "title": "Counting Principles",
@@ -327,7 +335,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/041-tech-tree-probability-basic.md",
+      "file": "posts/coming-soon/042-tech-tree-probability-basic.md",
       "permalink": "/tech-tree/probability-basic/",
       "url": "https://templeton.host/tech-tree/probability-basic/",
       "title": "Basic Probability",
@@ -335,7 +343,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/042-tech-tree-random-variables.md",
+      "file": "posts/coming-soon/043-tech-tree-random-variables.md",
       "permalink": "/tech-tree/random-variables/",
       "url": "https://templeton.host/tech-tree/random-variables/",
       "title": "Random Variables",
@@ -343,7 +351,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/043-tech-tree-expected-value.md",
+      "file": "posts/coming-soon/044-tech-tree-expected-value.md",
       "permalink": "/tech-tree/expected-value/",
       "url": "https://templeton.host/tech-tree/expected-value/",
       "title": "Expected Value",
@@ -351,7 +359,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/044-tech-tree-derivative-rules.md",
+      "file": "posts/coming-soon/045-tech-tree-derivative-rules.md",
       "permalink": "/tech-tree/derivative-rules/",
       "url": "https://templeton.host/tech-tree/derivative-rules/",
       "title": "Derivative Rules",
@@ -359,7 +367,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/045-tech-tree-variance.md",
+      "file": "posts/coming-soon/046-tech-tree-variance.md",
       "permalink": "/tech-tree/variance/",
       "url": "https://templeton.host/tech-tree/variance/",
       "title": "Variance",
@@ -367,7 +375,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/046-tech-tree-common-distributions.md",
+      "file": "posts/coming-soon/047-tech-tree-common-distributions.md",
       "permalink": "/tech-tree/common-distributions/",
       "url": "https://templeton.host/tech-tree/common-distributions/",
       "title": "Common Distributions",
@@ -375,7 +383,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/047-tech-tree-multivariable-calculus.md",
+      "file": "posts/coming-soon/048-tech-tree-multivariable-calculus.md",
       "permalink": "/tech-tree/multivariable-calculus/",
       "url": "https://templeton.host/tech-tree/multivariable-calculus/",
       "title": "Multivariable Calculus",
@@ -383,7 +391,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/048-tech-tree-gradients.md",
+      "file": "posts/coming-soon/049-tech-tree-gradients.md",
       "permalink": "/tech-tree/gradients/",
       "url": "https://templeton.host/tech-tree/gradients/",
       "title": "Gradients",
@@ -391,7 +399,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/049-tech-tree-optimization-intro.md",
+      "file": "posts/coming-soon/050-tech-tree-optimization-intro.md",
       "permalink": "/tech-tree/optimization-intro/",
       "url": "https://templeton.host/tech-tree/optimization-intro/",
       "title": "Optimization Introduction",
@@ -399,7 +407,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/050-tech-tree-matrix-operations.md",
+      "file": "posts/coming-soon/051-tech-tree-matrix-operations.md",
       "permalink": "/tech-tree/matrix-operations/",
       "url": "https://templeton.host/tech-tree/matrix-operations/",
       "title": "Matrix Operations",
@@ -407,7 +415,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/051-tech-tree-mle.md",
+      "file": "posts/coming-soon/052-tech-tree-mle.md",
       "permalink": "/tech-tree/mle/",
       "url": "https://templeton.host/tech-tree/mle/",
       "title": "Maximum Likelihood Estimation",
@@ -415,7 +423,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/052-tech-tree-gradient-descent.md",
+      "file": "posts/coming-soon/053-tech-tree-gradient-descent.md",
       "permalink": "/tech-tree/gradient-descent/",
       "url": "https://templeton.host/tech-tree/gradient-descent/",
       "title": "Gradient Descent",
@@ -423,7 +431,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/053-tech-tree-arrays.md",
+      "file": "posts/coming-soon/054-tech-tree-arrays.md",
       "permalink": "/tech-tree/arrays/",
       "url": "https://templeton.host/tech-tree/arrays/",
       "title": "Arrays",
@@ -431,7 +439,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/054-tech-tree-sets-basic.md",
+      "file": "posts/coming-soon/055-tech-tree-sets-basic.md",
       "permalink": "/tech-tree/sets-basic/",
       "url": "https://templeton.host/tech-tree/sets-basic/",
       "title": "Sets",
@@ -439,7 +447,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/055-tech-tree-conditional-probability.md",
+      "file": "posts/coming-soon/056-tech-tree-conditional-probability.md",
       "permalink": "/tech-tree/conditional-probability/",
       "url": "https://templeton.host/tech-tree/conditional-probability/",
       "title": "Conditional Probability",
@@ -447,7 +455,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/056-tech-tree-logic-basic.md",
+      "file": "posts/coming-soon/057-tech-tree-logic-basic.md",
       "permalink": "/tech-tree/logic-basic/",
       "url": "https://templeton.host/tech-tree/logic-basic/",
       "title": "Boolean Logic",
@@ -455,7 +463,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/057-tech-tree-proof-techniques.md",
+      "file": "posts/coming-soon/058-tech-tree-proof-techniques.md",
       "permalink": "/tech-tree/proof-techniques/",
       "url": "https://templeton.host/tech-tree/proof-techniques/",
       "title": "Proof Techniques",
@@ -463,7 +471,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/058-tech-tree-linked-lists.md",
+      "file": "posts/coming-soon/059-tech-tree-linked-lists.md",
       "permalink": "/tech-tree/linked-lists/",
       "url": "https://templeton.host/tech-tree/linked-lists/",
       "title": "Linked Lists",
@@ -471,7 +479,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/059-tech-tree-ml-intro.md",
+      "file": "posts/coming-soon/060-tech-tree-ml-intro.md",
       "permalink": "/tech-tree/ml-intro/",
       "url": "https://templeton.host/tech-tree/ml-intro/",
       "title": "Machine Learning Introduction",
@@ -479,7 +487,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/060-tech-tree-linear-equations.md",
+      "file": "posts/coming-soon/061-tech-tree-linear-equations.md",
       "permalink": "/tech-tree/linear-equations/",
       "url": "https://templeton.host/tech-tree/linear-equations/",
       "title": "Linear Equations",
@@ -487,7 +495,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/061-tech-tree-linear-systems.md",
+      "file": "posts/coming-soon/062-tech-tree-linear-systems.md",
       "permalink": "/tech-tree/linear-systems/",
       "url": "https://templeton.host/tech-tree/linear-systems/",
       "title": "Systems of Linear Equations",
@@ -495,7 +503,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/062-tech-tree-graphs-basic.md",
+      "file": "posts/coming-soon/063-tech-tree-graphs-basic.md",
       "permalink": "/tech-tree/graphs-basic/",
       "url": "https://templeton.host/tech-tree/graphs-basic/",
       "title": "Graphs Introduction",
@@ -503,7 +511,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/063-tech-tree-algorithm-concept.md",
+      "file": "posts/coming-soon/064-tech-tree-algorithm-concept.md",
       "permalink": "/tech-tree/algorithm-concept/",
       "url": "https://templeton.host/tech-tree/algorithm-concept/",
       "title": "What is an Algorithm",
@@ -511,7 +519,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/064-tech-tree-big-o.md",
+      "file": "posts/coming-soon/065-tech-tree-big-o.md",
       "permalink": "/tech-tree/big-o/",
       "url": "https://templeton.host/tech-tree/big-o/",
       "title": "Big O Notation",
@@ -519,7 +527,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/065-tech-tree-bayes-theorem.md",
+      "file": "posts/coming-soon/066-tech-tree-bayes-theorem.md",
       "permalink": "/tech-tree/bayes-theorem/",
       "url": "https://templeton.host/tech-tree/bayes-theorem/",
       "title": "Bayes Theorem",
@@ -527,7 +535,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/066-tech-tree-bayesian-inference.md",
+      "file": "posts/coming-soon/067-tech-tree-bayesian-inference.md",
       "permalink": "/tech-tree/bayesian-inference/",
       "url": "https://templeton.host/tech-tree/bayesian-inference/",
       "title": "Bayesian Inference",
@@ -535,7 +543,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/067-tech-tree-convexity.md",
+      "file": "posts/coming-soon/068-tech-tree-convexity.md",
       "permalink": "/tech-tree/convexity/",
       "url": "https://templeton.host/tech-tree/convexity/",
       "title": "Convex Functions",
@@ -543,7 +551,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/068-tech-tree-entropy.md",
+      "file": "posts/coming-soon/069-tech-tree-entropy.md",
       "permalink": "/tech-tree/entropy/",
       "url": "https://templeton.host/tech-tree/entropy/",
       "title": "Entropy",
@@ -551,7 +559,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/069-tech-tree-determinants.md",
+      "file": "posts/coming-soon/070-tech-tree-determinants.md",
       "permalink": "/tech-tree/determinants/",
       "url": "https://templeton.host/tech-tree/determinants/",
       "title": "Determinants",
@@ -559,7 +567,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/070-tech-tree-game-theory-intro.md",
+      "file": "posts/coming-soon/071-tech-tree-game-theory-intro.md",
       "permalink": "/tech-tree/game-theory-intro/",
       "url": "https://templeton.host/tech-tree/game-theory-intro/",
       "title": "Game Theory Introduction",
@@ -567,7 +575,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/071-tech-tree-graph-representations.md",
+      "file": "posts/coming-soon/072-tech-tree-graph-representations.md",
       "permalink": "/tech-tree/graph-representations/",
       "url": "https://templeton.host/tech-tree/graph-representations/",
       "title": "Graph Representations",
@@ -575,7 +583,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/072-tech-tree-eigenvalues.md",
+      "file": "posts/coming-soon/073-tech-tree-eigenvalues.md",
       "permalink": "/tech-tree/eigenvalues/",
       "url": "https://templeton.host/tech-tree/eigenvalues/",
       "title": "Eigenvalues and Eigenvectors",
@@ -583,7 +591,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/073-tech-tree-sequences.md",
+      "file": "posts/coming-soon/074-tech-tree-sequences.md",
       "permalink": "/tech-tree/sequences/",
       "url": "https://templeton.host/tech-tree/sequences/",
       "title": "Sequences",
@@ -591,7 +599,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/074-tech-tree-nash-equilibrium.md",
+      "file": "posts/coming-soon/075-tech-tree-nash-equilibrium.md",
       "permalink": "/tech-tree/nash-equilibrium/",
       "url": "https://templeton.host/tech-tree/nash-equilibrium/",
       "title": "Nash Equilibrium",
@@ -599,7 +607,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/075-tech-tree-graph-traversal.md",
+      "file": "posts/coming-soon/076-tech-tree-graph-traversal.md",
       "permalink": "/tech-tree/graph-traversal/",
       "url": "https://templeton.host/tech-tree/graph-traversal/",
       "title": "Graph Traversal",
@@ -607,7 +615,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/076-tech-tree-jacobian.md",
+      "file": "posts/coming-soon/077-tech-tree-jacobian.md",
       "permalink": "/tech-tree/jacobian/",
       "url": "https://templeton.host/tech-tree/jacobian/",
       "title": "Jacobian",
@@ -615,7 +623,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/077-tech-tree-matrix-calculus.md",
+      "file": "posts/coming-soon/078-tech-tree-matrix-calculus.md",
       "permalink": "/tech-tree/matrix-calculus/",
       "url": "https://templeton.host/tech-tree/matrix-calculus/",
       "title": "Matrix Calculus",
@@ -623,7 +631,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/078-tech-tree-convex-optimization.md",
+      "file": "posts/coming-soon/079-tech-tree-convex-optimization.md",
       "permalink": "/tech-tree/convex-optimization/",
       "url": "https://templeton.host/tech-tree/convex-optimization/",
       "title": "Convex Optimization",
@@ -631,7 +639,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/079-tech-tree-stacks.md",
+      "file": "posts/coming-soon/080-tech-tree-stacks.md",
       "permalink": "/tech-tree/stacks/",
       "url": "https://templeton.host/tech-tree/stacks/",
       "title": "Stacks",
@@ -639,7 +647,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/080-tech-tree-recursion.md",
+      "file": "posts/coming-soon/081-tech-tree-recursion.md",
       "permalink": "/tech-tree/recursion/",
       "url": "https://templeton.host/tech-tree/recursion/",
       "title": "Recursion",
@@ -647,7 +655,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/081-tech-tree-recurrence-relations.md",
+      "file": "posts/coming-soon/082-tech-tree-recurrence-relations.md",
       "permalink": "/tech-tree/recurrence-relations/",
       "url": "https://templeton.host/tech-tree/recurrence-relations/",
       "title": "Recurrence Relations",
@@ -655,7 +663,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/082-tech-tree-trees.md",
+      "file": "posts/coming-soon/083-tech-tree-trees.md",
       "permalink": "/tech-tree/trees/",
       "url": "https://templeton.host/tech-tree/trees/",
       "title": "Trees",
@@ -663,7 +671,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/083-tech-tree-logistic-regression.md",
+      "file": "posts/coming-soon/084-tech-tree-logistic-regression.md",
       "permalink": "/tech-tree/logistic-regression/",
       "url": "https://templeton.host/tech-tree/logistic-regression/",
       "title": "Logistic Regression",
@@ -671,7 +679,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/084-tech-tree-neural-networks.md",
+      "file": "posts/coming-soon/085-tech-tree-neural-networks.md",
       "permalink": "/tech-tree/neural-networks/",
       "url": "https://templeton.host/tech-tree/neural-networks/",
       "title": "Neural Networks",
@@ -679,7 +687,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/085-tech-tree-joint-distributions.md",
+      "file": "posts/coming-soon/086-tech-tree-joint-distributions.md",
       "permalink": "/tech-tree/joint-distributions/",
       "url": "https://templeton.host/tech-tree/joint-distributions/",
       "title": "Joint Distributions",
@@ -687,7 +695,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/086-tech-tree-markov-chains.md",
+      "file": "posts/coming-soon/087-tech-tree-markov-chains.md",
       "permalink": "/tech-tree/markov-chains/",
       "url": "https://templeton.host/tech-tree/markov-chains/",
       "title": "Markov Chains",
@@ -695,7 +703,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/087-tech-tree-integrals-basic.md",
+      "file": "posts/coming-soon/088-tech-tree-integrals-basic.md",
       "permalink": "/tech-tree/integrals-basic/",
       "url": "https://templeton.host/tech-tree/integrals-basic/",
       "title": "Integrals",
@@ -703,7 +711,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/088-tech-tree-lagrange-multipliers.md",
+      "file": "posts/coming-soon/089-tech-tree-lagrange-multipliers.md",
       "permalink": "/tech-tree/lagrange-multipliers/",
       "url": "https://templeton.host/tech-tree/lagrange-multipliers/",
       "title": "Lagrange Multipliers",
@@ -711,7 +719,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/089-tech-tree-dot-product.md",
+      "file": "posts/coming-soon/090-tech-tree-dot-product.md",
       "permalink": "/tech-tree/dot-product/",
       "url": "https://templeton.host/tech-tree/dot-product/",
       "title": "Dot Product",
@@ -719,7 +727,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/090-tech-tree-law-large-numbers.md",
+      "file": "posts/coming-soon/091-tech-tree-law-large-numbers.md",
       "permalink": "/tech-tree/law-large-numbers/",
       "url": "https://templeton.host/tech-tree/law-large-numbers/",
       "title": "Law of Large Numbers",
@@ -727,7 +735,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/091-tech-tree-propositional-logic.md",
+      "file": "posts/coming-soon/092-tech-tree-propositional-logic.md",
       "permalink": "/tech-tree/propositional-logic/",
       "url": "https://templeton.host/tech-tree/propositional-logic/",
       "title": "Propositional Logic",
@@ -735,7 +743,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/092-tech-tree-sgd.md",
+      "file": "posts/coming-soon/093-tech-tree-sgd.md",
       "permalink": "/tech-tree/sgd/",
       "url": "https://templeton.host/tech-tree/sgd/",
       "title": "Stochastic Gradient Descent",
@@ -743,7 +751,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/093-tech-tree-kl-divergence.md",
+      "file": "posts/coming-soon/094-tech-tree-kl-divergence.md",
       "permalink": "/tech-tree/kl-divergence/",
       "url": "https://templeton.host/tech-tree/kl-divergence/",
       "title": "KL Divergence",
@@ -751,7 +759,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/094-tech-tree-dynamic-programming.md",
+      "file": "posts/coming-soon/095-tech-tree-dynamic-programming.md",
       "permalink": "/tech-tree/dynamic-programming/",
       "url": "https://templeton.host/tech-tree/dynamic-programming/",
       "title": "Dynamic Programming",
@@ -759,7 +767,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/095-tech-tree-central-limit-theorem.md",
+      "file": "posts/coming-soon/096-tech-tree-central-limit-theorem.md",
       "permalink": "/tech-tree/central-limit-theorem/",
       "url": "https://templeton.host/tech-tree/central-limit-theorem/",
       "title": "Central Limit Theorem",
@@ -767,7 +775,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/096-tech-tree-mutual-information.md",
+      "file": "posts/coming-soon/097-tech-tree-mutual-information.md",
       "permalink": "/tech-tree/mutual-information/",
       "url": "https://templeton.host/tech-tree/mutual-information/",
       "title": "Mutual Information",
@@ -775,7 +783,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/097-tech-tree-complexity-classes.md",
+      "file": "posts/coming-soon/098-tech-tree-complexity-classes.md",
       "permalink": "/tech-tree/complexity-classes/",
       "url": "https://templeton.host/tech-tree/complexity-classes/",
       "title": "Complexity Classes",
@@ -783,7 +791,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/098-tech-tree-np-completeness.md",
+      "file": "posts/coming-soon/099-tech-tree-np-completeness.md",
       "permalink": "/tech-tree/np-completeness/",
       "url": "https://templeton.host/tech-tree/np-completeness/",
       "title": "NP-Completeness",
@@ -791,7 +799,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/099-tech-tree-mechanism-design.md",
+      "file": "posts/coming-soon/100-tech-tree-mechanism-design.md",
       "permalink": "/tech-tree/mechanism-design/",
       "url": "https://templeton.host/tech-tree/mechanism-design/",
       "title": "Mechanism Design",
@@ -799,7 +807,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/100-tech-tree-utility-theory.md",
+      "file": "posts/coming-soon/101-tech-tree-utility-theory.md",
       "permalink": "/tech-tree/utility-theory/",
       "url": "https://templeton.host/tech-tree/utility-theory/",
       "title": "Utility Theory",
@@ -807,7 +815,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/101-tech-tree-demand-functions.md",
+      "file": "posts/coming-soon/102-tech-tree-demand-functions.md",
       "permalink": "/tech-tree/demand-functions/",
       "url": "https://templeton.host/tech-tree/demand-functions/",
       "title": "Demand Functions",
@@ -815,7 +823,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/102-tech-tree-cost-functions.md",
+      "file": "posts/coming-soon/103-tech-tree-cost-functions.md",
       "permalink": "/tech-tree/cost-functions/",
       "url": "https://templeton.host/tech-tree/cost-functions/",
       "title": "Cost Functions",
@@ -823,7 +831,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/103-tech-tree-profit-maximization.md",
+      "file": "posts/coming-soon/104-tech-tree-profit-maximization.md",
       "permalink": "/tech-tree/profit-maximization/",
       "url": "https://templeton.host/tech-tree/profit-maximization/",
       "title": "Profit Maximization",
@@ -831,7 +839,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/104-tech-tree-bayesian-games.md",
+      "file": "posts/coming-soon/105-tech-tree-bayesian-games.md",
       "permalink": "/tech-tree/bayesian-games/",
       "url": "https://templeton.host/tech-tree/bayesian-games/",
       "title": "Bayesian Games",
@@ -839,7 +847,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/105-tech-tree-vector-spaces.md",
+      "file": "posts/coming-soon/106-tech-tree-vector-spaces.md",
       "permalink": "/tech-tree/vector-spaces/",
       "url": "https://templeton.host/tech-tree/vector-spaces/",
       "title": "Vector Spaces",
@@ -847,7 +855,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/106-tech-tree-linear-independence.md",
+      "file": "posts/coming-soon/107-tech-tree-linear-independence.md",
       "permalink": "/tech-tree/linear-independence/",
       "url": "https://templeton.host/tech-tree/linear-independence/",
       "title": "Linear Independence",
@@ -855,7 +863,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/107-tech-tree-basis-dimension.md",
+      "file": "posts/coming-soon/108-tech-tree-basis-dimension.md",
       "permalink": "/tech-tree/basis-dimension/",
       "url": "https://templeton.host/tech-tree/basis-dimension/",
       "title": "Basis and Dimension",
@@ -863,7 +871,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/108-tech-tree-binary-trees.md",
+      "file": "posts/coming-soon/109-tech-tree-binary-trees.md",
       "permalink": "/tech-tree/binary-trees/",
       "url": "https://templeton.host/tech-tree/binary-trees/",
       "title": "Binary Trees",
@@ -871,7 +879,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/109-tech-tree-chain-rule-multivar.md",
+      "file": "posts/coming-soon/110-tech-tree-chain-rule-multivar.md",
       "permalink": "/tech-tree/chain-rule-multivar/",
       "url": "https://templeton.host/tech-tree/chain-rule-multivar/",
       "title": "Multivariable Chain Rule",
@@ -879,7 +887,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/110-tech-tree-orthogonality.md",
+      "file": "posts/coming-soon/111-tech-tree-orthogonality.md",
       "permalink": "/tech-tree/orthogonality/",
       "url": "https://templeton.host/tech-tree/orthogonality/",
       "title": "Orthogonality",
@@ -887,7 +895,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/111-tech-tree-topological-sort.md",
+      "file": "posts/coming-soon/112-tech-tree-topological-sort.md",
       "permalink": "/tech-tree/topological-sort/",
       "url": "https://templeton.host/tech-tree/topological-sort/",
       "title": "Topological Sort",
@@ -895,7 +903,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/112-tech-tree-greedy-algorithms.md",
+      "file": "posts/coming-soon/113-tech-tree-greedy-algorithms.md",
       "permalink": "/tech-tree/greedy-algorithms/",
       "url": "https://templeton.host/tech-tree/greedy-algorithms/",
       "title": "Greedy Algorithms",
@@ -903,7 +911,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/113-tech-tree-linear-programming.md",
+      "file": "posts/coming-soon/114-tech-tree-linear-programming.md",
       "permalink": "/tech-tree/linear-programming/",
       "url": "https://templeton.host/tech-tree/linear-programming/",
       "title": "Linear Programming",
@@ -911,7 +919,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/114-tech-tree-cross-entropy.md",
+      "file": "posts/coming-soon/115-tech-tree-cross-entropy.md",
       "permalink": "/tech-tree/cross-entropy/",
       "url": "https://templeton.host/tech-tree/cross-entropy/",
       "title": "Cross-Entropy",
@@ -919,7 +927,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/115-tech-tree-backpropagation.md",
+      "file": "posts/coming-soon/116-tech-tree-backpropagation.md",
       "permalink": "/tech-tree/backpropagation/",
       "url": "https://templeton.host/tech-tree/backpropagation/",
       "title": "Backpropagation",
@@ -927,7 +935,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/116-tech-tree-regularization.md",
+      "file": "posts/coming-soon/117-tech-tree-regularization.md",
       "permalink": "/tech-tree/regularization/",
       "url": "https://templeton.host/tech-tree/regularization/",
       "title": "Regularization",
@@ -935,7 +943,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/117-tech-tree-bias-variance.md",
+      "file": "posts/coming-soon/118-tech-tree-bias-variance.md",
       "permalink": "/tech-tree/bias-variance/",
       "url": "https://templeton.host/tech-tree/bias-variance/",
       "title": "Bias-Variance Tradeoff",
@@ -943,7 +951,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/118-tech-tree-loss-functions.md",
+      "file": "posts/coming-soon/119-tech-tree-loss-functions.md",
       "permalink": "/tech-tree/loss-functions/",
       "url": "https://templeton.host/tech-tree/loss-functions/",
       "title": "Loss Functions",
@@ -951,7 +959,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/119-tech-tree-deep-learning.md",
+      "file": "posts/coming-soon/120-tech-tree-deep-learning.md",
       "permalink": "/tech-tree/deep-learning/",
       "url": "https://templeton.host/tech-tree/deep-learning/",
       "title": "Deep Learning",
@@ -959,7 +967,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/120-tech-tree-rl-intro.md",
+      "file": "posts/coming-soon/121-tech-tree-rl-intro.md",
       "permalink": "/tech-tree/rl-intro/",
       "url": "https://templeton.host/tech-tree/rl-intro/",
       "title": "Reinforcement Learning Introduction",
@@ -967,7 +975,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/121-tech-tree-mdp.md",
+      "file": "posts/coming-soon/122-tech-tree-mdp.md",
       "permalink": "/tech-tree/mdp/",
       "url": "https://templeton.host/tech-tree/mdp/",
       "title": "Markov Decision Processes",
@@ -975,7 +983,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/122-tech-tree-activation-functions.md",
+      "file": "posts/coming-soon/123-tech-tree-activation-functions.md",
       "permalink": "/tech-tree/activation-functions/",
       "url": "https://templeton.host/tech-tree/activation-functions/",
       "title": "Activation Functions",
@@ -983,7 +991,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/123-tech-tree-computational-graphs.md",
+      "file": "posts/coming-soon/124-tech-tree-computational-graphs.md",
       "permalink": "/tech-tree/computational-graphs/",
       "url": "https://templeton.host/tech-tree/computational-graphs/",
       "title": "Computational Graphs",
@@ -991,7 +999,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/124-tech-tree-automatic-differentiation.md",
+      "file": "posts/coming-soon/125-tech-tree-automatic-differentiation.md",
       "permalink": "/tech-tree/automatic-differentiation/",
       "url": "https://templeton.host/tech-tree/automatic-differentiation/",
       "title": "Automatic Differentiation",
@@ -999,7 +1007,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/125-tech-tree-curse-of-dimensionality.md",
+      "file": "posts/coming-soon/126-tech-tree-curse-of-dimensionality.md",
       "permalink": "/tech-tree/curse-of-dimensionality/",
       "url": "https://templeton.host/tech-tree/curse-of-dimensionality/",
       "title": "Curse of Dimensionality",
@@ -1007,7 +1015,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/126-tech-tree-convolution-operation.md",
+      "file": "posts/coming-soon/127-tech-tree-convolution-operation.md",
       "permalink": "/tech-tree/convolution-operation/",
       "url": "https://templeton.host/tech-tree/convolution-operation/",
       "title": "Convolution Operation",
@@ -1015,7 +1023,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/127-tech-tree-numerical-stability.md",
+      "file": "posts/coming-soon/128-tech-tree-numerical-stability.md",
       "permalink": "/tech-tree/numerical-stability/",
       "url": "https://templeton.host/tech-tree/numerical-stability/",
       "title": "Numerical Stability and Conditioning",
@@ -1023,7 +1031,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/128-tech-tree-covariance-correlation.md",
+      "file": "posts/coming-soon/129-tech-tree-covariance-correlation.md",
       "permalink": "/tech-tree/covariance-correlation/",
       "url": "https://templeton.host/tech-tree/covariance-correlation/",
       "title": "Covariance and Correlation",
@@ -1031,7 +1039,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/129-tech-tree-bayesian-decision-theory.md",
+      "file": "posts/coming-soon/130-tech-tree-bayesian-decision-theory.md",
       "permalink": "/tech-tree/bayesian-decision-theory/",
       "url": "https://templeton.host/tech-tree/bayesian-decision-theory/",
       "title": "Bayesian Decision Theory",
@@ -1039,7 +1047,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/130-tech-tree-permutations.md",
+      "file": "posts/coming-soon/131-tech-tree-permutations.md",
       "permalink": "/tech-tree/permutations/",
       "url": "https://templeton.host/tech-tree/permutations/",
       "title": "Permutations",
@@ -1047,7 +1055,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/131-tech-tree-relations.md",
+      "file": "posts/coming-soon/132-tech-tree-relations.md",
       "permalink": "/tech-tree/relations/",
       "url": "https://templeton.host/tech-tree/relations/",
       "title": "Relations",
@@ -1055,7 +1063,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/132-tech-tree-norms.md",
+      "file": "posts/coming-soon/133-tech-tree-norms.md",
       "permalink": "/tech-tree/norms/",
       "url": "https://templeton.host/tech-tree/norms/",
       "title": "Norms",
@@ -1063,7 +1071,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/133-tech-tree-hash-tables.md",
+      "file": "posts/coming-soon/134-tech-tree-hash-tables.md",
       "permalink": "/tech-tree/hash-tables/",
       "url": "https://templeton.host/tech-tree/hash-tables/",
       "title": "Hash Tables",
@@ -1071,7 +1079,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/134-tech-tree-heaps.md",
+      "file": "posts/coming-soon/135-tech-tree-heaps.md",
       "permalink": "/tech-tree/heaps/",
       "url": "https://templeton.host/tech-tree/heaps/",
       "title": "Heaps",
@@ -1079,7 +1087,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/135-tech-tree-bst.md",
+      "file": "posts/coming-soon/136-tech-tree-bst.md",
       "permalink": "/tech-tree/bst/",
       "url": "https://templeton.host/tech-tree/bst/",
       "title": "Binary Search Trees",
@@ -1087,7 +1095,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/136-tech-tree-projections.md",
+      "file": "posts/coming-soon/137-tech-tree-projections.md",
       "permalink": "/tech-tree/projections/",
       "url": "https://templeton.host/tech-tree/projections/",
       "title": "Projections",
@@ -1095,7 +1103,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/137-tech-tree-shortest-paths.md",
+      "file": "posts/coming-soon/138-tech-tree-shortest-paths.md",
       "permalink": "/tech-tree/shortest-paths/",
       "url": "https://templeton.host/tech-tree/shortest-paths/",
       "title": "Shortest Paths",
@@ -1103,7 +1111,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/138-tech-tree-amortized-analysis.md",
+      "file": "posts/coming-soon/139-tech-tree-amortized-analysis.md",
       "permalink": "/tech-tree/amortized-analysis/",
       "url": "https://templeton.host/tech-tree/amortized-analysis/",
       "title": "Amortized Analysis",
@@ -1111,7 +1119,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/139-tech-tree-monte-carlo.md",
+      "file": "posts/coming-soon/140-tech-tree-monte-carlo.md",
       "permalink": "/tech-tree/monte-carlo/",
       "url": "https://templeton.host/tech-tree/monte-carlo/",
       "title": "Monte Carlo Methods",
@@ -1119,7 +1127,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/140-tech-tree-svd.md",
+      "file": "posts/coming-soon/141-tech-tree-svd.md",
       "permalink": "/tech-tree/svd/",
       "url": "https://templeton.host/tech-tree/svd/",
       "title": "Singular Value Decomposition",
@@ -1127,7 +1135,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/141-tech-tree-pca.md",
+      "file": "posts/coming-soon/142-tech-tree-pca.md",
       "permalink": "/tech-tree/pca/",
       "url": "https://templeton.host/tech-tree/pca/",
       "title": "Principal Component Analysis",
@@ -1135,7 +1143,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/142-tech-tree-kkt-conditions.md",
+      "file": "posts/coming-soon/143-tech-tree-kkt-conditions.md",
       "permalink": "/tech-tree/kkt-conditions/",
       "url": "https://templeton.host/tech-tree/kkt-conditions/",
       "title": "KKT Conditions",
@@ -1143,7 +1151,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/143-tech-tree-decision-trees.md",
+      "file": "posts/coming-soon/144-tech-tree-decision-trees.md",
       "permalink": "/tech-tree/decision-trees/",
       "url": "https://templeton.host/tech-tree/decision-trees/",
       "title": "Decision Trees",
@@ -1151,7 +1159,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/144-tech-tree-svm.md",
+      "file": "posts/coming-soon/145-tech-tree-svm.md",
       "permalink": "/tech-tree/svm/",
       "url": "https://templeton.host/tech-tree/svm/",
       "title": "Support Vector Machines",
@@ -1159,7 +1167,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/145-tech-tree-zero-sum-games.md",
+      "file": "posts/coming-soon/146-tech-tree-zero-sum-games.md",
       "permalink": "/tech-tree/zero-sum-games/",
       "url": "https://templeton.host/tech-tree/zero-sum-games/",
       "title": "Zero-Sum Games",
@@ -1167,7 +1175,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/146-tech-tree-attention-mechanisms.md",
+      "file": "posts/coming-soon/147-tech-tree-attention-mechanisms.md",
       "permalink": "/tech-tree/attention-mechanisms/",
       "url": "https://templeton.host/tech-tree/attention-mechanisms/",
       "title": "Attention Mechanisms",
@@ -1175,7 +1183,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/147-tech-tree-layer-normalization.md",
+      "file": "posts/coming-soon/148-tech-tree-layer-normalization.md",
       "permalink": "/tech-tree/layer-normalization/",
       "url": "https://templeton.host/tech-tree/layer-normalization/",
       "title": "Layer Normalization",
@@ -1183,7 +1191,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/148-tech-tree-policy-gradient.md",
+      "file": "posts/coming-soon/149-tech-tree-policy-gradient.md",
       "permalink": "/tech-tree/policy-gradient/",
       "url": "https://templeton.host/tech-tree/policy-gradient/",
       "title": "Policy Gradient Methods",
@@ -1191,7 +1199,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/149-tech-tree-vae.md",
+      "file": "posts/coming-soon/150-tech-tree-vae.md",
       "permalink": "/tech-tree/vae/",
       "url": "https://templeton.host/tech-tree/vae/",
       "title": "Variational Autoencoders",
@@ -1199,7 +1207,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/150-tech-tree-softmax-function.md",
+      "file": "posts/coming-soon/151-tech-tree-softmax-function.md",
       "permalink": "/tech-tree/softmax-function/",
       "url": "https://templeton.host/tech-tree/softmax-function/",
       "title": "Softmax Function",
@@ -1207,7 +1215,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/151-tech-tree-cosine-similarity.md",
+      "file": "posts/coming-soon/152-tech-tree-cosine-similarity.md",
       "permalink": "/tech-tree/cosine-similarity/",
       "url": "https://templeton.host/tech-tree/cosine-similarity/",
       "title": "Cosine Similarity",
@@ -1215,7 +1223,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/152-tech-tree-vector-embeddings.md",
+      "file": "posts/coming-soon/153-tech-tree-vector-embeddings.md",
       "permalink": "/tech-tree/vector-embeddings/",
       "url": "https://templeton.host/tech-tree/vector-embeddings/",
       "title": "Vector Embeddings",
@@ -1223,7 +1231,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/153-tech-tree-sequence-to-sequence-modeling.md",
+      "file": "posts/coming-soon/154-tech-tree-sequence-to-sequence-modeling.md",
       "permalink": "/tech-tree/sequence-to-sequence-modeling/",
       "url": "https://templeton.host/tech-tree/sequence-to-sequence-modeling/",
       "title": "Sequence-to-Sequence Modeling",
@@ -1231,7 +1239,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/154-tech-tree-positional-encoding.md",
+      "file": "posts/coming-soon/155-tech-tree-positional-encoding.md",
       "permalink": "/tech-tree/positional-encoding/",
       "url": "https://templeton.host/tech-tree/positional-encoding/",
       "title": "Positional Encoding",
@@ -1239,7 +1247,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/155-tech-tree-affine-transformations.md",
+      "file": "posts/coming-soon/156-tech-tree-affine-transformations.md",
       "permalink": "/tech-tree/affine-transformations/",
       "url": "https://templeton.host/tech-tree/affine-transformations/",
       "title": "Affine Transformations (Linear Layers)",
@@ -1247,7 +1255,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/156-tech-tree-embeddings-dense-representations.md",
+      "file": "posts/coming-soon/157-tech-tree-embeddings-dense-representations.md",
       "permalink": "/tech-tree/embeddings-dense-representations/",
       "url": "https://templeton.host/tech-tree/embeddings-dense-representations/",
       "title": "Embeddings (Dense Representations)",
@@ -1255,7 +1263,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/157-tech-tree-token-embeddings.md",
+      "file": "posts/coming-soon/158-tech-tree-token-embeddings.md",
       "permalink": "/tech-tree/token-embeddings/",
       "url": "https://templeton.host/tech-tree/token-embeddings/",
       "title": "Token Embeddings",
@@ -1263,7 +1271,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/158-tech-tree-softmax-and-logits.md",
+      "file": "posts/coming-soon/159-tech-tree-softmax-and-logits.md",
       "permalink": "/tech-tree/softmax-and-logits/",
       "url": "https://templeton.host/tech-tree/softmax-and-logits/",
       "title": "Softmax and Logits",
@@ -1271,7 +1279,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/159-tech-tree-residual-connections.md",
+      "file": "posts/coming-soon/160-tech-tree-residual-connections.md",
       "permalink": "/tech-tree/residual-connections/",
       "url": "https://templeton.host/tech-tree/residual-connections/",
       "title": "Residual (Skip) Connections",
@@ -1279,7 +1287,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/160-tech-tree-sequence-masking.md",
+      "file": "posts/coming-soon/161-tech-tree-sequence-masking.md",
       "permalink": "/tech-tree/sequence-masking/",
       "url": "https://templeton.host/tech-tree/sequence-masking/",
       "title": "Sequence Masking (causal and padding masks)",
@@ -1287,7 +1295,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/161-tech-tree-linear-regression.md",
+      "file": "posts/coming-soon/162-tech-tree-linear-regression.md",
       "permalink": "/tech-tree/linear-regression/",
       "url": "https://templeton.host/tech-tree/linear-regression/",
       "title": "Linear Regression",
@@ -1295,7 +1303,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/162-tech-tree-mcmc.md",
+      "file": "posts/coming-soon/163-tech-tree-mcmc.md",
       "permalink": "/tech-tree/mcmc/",
       "url": "https://templeton.host/tech-tree/mcmc/",
       "title": "MCMC",
@@ -1303,7 +1311,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/163-tech-tree-price-elasticity.md",
+      "file": "posts/coming-soon/164-tech-tree-price-elasticity.md",
       "permalink": "/tech-tree/price-elasticity/",
       "url": "https://templeton.host/tech-tree/price-elasticity/",
       "title": "Price Elasticity",
@@ -1311,7 +1319,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/164-tech-tree-consumer-surplus.md",
+      "file": "posts/coming-soon/165-tech-tree-consumer-surplus.md",
       "permalink": "/tech-tree/consumer-surplus/",
       "url": "https://templeton.host/tech-tree/consumer-surplus/",
       "title": "Consumer Surplus",
@@ -1319,7 +1327,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/165-tech-tree-time-series-foundations.md",
+      "file": "posts/coming-soon/166-tech-tree-time-series-foundations.md",
       "permalink": "/tech-tree/time-series-foundations/",
       "url": "https://templeton.host/tech-tree/time-series-foundations/",
       "title": "Time Series Foundations",
@@ -1327,7 +1335,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/166-tech-tree-conjugate-priors.md",
+      "file": "posts/coming-soon/167-tech-tree-conjugate-priors.md",
       "permalink": "/tech-tree/conjugate-priors/",
       "url": "https://templeton.host/tech-tree/conjugate-priors/",
       "title": "Conjugate Priors",
@@ -1335,7 +1343,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/167-tech-tree-state-space-models.md",
+      "file": "posts/coming-soon/168-tech-tree-state-space-models.md",
       "permalink": "/tech-tree/state-space-models/",
       "url": "https://templeton.host/tech-tree/state-space-models/",
       "title": "State-Space Models",
@@ -1343,7 +1351,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/168-tech-tree-price-discrimination.md",
+      "file": "posts/coming-soon/169-tech-tree-price-discrimination.md",
       "permalink": "/tech-tree/price-discrimination/",
       "url": "https://templeton.host/tech-tree/price-discrimination/",
       "title": "Price Discrimination",
@@ -1351,7 +1359,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/169-tech-tree-repeated-games.md",
+      "file": "posts/coming-soon/170-tech-tree-repeated-games.md",
       "permalink": "/tech-tree/repeated-games/",
       "url": "https://templeton.host/tech-tree/repeated-games/",
       "title": "Repeated Games",
@@ -1359,7 +1367,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/170-tech-tree-oligopoly-models.md",
+      "file": "posts/coming-soon/171-tech-tree-oligopoly-models.md",
       "permalink": "/tech-tree/oligopoly-models/",
       "url": "https://templeton.host/tech-tree/oligopoly-models/",
       "title": "Oligopoly Models",
@@ -1367,7 +1375,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/171-tech-tree-hierarchical-models.md",
+      "file": "posts/coming-soon/172-tech-tree-hierarchical-models.md",
       "permalink": "/tech-tree/hierarchical-models/",
       "url": "https://templeton.host/tech-tree/hierarchical-models/",
       "title": "Hierarchical Bayesian Models",
@@ -1375,7 +1383,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/172-tech-tree-bayesian-forecasting.md",
+      "file": "posts/coming-soon/173-tech-tree-bayesian-forecasting.md",
       "permalink": "/tech-tree/bayesian-forecasting/",
       "url": "https://templeton.host/tech-tree/bayesian-forecasting/",
       "title": "Bayesian Forecasting",
@@ -1383,7 +1391,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/173-tech-tree-mean-median-mode.md",
+      "file": "posts/coming-soon/174-tech-tree-mean-median-mode.md",
       "permalink": "/tech-tree/mean-median-mode/",
       "url": "https://templeton.host/tech-tree/mean-median-mode/",
       "title": "Mean, Median, Mode",
@@ -1391,7 +1399,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/174-tech-tree-combinations.md",
+      "file": "posts/coming-soon/175-tech-tree-combinations.md",
       "permalink": "/tech-tree/combinations/",
       "url": "https://templeton.host/tech-tree/combinations/",
       "title": "Combinations",
@@ -1399,7 +1407,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/175-tech-tree-equivalence-relations.md",
+      "file": "posts/coming-soon/176-tech-tree-equivalence-relations.md",
       "permalink": "/tech-tree/equivalence-relations/",
       "url": "https://templeton.host/tech-tree/equivalence-relations/",
       "title": "Equivalence Relations",
@@ -1407,7 +1415,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/176-tech-tree-modular-arithmetic.md",
+      "file": "posts/coming-soon/177-tech-tree-modular-arithmetic.md",
       "permalink": "/tech-tree/modular-arithmetic/",
       "url": "https://templeton.host/tech-tree/modular-arithmetic/",
       "title": "Modular Arithmetic",
@@ -1415,7 +1423,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/177-tech-tree-continuity.md",
+      "file": "posts/coming-soon/178-tech-tree-continuity.md",
       "permalink": "/tech-tree/continuity/",
       "url": "https://templeton.host/tech-tree/continuity/",
       "title": "Continuity",
@@ -1423,7 +1431,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/178-tech-tree-fundamental-theorem.md",
+      "file": "posts/coming-soon/179-tech-tree-fundamental-theorem.md",
       "permalink": "/tech-tree/fundamental-theorem/",
       "url": "https://templeton.host/tech-tree/fundamental-theorem/",
       "title": "Fundamental Theorem of Calculus",
@@ -1431,7 +1439,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/179-tech-tree-independence.md",
+      "file": "posts/coming-soon/180-tech-tree-independence.md",
       "permalink": "/tech-tree/independence/",
       "url": "https://templeton.host/tech-tree/independence/",
       "title": "Independence",
@@ -1439,7 +1447,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/180-tech-tree-queues.md",
+      "file": "posts/coming-soon/181-tech-tree-queues.md",
       "permalink": "/tech-tree/queues/",
       "url": "https://templeton.host/tech-tree/queues/",
       "title": "Queues",
@@ -1447,7 +1455,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/181-tech-tree-sorting-basic.md",
+      "file": "posts/coming-soon/182-tech-tree-sorting-basic.md",
       "permalink": "/tech-tree/sorting-basic/",
       "url": "https://templeton.host/tech-tree/sorting-basic/",
       "title": "Basic Sorting",
@@ -1455,7 +1463,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/182-tech-tree-binary-search.md",
+      "file": "posts/coming-soon/183-tech-tree-binary-search.md",
       "permalink": "/tech-tree/binary-search/",
       "url": "https://templeton.host/tech-tree/binary-search/",
       "title": "Binary Search",
@@ -1463,7 +1471,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/183-tech-tree-generating-functions.md",
+      "file": "posts/coming-soon/184-tech-tree-generating-functions.md",
       "permalink": "/tech-tree/generating-functions/",
       "url": "https://templeton.host/tech-tree/generating-functions/",
       "title": "Generating Functions",
@@ -1471,7 +1479,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/184-tech-tree-pigeonhole-principle.md",
+      "file": "posts/coming-soon/185-tech-tree-pigeonhole-principle.md",
       "permalink": "/tech-tree/pigeonhole-principle/",
       "url": "https://templeton.host/tech-tree/pigeonhole-principle/",
       "title": "Pigeonhole Principle",
@@ -1479,7 +1487,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/185-tech-tree-taylor-series.md",
+      "file": "posts/coming-soon/186-tech-tree-taylor-series.md",
       "permalink": "/tech-tree/taylor-series/",
       "url": "https://templeton.host/tech-tree/taylor-series/",
       "title": "Taylor Series",
@@ -1487,7 +1495,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/186-tech-tree-multiple-integrals.md",
+      "file": "posts/coming-soon/187-tech-tree-multiple-integrals.md",
       "permalink": "/tech-tree/multiple-integrals/",
       "url": "https://templeton.host/tech-tree/multiple-integrals/",
       "title": "Multiple Integrals",
@@ -1495,7 +1503,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/187-tech-tree-hypothesis-testing.md",
+      "file": "posts/coming-soon/188-tech-tree-hypothesis-testing.md",
       "permalink": "/tech-tree/hypothesis-testing/",
       "url": "https://templeton.host/tech-tree/hypothesis-testing/",
       "title": "Hypothesis Testing",
@@ -1503,7 +1511,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/188-tech-tree-confidence-intervals.md",
+      "file": "posts/coming-soon/189-tech-tree-confidence-intervals.md",
       "permalink": "/tech-tree/confidence-intervals/",
       "url": "https://templeton.host/tech-tree/confidence-intervals/",
       "title": "Confidence Intervals",
@@ -1511,7 +1519,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/189-tech-tree-matrix-decomposition.md",
+      "file": "posts/coming-soon/190-tech-tree-matrix-decomposition.md",
       "permalink": "/tech-tree/matrix-decomposition/",
       "url": "https://templeton.host/tech-tree/matrix-decomposition/",
       "title": "Matrix Decomposition",
@@ -1519,7 +1527,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/190-tech-tree-minimum-spanning-trees.md",
+      "file": "posts/coming-soon/191-tech-tree-minimum-spanning-trees.md",
       "permalink": "/tech-tree/minimum-spanning-trees/",
       "url": "https://templeton.host/tech-tree/minimum-spanning-trees/",
       "title": "Minimum Spanning Trees",
@@ -1527,7 +1535,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/191-tech-tree-strongly-connected.md",
+      "file": "posts/coming-soon/192-tech-tree-strongly-connected.md",
       "permalink": "/tech-tree/strongly-connected/",
       "url": "https://templeton.host/tech-tree/strongly-connected/",
       "title": "Strongly Connected Components",
@@ -1535,7 +1543,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/192-tech-tree-divide-conquer.md",
+      "file": "posts/coming-soon/193-tech-tree-divide-conquer.md",
       "permalink": "/tech-tree/divide-conquer/",
       "url": "https://templeton.host/tech-tree/divide-conquer/",
       "title": "Divide and Conquer",
@@ -1543,7 +1551,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/193-tech-tree-balanced-trees.md",
+      "file": "posts/coming-soon/194-tech-tree-balanced-trees.md",
       "permalink": "/tech-tree/balanced-trees/",
       "url": "https://templeton.host/tech-tree/balanced-trees/",
       "title": "Balanced Trees",
@@ -1551,7 +1559,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/194-tech-tree-disjoint-sets.md",
+      "file": "posts/coming-soon/195-tech-tree-disjoint-sets.md",
       "permalink": "/tech-tree/disjoint-sets/",
       "url": "https://templeton.host/tech-tree/disjoint-sets/",
       "title": "Disjoint Sets",
@@ -1559,7 +1567,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/195-tech-tree-tries.md",
+      "file": "posts/coming-soon/196-tech-tree-tries.md",
       "permalink": "/tech-tree/tries/",
       "url": "https://templeton.host/tech-tree/tries/",
       "title": "Tries",
@@ -1567,7 +1575,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/196-tech-tree-predicate-logic.md",
+      "file": "posts/coming-soon/197-tech-tree-predicate-logic.md",
       "permalink": "/tech-tree/predicate-logic/",
       "url": "https://templeton.host/tech-tree/predicate-logic/",
       "title": "Predicate Logic",
@@ -1575,7 +1583,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/197-tech-tree-information-bottleneck.md",
+      "file": "posts/coming-soon/198-tech-tree-information-bottleneck.md",
       "permalink": "/tech-tree/information-bottleneck/",
       "url": "https://templeton.host/tech-tree/information-bottleneck/",
       "title": "Information Bottleneck",
@@ -1583,7 +1591,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/198-tech-tree-cross-validation.md",
+      "file": "posts/coming-soon/199-tech-tree-cross-validation.md",
       "permalink": "/tech-tree/cross-validation/",
       "url": "https://templeton.host/tech-tree/cross-validation/",
       "title": "Cross-Validation",
@@ -1591,7 +1599,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/199-tech-tree-ensemble-methods.md",
+      "file": "posts/coming-soon/200-tech-tree-ensemble-methods.md",
       "permalink": "/tech-tree/ensemble-methods/",
       "url": "https://templeton.host/tech-tree/ensemble-methods/",
       "title": "Ensemble Methods",
@@ -1599,7 +1607,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/200-tech-tree-kernel-methods.md",
+      "file": "posts/coming-soon/201-tech-tree-kernel-methods.md",
       "permalink": "/tech-tree/kernel-methods/",
       "url": "https://templeton.host/tech-tree/kernel-methods/",
       "title": "Kernel Methods",
@@ -1607,7 +1615,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/201-tech-tree-clustering.md",
+      "file": "posts/coming-soon/202-tech-tree-clustering.md",
       "permalink": "/tech-tree/clustering/",
       "url": "https://templeton.host/tech-tree/clustering/",
       "title": "Clustering",
@@ -1615,7 +1623,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/202-tech-tree-dimensionality-reduction.md",
+      "file": "posts/coming-soon/203-tech-tree-dimensionality-reduction.md",
       "permalink": "/tech-tree/dimensionality-reduction/",
       "url": "https://templeton.host/tech-tree/dimensionality-reduction/",
       "title": "Dimensionality Reduction",
@@ -1623,7 +1631,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/203-tech-tree-approximation-algorithms.md",
+      "file": "posts/coming-soon/204-tech-tree-approximation-algorithms.md",
       "permalink": "/tech-tree/approximation-algorithms/",
       "url": "https://templeton.host/tech-tree/approximation-algorithms/",
       "title": "Approximation Algorithms",
@@ -1631,7 +1639,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/204-tech-tree-randomized-algorithms.md",
+      "file": "posts/coming-soon/205-tech-tree-randomized-algorithms.md",
       "permalink": "/tech-tree/randomized-algorithms/",
       "url": "https://templeton.host/tech-tree/randomized-algorithms/",
       "title": "Randomized Algorithms",
@@ -1639,7 +1647,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/205-tech-tree-online-algorithms.md",
+      "file": "posts/coming-soon/206-tech-tree-online-algorithms.md",
       "permalink": "/tech-tree/online-algorithms/",
       "url": "https://templeton.host/tech-tree/online-algorithms/",
       "title": "Online Algorithms",
@@ -1647,7 +1655,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/206-tech-tree-network-flow.md",
+      "file": "posts/coming-soon/207-tech-tree-network-flow.md",
       "permalink": "/tech-tree/network-flow/",
       "url": "https://templeton.host/tech-tree/network-flow/",
       "title": "Network Flow",
@@ -1655,7 +1663,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/207-tech-tree-graph-coloring.md",
+      "file": "posts/coming-soon/208-tech-tree-graph-coloring.md",
       "permalink": "/tech-tree/graph-coloring/",
       "url": "https://templeton.host/tech-tree/graph-coloring/",
       "title": "Graph Coloring",
@@ -1663,7 +1671,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/208-tech-tree-spectral-graph-theory.md",
+      "file": "posts/coming-soon/209-tech-tree-spectral-graph-theory.md",
       "permalink": "/tech-tree/spectral-graph-theory/",
       "url": "https://templeton.host/tech-tree/spectral-graph-theory/",
       "title": "Spectral Graph Theory",
@@ -1671,7 +1679,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/209-tech-tree-transformers.md",
+      "file": "posts/coming-soon/210-tech-tree-transformers.md",
       "permalink": "/tech-tree/transformers/",
       "url": "https://templeton.host/tech-tree/transformers/",
       "title": "Transformers",
@@ -1679,7 +1687,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/210-tech-tree-rlhf.md",
+      "file": "posts/coming-soon/211-tech-tree-rlhf.md",
       "permalink": "/tech-tree/rlhf/",
       "url": "https://templeton.host/tech-tree/rlhf/",
       "title": "RLHF",
@@ -1687,7 +1695,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/211-tech-tree-gan.md",
+      "file": "posts/coming-soon/212-tech-tree-gan.md",
       "permalink": "/tech-tree/gan/",
       "url": "https://templeton.host/tech-tree/gan/",
       "title": "Generative Adversarial Networks",
@@ -1695,7 +1703,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/212-tech-tree-diffusion-models.md",
+      "file": "posts/coming-soon/213-tech-tree-diffusion-models.md",
       "permalink": "/tech-tree/diffusion-models/",
       "url": "https://templeton.host/tech-tree/diffusion-models/",
       "title": "Diffusion Models",
@@ -1703,7 +1711,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/213-tech-tree-meta-learning.md",
+      "file": "posts/coming-soon/214-tech-tree-meta-learning.md",
       "permalink": "/tech-tree/meta-learning/",
       "url": "https://templeton.host/tech-tree/meta-learning/",
       "title": "Meta-Learning",
@@ -1711,7 +1719,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/214-tech-tree-bayesian-optimization.md",
+      "file": "posts/coming-soon/215-tech-tree-bayesian-optimization.md",
       "permalink": "/tech-tree/bayesian-optimization/",
       "url": "https://templeton.host/tech-tree/bayesian-optimization/",
       "title": "Bayesian Optimization",
@@ -1719,7 +1727,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/215-tech-tree-conjugate-gradients.md",
+      "file": "posts/coming-soon/216-tech-tree-conjugate-gradients.md",
       "permalink": "/tech-tree/conjugate-gradients/",
       "url": "https://templeton.host/tech-tree/conjugate-gradients/",
       "title": "Conjugate Gradient Methods",
@@ -1727,7 +1735,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/216-tech-tree-second-order-methods.md",
+      "file": "posts/coming-soon/217-tech-tree-second-order-methods.md",
       "permalink": "/tech-tree/second-order-methods/",
       "url": "https://templeton.host/tech-tree/second-order-methods/",
       "title": "Second-Order Optimization",
@@ -1735,7 +1743,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/217-tech-tree-duality.md",
+      "file": "posts/coming-soon/218-tech-tree-duality.md",
       "permalink": "/tech-tree/duality/",
       "url": "https://templeton.host/tech-tree/duality/",
       "title": "Lagrangian Duality",
@@ -1743,7 +1751,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/218-tech-tree-rate-distortion.md",
+      "file": "posts/coming-soon/219-tech-tree-rate-distortion.md",
       "permalink": "/tech-tree/rate-distortion/",
       "url": "https://templeton.host/tech-tree/rate-distortion/",
       "title": "Rate-Distortion Theory",
@@ -1751,7 +1759,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/219-tech-tree-channel-capacity.md",
+      "file": "posts/coming-soon/220-tech-tree-channel-capacity.md",
       "permalink": "/tech-tree/channel-capacity/",
       "url": "https://templeton.host/tech-tree/channel-capacity/",
       "title": "Channel Capacity",
@@ -1759,7 +1767,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/220-tech-tree-auction-theory.md",
+      "file": "posts/coming-soon/221-tech-tree-auction-theory.md",
       "permalink": "/tech-tree/auction-theory/",
       "url": "https://templeton.host/tech-tree/auction-theory/",
       "title": "Auction Theory",
@@ -1767,7 +1775,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/221-tech-tree-cooperative-games.md",
+      "file": "posts/coming-soon/222-tech-tree-cooperative-games.md",
       "permalink": "/tech-tree/cooperative-games/",
       "url": "https://templeton.host/tech-tree/cooperative-games/",
       "title": "Cooperative Games",
@@ -1775,7 +1783,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/222-tech-tree-computational-complexity.md",
+      "file": "posts/coming-soon/223-tech-tree-computational-complexity.md",
       "permalink": "/tech-tree/computational-complexity/",
       "url": "https://templeton.host/tech-tree/computational-complexity/",
       "title": "Computational Complexity Theory",
@@ -1783,7 +1791,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/223-tech-tree-information-theoretic-lower-bounds.md",
+      "file": "posts/coming-soon/224-tech-tree-information-theoretic-lower-bounds.md",
       "permalink": "/tech-tree/information-theoretic-lower-bounds/",
       "url": "https://templeton.host/tech-tree/information-theoretic-lower-bounds/",
       "title": "Information-Theoretic Bounds",
@@ -1791,7 +1799,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/224-tech-tree-causal-inference.md",
+      "file": "posts/coming-soon/225-tech-tree-causal-inference.md",
       "permalink": "/tech-tree/causal-inference/",
       "url": "https://templeton.host/tech-tree/causal-inference/",
       "title": "Causal Inference",
@@ -1799,7 +1807,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/225-tech-tree-measure-theory.md",
+      "file": "posts/coming-soon/226-tech-tree-measure-theory.md",
       "permalink": "/tech-tree/measure-theory/",
       "url": "https://templeton.host/tech-tree/measure-theory/",
       "title": "Measure Theory",
@@ -1807,7 +1815,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/226-tech-tree-concentration-inequalities.md",
+      "file": "posts/coming-soon/227-tech-tree-concentration-inequalities.md",
       "permalink": "/tech-tree/concentration-inequalities/",
       "url": "https://templeton.host/tech-tree/concentration-inequalities/",
       "title": "Concentration Inequalities",
@@ -1815,7 +1823,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/227-tech-tree-task-discretization.md",
+      "file": "posts/coming-soon/228-tech-tree-task-discretization.md",
       "permalink": "/tech-tree/task-discretization/",
       "url": "https://templeton.host/tech-tree/task-discretization/",
       "title": "Task Discretization",
@@ -1823,7 +1831,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/228-tech-tree-stochastic-processes.md",
+      "file": "posts/coming-soon/229-tech-tree-stochastic-processes.md",
       "permalink": "/tech-tree/stochastic-processes/",
       "url": "https://templeton.host/tech-tree/stochastic-processes/",
       "title": "Stochastic Processes",
@@ -1831,7 +1839,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/229-tech-tree-mixed-strategies.md",
+      "file": "posts/coming-soon/230-tech-tree-mixed-strategies.md",
       "permalink": "/tech-tree/mixed-strategies/",
       "url": "https://templeton.host/tech-tree/mixed-strategies/",
       "title": "Mixed Strategies",
@@ -1839,7 +1847,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/230-tech-tree-dynamic-games.md",
+      "file": "posts/coming-soon/231-tech-tree-dynamic-games.md",
       "permalink": "/tech-tree/dynamic-games/",
       "url": "https://templeton.host/tech-tree/dynamic-games/",
       "title": "Dynamic Games",
@@ -1847,7 +1855,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/231-tech-tree-signaling-games.md",
+      "file": "posts/coming-soon/232-tech-tree-signaling-games.md",
       "permalink": "/tech-tree/signaling-games/",
       "url": "https://templeton.host/tech-tree/signaling-games/",
       "title": "Signaling Games",
@@ -1855,7 +1863,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/232-tech-tree-revenue-management.md",
+      "file": "posts/coming-soon/233-tech-tree-revenue-management.md",
       "permalink": "/tech-tree/revenue-management/",
       "url": "https://templeton.host/tech-tree/revenue-management/",
       "title": "Revenue Management",
@@ -1863,7 +1871,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/233-tech-tree-dynamic-pricing.md",
+      "file": "posts/coming-soon/234-tech-tree-dynamic-pricing.md",
       "permalink": "/tech-tree/dynamic-pricing/",
       "url": "https://templeton.host/tech-tree/dynamic-pricing/",
       "title": "Dynamic Pricing",
@@ -1871,7 +1879,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/234-tech-tree-competitive-pricing.md",
+      "file": "posts/coming-soon/235-tech-tree-competitive-pricing.md",
       "permalink": "/tech-tree/competitive-pricing/",
       "url": "https://templeton.host/tech-tree/competitive-pricing/",
       "title": "Competitive Pricing",
@@ -1879,7 +1887,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/235-money.md",
+      "file": "posts/coming-soon/236-money.md",
       "permalink": "/money/",
       "url": "https://templeton.host/money/",
       "title": "Personal Finance Decision Tree",
@@ -1887,7 +1895,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/236-money-inventory.md",
+      "file": "posts/coming-soon/237-money-inventory.md",
       "permalink": "/money/inventory/",
       "url": "https://templeton.host/money/inventory/",
       "title": "Xavi Ablaza - Allocator & Technologist",
@@ -1895,7 +1903,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/237-money-graph.md",
+      "file": "posts/coming-soon/238-money-graph.md",
       "permalink": "/money/graph/",
       "url": "https://templeton.host/money/graph/",
       "title": "Personal Finance Graph",
@@ -1903,7 +1911,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/238-money-net-worth-basics.md",
+      "file": "posts/coming-soon/239-money-net-worth-basics.md",
       "permalink": "/money/net-worth-basics/",
       "url": "https://templeton.host/money/net-worth-basics/",
       "title": "Net Worth",
@@ -1911,7 +1919,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/239-money-income-and-expenses.md",
+      "file": "posts/coming-soon/240-money-income-and-expenses.md",
       "permalink": "/money/income-and-expenses/",
       "url": "https://templeton.host/money/income-and-expenses/",
       "title": "Income & Expenses",
@@ -1919,7 +1927,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/240-money-budget-basics.md",
+      "file": "posts/coming-soon/241-money-budget-basics.md",
       "permalink": "/money/budget-basics/",
       "url": "https://templeton.host/money/budget-basics/",
       "title": "Budgeting",
@@ -1927,7 +1935,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/241-money-compound-interest.md",
+      "file": "posts/coming-soon/242-money-compound-interest.md",
       "permalink": "/money/compound-interest/",
       "url": "https://templeton.host/money/compound-interest/",
       "title": "Compound Interest",
@@ -1935,7 +1943,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/242-money-opportunity-cost.md",
+      "file": "posts/coming-soon/243-money-opportunity-cost.md",
       "permalink": "/money/opportunity-cost/",
       "url": "https://templeton.host/money/opportunity-cost/",
       "title": "Opportunity Cost",
@@ -1943,7 +1951,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/243-money-bank-account-structure.md",
+      "file": "posts/coming-soon/244-money-bank-account-structure.md",
       "permalink": "/money/bank-account-structure/",
       "url": "https://templeton.host/money/bank-account-structure/",
       "title": "Bank Accounts",
@@ -1951,7 +1959,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/244-money-essential-vs-discretionary.md",
+      "file": "posts/coming-soon/245-money-essential-vs-discretionary.md",
       "permalink": "/money/essential-vs-discretionary/",
       "url": "https://templeton.host/money/essential-vs-discretionary/",
       "title": "Essential vs Discretionary",
@@ -1959,7 +1967,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/245-money-emergency-buffer.md",
+      "file": "posts/coming-soon/246-money-emergency-buffer.md",
       "permalink": "/money/emergency-buffer/",
       "url": "https://templeton.host/money/emergency-buffer/",
       "title": "Emergency Buffer",
@@ -1967,7 +1975,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/246-money-minimum-payments.md",
+      "file": "posts/coming-soon/247-money-minimum-payments.md",
       "permalink": "/money/minimum-payments/",
       "url": "https://templeton.host/money/minimum-payments/",
       "title": "Minimum Payments",
@@ -1975,7 +1983,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/247-money-employer-benefits.md",
+      "file": "posts/coming-soon/248-money-employer-benefits.md",
       "permalink": "/money/employer-benefits/",
       "url": "https://templeton.host/money/employer-benefits/",
       "title": "Employer Benefits",
@@ -1983,7 +1991,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/248-money-tax-brackets.md",
+      "file": "posts/coming-soon/249-money-tax-brackets.md",
       "permalink": "/money/tax-brackets/",
       "url": "https://templeton.host/money/tax-brackets/",
       "title": "Tax Brackets",
@@ -1991,7 +1999,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/249-money-employer-match.md",
+      "file": "posts/coming-soon/250-money-employer-match.md",
       "permalink": "/money/employer-match/",
       "url": "https://templeton.host/money/employer-match/",
       "title": "Employer 401k Match",
@@ -1999,7 +2007,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/250-money-interest-rate-math.md",
+      "file": "posts/coming-soon/251-money-interest-rate-math.md",
       "permalink": "/money/interest-rate-math/",
       "url": "https://templeton.host/money/interest-rate-math/",
       "title": "Interest Rate Math",
@@ -2007,7 +2015,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/251-money-credit-score-mechanics.md",
+      "file": "posts/coming-soon/252-money-credit-score-mechanics.md",
       "permalink": "/money/credit-score-mechanics/",
       "url": "https://templeton.host/money/credit-score-mechanics/",
       "title": "Credit Score",
@@ -2015,7 +2023,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/252-money-debt-avalanche.md",
+      "file": "posts/coming-soon/253-money-debt-avalanche.md",
       "permalink": "/money/debt-avalanche/",
       "url": "https://templeton.host/money/debt-avalanche/",
       "title": "Debt Avalanche",
@@ -2023,7 +2031,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/253-money-debt-snowball.md",
+      "file": "posts/coming-soon/254-money-debt-snowball.md",
       "permalink": "/money/debt-snowball/",
       "url": "https://templeton.host/money/debt-snowball/",
       "title": "Debt Snowball",
@@ -2031,7 +2039,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/254-money-debt-consolidation.md",
+      "file": "posts/coming-soon/255-money-debt-consolidation.md",
       "permalink": "/money/debt-consolidation/",
       "url": "https://templeton.host/money/debt-consolidation/",
       "title": "Debt Consolidation",
@@ -2039,7 +2047,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/255-money-full-emergency-fund.md",
+      "file": "posts/coming-soon/256-money-full-emergency-fund.md",
       "permalink": "/money/full-emergency-fund/",
       "url": "https://templeton.host/money/full-emergency-fund/",
       "title": "Full Emergency Fund",
@@ -2047,7 +2055,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/256-money-insurance-basics.md",
+      "file": "posts/coming-soon/257-money-insurance-basics.md",
       "permalink": "/money/insurance-basics/",
       "url": "https://templeton.host/money/insurance-basics/",
       "title": "Insurance Basics",
@@ -2055,7 +2063,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/257-money-disability-insurance.md",
+      "file": "posts/coming-soon/258-money-disability-insurance.md",
       "permalink": "/money/disability-insurance/",
       "url": "https://templeton.host/money/disability-insurance/",
       "title": "Disability Insurance",
@@ -2063,7 +2071,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/258-money-life-insurance.md",
+      "file": "posts/coming-soon/259-money-life-insurance.md",
       "permalink": "/money/life-insurance/",
       "url": "https://templeton.host/money/life-insurance/",
       "title": "Life Insurance",
@@ -2071,7 +2079,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/259-money-moderate-debt-strategy.md",
+      "file": "posts/coming-soon/260-money-moderate-debt-strategy.md",
       "permalink": "/money/moderate-debt-strategy/",
       "url": "https://templeton.host/money/moderate-debt-strategy/",
       "title": "Moderate-Interest Debt",
@@ -2079,7 +2087,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/260-money-mortgage-basics.md",
+      "file": "posts/coming-soon/261-money-mortgage-basics.md",
       "permalink": "/money/mortgage-basics/",
       "url": "https://templeton.host/money/mortgage-basics/",
       "title": "Mortgage Math",
@@ -2087,7 +2095,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/261-money-student-loan-optimization.md",
+      "file": "posts/coming-soon/262-money-student-loan-optimization.md",
       "permalink": "/money/student-loan-optimization/",
       "url": "https://templeton.host/money/student-loan-optimization/",
       "title": "Student Loan Strategy",
@@ -2095,7 +2103,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/262-money-pre-tax-vs-post-tax.md",
+      "file": "posts/coming-soon/263-money-pre-tax-vs-post-tax.md",
       "permalink": "/money/pre-tax-vs-post-tax/",
       "url": "https://templeton.host/money/pre-tax-vs-post-tax/",
       "title": "Pre-Tax vs Post-Tax",
@@ -2103,7 +2111,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/263-money-traditional-vs-roth-ira.md",
+      "file": "posts/coming-soon/264-money-traditional-vs-roth-ira.md",
       "permalink": "/money/traditional-vs-roth-ira/",
       "url": "https://templeton.host/money/traditional-vs-roth-ira/",
       "title": "Traditional vs Roth IRA",
@@ -2111,7 +2119,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/264-money-401k-beyond-match.md",
+      "file": "posts/coming-soon/265-money-401k-beyond-match.md",
       "permalink": "/money/401k-beyond-match/",
       "url": "https://templeton.host/money/401k-beyond-match/",
       "title": "Max Your 401k",
@@ -2119,7 +2127,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/265-money-target-savings-rate.md",
+      "file": "posts/coming-soon/266-money-target-savings-rate.md",
       "permalink": "/money/target-savings-rate/",
       "url": "https://templeton.host/money/target-savings-rate/",
       "title": "15% Savings Rate",
@@ -2127,7 +2135,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/266-money-hsa-triple-advantage.md",
+      "file": "posts/coming-soon/267-money-hsa-triple-advantage.md",
       "permalink": "/money/hsa-triple-advantage/",
       "url": "https://templeton.host/money/hsa-triple-advantage/",
       "title": "HSA Triple Tax Advantage",
@@ -2135,7 +2143,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/267-money-529-education-savings.md",
+      "file": "posts/coming-soon/268-money-529-education-savings.md",
       "permalink": "/money/529-education-savings/",
       "url": "https://templeton.host/money/529-education-savings/",
       "title": "529 Education Savings",
@@ -2143,7 +2151,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/268-money-asset-classes.md",
+      "file": "posts/coming-soon/269-money-asset-classes.md",
       "permalink": "/money/asset-classes/",
       "url": "https://templeton.host/money/asset-classes/",
       "title": "Asset Classes",
@@ -2151,7 +2159,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/269-money-index-funds.md",
+      "file": "posts/coming-soon/270-money-index-funds.md",
       "permalink": "/money/index-funds/",
       "url": "https://templeton.host/money/index-funds/",
       "title": "Index Funds",
@@ -2159,7 +2167,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/270-money-diversification.md",
+      "file": "posts/coming-soon/271-money-diversification.md",
       "permalink": "/money/diversification/",
       "url": "https://templeton.host/money/diversification/",
       "title": "Diversification",
@@ -2167,7 +2175,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/271-money-asset-allocation.md",
+      "file": "posts/coming-soon/272-money-asset-allocation.md",
       "permalink": "/money/asset-allocation/",
       "url": "https://templeton.host/money/asset-allocation/",
       "title": "Asset Allocation",
@@ -2175,7 +2183,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/272-money-dollar-cost-averaging.md",
+      "file": "posts/coming-soon/273-money-dollar-cost-averaging.md",
       "permalink": "/money/dollar-cost-averaging/",
       "url": "https://templeton.host/money/dollar-cost-averaging/",
       "title": "Dollar-Cost Averaging",
@@ -2183,7 +2191,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/273-money-rebalancing.md",
+      "file": "posts/coming-soon/274-money-rebalancing.md",
       "permalink": "/money/rebalancing/",
       "url": "https://templeton.host/money/rebalancing/",
       "title": "Rebalancing",
@@ -2191,7 +2199,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/274-money-rent-vs-buy.md",
+      "file": "posts/coming-soon/275-money-rent-vs-buy.md",
       "permalink": "/money/rent-vs-buy/",
       "url": "https://templeton.host/money/rent-vs-buy/",
       "title": "Rent vs Buy",
@@ -2199,7 +2207,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/275-money-rental-property-math.md",
+      "file": "posts/coming-soon/276-money-rental-property-math.md",
       "permalink": "/money/rental-property-math/",
       "url": "https://templeton.host/money/rental-property-math/",
       "title": "Rental Property Math",
@@ -2207,7 +2215,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/276-money-return-on-equity.md",
+      "file": "posts/coming-soon/277-money-return-on-equity.md",
       "permalink": "/money/return-on-equity/",
       "url": "https://templeton.host/money/return-on-equity/",
       "title": "Return on Equity",
@@ -2215,7 +2223,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/277-money-real-estate-leverage.md",
+      "file": "posts/coming-soon/278-money-real-estate-leverage.md",
       "permalink": "/money/real-estate-leverage/",
       "url": "https://templeton.host/money/real-estate-leverage/",
       "title": "Real Estate Leverage",
@@ -2223,7 +2231,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/278-money-capital-gains-planning.md",
+      "file": "posts/coming-soon/279-money-capital-gains-planning.md",
       "permalink": "/money/capital-gains-planning/",
       "url": "https://templeton.host/money/capital-gains-planning/",
       "title": "Capital Gains",
@@ -2231,7 +2239,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/279-money-tax-loss-harvesting.md",
+      "file": "posts/coming-soon/280-money-tax-loss-harvesting.md",
       "permalink": "/money/tax-loss-harvesting/",
       "url": "https://templeton.host/money/tax-loss-harvesting/",
       "title": "Tax-Loss Harvesting",
@@ -2239,7 +2247,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/280-money-roth-conversion-ladder.md",
+      "file": "posts/coming-soon/281-money-roth-conversion-ladder.md",
       "permalink": "/money/roth-conversion-ladder/",
       "url": "https://templeton.host/money/roth-conversion-ladder/",
       "title": "Roth Conversion Ladder",
@@ -2247,7 +2255,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/281-money-backdoor-roth.md",
+      "file": "posts/coming-soon/282-money-backdoor-roth.md",
       "permalink": "/money/backdoor-roth/",
       "url": "https://templeton.host/money/backdoor-roth/",
       "title": "Backdoor Roth",
@@ -2255,7 +2263,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/282-money-large-purchase-planning.md",
+      "file": "posts/coming-soon/283-money-large-purchase-planning.md",
       "permalink": "/money/large-purchase-planning/",
       "url": "https://templeton.host/money/large-purchase-planning/",
       "title": "Large Purchase Planning",
@@ -2263,7 +2271,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/283-money-fire-math.md",
+      "file": "posts/coming-soon/284-money-fire-math.md",
       "permalink": "/money/fire-math/",
       "url": "https://templeton.host/money/fire-math/",
       "title": "FIRE Math",
@@ -2271,7 +2279,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/284-money-career-as-asset.md",
+      "file": "posts/coming-soon/285-money-career-as-asset.md",
       "permalink": "/money/career-as-asset/",
       "url": "https://templeton.host/money/career-as-asset/",
       "title": "Career as Asset",
@@ -2279,7 +2287,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/285-money-estate-planning-basics.md",
+      "file": "posts/coming-soon/286-money-estate-planning-basics.md",
       "permalink": "/money/estate-planning-basics/",
       "url": "https://templeton.host/money/estate-planning-basics/",
       "title": "Estate Planning",
@@ -2287,7 +2295,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/286-money-options-basics.md",
+      "file": "posts/coming-soon/287-money-options-basics.md",
       "permalink": "/money/options-basics/",
       "url": "https://templeton.host/money/options-basics/",
       "title": "Options Basics",
@@ -2295,7 +2303,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/287-money-alternative-investments.md",
+      "file": "posts/coming-soon/288-money-alternative-investments.md",
       "permalink": "/money/alternative-investments/",
       "url": "https://templeton.host/money/alternative-investments/",
       "title": "Alternative Investments",
@@ -2303,7 +2311,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/288-money-business-entity-tax.md",
+      "file": "posts/coming-soon/289-money-business-entity-tax.md",
       "permalink": "/money/business-entity-tax/",
       "url": "https://templeton.host/money/business-entity-tax/",
       "title": "Business Entity Tax",
@@ -2311,7 +2319,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/289-money-charitable-giving-strategy.md",
+      "file": "posts/coming-soon/290-money-charitable-giving-strategy.md",
       "permalink": "/money/charitable-giving-strategy/",
       "url": "https://templeton.host/money/charitable-giving-strategy/",
       "title": "Charitable Giving Strategy",
@@ -2319,7 +2327,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/290-visualizations-neural-network.md",
+      "file": "posts/coming-soon/291-visualizations-neural-network.md",
       "permalink": "/visualizations/neural-network/",
       "url": "https://templeton.host/visualizations/neural-network/",
       "title": "neural-network",
@@ -2327,7 +2335,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/291-visualizations-gradient-descent.md",
+      "file": "posts/coming-soon/292-visualizations-gradient-descent.md",
       "permalink": "/visualizations/gradient-descent/",
       "url": "https://templeton.host/visualizations/gradient-descent/",
       "title": "gradient-descent",
@@ -2335,7 +2343,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/292-visualizations-binary-tree.md",
+      "file": "posts/coming-soon/293-visualizations-binary-tree.md",
       "permalink": "/visualizations/binary-tree/",
       "url": "https://templeton.host/visualizations/binary-tree/",
       "title": "binary-tree",
@@ -2343,7 +2351,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/293-visualizations-orbiting-particles.md",
+      "file": "posts/coming-soon/294-visualizations-orbiting-particles.md",
       "permalink": "/visualizations/orbiting-particles/",
       "url": "https://templeton.host/visualizations/orbiting-particles/",
       "title": "orbiting-particles",
@@ -2351,7 +2359,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/294-visualizations-sine-wave.md",
+      "file": "posts/coming-soon/295-visualizations-sine-wave.md",
       "permalink": "/visualizations/sine-wave/",
       "url": "https://templeton.host/visualizations/sine-wave/",
       "title": "sine-wave",
@@ -2359,7 +2367,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/295-visualizations-graph-traversal.md",
+      "file": "posts/coming-soon/296-visualizations-graph-traversal.md",
       "permalink": "/visualizations/graph-traversal/",
       "url": "https://templeton.host/visualizations/graph-traversal/",
       "title": "graph-traversal",
@@ -2367,7 +2375,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/296-visualizations-linked-list.md",
+      "file": "posts/coming-soon/297-visualizations-linked-list.md",
       "permalink": "/visualizations/linked-list/",
       "url": "https://templeton.host/visualizations/linked-list/",
       "title": "linked-list",
@@ -2375,7 +2383,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/297-visualizations-spiral.md",
+      "file": "posts/coming-soon/298-visualizations-spiral.md",
       "permalink": "/visualizations/spiral/",
       "url": "https://templeton.host/visualizations/spiral/",
       "title": "logarithmic-spiral",
@@ -2383,7 +2391,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/298-visualizations-hash-table.md",
+      "file": "posts/coming-soon/299-visualizations-hash-table.md",
       "permalink": "/visualizations/hash-table/",
       "url": "https://templeton.host/visualizations/hash-table/",
       "title": "hash-table",
@@ -2391,7 +2399,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/299-visualizations-stack.md",
+      "file": "posts/coming-soon/300-visualizations-stack.md",
       "permalink": "/visualizations/stack/",
       "url": "https://templeton.host/visualizations/stack/",
       "title": "stack-(lifo)",
@@ -2399,7 +2407,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/300-visualizations-queue.md",
+      "file": "posts/coming-soon/301-visualizations-queue.md",
       "permalink": "/visualizations/queue/",
       "url": "https://templeton.host/visualizations/queue/",
       "title": "queue-(fifo)",
@@ -2407,7 +2415,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/301-visualizations-matrix-multiply.md",
+      "file": "posts/coming-soon/302-visualizations-matrix-multiply.md",
       "permalink": "/visualizations/matrix-multiply/",
       "url": "https://templeton.host/visualizations/matrix-multiply/",
       "title": "matrix-multiplication",
@@ -2415,7 +2423,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/302-visualizations-sorting.md",
+      "file": "posts/coming-soon/303-visualizations-sorting.md",
       "permalink": "/visualizations/sorting/",
       "url": "https://templeton.host/visualizations/sorting/",
       "title": "bubble-sort",
@@ -2423,7 +2431,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/303-visualizations-heap.md",
+      "file": "posts/coming-soon/304-visualizations-heap.md",
       "permalink": "/visualizations/heap/",
       "url": "https://templeton.host/visualizations/heap/",
       "title": "building-a-max-heap",
@@ -2431,7 +2439,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/304-visualizations-sets.md",
+      "file": "posts/coming-soon/305-visualizations-sets.md",
       "permalink": "/visualizations/sets/",
       "url": "https://templeton.host/visualizations/sets/",
       "title": "set-operations",
@@ -2439,7 +2447,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/305-visualizations-logic-gates.md",
+      "file": "posts/coming-soon/306-visualizations-logic-gates.md",
       "permalink": "/visualizations/logic-gates/",
       "url": "https://templeton.host/visualizations/logic-gates/",
       "title": "boolean-logic-gates",
@@ -2447,7 +2455,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/306-visualizations-coordinate-plane.md",
+      "file": "posts/coming-soon/307-visualizations-coordinate-plane.md",
       "permalink": "/visualizations/coordinate-plane/",
       "url": "https://templeton.host/visualizations/coordinate-plane/",
       "title": "coordinate-plane",
@@ -2455,7 +2463,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/307-visualizations-vectors.md",
+      "file": "posts/coming-soon/308-visualizations-vectors.md",
       "permalink": "/visualizations/vectors/",
       "url": "https://templeton.host/visualizations/vectors/",
       "title": "vector-addition",
@@ -2463,7 +2471,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/308-visualizations-probability.md",
+      "file": "posts/coming-soon/309-visualizations-probability.md",
       "permalink": "/visualizations/probability/",
       "url": "https://templeton.host/visualizations/probability/",
       "title": "probability-(dice)",
@@ -2471,7 +2479,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/309-visualizations-statistics.md",
+      "file": "posts/coming-soon/310-visualizations-statistics.md",
       "permalink": "/visualizations/statistics/",
       "url": "https://templeton.host/visualizations/statistics/",
       "title": "mean,-median,-mode",
@@ -2479,7 +2487,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/310-visualizations-derivative.md",
+      "file": "posts/coming-soon/311-visualizations-derivative.md",
       "permalink": "/visualizations/derivative/",
       "url": "https://templeton.host/visualizations/derivative/",
       "title": "derivative-(slope)",
@@ -2487,7 +2495,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/311-visualizations-recursion.md",
+      "file": "posts/coming-soon/312-visualizations-recursion.md",
       "permalink": "/visualizations/recursion/",
       "url": "https://templeton.host/visualizations/recursion/",
       "title": "recursion-(factorial)",
@@ -2495,7 +2503,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/312-visualizations-big-o.md",
+      "file": "posts/coming-soon/313-visualizations-big-o.md",
       "permalink": "/visualizations/big-o/",
       "url": "https://templeton.host/visualizations/big-o/",
       "title": "big-o-complexity",
@@ -2503,7 +2511,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/313-visualizations-dfs.md",
+      "file": "posts/coming-soon/314-visualizations-dfs.md",
       "permalink": "/visualizations/dfs/",
       "url": "https://templeton.host/visualizations/dfs/",
       "title": "depth-first-search",
@@ -2511,7 +2519,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/314-visualizations-bfs.md",
+      "file": "posts/coming-soon/315-visualizations-bfs.md",
       "permalink": "/visualizations/bfs/",
       "url": "https://templeton.host/visualizations/bfs/",
       "title": "breadth-first-search",
@@ -2519,7 +2527,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/315-visualizations-convolution.md",
+      "file": "posts/coming-soon/316-visualizations-convolution.md",
       "permalink": "/visualizations/convolution/",
       "url": "https://templeton.host/visualizations/convolution/",
       "title": "convolution-operation",
@@ -2527,7 +2535,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/316-visualizations-backprop.md",
+      "file": "posts/coming-soon/317-visualizations-backprop.md",
       "permalink": "/visualizations/backprop/",
       "url": "https://templeton.host/visualizations/backprop/",
       "title": "backpropagation",
@@ -2535,7 +2543,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/317-visualizations-loss-landscape.md",
+      "file": "posts/coming-soon/318-visualizations-loss-landscape.md",
       "permalink": "/visualizations/loss-landscape/",
       "url": "https://templeton.host/visualizations/loss-landscape/",
       "title": "loss-landscape",
@@ -2543,7 +2551,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/318-visualizations-entropy.md",
+      "file": "posts/coming-soon/319-visualizations-entropy.md",
       "permalink": "/visualizations/entropy/",
       "url": "https://templeton.host/visualizations/entropy/",
       "title": "entropy",
@@ -2551,7 +2559,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/319-visualizations-softmax.md",
+      "file": "posts/coming-soon/320-visualizations-softmax.md",
       "permalink": "/visualizations/softmax/",
       "url": "https://templeton.host/visualizations/softmax/",
       "title": "softmax-function",
@@ -2559,7 +2567,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/320-visualizations-dot-product.md",
+      "file": "posts/coming-soon/321-visualizations-dot-product.md",
       "permalink": "/visualizations/dot-product/",
       "url": "https://templeton.host/visualizations/dot-product/",
       "title": "dot-product",
@@ -2567,7 +2575,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/321-visualizations-bayes.md",
+      "file": "posts/coming-soon/322-visualizations-bayes.md",
       "permalink": "/visualizations/bayes/",
       "url": "https://templeton.host/visualizations/bayes/",
       "title": "bayes'-theorem",
@@ -2575,7 +2583,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/322-visualizations-markov-chain.md",
+      "file": "posts/coming-soon/323-visualizations-markov-chain.md",
       "permalink": "/visualizations/markov-chain/",
       "url": "https://templeton.host/visualizations/markov-chain/",
       "title": "markov-chain",
@@ -2583,7 +2591,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/323-visualizations-binary-search.md",
+      "file": "posts/coming-soon/324-visualizations-binary-search.md",
       "permalink": "/visualizations/binary-search/",
       "url": "https://templeton.host/visualizations/binary-search/",
       "title": "binary-search",
@@ -2591,7 +2599,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/324-visualizations-dijkstra.md",
+      "file": "posts/coming-soon/325-visualizations-dijkstra.md",
       "permalink": "/visualizations/dijkstra/",
       "url": "https://templeton.host/visualizations/dijkstra/",
       "title": "dijkstra's-algorithm",
@@ -2599,7 +2607,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/325-visualizations-attention.md",
+      "file": "posts/coming-soon/326-visualizations-attention.md",
       "permalink": "/visualizations/attention/",
       "url": "https://templeton.host/visualizations/attention/",
       "title": "attention-mechanism",
@@ -2607,7 +2615,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/326-visualizations-embedding.md",
+      "file": "posts/coming-soon/327-visualizations-embedding.md",
       "permalink": "/visualizations/embedding/",
       "url": "https://templeton.host/visualizations/embedding/",
       "title": "word-embeddings",
@@ -2615,7 +2623,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/327-visualizations-transformer.md",
+      "file": "posts/coming-soon/328-visualizations-transformer.md",
       "permalink": "/visualizations/transformer/",
       "url": "https://templeton.host/visualizations/transformer/",
       "title": "transformer-block",
@@ -2623,7 +2631,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/328-visualizations-slope.md",
+      "file": "posts/coming-soon/329-visualizations-slope.md",
       "permalink": "/visualizations/slope/",
       "url": "https://templeton.host/visualizations/slope/",
       "title": "slope-and-rate-of-change",
@@ -2631,7 +2639,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/329-visualizations-limits.md",
+      "file": "posts/coming-soon/330-visualizations-limits.md",
       "permalink": "/visualizations/limits/",
       "url": "https://templeton.host/visualizations/limits/",
       "title": "limits",
@@ -2639,7 +2647,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/330-visualizations-functions-basic.md",
+      "file": "posts/coming-soon/331-visualizations-functions-basic.md",
       "permalink": "/visualizations/functions-basic/",
       "url": "https://templeton.host/visualizations/functions-basic/",
       "title": "functions",
@@ -2647,7 +2655,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/331-visualizations-expected-value.md",
+      "file": "posts/coming-soon/332-visualizations-expected-value.md",
       "permalink": "/visualizations/expected-value/",
       "url": "https://templeton.host/visualizations/expected-value/",
       "title": "expected-value",
@@ -2655,7 +2663,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/332-visualizations-counting-basic.md",
+      "file": "posts/coming-soon/333-visualizations-counting-basic.md",
       "permalink": "/visualizations/counting-basic/",
       "url": "https://templeton.host/visualizations/counting-basic/",
       "title": "counting-principles",
@@ -2663,7 +2671,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/333-visualizations-variance.md",
+      "file": "posts/coming-soon/334-visualizations-variance.md",
       "permalink": "/visualizations/variance/",
       "url": "https://templeton.host/visualizations/variance/",
       "title": "variance",
@@ -2671,7 +2679,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/334-visualizations-multivariable-calculus.md",
+      "file": "posts/coming-soon/335-visualizations-multivariable-calculus.md",
       "permalink": "/visualizations/multivariable-calculus/",
       "url": "https://templeton.host/visualizations/multivariable-calculus/",
       "title": "multivariable-calculus",
@@ -2679,7 +2687,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/335-visualizations-gradients.md",
+      "file": "posts/coming-soon/336-visualizations-gradients.md",
       "permalink": "/visualizations/gradients/",
       "url": "https://templeton.host/visualizations/gradients/",
       "title": "gradients",
@@ -2687,7 +2695,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/336-visualizations-cosine-similarity.md",
+      "file": "posts/coming-soon/337-visualizations-cosine-similarity.md",
       "permalink": "/visualizations/cosine-similarity/",
       "url": "https://templeton.host/visualizations/cosine-similarity/",
       "title": "cosine-similarity",
@@ -2695,7 +2703,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/337-visualizations-divide-conquer.md",
+      "file": "posts/coming-soon/338-visualizations-divide-conquer.md",
       "permalink": "/visualizations/divide-conquer/",
       "url": "https://templeton.host/visualizations/divide-conquer/",
       "title": "divide-and-conquer",
@@ -2703,7 +2711,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/338-visualizations-confidence-intervals.md",
+      "file": "posts/coming-soon/339-visualizations-confidence-intervals.md",
       "permalink": "/visualizations/confidence-intervals/",
       "url": "https://templeton.host/visualizations/confidence-intervals/",
       "title": "confidence-intervals",
@@ -2711,7 +2719,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/339-visualizations-trees.md",
+      "file": "posts/coming-soon/340-visualizations-trees.md",
       "permalink": "/visualizations/trees/",
       "url": "https://templeton.host/visualizations/trees/",
       "title": "trees",
@@ -2719,7 +2727,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/340-visualizations-arrays.md",
+      "file": "posts/coming-soon/341-visualizations-arrays.md",
       "permalink": "/visualizations/arrays/",
       "url": "https://templeton.host/visualizations/arrays/",
       "title": "arrays",
@@ -2727,7 +2735,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/341-visualizations-sequences.md",
+      "file": "posts/coming-soon/342-visualizations-sequences.md",
       "permalink": "/visualizations/sequences/",
       "url": "https://templeton.host/visualizations/sequences/",
       "title": "sequences",
@@ -2735,7 +2743,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/342-visualizations-nash-equilibrium.md",
+      "file": "posts/coming-soon/343-visualizations-nash-equilibrium.md",
       "permalink": "/visualizations/nash-equilibrium/",
       "url": "https://templeton.host/visualizations/nash-equilibrium/",
       "title": "nash-equilibrium",
@@ -2743,7 +2751,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/343-visualizations-integrals-basic.md",
+      "file": "posts/coming-soon/344-visualizations-integrals-basic.md",
       "permalink": "/visualizations/integrals-basic/",
       "url": "https://templeton.host/visualizations/integrals-basic/",
       "title": "integrals",
@@ -2751,7 +2759,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/344-visualizations-lagrange-multipliers.md",
+      "file": "posts/coming-soon/345-visualizations-lagrange-multipliers.md",
       "permalink": "/visualizations/lagrange-multipliers/",
       "url": "https://templeton.host/visualizations/lagrange-multipliers/",
       "title": "lagrange-multipliers",
@@ -2759,7 +2767,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/345-visualizations-approximation-algorithms.md",
+      "file": "posts/coming-soon/346-visualizations-approximation-algorithms.md",
       "permalink": "/visualizations/approximation-algorithms/",
       "url": "https://templeton.host/visualizations/approximation-algorithms/",
       "title": "approximation-algorithms",
@@ -2767,7 +2775,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/346-visualizations-greedy-algorithms.md",
+      "file": "posts/coming-soon/347-visualizations-greedy-algorithms.md",
       "permalink": "/visualizations/greedy-algorithms/",
       "url": "https://templeton.host/visualizations/greedy-algorithms/",
       "title": "greedy-algorithms",
@@ -2775,7 +2783,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/347-visualizations-independence.md",
+      "file": "posts/coming-soon/348-visualizations-independence.md",
       "permalink": "/visualizations/independence/",
       "url": "https://templeton.host/visualizations/independence/",
       "title": "independence",
@@ -2783,7 +2791,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/348-visualizations-mle.md",
+      "file": "posts/coming-soon/349-visualizations-mle.md",
       "permalink": "/visualizations/mle/",
       "url": "https://templeton.host/visualizations/mle/",
       "title": "maximum-likelihood-estimation",
@@ -2791,7 +2799,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/349-visualizations-algorithm-concept.md",
+      "file": "posts/coming-soon/350-visualizations-algorithm-concept.md",
       "permalink": "/visualizations/algorithm-concept/",
       "url": "https://templeton.host/visualizations/algorithm-concept/",
       "title": "what-is-an-algorithm",
@@ -2799,7 +2807,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/350-visualizations-convexity.md",
+      "file": "posts/coming-soon/351-visualizations-convexity.md",
       "permalink": "/visualizations/convexity/",
       "url": "https://templeton.host/visualizations/convexity/",
       "title": "convex-functions",
@@ -2807,7 +2815,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/351-visualizations-pca.md",
+      "file": "posts/coming-soon/352-visualizations-pca.md",
       "permalink": "/visualizations/pca/",
       "url": "https://templeton.host/visualizations/pca/",
       "title": "principal-component-analysis",
@@ -2815,7 +2823,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/352-visualizations-law-large-numbers.md",
+      "file": "posts/coming-soon/353-visualizations-law-large-numbers.md",
       "permalink": "/visualizations/law-large-numbers/",
       "url": "https://templeton.host/visualizations/law-large-numbers/",
       "title": "law-of-large-numbers",
@@ -2823,7 +2831,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/353-visualizations-taylor-series.md",
+      "file": "posts/coming-soon/354-visualizations-taylor-series.md",
       "permalink": "/visualizations/taylor-series/",
       "url": "https://templeton.host/visualizations/taylor-series/",
       "title": "taylor-series",
@@ -2831,7 +2839,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/354-visualizations-dynamic-programming.md",
+      "file": "posts/coming-soon/355-visualizations-dynamic-programming.md",
       "permalink": "/visualizations/dynamic-programming/",
       "url": "https://templeton.host/visualizations/dynamic-programming/",
       "title": "dynamic-programming",
@@ -2839,7 +2847,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/355-visualizations-affine-transformations.md",
+      "file": "posts/coming-soon/356-visualizations-affine-transformations.md",
       "permalink": "/visualizations/affine-transformations/",
       "url": "https://templeton.host/visualizations/affine-transformations/",
       "title": "affine-transformations-(linear-layers)",
@@ -2847,7 +2855,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/356-visualizations-vector-spaces.md",
+      "file": "posts/coming-soon/357-visualizations-vector-spaces.md",
       "permalink": "/visualizations/vector-spaces/",
       "url": "https://templeton.host/visualizations/vector-spaces/",
       "title": "vector-spaces",
@@ -2855,7 +2863,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/357-visualizations-information-bottleneck.md",
+      "file": "posts/coming-soon/358-visualizations-information-bottleneck.md",
       "permalink": "/visualizations/information-bottleneck/",
       "url": "https://templeton.host/visualizations/information-bottleneck/",
       "title": "information-bottleneck",
@@ -2863,7 +2871,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/358-visualizations-graph-coloring.md",
+      "file": "posts/coming-soon/359-visualizations-graph-coloring.md",
       "permalink": "/visualizations/graph-coloring/",
       "url": "https://templeton.host/visualizations/graph-coloring/",
       "title": "graph-coloring",
@@ -2871,7 +2879,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/359-visualizations-information-theoretic-lower-bounds.md",
+      "file": "posts/coming-soon/360-visualizations-information-theoretic-lower-bounds.md",
       "permalink": "/visualizations/information-theoretic-lower-bounds/",
       "url": "https://templeton.host/visualizations/information-theoretic-lower-bounds/",
       "title": "information-theoretic-bounds",
@@ -2879,7 +2887,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/360-visualizations-pigeonhole-principle.md",
+      "file": "posts/coming-soon/361-visualizations-pigeonhole-principle.md",
       "permalink": "/visualizations/pigeonhole-principle/",
       "url": "https://templeton.host/visualizations/pigeonhole-principle/",
       "title": "pigeonhole-principle",
@@ -2887,7 +2895,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/361-visualizations-duality.md",
+      "file": "posts/coming-soon/362-visualizations-duality.md",
       "permalink": "/visualizations/duality/",
       "url": "https://templeton.host/visualizations/duality/",
       "title": "lagrangian-duality",
@@ -2895,7 +2903,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/362-visualizations-kl-divergence.md",
+      "file": "posts/coming-soon/363-visualizations-kl-divergence.md",
       "permalink": "/visualizations/kl-divergence/",
       "url": "https://templeton.host/visualizations/kl-divergence/",
       "title": "kl-divergence",
@@ -2903,7 +2911,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/363-visualizations-cross-validation.md",
+      "file": "posts/coming-soon/364-visualizations-cross-validation.md",
       "permalink": "/visualizations/cross-validation/",
       "url": "https://templeton.host/visualizations/cross-validation/",
       "title": "cross-validation",
@@ -2911,7 +2919,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/364-visualizations-random-variables.md",
+      "file": "posts/coming-soon/365-visualizations-random-variables.md",
       "permalink": "/visualizations/random-variables/",
       "url": "https://templeton.host/visualizations/random-variables/",
       "title": "random-variables",
@@ -2919,7 +2927,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/365-visualizations-hypothesis-testing.md",
+      "file": "posts/coming-soon/366-visualizations-hypothesis-testing.md",
       "permalink": "/visualizations/hypothesis-testing/",
       "url": "https://templeton.host/visualizations/hypothesis-testing/",
       "title": "hypothesis-testing",
@@ -2927,7 +2935,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/366-visualizations-continuity.md",
+      "file": "posts/coming-soon/367-visualizations-continuity.md",
       "permalink": "/visualizations/continuity/",
       "url": "https://templeton.host/visualizations/continuity/",
       "title": "continuity",
@@ -2935,7 +2943,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/367-visualizations-tries.md",
+      "file": "posts/coming-soon/368-visualizations-tries.md",
       "permalink": "/visualizations/tries/",
       "url": "https://templeton.host/visualizations/tries/",
       "title": "tries",
@@ -2943,7 +2951,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/368-visualizations-computational-graphs.md",
+      "file": "posts/coming-soon/369-visualizations-computational-graphs.md",
       "permalink": "/visualizations/computational-graphs/",
       "url": "https://templeton.host/visualizations/computational-graphs/",
       "title": "computational-graphs",
@@ -2951,7 +2959,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/369-visualizations-meta-learning.md",
+      "file": "posts/coming-soon/370-visualizations-meta-learning.md",
       "permalink": "/visualizations/meta-learning/",
       "url": "https://templeton.host/visualizations/meta-learning/",
       "title": "meta-learning",
@@ -2959,7 +2967,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/370-visualizations-residual-connections.md",
+      "file": "posts/coming-soon/371-visualizations-residual-connections.md",
       "permalink": "/visualizations/residual-connections/",
       "url": "https://templeton.host/visualizations/residual-connections/",
       "title": "residual-(skip)-connections",
@@ -2967,7 +2975,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/371-visualizations-linear-independence.md",
+      "file": "posts/coming-soon/372-visualizations-linear-independence.md",
       "permalink": "/visualizations/linear-independence/",
       "url": "https://templeton.host/visualizations/linear-independence/",
       "title": "linear-independence",
@@ -2975,7 +2983,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/372-visualizations-chain-rule-multivar.md",
+      "file": "posts/coming-soon/373-visualizations-chain-rule-multivar.md",
       "permalink": "/visualizations/chain-rule-multivar/",
       "url": "https://templeton.host/visualizations/chain-rule-multivar/",
       "title": "multivariable-chain-rule",
@@ -2983,7 +2991,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/373-visualizations-orthogonality.md",
+      "file": "posts/coming-soon/374-visualizations-orthogonality.md",
       "permalink": "/visualizations/orthogonality/",
       "url": "https://templeton.host/visualizations/orthogonality/",
       "title": "orthogonality",
@@ -2991,7 +2999,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/374-visualizations-cooperative-games.md",
+      "file": "posts/coming-soon/375-visualizations-cooperative-games.md",
       "permalink": "/visualizations/cooperative-games/",
       "url": "https://templeton.host/visualizations/cooperative-games/",
       "title": "cooperative-games",
@@ -2999,7 +3007,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/375-visualizations-sgd.md",
+      "file": "posts/coming-soon/376-visualizations-sgd.md",
       "permalink": "/visualizations/sgd/",
       "url": "https://templeton.host/visualizations/sgd/",
       "title": "stochastic-gradient-descent",
@@ -3007,7 +3015,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/376-visualizations-diffusion-models.md",
+      "file": "posts/coming-soon/377-visualizations-diffusion-models.md",
       "permalink": "/visualizations/diffusion-models/",
       "url": "https://templeton.host/visualizations/diffusion-models/",
       "title": "diffusion-models",
@@ -3015,7 +3023,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/377-visualizations-token-embeddings.md",
+      "file": "posts/coming-soon/378-visualizations-token-embeddings.md",
       "permalink": "/visualizations/token-embeddings/",
       "url": "https://templeton.host/visualizations/token-embeddings/",
       "title": "token-embeddings",
@@ -3023,7 +3031,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/378-visualizations-rl-intro.md",
+      "file": "posts/coming-soon/379-visualizations-rl-intro.md",
       "permalink": "/visualizations/rl-intro/",
       "url": "https://templeton.host/visualizations/rl-intro/",
       "title": "reinforcement-learning-introduction",
@@ -3031,7 +3039,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/379-visualizations-automatic-differentiation.md",
+      "file": "posts/coming-soon/380-visualizations-automatic-differentiation.md",
       "permalink": "/visualizations/automatic-differentiation/",
       "url": "https://templeton.host/visualizations/automatic-differentiation/",
       "title": "automatic-differentiation",
@@ -3039,7 +3047,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/380-visualizations-deep-learning.md",
+      "file": "posts/coming-soon/381-visualizations-deep-learning.md",
       "permalink": "/visualizations/deep-learning/",
       "url": "https://templeton.host/visualizations/deep-learning/",
       "title": "deep-learning",
@@ -3047,7 +3055,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/381-visualizations-task-discretization.md",
+      "file": "posts/coming-soon/382-visualizations-task-discretization.md",
       "permalink": "/visualizations/task-discretization/",
       "url": "https://templeton.host/visualizations/task-discretization/",
       "title": "task-discretization",
@@ -3055,7 +3063,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/382-visualizations-softmax-and-logits.md",
+      "file": "posts/coming-soon/383-visualizations-softmax-and-logits.md",
       "permalink": "/visualizations/softmax-and-logits/",
       "url": "https://templeton.host/visualizations/softmax-and-logits/",
       "title": "softmax-and-logits",
@@ -3063,7 +3071,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/383-visualizations-positional-encoding.md",
+      "file": "posts/coming-soon/384-visualizations-positional-encoding.md",
       "permalink": "/visualizations/positional-encoding/",
       "url": "https://templeton.host/visualizations/positional-encoding/",
       "title": "positional-encoding",
@@ -3071,7 +3079,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/384-visualizations-game-theory-intro.md",
+      "file": "posts/coming-soon/385-visualizations-game-theory-intro.md",
       "permalink": "/visualizations/game-theory-intro/",
       "url": "https://templeton.host/visualizations/game-theory-intro/",
       "title": "game-theory-introduction",
@@ -3079,7 +3087,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/385-visualizations-covariance-correlation.md",
+      "file": "posts/coming-soon/386-visualizations-covariance-correlation.md",
       "permalink": "/visualizations/covariance-correlation/",
       "url": "https://templeton.host/visualizations/covariance-correlation/",
       "title": "covariance-and-correlation",
@@ -3087,7 +3095,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/386-visualizations-linear-equations.md",
+      "file": "posts/coming-soon/387-visualizations-linear-equations.md",
       "permalink": "/visualizations/linear-equations/",
       "url": "https://templeton.host/visualizations/linear-equations/",
       "title": "linear-equations",
@@ -3095,7 +3103,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/387-visualizations-conditional-probability.md",
+      "file": "posts/coming-soon/388-visualizations-conditional-probability.md",
       "permalink": "/visualizations/conditional-probability/",
       "url": "https://templeton.host/visualizations/conditional-probability/",
       "title": "conditional-probability",
@@ -3103,7 +3111,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/388-visualizations-linear-systems.md",
+      "file": "posts/coming-soon/389-visualizations-linear-systems.md",
       "permalink": "/visualizations/linear-systems/",
       "url": "https://templeton.host/visualizations/linear-systems/",
       "title": "systems-of-linear-equations",
@@ -3111,7 +3119,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/389-visualizations-mcmc.md",
+      "file": "posts/coming-soon/390-visualizations-mcmc.md",
       "permalink": "/visualizations/mcmc/",
       "url": "https://templeton.host/visualizations/mcmc/",
       "title": "mcmc",
@@ -3119,7 +3127,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/390-visualizations-computational-complexity.md",
+      "file": "posts/coming-soon/391-visualizations-computational-complexity.md",
       "permalink": "/visualizations/computational-complexity/",
       "url": "https://templeton.host/visualizations/computational-complexity/",
       "title": "computational-complexity-theory",
@@ -3127,7 +3135,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/391-visualizations-matrix-decomposition.md",
+      "file": "posts/coming-soon/392-visualizations-matrix-decomposition.md",
       "permalink": "/visualizations/matrix-decomposition/",
       "url": "https://templeton.host/visualizations/matrix-decomposition/",
       "title": "matrix-decomposition",
@@ -3135,7 +3143,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/392-visualizations-curse-of-dimensionality.md",
+      "file": "posts/coming-soon/393-visualizations-curse-of-dimensionality.md",
       "permalink": "/visualizations/curse-of-dimensionality/",
       "url": "https://templeton.host/visualizations/curse-of-dimensionality/",
       "title": "curse-of-dimensionality",
@@ -3143,7 +3151,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/393-visualizations-network-flow.md",
+      "file": "posts/coming-soon/394-visualizations-network-flow.md",
       "permalink": "/visualizations/network-flow/",
       "url": "https://templeton.host/visualizations/network-flow/",
       "title": "network-flow",
@@ -3151,7 +3159,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/394-visualizations-np-completeness.md",
+      "file": "posts/coming-soon/395-visualizations-np-completeness.md",
       "permalink": "/visualizations/np-completeness/",
       "url": "https://templeton.host/visualizations/np-completeness/",
       "title": "np-completeness",
@@ -3159,7 +3167,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/395-visualizations-bayesian-inference.md",
+      "file": "posts/coming-soon/396-visualizations-bayesian-inference.md",
       "permalink": "/visualizations/bayesian-inference/",
       "url": "https://templeton.host/visualizations/bayesian-inference/",
       "title": "bayesian-inference",
@@ -3167,7 +3175,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/396-visualizations-ensemble-methods.md",
+      "file": "posts/coming-soon/397-visualizations-ensemble-methods.md",
       "permalink": "/visualizations/ensemble-methods/",
       "url": "https://templeton.host/visualizations/ensemble-methods/",
       "title": "ensemble-methods",
@@ -3175,7 +3183,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/397-visualizations-bias-variance.md",
+      "file": "posts/coming-soon/398-visualizations-bias-variance.md",
       "permalink": "/visualizations/bias-variance/",
       "url": "https://templeton.host/visualizations/bias-variance/",
       "title": "bias-variance-tradeoff",
@@ -3183,7 +3191,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/398-visualizations-spectral-graph-theory.md",
+      "file": "posts/coming-soon/399-visualizations-spectral-graph-theory.md",
       "permalink": "/visualizations/spectral-graph-theory/",
       "url": "https://templeton.host/visualizations/spectral-graph-theory/",
       "title": "spectral-graph-theory",
@@ -3191,7 +3199,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/399-visualizations-proof-techniques.md",
+      "file": "posts/coming-soon/400-visualizations-proof-techniques.md",
       "permalink": "/visualizations/proof-techniques/",
       "url": "https://templeton.host/visualizations/proof-techniques/",
       "title": "proof-techniques",
@@ -3199,7 +3207,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/400-visualizations-strongly-connected.md",
+      "file": "posts/coming-soon/401-visualizations-strongly-connected.md",
       "permalink": "/visualizations/strongly-connected/",
       "url": "https://templeton.host/visualizations/strongly-connected/",
       "title": "strongly-connected-components",
@@ -3207,7 +3215,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/401-visualizations-rate-distortion.md",
+      "file": "posts/coming-soon/402-visualizations-rate-distortion.md",
       "permalink": "/visualizations/rate-distortion/",
       "url": "https://templeton.host/visualizations/rate-distortion/",
       "title": "rate-distortion-theory",
@@ -3215,7 +3223,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/402-visualizations-cross-entropy.md",
+      "file": "posts/coming-soon/403-visualizations-cross-entropy.md",
       "permalink": "/visualizations/cross-entropy/",
       "url": "https://templeton.host/visualizations/cross-entropy/",
       "title": "cross-entropy",
@@ -3223,7 +3231,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/403-visualizations-fundamental-theorem.md",
+      "file": "posts/coming-soon/404-visualizations-fundamental-theorem.md",
       "permalink": "/visualizations/fundamental-theorem/",
       "url": "https://templeton.host/visualizations/fundamental-theorem/",
       "title": "fundamental-theorem-of-calculus",
@@ -3231,7 +3239,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/404-visualizations-propositional-logic.md",
+      "file": "posts/coming-soon/405-visualizations-propositional-logic.md",
       "permalink": "/visualizations/propositional-logic/",
       "url": "https://templeton.host/visualizations/propositional-logic/",
       "title": "propositional-logic",
@@ -3239,7 +3247,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/405-visualizations-determinants.md",
+      "file": "posts/coming-soon/406-visualizations-determinants.md",
       "permalink": "/visualizations/determinants/",
       "url": "https://templeton.host/visualizations/determinants/",
       "title": "determinants",
@@ -3247,7 +3255,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/406-visualizations-permutations.md",
+      "file": "posts/coming-soon/407-visualizations-permutations.md",
       "permalink": "/visualizations/permutations/",
       "url": "https://templeton.host/visualizations/permutations/",
       "title": "permutations",
@@ -3255,7 +3263,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/407-visualizations-optimization-intro.md",
+      "file": "posts/coming-soon/408-visualizations-optimization-intro.md",
       "permalink": "/visualizations/optimization-intro/",
       "url": "https://templeton.host/visualizations/optimization-intro/",
       "title": "optimization-introduction",
@@ -3263,7 +3271,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/408-visualizations-online-algorithms.md",
+      "file": "posts/coming-soon/409-visualizations-online-algorithms.md",
       "permalink": "/visualizations/online-algorithms/",
       "url": "https://templeton.host/visualizations/online-algorithms/",
       "title": "online-algorithms",
@@ -3271,7 +3279,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/409-visualizations-mutual-information.md",
+      "file": "posts/coming-soon/410-visualizations-mutual-information.md",
       "permalink": "/visualizations/mutual-information/",
       "url": "https://templeton.host/visualizations/mutual-information/",
       "title": "mutual-information",
@@ -3279,7 +3287,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/410-visualizations-central-limit-theorem.md",
+      "file": "posts/coming-soon/411-visualizations-central-limit-theorem.md",
       "permalink": "/visualizations/central-limit-theorem/",
       "url": "https://templeton.host/visualizations/central-limit-theorem/",
       "title": "central-limit-theorem",
@@ -3287,7 +3295,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/411-visualizations-graph-representations.md",
+      "file": "posts/coming-soon/412-visualizations-graph-representations.md",
       "permalink": "/visualizations/graph-representations/",
       "url": "https://templeton.host/visualizations/graph-representations/",
       "title": "graph-representations",
@@ -3295,7 +3303,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/412-visualizations-balanced-trees.md",
+      "file": "posts/coming-soon/413-visualizations-balanced-trees.md",
       "permalink": "/visualizations/balanced-trees/",
       "url": "https://templeton.host/visualizations/balanced-trees/",
       "title": "balanced-trees",
@@ -3303,7 +3311,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/413-visualizations-decision-trees.md",
+      "file": "posts/coming-soon/414-visualizations-decision-trees.md",
       "permalink": "/visualizations/decision-trees/",
       "url": "https://templeton.host/visualizations/decision-trees/",
       "title": "decision-trees",
@@ -3311,7 +3319,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/414-visualizations-equivalence-relations.md",
+      "file": "posts/coming-soon/415-visualizations-equivalence-relations.md",
       "permalink": "/visualizations/equivalence-relations/",
       "url": "https://templeton.host/visualizations/equivalence-relations/",
       "title": "equivalence-relations",
@@ -3319,7 +3327,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/415-visualizations-rlhf.md",
+      "file": "posts/coming-soon/416-visualizations-rlhf.md",
       "permalink": "/visualizations/rlhf/",
       "url": "https://templeton.host/visualizations/rlhf/",
       "title": "rlhf",
@@ -3327,7 +3335,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/416-visualizations-conjugate-gradients.md",
+      "file": "posts/coming-soon/417-visualizations-conjugate-gradients.md",
       "permalink": "/visualizations/conjugate-gradients/",
       "url": "https://templeton.host/visualizations/conjugate-gradients/",
       "title": "conjugate-gradient-methods",
@@ -3335,7 +3343,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/417-visualizations-activation-functions.md",
+      "file": "posts/coming-soon/418-visualizations-activation-functions.md",
       "permalink": "/visualizations/activation-functions/",
       "url": "https://templeton.host/visualizations/activation-functions/",
       "title": "activation-functions",
@@ -3343,7 +3351,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/418-visualizations-bayesian-optimization.md",
+      "file": "posts/coming-soon/419-visualizations-bayesian-optimization.md",
       "permalink": "/visualizations/bayesian-optimization/",
       "url": "https://templeton.host/visualizations/bayesian-optimization/",
       "title": "bayesian-optimization",
@@ -3351,7 +3359,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/419-visualizations-eigenvalues.md",
+      "file": "posts/coming-soon/420-visualizations-eigenvalues.md",
       "permalink": "/visualizations/eigenvalues/",
       "url": "https://templeton.host/visualizations/eigenvalues/",
       "title": "eigenvalues-and-eigenvectors",
@@ -3359,7 +3367,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/420-visualizations-embeddings-dense-representations.md",
+      "file": "posts/coming-soon/421-visualizations-embeddings-dense-representations.md",
       "permalink": "/visualizations/embeddings-dense-representations/",
       "url": "https://templeton.host/visualizations/embeddings-dense-representations/",
       "title": "embeddings-(dense-representations)",
@@ -3367,7 +3375,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/421-visualizations-complexity-classes.md",
+      "file": "posts/coming-soon/422-visualizations-complexity-classes.md",
       "permalink": "/visualizations/complexity-classes/",
       "url": "https://templeton.host/visualizations/complexity-classes/",
       "title": "complexity-classes",
@@ -3375,7 +3383,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/422-visualizations-measure-theory.md",
+      "file": "posts/coming-soon/423-visualizations-measure-theory.md",
       "permalink": "/visualizations/measure-theory/",
       "url": "https://templeton.host/visualizations/measure-theory/",
       "title": "measure-theory",
@@ -3383,7 +3391,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/423-visualizations-regularization.md",
+      "file": "posts/coming-soon/424-visualizations-regularization.md",
       "permalink": "/visualizations/regularization/",
       "url": "https://templeton.host/visualizations/regularization/",
       "title": "regularization",
@@ -3391,7 +3399,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/424-visualizations-generating-functions.md",
+      "file": "posts/coming-soon/425-visualizations-generating-functions.md",
       "permalink": "/visualizations/generating-functions/",
       "url": "https://templeton.host/visualizations/generating-functions/",
       "title": "generating-functions",
@@ -3399,7 +3407,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/425-visualizations-joint-distributions.md",
+      "file": "posts/coming-soon/426-visualizations-joint-distributions.md",
       "permalink": "/visualizations/joint-distributions/",
       "url": "https://templeton.host/visualizations/joint-distributions/",
       "title": "joint-distributions",
@@ -3407,7 +3415,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/426-visualizations-recurrence-relations.md",
+      "file": "posts/coming-soon/427-visualizations-recurrence-relations.md",
       "permalink": "/visualizations/recurrence-relations/",
       "url": "https://templeton.host/visualizations/recurrence-relations/",
       "title": "recurrence-relations",
@@ -3415,7 +3423,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/427-visualizations-second-order-methods.md",
+      "file": "posts/coming-soon/428-visualizations-second-order-methods.md",
       "permalink": "/visualizations/second-order-methods/",
       "url": "https://templeton.host/visualizations/second-order-methods/",
       "title": "second-order-optimization",
@@ -3423,7 +3431,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/428-visualizations-mdp.md",
+      "file": "posts/coming-soon/429-visualizations-mdp.md",
       "permalink": "/visualizations/mdp/",
       "url": "https://templeton.host/visualizations/mdp/",
       "title": "markov-decision-processes",
@@ -3431,7 +3439,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/429-visualizations-concentration-inequalities.md",
+      "file": "posts/coming-soon/430-visualizations-concentration-inequalities.md",
       "permalink": "/visualizations/concentration-inequalities/",
       "url": "https://templeton.host/visualizations/concentration-inequalities/",
       "title": "concentration-inequalities",
@@ -3439,7 +3447,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/430-visualizations-gan.md",
+      "file": "posts/coming-soon/431-visualizations-gan.md",
       "permalink": "/visualizations/gan/",
       "url": "https://templeton.host/visualizations/gan/",
       "title": "generative-adversarial-networks",
@@ -3447,7 +3455,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/431-visualizations-common-distributions.md",
+      "file": "posts/coming-soon/432-visualizations-common-distributions.md",
       "permalink": "/visualizations/common-distributions/",
       "url": "https://templeton.host/visualizations/common-distributions/",
       "title": "common-distributions",
@@ -3455,7 +3463,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/432-visualizations-sequence-to-sequence-modeling.md",
+      "file": "posts/coming-soon/433-visualizations-sequence-to-sequence-modeling.md",
       "permalink": "/visualizations/sequence-to-sequence-modeling/",
       "url": "https://templeton.host/visualizations/sequence-to-sequence-modeling/",
       "title": "sequence-to-sequence-modeling",
@@ -3463,7 +3471,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/433-visualizations-logistic-regression.md",
+      "file": "posts/coming-soon/434-visualizations-logistic-regression.md",
       "permalink": "/visualizations/logistic-regression/",
       "url": "https://templeton.host/visualizations/logistic-regression/",
       "title": "logistic-regression",
@@ -3471,7 +3479,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/434-visualizations-svd.md",
+      "file": "posts/coming-soon/435-visualizations-svd.md",
       "permalink": "/visualizations/svd/",
       "url": "https://templeton.host/visualizations/svd/",
       "title": "singular-value-decomposition",
@@ -3479,7 +3487,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/435-visualizations-convex-optimization.md",
+      "file": "posts/coming-soon/436-visualizations-convex-optimization.md",
       "permalink": "/visualizations/convex-optimization/",
       "url": "https://templeton.host/visualizations/convex-optimization/",
       "title": "convex-optimization",
@@ -3487,7 +3495,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/436-visualizations-layer-normalization.md",
+      "file": "posts/coming-soon/437-visualizations-layer-normalization.md",
       "permalink": "/visualizations/layer-normalization/",
       "url": "https://templeton.host/visualizations/layer-normalization/",
       "title": "layer-normalization",
@@ -3495,7 +3503,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/437-visualizations-auction-theory.md",
+      "file": "posts/coming-soon/438-visualizations-auction-theory.md",
       "permalink": "/visualizations/auction-theory/",
       "url": "https://templeton.host/visualizations/auction-theory/",
       "title": "auction-theory",
@@ -3503,7 +3511,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/438-visualizations-projections.md",
+      "file": "posts/coming-soon/439-visualizations-projections.md",
       "permalink": "/visualizations/projections/",
       "url": "https://templeton.host/visualizations/projections/",
       "title": "projections",
@@ -3511,7 +3519,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/439-visualizations-multiple-integrals.md",
+      "file": "posts/coming-soon/440-visualizations-multiple-integrals.md",
       "permalink": "/visualizations/multiple-integrals/",
       "url": "https://templeton.host/visualizations/multiple-integrals/",
       "title": "multiple-integrals",
@@ -3519,7 +3527,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/440-visualizations-monte-carlo.md",
+      "file": "posts/coming-soon/441-visualizations-monte-carlo.md",
       "permalink": "/visualizations/monte-carlo/",
       "url": "https://templeton.host/visualizations/monte-carlo/",
       "title": "monte-carlo-methods",
@@ -3527,7 +3535,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/441-visualizations-causal-inference.md",
+      "file": "posts/coming-soon/442-visualizations-causal-inference.md",
       "permalink": "/visualizations/causal-inference/",
       "url": "https://templeton.host/visualizations/causal-inference/",
       "title": "causal-inference",
@@ -3535,7 +3543,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/442-visualizations-mechanism-design.md",
+      "file": "posts/coming-soon/443-visualizations-mechanism-design.md",
       "permalink": "/visualizations/mechanism-design/",
       "url": "https://templeton.host/visualizations/mechanism-design/",
       "title": "mechanism-design",
@@ -3543,7 +3551,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/443-visualizations-topological-sort.md",
+      "file": "posts/coming-soon/444-visualizations-topological-sort.md",
       "permalink": "/visualizations/topological-sort/",
       "url": "https://templeton.host/visualizations/topological-sort/",
       "title": "topological-sort",
@@ -3551,7 +3559,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/444-visualizations-jacobian.md",
+      "file": "posts/coming-soon/445-visualizations-jacobian.md",
       "permalink": "/visualizations/jacobian/",
       "url": "https://templeton.host/visualizations/jacobian/",
       "title": "jacobian",
@@ -3559,7 +3567,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/445-visualizations-matrix-calculus.md",
+      "file": "posts/coming-soon/446-visualizations-matrix-calculus.md",
       "permalink": "/visualizations/matrix-calculus/",
       "url": "https://templeton.host/visualizations/matrix-calculus/",
       "title": "matrix-calculus",
@@ -3567,7 +3575,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/446-visualizations-relations.md",
+      "file": "posts/coming-soon/447-visualizations-relations.md",
       "permalink": "/visualizations/relations/",
       "url": "https://templeton.host/visualizations/relations/",
       "title": "relations",
@@ -3575,7 +3583,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/447-visualizations-zero-sum-games.md",
+      "file": "posts/coming-soon/448-visualizations-zero-sum-games.md",
       "permalink": "/visualizations/zero-sum-games/",
       "url": "https://templeton.host/visualizations/zero-sum-games/",
       "title": "zero-sum-games",
@@ -3583,7 +3591,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/448-visualizations-kkt-conditions.md",
+      "file": "posts/coming-soon/449-visualizations-kkt-conditions.md",
       "permalink": "/visualizations/kkt-conditions/",
       "url": "https://templeton.host/visualizations/kkt-conditions/",
       "title": "kkt-conditions",
@@ -3591,7 +3599,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/449-visualizations-norms.md",
+      "file": "posts/coming-soon/450-visualizations-norms.md",
       "permalink": "/visualizations/norms/",
       "url": "https://templeton.host/visualizations/norms/",
       "title": "norms",
@@ -3599,7 +3607,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/450-visualizations-amortized-analysis.md",
+      "file": "posts/coming-soon/451-visualizations-amortized-analysis.md",
       "permalink": "/visualizations/amortized-analysis/",
       "url": "https://templeton.host/visualizations/amortized-analysis/",
       "title": "amortized-analysis",
@@ -3607,7 +3615,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/451-visualizations-linear-regression.md",
+      "file": "posts/coming-soon/452-visualizations-linear-regression.md",
       "permalink": "/visualizations/linear-regression/",
       "url": "https://templeton.host/visualizations/linear-regression/",
       "title": "linear-regression",
@@ -3615,7 +3623,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/452-visualizations-ml-intro.md",
+      "file": "posts/coming-soon/453-visualizations-ml-intro.md",
       "permalink": "/visualizations/ml-intro/",
       "url": "https://templeton.host/visualizations/ml-intro/",
       "title": "machine-learning-introduction",
@@ -3623,7 +3631,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/453-visualizations-minimum-spanning-trees.md",
+      "file": "posts/coming-soon/454-visualizations-minimum-spanning-trees.md",
       "permalink": "/visualizations/minimum-spanning-trees/",
       "url": "https://templeton.host/visualizations/minimum-spanning-trees/",
       "title": "minimum-spanning-trees",
@@ -3631,7 +3639,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/454-visualizations-bst.md",
+      "file": "posts/coming-soon/455-visualizations-bst.md",
       "permalink": "/visualizations/bst/",
       "url": "https://templeton.host/visualizations/bst/",
       "title": "binary-search-trees",
@@ -3639,7 +3647,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/455-visualizations-linear-programming.md",
+      "file": "posts/coming-soon/456-visualizations-linear-programming.md",
       "permalink": "/visualizations/linear-programming/",
       "url": "https://templeton.host/visualizations/linear-programming/",
       "title": "linear-programming",
@@ -3647,7 +3655,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/456-visualizations-randomized-algorithms.md",
+      "file": "posts/coming-soon/457-visualizations-randomized-algorithms.md",
       "permalink": "/visualizations/randomized-algorithms/",
       "url": "https://templeton.host/visualizations/randomized-algorithms/",
       "title": "randomized-algorithms",
@@ -3655,7 +3663,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/457-visualizations-combinations.md",
+      "file": "posts/coming-soon/458-visualizations-combinations.md",
       "permalink": "/visualizations/combinations/",
       "url": "https://templeton.host/visualizations/combinations/",
       "title": "combinations",
@@ -3663,7 +3671,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/458-visualizations-channel-capacity.md",
+      "file": "posts/coming-soon/459-visualizations-channel-capacity.md",
       "permalink": "/visualizations/channel-capacity/",
       "url": "https://templeton.host/visualizations/channel-capacity/",
       "title": "channel-capacity",
@@ -3671,7 +3679,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/459-visualizations-sequence-masking.md",
+      "file": "posts/coming-soon/460-visualizations-sequence-masking.md",
       "permalink": "/visualizations/sequence-masking/",
       "url": "https://templeton.host/visualizations/sequence-masking/",
       "title": "sequence-masking-(causal-and-padding-masks)",
@@ -3679,7 +3687,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/460-visualizations-modular-arithmetic.md",
+      "file": "posts/coming-soon/461-visualizations-modular-arithmetic.md",
       "permalink": "/visualizations/modular-arithmetic/",
       "url": "https://templeton.host/visualizations/modular-arithmetic/",
       "title": "modular-arithmetic",
@@ -3687,7 +3695,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/461-visualizations-dimensionality-reduction.md",
+      "file": "posts/coming-soon/462-visualizations-dimensionality-reduction.md",
       "permalink": "/visualizations/dimensionality-reduction/",
       "url": "https://templeton.host/visualizations/dimensionality-reduction/",
       "title": "dimensionality-reduction",
@@ -3695,7 +3703,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/462-visualizations-policy-gradient.md",
+      "file": "posts/coming-soon/463-visualizations-policy-gradient.md",
       "permalink": "/visualizations/policy-gradient/",
       "url": "https://templeton.host/visualizations/policy-gradient/",
       "title": "policy-gradient-methods",
@@ -3703,7 +3711,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/463-visualizations-basis-dimension.md",
+      "file": "posts/coming-soon/464-visualizations-basis-dimension.md",
       "permalink": "/visualizations/basis-dimension/",
       "url": "https://templeton.host/visualizations/basis-dimension/",
       "title": "basis-and-dimension",
@@ -3711,7 +3719,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/464-visualizations-vae.md",
+      "file": "posts/coming-soon/465-visualizations-vae.md",
       "permalink": "/visualizations/vae/",
       "url": "https://templeton.host/visualizations/vae/",
       "title": "variational-autoencoders",
@@ -3719,7 +3727,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/465-visualizations-predicate-logic.md",
+      "file": "posts/coming-soon/466-visualizations-predicate-logic.md",
       "permalink": "/visualizations/predicate-logic/",
       "url": "https://templeton.host/visualizations/predicate-logic/",
       "title": "predicate-logic",
@@ -3727,7 +3735,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/466-visualizations-svm.md",
+      "file": "posts/coming-soon/467-visualizations-svm.md",
       "permalink": "/visualizations/svm/",
       "url": "https://templeton.host/visualizations/svm/",
       "title": "support-vector-machines",
@@ -3735,7 +3743,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/467-visualizations-clustering.md",
+      "file": "posts/coming-soon/468-visualizations-clustering.md",
       "permalink": "/visualizations/clustering/",
       "url": "https://templeton.host/visualizations/clustering/",
       "title": "clustering",
@@ -3743,7 +3751,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/468-visualizations-disjoint-sets.md",
+      "file": "posts/coming-soon/469-visualizations-disjoint-sets.md",
       "permalink": "/visualizations/disjoint-sets/",
       "url": "https://templeton.host/visualizations/disjoint-sets/",
       "title": "disjoint-sets",
@@ -3751,7 +3759,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/469-visualizations-numerical-stability.md",
+      "file": "posts/coming-soon/470-visualizations-numerical-stability.md",
       "permalink": "/visualizations/numerical-stability/",
       "url": "https://templeton.host/visualizations/numerical-stability/",
       "title": "numerical-stability-and-conditioning",
@@ -3759,7 +3767,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/470-visualizations-kernel-methods.md",
+      "file": "posts/coming-soon/471-visualizations-kernel-methods.md",
       "permalink": "/visualizations/kernel-methods/",
       "url": "https://templeton.host/visualizations/kernel-methods/",
       "title": "kernel-methods",
@@ -3767,7 +3775,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/471-visualizations-derivative-rules.md",
+      "file": "posts/coming-soon/472-visualizations-derivative-rules.md",
       "permalink": "/visualizations/derivative-rules/",
       "url": "https://templeton.host/visualizations/derivative-rules/",
       "title": "derivative-rules",
@@ -3775,7 +3783,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/472-visualizations-money-net-worth.md",
+      "file": "posts/coming-soon/473-visualizations-money-net-worth.md",
       "permalink": "/visualizations/money-net-worth/",
       "url": "https://templeton.host/visualizations/money-net-worth/",
       "title": "net-worth",
@@ -3783,7 +3791,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/473-visualizations-money-income-expenses.md",
+      "file": "posts/coming-soon/474-visualizations-money-income-expenses.md",
       "permalink": "/visualizations/money-income-expenses/",
       "url": "https://templeton.host/visualizations/money-income-expenses/",
       "title": "income-&-expenses",
@@ -3791,7 +3799,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/474-visualizations-money-budget.md",
+      "file": "posts/coming-soon/475-visualizations-money-budget.md",
       "permalink": "/visualizations/money-budget/",
       "url": "https://templeton.host/visualizations/money-budget/",
       "title": "budgeting",
@@ -3799,7 +3807,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/475-visualizations-money-compound-interest.md",
+      "file": "posts/coming-soon/476-visualizations-money-compound-interest.md",
       "permalink": "/visualizations/money-compound-interest/",
       "url": "https://templeton.host/visualizations/money-compound-interest/",
       "title": "compound-interest",
@@ -3807,7 +3815,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/476-visualizations-money-opportunity-cost.md",
+      "file": "posts/coming-soon/477-visualizations-money-opportunity-cost.md",
       "permalink": "/visualizations/money-opportunity-cost/",
       "url": "https://templeton.host/visualizations/money-opportunity-cost/",
       "title": "opportunity-cost",
@@ -3815,7 +3823,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/477-visualizations-money-bank-accounts.md",
+      "file": "posts/coming-soon/478-visualizations-money-bank-accounts.md",
       "permalink": "/visualizations/money-bank-accounts/",
       "url": "https://templeton.host/visualizations/money-bank-accounts/",
       "title": "bank-accounts",
@@ -3823,7 +3831,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/478-visualizations-money-essential-discretionary.md",
+      "file": "posts/coming-soon/479-visualizations-money-essential-discretionary.md",
       "permalink": "/visualizations/money-essential-discretionary/",
       "url": "https://templeton.host/visualizations/money-essential-discretionary/",
       "title": "essential-vs-discretionary",
@@ -3831,7 +3839,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/479-visualizations-money-emergency-fund.md",
+      "file": "posts/coming-soon/480-visualizations-money-emergency-fund.md",
       "permalink": "/visualizations/money-emergency-fund/",
       "url": "https://templeton.host/visualizations/money-emergency-fund/",
       "title": "emergency-buffer",
@@ -3839,7 +3847,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/480-visualizations-money-minimum-payments.md",
+      "file": "posts/coming-soon/481-visualizations-money-minimum-payments.md",
       "permalink": "/visualizations/money-minimum-payments/",
       "url": "https://templeton.host/visualizations/money-minimum-payments/",
       "title": "minimum-payments",
@@ -3847,7 +3855,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/481-visualizations-money-employer-benefits.md",
+      "file": "posts/coming-soon/482-visualizations-money-employer-benefits.md",
       "permalink": "/visualizations/money-employer-benefits/",
       "url": "https://templeton.host/visualizations/money-employer-benefits/",
       "title": "employer-benefits",
@@ -3855,7 +3863,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/482-visualizations-money-tax-brackets.md",
+      "file": "posts/coming-soon/483-visualizations-money-tax-brackets.md",
       "permalink": "/visualizations/money-tax-brackets/",
       "url": "https://templeton.host/visualizations/money-tax-brackets/",
       "title": "tax-brackets",
@@ -3863,7 +3871,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/483-visualizations-money-employer-match.md",
+      "file": "posts/coming-soon/484-visualizations-money-employer-match.md",
       "permalink": "/visualizations/money-employer-match/",
       "url": "https://templeton.host/visualizations/money-employer-match/",
       "title": "employer-401k-match",
@@ -3871,7 +3879,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/484-visualizations-money-interest-rate-math.md",
+      "file": "posts/coming-soon/485-visualizations-money-interest-rate-math.md",
       "permalink": "/visualizations/money-interest-rate-math/",
       "url": "https://templeton.host/visualizations/money-interest-rate-math/",
       "title": "interest-rate-math",
@@ -3879,7 +3887,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/485-visualizations-money-credit-score.md",
+      "file": "posts/coming-soon/486-visualizations-money-credit-score.md",
       "permalink": "/visualizations/money-credit-score/",
       "url": "https://templeton.host/visualizations/money-credit-score/",
       "title": "credit-score",
@@ -3887,7 +3895,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/486-visualizations-money-debt-avalanche.md",
+      "file": "posts/coming-soon/487-visualizations-money-debt-avalanche.md",
       "permalink": "/visualizations/money-debt-avalanche/",
       "url": "https://templeton.host/visualizations/money-debt-avalanche/",
       "title": "debt-avalanche",
@@ -3895,7 +3903,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/487-visualizations-money-debt-snowball.md",
+      "file": "posts/coming-soon/488-visualizations-money-debt-snowball.md",
       "permalink": "/visualizations/money-debt-snowball/",
       "url": "https://templeton.host/visualizations/money-debt-snowball/",
       "title": "debt-snowball",
@@ -3903,7 +3911,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/488-visualizations-money-debt-consolidation.md",
+      "file": "posts/coming-soon/489-visualizations-money-debt-consolidation.md",
       "permalink": "/visualizations/money-debt-consolidation/",
       "url": "https://templeton.host/visualizations/money-debt-consolidation/",
       "title": "debt-consolidation",
@@ -3911,7 +3919,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/489-visualizations-money-insurance.md",
+      "file": "posts/coming-soon/490-visualizations-money-insurance.md",
       "permalink": "/visualizations/money-insurance/",
       "url": "https://templeton.host/visualizations/money-insurance/",
       "title": "insurance-basics",
@@ -3919,7 +3927,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/490-visualizations-money-disability-insurance.md",
+      "file": "posts/coming-soon/491-visualizations-money-disability-insurance.md",
       "permalink": "/visualizations/money-disability-insurance/",
       "url": "https://templeton.host/visualizations/money-disability-insurance/",
       "title": "disability-insurance",
@@ -3927,7 +3935,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/491-visualizations-money-life-insurance.md",
+      "file": "posts/coming-soon/492-visualizations-money-life-insurance.md",
       "permalink": "/visualizations/money-life-insurance/",
       "url": "https://templeton.host/visualizations/money-life-insurance/",
       "title": "life-insurance",
@@ -3935,7 +3943,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/492-visualizations-money-moderate-debt.md",
+      "file": "posts/coming-soon/493-visualizations-money-moderate-debt.md",
       "permalink": "/visualizations/money-moderate-debt/",
       "url": "https://templeton.host/visualizations/money-moderate-debt/",
       "title": "moderate-interest-debt",
@@ -3943,7 +3951,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/493-visualizations-money-mortgage.md",
+      "file": "posts/coming-soon/494-visualizations-money-mortgage.md",
       "permalink": "/visualizations/money-mortgage/",
       "url": "https://templeton.host/visualizations/money-mortgage/",
       "title": "mortgage-math",
@@ -3951,7 +3959,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/494-visualizations-money-student-loans.md",
+      "file": "posts/coming-soon/495-visualizations-money-student-loans.md",
       "permalink": "/visualizations/money-student-loans/",
       "url": "https://templeton.host/visualizations/money-student-loans/",
       "title": "student-loan-strategy",
@@ -3959,7 +3967,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/495-visualizations-money-pre-tax-post-tax.md",
+      "file": "posts/coming-soon/496-visualizations-money-pre-tax-post-tax.md",
       "permalink": "/visualizations/money-pre-tax-post-tax/",
       "url": "https://templeton.host/visualizations/money-pre-tax-post-tax/",
       "title": "pre-tax-vs-post-tax",
@@ -3967,7 +3975,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/496-visualizations-money-roth-ira.md",
+      "file": "posts/coming-soon/497-visualizations-money-roth-ira.md",
       "permalink": "/visualizations/money-roth-ira/",
       "url": "https://templeton.host/visualizations/money-roth-ira/",
       "title": "traditional-vs-roth-ira",
@@ -3975,7 +3983,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/497-visualizations-money-401k-max.md",
+      "file": "posts/coming-soon/498-visualizations-money-401k-max.md",
       "permalink": "/visualizations/money-401k-max/",
       "url": "https://templeton.host/visualizations/money-401k-max/",
       "title": "max-your-401k",
@@ -3983,7 +3991,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/498-visualizations-money-savings-rate.md",
+      "file": "posts/coming-soon/499-visualizations-money-savings-rate.md",
       "permalink": "/visualizations/money-savings-rate/",
       "url": "https://templeton.host/visualizations/money-savings-rate/",
       "title": "15%-savings-rate",
@@ -3991,7 +3999,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/499-visualizations-money-hsa.md",
+      "file": "posts/coming-soon/500-visualizations-money-hsa.md",
       "permalink": "/visualizations/money-hsa/",
       "url": "https://templeton.host/visualizations/money-hsa/",
       "title": "hsa-triple-tax-advantage",
@@ -3999,7 +4007,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/500-visualizations-money-529.md",
+      "file": "posts/coming-soon/501-visualizations-money-529.md",
       "permalink": "/visualizations/money-529/",
       "url": "https://templeton.host/visualizations/money-529/",
       "title": "529-education-savings",
@@ -4007,7 +4015,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/501-visualizations-money-asset-classes.md",
+      "file": "posts/coming-soon/502-visualizations-money-asset-classes.md",
       "permalink": "/visualizations/money-asset-classes/",
       "url": "https://templeton.host/visualizations/money-asset-classes/",
       "title": "asset-classes",
@@ -4015,7 +4023,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/502-visualizations-money-index-funds.md",
+      "file": "posts/coming-soon/503-visualizations-money-index-funds.md",
       "permalink": "/visualizations/money-index-funds/",
       "url": "https://templeton.host/visualizations/money-index-funds/",
       "title": "index-funds",
@@ -4023,7 +4031,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/503-visualizations-money-diversification.md",
+      "file": "posts/coming-soon/504-visualizations-money-diversification.md",
       "permalink": "/visualizations/money-diversification/",
       "url": "https://templeton.host/visualizations/money-diversification/",
       "title": "diversification",
@@ -4031,7 +4039,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/504-visualizations-money-asset-allocation.md",
+      "file": "posts/coming-soon/505-visualizations-money-asset-allocation.md",
       "permalink": "/visualizations/money-asset-allocation/",
       "url": "https://templeton.host/visualizations/money-asset-allocation/",
       "title": "asset-allocation",
@@ -4039,7 +4047,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/505-visualizations-money-dca.md",
+      "file": "posts/coming-soon/506-visualizations-money-dca.md",
       "permalink": "/visualizations/money-dca/",
       "url": "https://templeton.host/visualizations/money-dca/",
       "title": "dollar-cost-averaging",
@@ -4047,7 +4055,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/506-visualizations-money-rebalancing.md",
+      "file": "posts/coming-soon/507-visualizations-money-rebalancing.md",
       "permalink": "/visualizations/money-rebalancing/",
       "url": "https://templeton.host/visualizations/money-rebalancing/",
       "title": "rebalancing",
@@ -4055,7 +4063,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/507-visualizations-money-rent-vs-buy.md",
+      "file": "posts/coming-soon/508-visualizations-money-rent-vs-buy.md",
       "permalink": "/visualizations/money-rent-vs-buy/",
       "url": "https://templeton.host/visualizations/money-rent-vs-buy/",
       "title": "rent-vs-buy",
@@ -4063,7 +4071,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/508-visualizations-money-rental-property.md",
+      "file": "posts/coming-soon/509-visualizations-money-rental-property.md",
       "permalink": "/visualizations/money-rental-property/",
       "url": "https://templeton.host/visualizations/money-rental-property/",
       "title": "rental-property-math",
@@ -4071,7 +4079,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/509-visualizations-money-return-on-equity.md",
+      "file": "posts/coming-soon/510-visualizations-money-return-on-equity.md",
       "permalink": "/visualizations/money-return-on-equity/",
       "url": "https://templeton.host/visualizations/money-return-on-equity/",
       "title": "return-on-equity",
@@ -4079,7 +4087,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/510-visualizations-money-real-estate-leverage.md",
+      "file": "posts/coming-soon/511-visualizations-money-real-estate-leverage.md",
       "permalink": "/visualizations/money-real-estate-leverage/",
       "url": "https://templeton.host/visualizations/money-real-estate-leverage/",
       "title": "real-estate-leverage",
@@ -4087,7 +4095,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/511-visualizations-money-capital-gains.md",
+      "file": "posts/coming-soon/512-visualizations-money-capital-gains.md",
       "permalink": "/visualizations/money-capital-gains/",
       "url": "https://templeton.host/visualizations/money-capital-gains/",
       "title": "capital-gains",
@@ -4095,7 +4103,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/512-visualizations-money-tax-loss-harvesting.md",
+      "file": "posts/coming-soon/513-visualizations-money-tax-loss-harvesting.md",
       "permalink": "/visualizations/money-tax-loss-harvesting/",
       "url": "https://templeton.host/visualizations/money-tax-loss-harvesting/",
       "title": "tax-loss-harvesting",
@@ -4103,7 +4111,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/513-visualizations-money-roth-conversion.md",
+      "file": "posts/coming-soon/514-visualizations-money-roth-conversion.md",
       "permalink": "/visualizations/money-roth-conversion/",
       "url": "https://templeton.host/visualizations/money-roth-conversion/",
       "title": "roth-conversion-ladder",
@@ -4111,7 +4119,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/514-visualizations-money-backdoor-roth.md",
+      "file": "posts/coming-soon/515-visualizations-money-backdoor-roth.md",
       "permalink": "/visualizations/money-backdoor-roth/",
       "url": "https://templeton.host/visualizations/money-backdoor-roth/",
       "title": "backdoor-roth",
@@ -4119,7 +4127,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/515-visualizations-money-large-purchase.md",
+      "file": "posts/coming-soon/516-visualizations-money-large-purchase.md",
       "permalink": "/visualizations/money-large-purchase/",
       "url": "https://templeton.host/visualizations/money-large-purchase/",
       "title": "large-purchase-planning",
@@ -4127,7 +4135,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/516-visualizations-money-fire-math.md",
+      "file": "posts/coming-soon/517-visualizations-money-fire-math.md",
       "permalink": "/visualizations/money-fire-math/",
       "url": "https://templeton.host/visualizations/money-fire-math/",
       "title": "fire-math",
@@ -4135,7 +4143,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/517-visualizations-money-career-asset.md",
+      "file": "posts/coming-soon/518-visualizations-money-career-asset.md",
       "permalink": "/visualizations/money-career-asset/",
       "url": "https://templeton.host/visualizations/money-career-asset/",
       "title": "career-as-asset",
@@ -4143,7 +4151,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/518-visualizations-money-estate-planning.md",
+      "file": "posts/coming-soon/519-visualizations-money-estate-planning.md",
       "permalink": "/visualizations/money-estate-planning/",
       "url": "https://templeton.host/visualizations/money-estate-planning/",
       "title": "estate-planning",
@@ -4151,7 +4159,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/519-visualizations-money-options.md",
+      "file": "posts/coming-soon/520-visualizations-money-options.md",
       "permalink": "/visualizations/money-options/",
       "url": "https://templeton.host/visualizations/money-options/",
       "title": "options-basics",
@@ -4159,7 +4167,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/520-visualizations-money-alternatives.md",
+      "file": "posts/coming-soon/521-visualizations-money-alternatives.md",
       "permalink": "/visualizations/money-alternatives/",
       "url": "https://templeton.host/visualizations/money-alternatives/",
       "title": "alternative-investments",
@@ -4167,7 +4175,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/521-visualizations-money-business-entity.md",
+      "file": "posts/coming-soon/522-visualizations-money-business-entity.md",
       "permalink": "/visualizations/money-business-entity/",
       "url": "https://templeton.host/visualizations/money-business-entity/",
       "title": "business-entity-tax",
@@ -4175,7 +4183,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/522-visualizations-money-charitable-giving.md",
+      "file": "posts/coming-soon/523-visualizations-money-charitable-giving.md",
       "permalink": "/visualizations/money-charitable-giving/",
       "url": "https://templeton.host/visualizations/money-charitable-giving/",
       "title": "charitable-giving-strategy",
@@ -4183,7 +4191,31 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/523-positions.md",
+      "file": "posts/coming-soon/524-business.md",
+      "permalink": "/business/",
+      "url": "https://templeton.host/business/",
+      "title": "Business Finance Knowledge Graph",
+      "category": "business",
+      "source_format": "html"
+    },
+    {
+      "file": "posts/coming-soon/525-experiments.md",
+      "permalink": "/experiments/",
+      "url": "https://templeton.host/experiments/",
+      "title": "Experiments",
+      "category": "experiments",
+      "source_format": "html"
+    },
+    {
+      "file": "posts/coming-soon/526-graph.md",
+      "permalink": "/graph/",
+      "url": "https://templeton.host/graph/",
+      "title": "Knowledge Graph",
+      "category": "graph",
+      "source_format": "html"
+    },
+    {
+      "file": "posts/coming-soon/527-positions.md",
       "permalink": "/positions/",
       "url": "https://templeton.host/positions/",
       "title": "Positions",
@@ -4191,7 +4223,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/524-positions-allocator.md",
+      "file": "posts/coming-soon/528-positions-allocator.md",
       "permalink": "/positions/allocator/",
       "url": "https://templeton.host/positions/allocator/",
       "title": "Allocator",
@@ -4199,7 +4231,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/525-positions-operator.md",
+      "file": "posts/coming-soon/529-positions-operator.md",
       "permalink": "/positions/operator/",
       "url": "https://templeton.host/positions/operator/",
       "title": "Operator",
@@ -4207,7 +4239,7 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/526-positions-builder.md",
+      "file": "posts/coming-soon/530-positions-builder.md",
       "permalink": "/positions/builder/",
       "url": "https://templeton.host/positions/builder/",
       "title": "Builder",
@@ -4215,11 +4247,19 @@
       "source_format": "html"
     },
     {
-      "file": "posts/coming-soon/527-positions-scientist.md",
+      "file": "posts/coming-soon/531-positions-scientist.md",
       "permalink": "/positions/scientist/",
       "url": "https://templeton.host/positions/scientist/",
       "title": "Scientist",
       "category": "positions",
+      "source_format": "html"
+    },
+    {
+      "file": "posts/coming-soon/532-thesis.md",
+      "permalink": "/thesis/",
+      "url": "https://templeton.host/thesis/",
+      "title": "Allocation Is All You Need",
+      "category": "thesis",
       "source_format": "html"
     }
   ]

@@ -15,7 +15,7 @@ import yaml
 from bs4 import BeautifulSoup
 from markdownify import markdownify as md
 
-ROOT = Path('/home/administrator/nvg_monorepo/getablaza')
+ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'posts' / 'coming-soon'
 ASSET_ROOT = ROOT / 'img' / 'templeton'
 PROFILE_OUT = ROOT / 'img' / 'xavi-linkedin-profile.jpg'
@@ -26,11 +26,31 @@ UA = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/125 Safari/537.3
 
 # These are linked from the source homepage but are not currently listed in its sitemap.
 EXTRA_URLS = [
+    BASE + '/about/',
+    BASE + '/answers/',
+    BASE + '/business/',
+    BASE + '/experiments/',
+    BASE + '/frameworks/',
+    BASE + '/frameworks/capital-allocation/',
+    BASE + '/frameworks/deity-problem/',
+    BASE + '/frameworks/demand-field/',
+    BASE + '/frameworks/designed-convergence/',
+    BASE + '/frameworks/knowledge-capital/',
+    BASE + '/frameworks/performance-frontier/',
+    BASE + '/frameworks/promotion-protocol/',
+    BASE + '/frameworks/quality-hillclimb/',
+    BASE + '/frameworks/verifier-capital/',
+    BASE + '/graph/',
+    BASE + '/lexicon/',
+    BASE + '/money/',
     BASE + '/positions/',
     BASE + '/positions/allocator/',
     BASE + '/positions/operator/',
     BASE + '/positions/builder/',
     BASE + '/positions/scientist/',
+    BASE + '/tech-tree/',
+    BASE + '/thesis/',
+    BASE + '/tools/',
 ]
 
 OUT.mkdir(parents=True, exist_ok=True)
@@ -283,6 +303,7 @@ def build_page(page_url, index):
         'templateEngineOverride': 'md',
         'image': '/img/xavi-linkedin-profile.jpg',
         'draft': False,
+        'generated_by': 'templeton-deep-copy-import',
         'permalink': canonical_permalink(page_url),
     }
     if source_format != 'html':
@@ -298,6 +319,8 @@ def build_page(page_url, index):
 
 
 def download_linkedin_photo():
+    if PROFILE_OUT.exists() and PROFILE_OUT.stat().st_size > 0:
+        return 'existing local profile photo'
     html_doc = fetch_text(LINKEDIN, timeout=45)
     soup = BeautifulSoup(html_doc, 'html.parser')
     image = meta(soup, 'og:image')
@@ -330,7 +353,11 @@ def main():
             path.unlink()
             removed += 1
 
-    profile_source = download_linkedin_photo()
+    try:
+        profile_source = download_linkedin_photo()
+    except Exception as error:
+        profile_source = f'skipped: {error}'
+        print(f'WARN profile photo skipped: {error}')
 
     xml = fetch_text(SITEMAP)
     root = ET.fromstring(xml)
@@ -343,7 +370,7 @@ def main():
     manifest = []
     failures = []
     # Do not generate pages that are already hand-owned by the existing codebase.
-    hand_owned_paths = {'', '/', '/about/'}
+    hand_owned_paths = {'', '/'}
     for index, url in enumerate([u for u in urls if urllib.parse.urlparse(u).path not in hand_owned_paths]):
         try:
             manifest.append(build_page(url, index))

@@ -11,6 +11,7 @@ layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
 draft: false
+generated_by: templeton-deep-copy-import
 permalink: /writing/technology-magic-taxonomy/
 source_format: markdown
 source_frontmatter:

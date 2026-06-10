@@ -95,7 +95,10 @@ def collect_missing() -> set[str]:
                 if not target.exists() or is_generated_alias_output(target):
                     missing.add(path)
         for asset in parser.assets:
-            for item in asset.split(','):
+            # Only srcset values need comma splitting. Plain href/src values can contain commas
+            # (for example Google Fonts axis ranges) and should be resolved as a single URL.
+            values = asset.split(',') if ' 1x' in asset or ' 2x' in asset or re.search(r'\s+\d+w', asset) else [asset]
+            for item in values:
                 url = item.strip().split(' ')[0]
                 path = resolve_internal(url, base)
                 if path and not file_for_path(path).exists():
