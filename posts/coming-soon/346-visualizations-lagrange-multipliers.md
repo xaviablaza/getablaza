@@ -2,7 +2,7 @@
 title: lagrange-multipliers
 description: Shows a moving point constrained to g(x,y)=0 (a circle) while minimizing f(x,y)=x^2+2y^2. At the constrained optimum, the visualization highlights gradient parallelism by drawing ∇f, ∇g, and λ∇g from the same point and displaying the stationarity condition ∇f = λ∇g alongside feasibility g(x)=0.
 date: '2026-07-01'
-scheduled: '2027-06-11'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/lagrange-multipliers/

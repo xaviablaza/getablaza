@@ -2,7 +2,7 @@
 title: balanced-trees
 description: Shows a single local tree rotation (left and right) transforming an imbalanced BST region into a balanced one. The animation fades out old parent/child links and fades in the new links while keeping the BST in-order sequence (A < x < B < y < C) visibly unchanged. It also contrasts AVL-style balance factors vs Red-Black invariants and connects the local invariant to the global height bound O(log n).
 date: '2026-07-01'
-scheduled: '2027-08-18'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/balanced-trees/

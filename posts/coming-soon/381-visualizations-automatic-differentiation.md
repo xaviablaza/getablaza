@@ -2,7 +2,7 @@
 title: automatic-differentiation
 description: Visualizes a tiny program trace (mul → sin → add) as a computational graph and shows how automatic differentiation applies the chain rule by composing local Jacobians. The animation alternates between forward-mode (pushing value+tangent left-to-right) and reverse-mode (pulling adjoints right-to-left) to highlight their different propagation directions and cost scaling.
 date: '2026-07-01'
-scheduled: '2027-07-16'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/automatic-differentiation/

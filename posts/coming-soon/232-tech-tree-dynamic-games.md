@@ -2,7 +2,7 @@
 title: Dynamic Games
 description: Extensive form games, subgame perfect equilibrium. Sequential rationality, backward induction. Perfect Bayesian equilibrium.
 date: '2026-07-01'
-scheduled: '2027-02-17'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/tech-tree/dynamic-games/

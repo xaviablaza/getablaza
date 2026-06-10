@@ -2,7 +2,7 @@
 title: Convolution Operation
 description: The sliding-window dot-product between a kernel and input (1D/2D) used to extract local patterns and build translation-equivariant representations in convolutional networks. Grasping how stride, padding, and kernel size affect output shape and receptive field is key for CNN design.
 date: '2026-07-01'
-scheduled: '2026-11-05'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/tech-tree/convolution-operation/

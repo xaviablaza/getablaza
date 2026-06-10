@@ -2,7 +2,7 @@
 title: linear-regression
 description: Shows a set of data points with a line model ŷ = β₀ + β₁x. The line smoothly morphs from a poor initial guess to the least-squares fit while residuals and their squared-error “blocks” visualize SSE = Σ(y−ŷ)². A matrix panel depicts X (with a column of ones for the intercept), β, and y, then highlights the normal equations (XᵀX)β = Xᵀy as the condition ∇β SSE = 0.
 date: '2026-07-01'
-scheduled: '2027-09-26'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/linear-regression/

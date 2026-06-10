@@ -2,7 +2,7 @@
 title: Vector Embeddings
 description: Continuous vector representations that encode discrete items (words, tokens, or features) into a dense numeric space where geometric relationships reflect semantic or functional similarity. Embeddings are the typical inputs to attention layers and determine how items interact via similarity and projection.
 date: '2026-07-01'
-scheduled: '2026-12-01'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/tech-tree/vector-embeddings/

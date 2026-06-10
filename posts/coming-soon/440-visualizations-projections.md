@@ -2,7 +2,7 @@
 title: projections
 description: Shows orthogonal projection geometrically (a vector v, a subspace line S, a sliding candidate u∈S, then the minimizing orthogonal projection with residual r ⟂ S) and connects it to least squares via the projection operator P = A(A^T A)^{-1}A^T, highlighting that for orthogonal projections P is symmetric and idempotent (P^2 = P).
 date: '2026-07-01'
-scheduled: '2027-09-13'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/projections/

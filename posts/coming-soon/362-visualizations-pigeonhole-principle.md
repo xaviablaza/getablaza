@@ -2,7 +2,7 @@
 title: pigeonhole-principle
 description: Shows n labeled boxes and m discrete items being assigned (mapped) into exactly one box each. The animation alternates between m=n (items can fit one-per-box) and m=n+1, where the extra item forces a collision so at least one box visibly contains 2+ items, illustrating the pigeonhole implication m>n ⇒ some box has ≥2 items.
 date: '2026-07-01'
-scheduled: '2027-06-27'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/pigeonhole-principle/

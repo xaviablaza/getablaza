@@ -2,7 +2,7 @@
 title: Correlated Execution Risk
 description: Operating investments that share a team, stack, review queue, or failure mode aren't independent. Sums of individual NPVs understate tail risk.
 date: '2026-07-01'
-scheduled: '2026-07-15'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/frameworks/correlation/

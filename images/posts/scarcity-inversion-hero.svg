@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <title>Editorial Flow Diagram: Propose vs Select</title>
+  <desc>A clean, minimal diagram showing how abundant proposals are filtered down to a few select survivors through a narrow gate.</desc>
+
+  <!-- Background -->
+  <g id="background">
+    <rect x="0" y="0" width="1200" height="800" fill="#09090b" />
+  </g>
+
+  <!-- Top Thesis -->
+  <g id="typography-thesis">
+    <text x="600" y="180" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="30" font-weight="600" fill="#e4e4e7" text-anchor="middle">AI made the proposer free. Selection became the whole job.</text>
+  </g>
+
+  <!-- Left Zone: Propose Grid (42 Emerald Squares) -->
+  <g id="propose-grid">
+    <!-- Row 1 -->
+    <rect x="97" y="302" width="16" height="16" fill="#10b981" />
+    <rect x="122" y="302" width="16" height="16" fill="#10b981" />
+    <rect x="147" y="302" width="16" height="16" fill="#10b981" />
+    <rect x="172" y="302" width="16" height="16" fill="#10b981" />
+    <rect x="197" y="302" width="16" height="16" fill="#10b981" />
+    <rect x="222" y="302" width="16" height="16" fill="#10b981" />
+    <!-- Row 2 -->
+    <rect x="97" y="327" width="16" height="16" fill="#10b981" />
+    <rect x="122" y="327" width="16" height="16" fill="#10b981" />
+    <rect x="147" y="327" width="16" height="16" fill="#10b981" />
+    <rect x="172" y="327" width="16" height="16" fill="#10b981" />
+    <rect x="197" y="327" width="16" height="16" fill="#10b981" />
+    <rect x="222" y="327" width="16" height="16" fill="#10b981" />
+    <!-- Row 3 -->
+    <rect x="97" y="352" width="16" height="16" fill="#10b981" />
+    <rect x="122" y="352" width="16" height="16" fill="#10b981" />
+    <rect x="147" y="352" width="16" height="16" fill="#10b981" />
+    <rect x="172" y="352" width="16" height="16" fill="#10b981" />
+    <rect x="197" y="352" width="16" height="16" fill="#10b981" />
+    <rect x="222" y="352" width="16" height="16" fill="#10b981" />
+    <!-- Row 4 -->
+    <rect x="97" y="377" width="16" height="16" fill="#10b981" />
+    <rect x="122" y="377" width="16" height="16" fill="#10b981" />
+    <rect x="147" y="377" width="16" height="16" fill="#10b981" />
+    <rect x="172" y="377" width="16" height="16" fill="#10b981" />
+    <rect x="197" y="377" width="16" height="16" fill="#10b981" />
+    <rect x="222" y="377" width="16" height="16" fill="#10b981" />
+    <!-- Row 5 -->
+    <rect x="97" y="402" width="16" height="16" fill="#10b981" />
+    <rect x="122" y="402" width="16" height="16" fill="#10b981" />
+    <rect x="147" y="402" width="16" height="16" fill="#10b981" />
+    <rect x="172" y="402" width="16" height="16" fill="#10b981" />
+    <rect x="197" y="402" width="16" height="16" fill="#10b981" />
+    <rect x="222" y="402" width="16" height="16" fill="#10b981" />
+    <!-- Row 6 -->
+    <rect x="97" y="427" width="16" height="16" fill="#10b981" />
+    <rect x="122" y="427" width="16" height="16" fill="#10b981" />
+    <rect x="147" y="427" width="16" height="16" fill="#10b981" />
+    <rect x="172" y="427" width="16" height="16" fill="#10b981" />
+    <rect x="197" y="427" width="16" height="16" fill="#10b981" />
+    <rect x="222" y="427" width="16" height="16" fill="#10b981" />
+    <!-- Row 7 -->
+    <rect x="97" y="452" width="16" height="16" fill="#10b981" />
+    <rect x="122" y="452" width="16" height="16" fill="#10b981" />
+    <rect x="147" y="452" width="16" height="16" fill="#10b981" />
+    <rect x="172" y="452" width="16" height="16" fill="#10b981" />
+    <rect x="197" y="452" width="16" height="16" fill="#10b981" />
+    <rect x="222" y="452" width="16" height="16" fill="#10b981" />
+  </g>
+
+  <!-- Flow Lines: Emerald (Left to Gate) -->
+  <g id="flow-lines-emerald">
+    <!-- Line 1 (Rejected) -->
+    <path d="M 245 310 C 365 310, 424 330, 544 330" fill="none" stroke="#10b981" stroke-width="1.5" stroke-linecap="round" />
+    <!-- Line 2 (Rejected) -->
+    <path d="M 245 335 C 365 335, 424 360, 544 360" fill="none" stroke="#10b981" stroke-width="1.5" stroke-linecap="round" />
+    <!-- Line 3 (Survivor 1) -->
+    <path d="M 245 360 C 365 360, 424 393, 544 393 L 566 393" fill="none" stroke="#10b981" stroke-width="1.5" stroke-linecap="round" />
+    <!-- Line 4 (Survivor 2) -->
+    <path d="M 245 385 C 365 385, 424 400, 544 400 L 566 400" fill="none" stroke="#10b981" stroke-width="1.5" stroke-linecap="round" />
+    <!-- Line 5 (Survivor 3) -->
+    <path d="M 245 410 C 365 410, 424 407, 544 407 L 566 407" fill="none" stroke="#10b981" stroke-width="1.5" stroke-linecap="round" />
+    <!-- Line 6 (Rejected) -->
+    <path d="M 245 435 C 365 435, 424 440, 544 440" fill="none" stroke="#10b981" stroke-width="1.5" stroke-linecap="round" />
+    <!-- Line 7 (Rejected) -->
+    <path d="M 245 460 C 365 460, 424 470, 544 470" fill="none" stroke="#10b981" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <!-- Rejection Terminal Markers -->
+  <g id="rejection-markers">
+    <circle cx="544" cy="330" r="3" fill="#10b981" />
+    <circle cx="544" cy="360" r="3" fill="#10b981" />
+    <circle cx="544" cy="440" r="3" fill="#10b981" />
+    <circle cx="544" cy="470" r="3" fill="#10b981" />
+  </g>
+
+  <!-- Center Zone: Select Gate -->
+  <g id="select-gate">
+    <!-- Upper Gate Bar -->
+    <rect x="544" y="300" width="22" height="88" fill="#f59e0b" />
+    <!-- Lower Gate Bar -->
+    <rect x="544" y="412" width="22" height="88" fill="#f59e0b" />
+  </g>
+
+  <!-- Flow Lines: Light Zinc (Gate to Ship) -->
+  <g id="flow-lines-zinc">
+    <!-- Line 3 Out (Survivor 1) -->
+    <path d="M 566 393 C 656 393, 754 362, 844 362" fill="none" stroke="#e4e4e7" stroke-width="1.5" stroke-linecap="round" />
+    <!-- Line 4 Out (Survivor 2) -->
+    <path d="M 566 400 L 844 400" fill="none" stroke="#e4e4e7" stroke-width="1.5" stroke-linecap="round" />
+    <!-- Line 5 Out (Survivor 3) -->
+    <path d="M 566 407 C 656 407, 754 438, 844 438" fill="none" stroke="#e4e4e7" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <!-- Right Zone: Ship (3 Light Zinc Squares) -->
+  <g id="ship-squares">
+    <rect x="844" y="351" width="22" height="22" fill="#e4e4e7" />
+    <rect x="844" y="389" width="22" height="22" fill="#e4e4e7" />
+    <rect x="844" y="427" width="22" height="22" fill="#e4e4e7" />
+  </g>
+
+  <!-- Zone Labels & Captions -->
+  <g id="labels-and-captions">
+    <!-- Propose Label -->
+    <text x="167" y="525" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#10b981" text-anchor="middle">PROPOSE</text>
+    <text x="167" y="550" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="15" fill="#a1a1aa" text-anchor="middle">now free</text>
+
+    <!-- Select Label -->
+    <text x="555" y="545" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#f59e0b" text-anchor="middle">SELECT</text>
+    <text x="555" y="570" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="15" fill="#a1a1aa" text-anchor="middle">now scarce</text>
+
+    <!-- Ship Label -->
+    <text x="855" y="525" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#e4e4e7" text-anchor="middle">SHIP</text>
+    <text x="855" y="550" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="15" fill="#a1a1aa" text-anchor="middle">what survives</text>
+  </g>
+
+  <!-- Bottom Caption -->
+  <g id="bottom-caption">
+    <text x="600" y="650" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="17" font-style="italic" fill="#a1a1aa" text-anchor="middle">The bottleneck moved from making it to choosing it.</text>
+  </g>
+</svg>

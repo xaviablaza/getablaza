@@ -2,7 +2,7 @@
 title: channel-capacity
 description: 'Visualizes a noisy channel as a probabilistic mapping p(y|x) (shown as a 2×2 transition matrix for a binary symmetric channel) and the channel capacity C as the maximum mutual information over input distributions: C = sup_{p(x)} I(X;Y). The lower plot animates I(X;Y) vs p(X=1) for the current noise level ε, highlighting the maximizing distribution and the capacity. A rate strip illustrates Shannon’s theorem: rates R<C are achievable while R>C are not reliably achievable.'
 date: '2026-07-01'
-scheduled: '2027-10-03'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/channel-capacity/

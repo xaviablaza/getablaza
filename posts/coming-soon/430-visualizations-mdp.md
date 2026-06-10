@@ -2,7 +2,7 @@
 title: markov-decision-processes
 description: 'Visualizes an MDP decision epoch: a highlighted state selects an action via a (stochastic) policy π(a|s), transitions to next states according to P(s''|s,a) with immediate rewards r, then performs a Bellman backup Q(s,a)=E[r]+γE[V(s'')]. The final stage morphs from policy evaluation (expectation under π) to Bellman optimality (max over actions).'
 date: '2026-07-01'
-scheduled: '2027-09-03'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/mdp/

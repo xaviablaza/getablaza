@@ -2,7 +2,7 @@
 title: diffusion-models
 description: 'Shows the diffusion workflow in three stages: (1) a forward time-indexed Gaussian noising Markov chain that gradually corrupts a simple blocky “image” according to a noise schedule, (2) a learned denoiser/score model εθ(x_t,t) visualized as a vector field acting on the noisy sample, and (3) the reverse iterative generative process that uses εθ to denoise step-by-step from pure noise back to data.'
 date: '2026-07-01'
-scheduled: '2027-07-13'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/diffusion-models/

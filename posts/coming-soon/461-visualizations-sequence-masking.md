@@ -2,7 +2,7 @@
 title: sequence-masking-(causal-and-padding-masks)
 description: Visualizes the attention mask matrix M (1=allow, 0=block) and how causal masking (upper-triangular blocking of future tokens) and padding masking (blocking PAD key positions) combine. The animation cycles between mask types, then demonstrates integration into attention by adding a large negative value to masked logits so softmax assigns ~0 probability to blocked keys for the active query row.
 date: '2026-07-01'
-scheduled: '2027-10-04'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/sequence-masking/

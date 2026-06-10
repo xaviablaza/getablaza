@@ -2,7 +2,7 @@
 title: permutations
 description: Shows k-permutations as filling ordered slots from a pool without replacement. The animation steps through each slot to emphasize order sensitivity, then highlights the falling product n·(n−1)·…·(n−k+1) and its equivalence to n!/(n−k)!; includes a special case where k=n to show full permutations equal n!.
 date: '2026-07-01'
-scheduled: '2027-08-12'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/permutations/

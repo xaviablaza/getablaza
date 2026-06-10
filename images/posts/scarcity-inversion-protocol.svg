@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <title>The Inversion Protocol</title>
+  <desc>A restrained three-step horizontal process diagram to find post-AI scarcity.</desc>
+
+  <!-- Background -->
+  <g id="background-layer">
+    <rect x="0" y="0" width="800" height="600" fill="#09090b" stroke="none" />
+  </g>
+
+  <!-- Header Section -->
+  <g id="header-section">
+    <text x="400" y="50" fill="#f4f4f5" font-family="system-ui,-apple-system,sans-serif" font-size="20" font-weight="700" text-anchor="middle">Run the Inversion Protocol</text>
+    <text x="400" y="78" fill="#a1a1aa" font-family="system-ui,-apple-system,sans-serif" font-size="13" text-anchor="middle">About 30 minutes, on your own operations - not another think-piece.</text>
+  </g>
+
+  <!-- Card 1: Inventory -->
+  <g id="card-step-1">
+    <rect x="50" y="120" width="200" height="300" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.5" />
+    <circle cx="150" cy="185" r="24" fill="none" stroke="#52525b" stroke-width="2.5" />
+    <text x="150" y="192" fill="#e4e4e7" font-family="system-ui,-apple-system,sans-serif" font-size="20" font-weight="700" text-anchor="middle">1</text>
+    <text x="150" y="272" fill="#f4f4f5" font-family="system-ui,-apple-system,sans-serif" font-size="16" font-weight="700" text-anchor="middle">INVENTORY</text>
+    <text x="150" y="320" fill="#a1a1aa" font-family="system-ui,-apple-system,sans-serif" font-size="12.5" text-anchor="middle">What did AI just</text>
+    <text x="150" y="346" fill="#a1a1aa" font-family="system-ui,-apple-system,sans-serif" font-size="12.5" text-anchor="middle">make cheap? Name the</text>
+    <text x="150" y="372" fill="#a1a1aa" font-family="system-ui,-apple-system,sans-serif" font-size="12.5" text-anchor="middle">task, % drop, volume.</text>
+  </g>
+
+  <!-- Card 2: Locate -->
+  <g id="card-step-2">
+    <rect x="300" y="120" width="200" height="300" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.5" />
+    <circle cx="400" cy="185" r="24" fill="none" stroke="#52525b" stroke-width="2.5" />
+    <text x="400" y="192" fill="#e4e4e7" font-family="system-ui,-apple-system,sans-serif" font-size="20" font-weight="700" text-anchor="middle">2</text>
+    <text x="400" y="272" fill="#f4f4f5" font-family="system-ui,-apple-system,sans-serif" font-size="16" font-weight="700" text-anchor="middle">LOCATE</text>
+    <text x="400" y="320" fill="#a1a1aa" font-family="system-ui,-apple-system,sans-serif" font-size="12.5" text-anchor="middle">Find the selector it</text>
+    <text x="400" y="346" fill="#a1a1aa" font-family="system-ui,-apple-system,sans-serif" font-size="12.5" text-anchor="middle">free-rode on: a person,</text>
+    <text x="400" y="372" fill="#a1a1aa" font-family="system-ui,-apple-system,sans-serif" font-size="12.5" text-anchor="middle">ontology, gate, or prior.</text>
+  </g>
+
+  <!-- Card 3: Audit -->
+  <g id="card-step-3">
+    <rect x="550" y="120" width="200" height="300" rx="10" fill="#09090b" stroke="#f59e0b" stroke-width="2.5" />
+    <circle cx="650" cy="185" r="24" fill="none" stroke="#f59e0b" stroke-width="2.5" />
+    <text x="650" y="192" fill="#f59e0b" font-family="system-ui,-apple-system,sans-serif" font-size="20" font-weight="700" text-anchor="middle">3</text>
+    <text x="650" y="272" fill="#f4f4f5" font-family="system-ui,-apple-system,sans-serif" font-size="16" font-weight="700" text-anchor="middle">AUDIT</text>
+    <text x="650" y="320" fill="#fcd34d" font-family="system-ui,-apple-system,sans-serif" font-size="12.5" text-anchor="middle">Has the selector held</text>
+    <text x="650" y="346" fill="#fcd34d" font-family="system-ui,-apple-system,sans-serif" font-size="12.5" text-anchor="middle">under the new load? Or</text>
+    <text x="650" y="372" fill="#fcd34d" font-family="system-ui,-apple-system,sans-serif" font-size="12.5" text-anchor="middle">has it quietly de-rated?</text>
+  </g>
+
+  <!-- Connectors -->
+  <g id="step-connectors">
+    <line x1="256" y1="270" x2="292" y2="270" stroke="#52525b" stroke-width="2" />
+    <path d="M 287 266 L 292 270 L 287 274" fill="none" stroke="#52525b" stroke-width="2" />
+    <line x1="506" y1="270" x2="542" y2="270" stroke="#52525b" stroke-width="2" />
+    <path d="M 537 266 L 542 270 L 537 274" fill="none" stroke="#52525b" stroke-width="2" />
+  </g>
+
+  <!-- Badge under Step 3 -->
+  <g id="step-3-badge">
+    <rect x="550" y="438" width="200" height="24" rx="11" fill="#1c1917" stroke="#f59e0b" stroke-width="1" />
+    <text x="650" y="454" fill="#f59e0b" font-family="system-ui,-apple-system,sans-serif" font-size="12" font-weight="600" text-anchor="middle">the step almost nobody runs</text>
+  </g>
+
+  <!-- Caption and Footer -->
+  <g id="footer-section">
+    <text x="400" y="510" fill="#a1a1aa" font-family="system-ui,-apple-system,sans-serif" font-size="13" text-anchor="middle">Better-looking dashboards with worse downstream outcomes is the tell.</text>
+    <text x="400" y="568" fill="#52525b" font-family="system-ui,-apple-system,sans-serif" font-size="12" text-anchor="middle">templeton.host</text>
+  </g>
+</svg>

@@ -2,7 +2,7 @@
 title: propositional-logic
 description: Animated truth-functional evaluation of a well-formed formula via a parse tree. The visualization cycles through all truth assignments for atomic propositions p and q, computes each subformula bottom-up (including ¬ and ->), and highlights the corresponding truth-table row to illustrate satisfiability (exists a true row) and validity (all rows true).
 date: '2026-07-01'
-scheduled: '2027-08-10'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/propositional-logic/

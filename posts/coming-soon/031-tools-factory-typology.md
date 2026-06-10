@@ -2,7 +2,7 @@
 title: What Factory Are You?
 description: Classify a knowledge-work production line into a physical-factory archetype from its input, process, and output signature - then inherit that industry's mature operations playbook. Work in progress, building in public.
 date: '2026-07-01'
-scheduled: '2026-07-31'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/tools/factory-typology/

@@ -2,7 +2,7 @@
 title: kkt-conditions
 description: 'Visualizes KKT for an inequality-constrained optimization: a point x moves toward the feasible set (inside a circle). The left panel shows the feasible region and vectors for -∇f (unconstrained descent), μ∇g (constraint push), and the stationarity residual ∇f+μ∇g shrinking near the solution. The right panel is a live KKT checklist with gauges for primal feasibility g(x)≤0, multiplier μ≥0, and complementary slackness μ·g(x)=0.'
 date: '2026-07-01'
-scheduled: '2027-09-23'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/kkt-conditions/

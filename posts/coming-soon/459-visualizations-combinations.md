@@ -2,7 +2,7 @@
 title: combinations
 description: Visualizes choosing k distinct items from n when order does not matter. The animation first builds an ordered pick (a k-permutation), then rapidly cycles through the k! different orderings of the same chosen items and collapses them into a single unordered subset token, reinforcing that combinations are permutations with order factored out. The bottom panel ties this to the formulas C(n,k)=n!/(k!(n-k)!) and C(n,k)=P(n,k)/k! with a numeric example (n=5,k=3).
 date: '2026-07-01'
-scheduled: '2027-10-02'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/combinations/

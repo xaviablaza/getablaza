@@ -2,7 +2,7 @@
 title: law-of-large-numbers
 description: Streams iid samples X_i from a fixed distribution (a fair die), computes the running sample mean X̄_n, and shows how X̄_n stabilizes near the expected value E[X] as n grows. A shrinking green band around E[X] visually suggests convergence in probability.
 date: '2026-07-01'
-scheduled: '2027-06-19'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/law-large-numbers/

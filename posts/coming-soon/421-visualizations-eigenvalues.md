@@ -2,7 +2,7 @@
 title: eigenvalues-and-eigenvectors
 description: Shows how a 2D linear transform A warps the unit square and sends a vector v to Av. A rotating vector gradually snaps to an invariant direction (an eigenspace line), where Av becomes collinear with v and the scaling factor λ is highlighted. A side panel animates det(A−λI) while scanning λ, marking roots (eigenvalues) where the determinant hits 0.
 date: '2026-07-01'
-scheduled: '2027-08-25'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/eigenvalues/

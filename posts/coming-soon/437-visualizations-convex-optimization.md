@@ -2,7 +2,7 @@
 title: convex-optimization
 description: Shows a convex feasible set (highlighted polygon) with convex objective contours inside it. Animated “descent” iterates from multiple starting points converge to the same argmin, illustrating that for convex objectives over convex sets any local minimum is a global minimum. A brief non-convex overlay contrasts this by showing different basins (local minima).
 date: '2026-07-01'
-scheduled: '2027-09-10'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/convex-optimization/

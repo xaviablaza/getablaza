@@ -2,7 +2,7 @@
 title: proof-techniques
 description: 'Cycles through three proof strategies and shows how each transforms the original goal into a different logical task: (1) Direct proof builds a chain of implications from premises to the goal, (2) Contradiction assumes the negated goal and animates the derivation of an explicit contradiction (⟂) to conclude the original goal, and (3) Induction breaks a universal claim (∀n) into a base case and an inductive step (n→n+1), then highlights the resulting universal conclusion.'
 date: '2026-07-01'
-scheduled: '2027-08-05'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/proof-techniques/

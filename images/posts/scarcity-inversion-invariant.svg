@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <title>The Invariant: Free Proposer, Scarce Selector</title>
+  <desc>A technical diagram illustrating how AI shifts the binding constraint from production (propose) to selection (select).</desc>
+
+  <!-- background-layer -->
+  <g id="background-layer">
+    <rect x="0" y="0" width="800" height="600" fill="#09090b" stroke="none" />
+  </g>
+
+  <!-- header-section -->
+  <g id="header-section">
+    <text x="400" y="46" fill="#f4f4f5" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" text-anchor="middle">The Invariant: Free Proposer, Scarce Selector</text>
+    <text x="400" y="74" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="13" text-anchor="middle">AI removes the production cap. Whatever was free-riding on it becomes the bottleneck.</text>
+  </g>
+
+  <!-- pre-ai-panel -->
+  <g id="pre-ai-panel">
+    <!-- Section Label -->
+    <text x="210" y="128" fill="#71717a" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5" text-anchor="middle">PRE-AI</text>
+
+    <!-- PROPOSE (Bottleneck) -->
+    <rect x="85" y="148" width="250" height="62" rx="7" fill="#09090b" stroke="#f59e0b" stroke-width="2.5" />
+    <text x="210" y="180" fill="#f4f4f5" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="700" text-anchor="middle">PROPOSE</text>
+    <text x="210" y="199" fill="#f59e0b" font-family="system-ui, -apple-system, sans-serif" font-size="12" text-anchor="middle">expensive - the bottleneck</text>
+
+    <!-- Connector 1 -->
+    <line x1="210" y1="215" x2="210" y2="239" stroke="#52525b" stroke-width="1.5" />
+    <polygon points="207,239 213,239 210,245" fill="#52525b" stroke="none" />
+
+    <!-- SELECT -->
+    <rect x="85" y="250" width="250" height="62" rx="7" fill="#18181b" stroke="#3f3f46" stroke-width="1.5" />
+    <text x="210" y="282" fill="#e4e4e7" font-family="system-ui, -apple-system, sans-serif" font-size="15" text-anchor="middle">SELECT</text>
+    <text x="210" y="300" fill="#71717a" font-family="system-ui, -apple-system, sans-serif" font-size="12" text-anchor="middle">free-rides on scarce input</text>
+
+    <!-- Connector 2 -->
+    <line x1="210" y1="317" x2="210" y2="341" stroke="#52525b" stroke-width="1.5" />
+    <polygon points="207,341 213,341 210,347" fill="#52525b" stroke="none" />
+
+    <!-- SHIP -->
+    <rect x="85" y="352" width="250" height="62" rx="7" fill="#18181b" stroke="#3f3f46" stroke-width="1.5" />
+    <text x="210" y="388" fill="#e4e4e7" font-family="system-ui, -apple-system, sans-serif" font-size="15" text-anchor="middle">SHIP</text>
+  </g>
+
+  <!-- ai-transition -->
+  <g id="ai-transition">
+    <!-- Horizontal Transition Arrow -->
+    <line x1="345" y1="281" x2="447" y2="281" stroke="#10b981" stroke-width="3" />
+    <polygon points="447,276 447,286 455,281" fill="#10b981" stroke="none" />
+    <text x="400" y="270" fill="#10b981" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" text-anchor="middle">AI</text>
+  </g>
+
+  <!-- post-ai-panel -->
+  <g id="post-ai-panel">
+    <!-- Section Label -->
+    <text x="590" y="128" fill="#71717a" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5" text-anchor="middle">POST-AI</text>
+
+    <!-- PROPOSE -->
+    <rect x="465" y="148" width="250" height="62" rx="7" fill="#18181b" stroke="#3f3f46" stroke-width="1.5" />
+    <text x="590" y="180" fill="#e4e4e7" font-family="system-ui, -apple-system, sans-serif" font-size="15" text-anchor="middle">PROPOSE</text>
+    <text x="590" y="199" fill="#71717a" font-family="system-ui, -apple-system, sans-serif" font-size="12" text-anchor="middle">free - infinite candidates</text>
+
+    <!-- Connector 1 -->
+    <line x1="590" y1="215" x2="590" y2="239" stroke="#52525b" stroke-width="1.5" />
+    <polygon points="587,239 593,239 590,245" fill="#52525b" stroke="none" />
+
+    <!-- SELECT (New Bottleneck) -->
+    <rect x="465" y="250" width="250" height="62" rx="7" fill="#09090b" stroke="#f59e0b" stroke-width="2.5" />
+    <text x="590" y="282" fill="#f4f4f5" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="700" text-anchor="middle">SELECT</text>
+    <text x="590" y="300" fill="#f59e0b" font-family="system-ui, -apple-system, sans-serif" font-size="12" text-anchor="middle">the entire job now</text>
+
+    <!-- Connector 2 -->
+    <line x1="590" y1="317" x2="590" y2="341" stroke="#52525b" stroke-width="1.5" />
+    <polygon points="587,341 593,341 590,347" fill="#52525b" stroke="none" />
+
+    <!-- SHIP -->
+    <rect x="465" y="352" width="250" height="62" rx="7" fill="#18181b" stroke="#3f3f46" stroke-width="1.5" />
+    <text x="590" y="388" fill="#e4e4e7" font-family="system-ui, -apple-system, sans-serif" font-size="15" text-anchor="middle">SHIP</text>
+  </g>
+
+  <!-- footer-section -->
+  <g id="footer-section">
+    <!-- Caption -->
+    <text x="400" y="480" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="13" text-anchor="middle">The bottleneck moved. The dashboards still measure the old one.</text>
+    
+    <!-- Divider Line -->
+    <line x1="85" y1="540" x2="715" y2="540" stroke="#27272a" stroke-width="1" />
+    
+    <!-- Footer Link -->
+    <text x="400" y="568" fill="#52525b" font-family="system-ui, -apple-system, sans-serif" font-size="12" text-anchor="middle">templeton.host</text>
+  </g>
+</svg>

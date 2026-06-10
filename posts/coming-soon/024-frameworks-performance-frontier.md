@@ -2,7 +2,7 @@
 title: The Performance Frontier
 description: A protocol for locating excellence when nobody agrees what good looks like. Map the distribution, find the 99th percentile, follow the gradient.
 date: '2026-07-01'
-scheduled: '2026-07-24'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/frameworks/performance-frontier/

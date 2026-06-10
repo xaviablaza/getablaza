@@ -2,7 +2,7 @@
 title: equivalence-relations
 description: Shows how an equivalence relation (~) partitions a set into disjoint equivalence classes, and how that same structure appears as block-diagonal 1s in the relation matrix. The animation alternates between highlighting a class in the partition, querying whether a~b by checking if they lie in the same class, and emphasizing reflexive/symmetric/transitive structure (diagonal, mirror cells, and solid class blocks).
 date: '2026-07-01'
-scheduled: '2027-08-20'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/equivalence-relations/

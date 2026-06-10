@@ -2,7 +2,7 @@
 title: hypothesis-testing
 description: 'Visualizes the hypothesis testing pipeline: competing statements (H0 vs Ha), a sample producing an observed test statistic z_obs, the null distribution of the statistic under H0, the p-value as the right-tail probability beyond z_obs, and the decision rule comparing p to a pre-specified significance level α (reject H0 when p ≤ α).'
 date: '2026-07-01'
-scheduled: '2027-07-02'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/hypothesis-testing/

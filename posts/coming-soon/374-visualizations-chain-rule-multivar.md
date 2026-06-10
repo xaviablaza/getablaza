@@ -2,7 +2,7 @@
 title: multivariable-chain-rule
 description: 'Shows a concrete composition f: R²→R² feeding into g: R²→R², tracks a moving input point x, evaluates the Jacobians Df(x) and Dg(f(x)), then animates the chain rule by highlighting the row/column used in the matrix product to form D(g∘f)(x). Emphasizes “evaluate Dg at f(x)” and “compose linear maps = multiply matrices.”'
 date: '2026-07-01'
-scheduled: '2027-07-09'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/chain-rule-multivar/

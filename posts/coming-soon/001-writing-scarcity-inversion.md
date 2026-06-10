@@ -2,7 +2,7 @@
 title: What AI Actually Made Scarce
 description: 'AI made production cheap and revealed the constraint it was hiding: selection. Green dashboards stay green while quality quietly decays. A 30-minute protocol to find your new scarcity.'
 date: '2026-06-03'
-scheduled: '2026-07-01'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: markdown
 inspiration_url: https://templeton.host/writing/scarcity-inversion/

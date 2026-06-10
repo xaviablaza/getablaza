@@ -2,7 +2,7 @@
 title: mutual-information
 description: Shows a joint distribution P(X,Y) as a blocky 8×8 heatmap, with marginals P(X), P(Y). The animation cycles between independence (P(X,Y)=P(X)P(Y), diff grid near zero, I(X;Y)≈0) and dependence (diagonal structure, diff grid lights up, I(X;Y)>0). A decomposition bar visualizes I(X;Y)=H(X)−H(X|Y) by splitting H(X) into the shared part (mutual information) and the remaining uncertainty (conditional entropy).
 date: '2026-07-01'
-scheduled: '2027-08-15'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/mutual-information/

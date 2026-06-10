@@ -2,7 +2,7 @@
 title: joint-distributions
 description: Shows a discrete joint distribution p_{X,Y}(x,y) as a 5×5 probability grid. The animation cycles through (1) summing a highlighted row to form the marginal p_Y(y), (2) summing a highlighted column to form p_X(x), and (3) fixing a y* row and normalizing by p_Y(y*) to produce the conditional p_{X|Y}(x|y*). The right panel reinforces the identities p_{X,Y}=p_{X|Y}·p_Y and Bayes’ rule as an algebraic rearrangement.
 date: '2026-07-01'
-scheduled: '2027-08-31'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/joint-distributions/

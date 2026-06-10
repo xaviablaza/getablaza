@@ -2,7 +2,7 @@
 title: clustering
 description: 'Side-by-side visualization of two unsupervised clustering approaches. Left panel animates K-means: points are assigned to the nearest centroid (mu_j), then centroids move to the mean of their assigned points, reducing within-cluster sum of squared errors (SSE) shown as bars. Right panel animates hierarchical agglomerative clustering: a dendrogram is built by repeatedly merging the closest clusters under single-linkage, with the currently selected merge highlighted both in the dendrogram and on the point scatter plot.'
 date: '2026-07-01'
-scheduled: '2027-10-12'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/clustering/

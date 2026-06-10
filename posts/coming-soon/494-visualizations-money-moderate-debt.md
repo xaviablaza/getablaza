@@ -2,7 +2,7 @@
 title: moderate-interest-debt
 description: Debt at 4-7% APR - the gray zone. Expected value of investing (~7-10%) vs the guaranteed return of paying down debt. Behavioral vs mathematical answer.
 date: '2026-07-01'
-scheduled: '2027-11-06'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/money-moderate-debt/

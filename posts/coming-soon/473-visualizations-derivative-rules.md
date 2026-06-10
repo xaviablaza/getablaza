@@ -2,7 +2,7 @@
 title: derivative-rules
 description: Animated 4-panel, green-on-black visualization cycling through power, product, chain, and quotient rules. Each panel shows a function (dim) and its derivative (bright) on a shared graph, with a moving sample point x* and a right-side blocky ‘formula pipeline’ that highlights how each rule is applied. The quotient rule panel explicitly rewrites f/g as f·(1/g) and then applies the product rule to reveal the reciprocal derivative piece.
 date: '2026-07-01'
-scheduled: '2027-10-16'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/derivative-rules/

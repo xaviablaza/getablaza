@@ -2,7 +2,7 @@
 title: cross-validation
 description: 'Visualizes held-out evaluation with k-fold cross-validation: the dataset is partitioned into k disjoint folds; each step highlights one fold as the validation (held-out) set while the others are used for training; the per-fold validation loss L(y, ŷ) is recorded and then aggregated (averaged) into a single cross-validation estimate of expected generalization error. A blinking note indicates LOOCV as the special case k = N.'
 date: '2026-07-01'
-scheduled: '2027-06-30'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/cross-validation/

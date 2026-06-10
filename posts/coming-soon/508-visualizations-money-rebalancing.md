@@ -2,7 +2,7 @@
 title: rebalancing
 description: 'Portfolio drift from target allocation. Calendar vs threshold rebalancing. Tax-efficient methods: direct new contributions, rebalance in tax-advantaged accounts.'
 date: '2026-07-01'
-scheduled: '2027-11-20'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/money-rebalancing/

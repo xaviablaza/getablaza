@@ -2,7 +2,7 @@
 title: limits
 description: Shows x approaching a from the left and right while f(x) approaches a single value L, even when the function’s value at x=a is different (a hole at (a,L) and a filled point at (a,f(a))). The animation slows near a to emphasize “arbitrarily close” without reaching the point, and highlights that the two-sided limit exists when left- and right-hand limits match.
 date: '2026-07-01'
-scheduled: '2027-05-27'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/limits/

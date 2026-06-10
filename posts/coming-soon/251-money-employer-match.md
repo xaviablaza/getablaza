@@ -2,7 +2,7 @@
 title: Employer 401k Match
 description: Contribute enough to capture full employer match. A 50-100% guaranteed return on your money. Free money you must not leave on the table.
 date: '2026-07-01'
-scheduled: '2027-03-08'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/money/employer-match/

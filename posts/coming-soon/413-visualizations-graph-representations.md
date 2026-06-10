@@ -2,7 +2,7 @@
 title: graph-representations
 description: Side-by-side animated comparison of adjacency matrix A[i][j] and adjacency list Adj[v]. The animation alternates between (1) checking whether an edge exists (single matrix cell probe vs scanning a vertex’s neighbor list) and (2) iterating neighbors (scanning an entire matrix row vs walking just the adjacency-list entries). A bottom bar morphs graph density to show the Θ(n²) vs Θ(n+m) space tradeoff.
 date: '2026-07-01'
-scheduled: '2027-08-17'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/graph-representations/

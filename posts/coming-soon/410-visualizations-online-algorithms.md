@@ -2,7 +2,7 @@
 title: online-algorithms
 description: 'Visualizes the online decision model using a streaming-day scenario (ski rental): input arrives day by day, the online algorithm must commit (rent vs BUY) without future knowledge, while OPT is a clairvoyant offline benchmark that knows the stopping day T. The animation alternates adversarial stopping times to show worst-case behavior and displays the competitive inequality and the resulting cost/OPT ratio against a highlighted competitive bound c.'
 date: '2026-07-01'
-scheduled: '2027-08-14'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/online-algorithms/

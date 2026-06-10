@@ -2,7 +2,7 @@
 title: convex-functions
 description: 'Shows convexity two ways on a 1D slice: (top) the chord between (x,f(x)) and (y,f(y)) stays above the graph, so f(tx+(1-t)y) <= t f(x)+(1-t) f(y). (bottom) a moving tangent line at x0 supports the function from below, illustrating f(y) >= f(x0) + f''(x0)(y-x0). Animated points and vertical gaps make both inequalities visually explicit, highlighting their equivalence under differentiability.'
 date: '2026-07-01'
-scheduled: '2027-06-17'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/convexity/

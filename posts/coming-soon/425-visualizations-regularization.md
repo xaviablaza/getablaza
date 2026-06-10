@@ -2,7 +2,7 @@
 title: regularization
 description: 'Visualizes regularization as an augmented objective (loss_total = loss_data + λ·penalty) and how different penalties change parameters and generalization: L2 smoothly shrinks weights, L1 drives many weights to exact zeros (sparsity), and Dropout randomly masks units during training to reduce co-adaptation (implicit model averaging).'
 date: '2026-07-01'
-scheduled: '2027-08-29'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/regularization/

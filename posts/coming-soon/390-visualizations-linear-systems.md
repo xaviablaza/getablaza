@@ -2,7 +2,7 @@
 title: systems-of-linear-equations
 description: Visualizes a system of linear equations as an augmented matrix [A | b] and animates Gaussian elimination via elementary row operations (swap/scale/add). The current pivot and affected row are highlighted, while a side panel explains the active row operation and a rank(A) vs rank([A|b]) test indicates whether the system is consistent (has solutions) and whether the solution is unique or infinite.
 date: '2026-07-01'
-scheduled: '2027-07-25'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/linear-systems/

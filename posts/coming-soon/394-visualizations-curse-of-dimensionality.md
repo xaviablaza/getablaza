@@ -2,7 +2,7 @@
 title: curse-of-dimensionality
 description: 'Three synchronized panels animate how increasing dimensionality d (with fixed sample count n) changes geometry and learning: (1) volume scales like r^d so “central” mass collapses quickly, (2) the same n samples occupy a vanishing fraction of exponentially many coarse bins (sparsity), and (3) pairwise distances concentrate as relative spread shrinks ~1/√d, reducing distance contrast and raising sample complexity.'
 date: '2026-07-01'
-scheduled: '2027-07-29'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/curse-of-dimensionality/

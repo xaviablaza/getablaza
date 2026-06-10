@@ -2,7 +2,7 @@
 title: arrays
 description: Shows an array as one contiguous row of memory cells. The animation moves a cursor to A[i] and highlights how the element address is computed as base + i * element_size (constant-time random access), contrasted with a small scanning animation representing O(n) search.
 date: '2026-07-01'
-scheduled: '2027-06-07'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/arrays/

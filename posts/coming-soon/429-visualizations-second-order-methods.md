@@ -2,7 +2,7 @@
 title: second-order-optimization
 description: 'Shows how Newton’s method builds a local quadratic model and computes the Newton step by solving H p = −∇f, alongside how quasi-Newton methods (BFGS/L-BFGS) approximate the inverse Hessian via the secant condition B_{k+1} s_k = y_k. The animation cycles through: local model formation, linear-system solve/step, then a B update that makes B s match y, and finally compares Newton vs quasi-Newton step directions.'
 date: '2026-07-01'
-scheduled: '2027-09-02'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/second-order-methods/

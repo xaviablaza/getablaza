@@ -2,7 +2,7 @@
 title: predicate-logic
 description: 'Visualizes first-order predicate logic by animating: (1) a domain of discourse D as a set of elements, (2) an interpretation I mapping symbols to meaning (constants to elements, P to a subset of D, R to a subset of D×D), (3) a variable assignment g(x) that moves across the domain, (4) term denotation ⟦x⟧ and ⟦b⟧, (5) atomic formula satisfaction for P(x) and R(x,b), and (6) quantified truth for ∀x P(x) vs ∃x P(x) by scanning the domain.'
 date: '2026-07-01'
-scheduled: '2027-10-10'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/predicate-logic/

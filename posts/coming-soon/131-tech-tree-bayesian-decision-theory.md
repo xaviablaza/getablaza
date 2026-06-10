@@ -2,7 +2,7 @@
 title: Bayesian Decision Theory
 description: Loss functions L(action, state). Bayes risk, posterior expected loss minimization. Admissibility, minimax estimators. Decision rules as functions from data to actions.
 date: '2026-07-01'
-scheduled: '2026-11-08'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/tech-tree/bayesian-decision-theory/

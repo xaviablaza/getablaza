@@ -2,7 +2,7 @@
 title: reinforcement-learning-introduction
 description: Visualizes a small Markov Decision Process (MDP) where an agent repeatedly samples actions from a stochastic policy pi(a|s), transitions to next states via P(s'|s,a), receives rewards, and incrementally updates value estimates V^pi(s) and action-values Q^pi(s,a). The animation shows the policy probabilities per state, the stochastic transition, reward signals, and the value backup target r + γ V(s').
 date: '2026-07-01'
-scheduled: '2027-07-15'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/rl-intro/

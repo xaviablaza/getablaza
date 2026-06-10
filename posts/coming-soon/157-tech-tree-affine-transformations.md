@@ -2,7 +2,7 @@
 title: Affine Transformations (Linear Layers)
 description: An affine transformation applies a linear map (matrix multiply) followed by a bias shift; in neural models this corresponds to learned linear layers that project inputs into query/key/value spaces. Recognizing affine transforms helps understand how attention inputs are linearly combined and projected.
 date: '2026-07-01'
-scheduled: '2026-12-04'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/tech-tree/affine-transformations/

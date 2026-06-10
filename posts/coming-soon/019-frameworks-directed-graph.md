@@ -2,7 +2,7 @@
 title: Your Chart of Accounts Is a Directed Graph
 description: Every cost and revenue line is a node. Every causal relationship is an edge. Walk the graph and find the mispriced edges where value is leaking.
 date: '2026-07-01'
-scheduled: '2026-07-19'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/frameworks/directed-graph/

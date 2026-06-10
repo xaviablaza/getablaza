@@ -2,7 +2,7 @@
 title: numerical-stability-and-conditioning
 description: A four-panel, green-on-black animated dashboard showing how finite-precision arithmetic causes (1) catastrophic cancellation that becomes severe under ill-conditioning (high κ), (2) overflow/underflow in exp-based computations via naive softmax contrasted with a stable log-sum-exp shift, and (3) rounding/quantization spacing that grows with |x| in proportion to ε_machine. A cycling checklist highlights common algebraic reformulations and scaling/normalization fixes used in deep learning to keep computations in safe numeric ranges and reduce error amplification.
 date: '2026-07-01'
-scheduled: '2027-10-14'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/numerical-stability/

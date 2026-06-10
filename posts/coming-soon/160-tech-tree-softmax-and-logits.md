@@ -2,7 +2,7 @@
 title: Softmax and Logits
 description: The softmax function converts raw model outputs (logits) into a probability distribution over classes, and is central to attention weight computation and classification losses. Familiarity with numerical stability tricks (log-sum-exp) and interpreting logits/probabilities is included.
 date: '2026-07-01'
-scheduled: '2026-12-07'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/tech-tree/softmax-and-logits/

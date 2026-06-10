@@ -2,7 +2,7 @@
 title: stochastic-gradient-descent
 description: Shows SGD as repeated parameter updates on a 2D loss surface using a noisy mini-batch gradient estimate g^_t. The true (full-data) gradient direction is shown alongside the stochastic estimate; mini-batch size cycles to demonstrate variance reduction and the unbiased expectation E[g^_t] = ∇f(θ_t).
 date: '2026-07-01'
-scheduled: '2027-07-12'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/sgd/

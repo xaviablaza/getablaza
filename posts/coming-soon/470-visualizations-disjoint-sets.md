@@ -2,7 +2,7 @@
 title: disjoint-sets
 description: Visualizes Union-Find as a forest of parent-pointer trees. The animation walks a find(x) path to the representative (root), then demonstrates path compression rewiring nodes directly to the root, and finally performs a union(a,b) that attaches one root under the other using union-by-rank to keep the trees shallow (near-constant amortized time).
 date: '2026-07-01'
-scheduled: '2027-10-13'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/disjoint-sets/

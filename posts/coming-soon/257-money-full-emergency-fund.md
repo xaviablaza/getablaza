@@ -2,7 +2,7 @@
 title: Full Emergency Fund
 description: 3-6 months of essential expenses in HYSA. The number depends on income stability, dependents, and how fast you could replace your income.
 date: '2026-07-01'
-scheduled: '2027-03-14'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/money/full-emergency-fund/

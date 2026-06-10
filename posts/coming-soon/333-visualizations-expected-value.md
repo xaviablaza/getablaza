@@ -2,7 +2,7 @@
 title: expected-value
 description: 'Shows expected value as a probability-weighted average (highlighting one term x·P(x) at a time) and as the long-run average: a running sample mean from repeated draws converges toward the theoretical E[X]. A bottom panel animates linearity by varying constants a and b and displaying E[aX+b] = aE[X]+b.'
 date: '2026-07-01'
-scheduled: '2027-05-29'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/expected-value/

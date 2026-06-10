@@ -2,7 +2,7 @@
 title: conjugate-gradient-methods
 description: 'Shows CG as iterative minimization of an SPD quadratic: left panel draws elliptical level sets and the step-by-step path using A-conjugate search directions (contrasted with a preconditioned variant). Right panel tracks residual norms ||r_k|| and a meter for the A-conjugacy condition p_k^T A p_{k-1}≈0, illustrating independent 1-D minimizations over expanding Krylov subspaces.'
 date: '2026-07-01'
-scheduled: '2027-08-22'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/conjugate-gradients/

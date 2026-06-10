@@ -2,7 +2,7 @@
 title: multiple-integrals
 description: Shows a non-rectangular 2D integration region R partitioned into grid cells (ΔA), highlights a moving differential element dA, and builds the signed volume under z=f(x,y) using Riemann-sum boxes. In the latter part of the animation, a scanning slice illustrates Fubini’s theorem by accumulating the same total via different iterated-integration orders (dx then dy vs dy then dx).
 date: '2026-07-01'
-scheduled: '2027-09-14'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/multiple-integrals/

@@ -2,7 +2,7 @@
 title: linear-independence
 description: Shows two vectors v1 and v2 on a coordinate grid and animates a linear combination c1·v1 + c2·v2. In the independent case, the animated coefficients almost never make the sum land on the zero vector (only the trivial combination does). Then it transitions to a dependent case (v2 = 2·v1) where a nontrivial choice (c1=2, c2=-1) makes the sum exactly 0, illustrating the definition of linear independence via the canonical relation c1·v1 + c2·v2 = 0.
 date: '2026-07-01'
-scheduled: '2027-07-08'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/linear-independence/

@@ -2,7 +2,7 @@
 title: rent-vs-buy
 description: Total cost of ownership (mortgage, taxes, insurance, maintenance, opportunity cost of down payment) vs renting and investing the difference. Break-even analysis.
 date: '2026-07-01'
-scheduled: '2027-11-21'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/money-rent-vs-buy/

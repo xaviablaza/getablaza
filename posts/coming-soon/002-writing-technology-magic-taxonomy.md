@@ -2,7 +2,7 @@
 title: 'Any Sufficiently Advanced Technology: A Taxonomy of Magic'
 description: Every sufficiently advanced technology collapses one friction and reveals the new scarcity behind it. LLMs collapsed the cost of language, putting commodity intellectual output in the blast radius. A 6-step protocol, calibrated on 700 years of transitions from the printing press to the internet, for finding the new scarcity and moving first.
 date: '2026-06-09'
-scheduled: '2026-07-02'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: markdown
 inspiration_url: https://templeton.host/writing/technology-magic-taxonomy/

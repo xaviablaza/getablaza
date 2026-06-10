@@ -2,7 +2,7 @@
 title: The Promotion Protocol
 description: 'A 3-state progression for safely giving AI more independence. Promote on demonstrated performance, roll back on drift. Formally: Autonomy State Machine.'
 date: '2026-07-01'
-scheduled: '2026-07-25'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/frameworks/promotion-protocol/

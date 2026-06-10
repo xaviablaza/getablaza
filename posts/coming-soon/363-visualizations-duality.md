@@ -2,7 +2,7 @@
 title: lagrangian-duality
 description: Visualizes how the Lagrangian L(x,λ)=f(x)+λg(x) combines objective and constraints, how the dual function d(λ)=inf_x L(x,λ) produces a lower bound on the primal optimum (weak duality), and how dual ascent updates λ using the constraint residual g(x*(λ)) to maximize d(λ). The left plot shows f(x) and L(x,λ) for a changing multiplier, with horizontal lines for d(λ) and p*. The right panel displays the key equations and live values.
 date: '2026-07-01'
-scheduled: '2027-06-28'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/duality/

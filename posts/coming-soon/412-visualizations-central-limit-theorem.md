@@ -2,7 +2,7 @@
 title: central-limit-theorem
 description: Simulates standardized sums Zₙ of many i.i.d. random variables from different base distributions (uniform, ±1, shifted exponential) and shows how the histogram of Zₙ approaches the overlaid standard normal curve N(0,1) as n increases. Side panels emphasize the CLT conditions (independence, finite variance) and the standardization step (centering by nμ and scaling by σ√n).
 date: '2026-07-01'
-scheduled: '2027-08-16'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/central-limit-theorem/

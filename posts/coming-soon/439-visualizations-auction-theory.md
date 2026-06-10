@@ -2,7 +2,7 @@
 title: auction-theory
 description: 'Shows an auction mechanism as a mapping from bid profiles b to allocation x(b) and payments p(b), then animates the incentive-compatibility (envelope) link: a monotone allocation rule x(v) pins payments p(v) up to a constant. The final stage highlights Revenue Equivalence: with the same allocation rule and a shared normalization p(0), different IC auction formats yield the same expected payments (seller revenue).'
 date: '2026-07-01'
-scheduled: '2027-09-12'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/auction-theory/

@@ -2,7 +2,7 @@
 title: kl-divergence
 description: 'Shows two discrete distributions over the same bins: the true distribution P (bright) and a model Q (dim). Samples are drawn from P, and the visualization highlights the per-sample extra log-loss log2(P(X)/Q(X)). A running average and a decomposition into per-bin contributions illustrate that KL divergence is an expectation under P and is always non-negative, reaching 0 only when P and Q match.'
 date: '2026-07-01'
-scheduled: '2027-06-29'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/kl-divergence/

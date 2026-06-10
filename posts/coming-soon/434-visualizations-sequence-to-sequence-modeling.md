@@ -2,7 +2,7 @@
 title: sequence-to-sequence-modeling
 description: Visualizes an encoder-decoder seq2seq model where the encoder produces hidden states H=(h1..hS). At each decoder step t (cycling automatically), attention weights α_t are computed over source positions, forming a context vector c_t=Σ_s α_{t,s} h_s. The active decoder box uses c_t (and prior outputs) to shape an illustrated output distribution P(y_t | y_<t, x).
 date: '2026-07-01'
-scheduled: '2027-09-07'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/sequence-to-sequence-modeling/

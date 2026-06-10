@@ -2,7 +2,7 @@
 title: Sequence-to-Sequence Modeling
 description: The paradigm of mapping input sequences to output sequences (e.g., translation or summarization), including encoder-decoder architectures and alignment concepts; attention mechanisms are often introduced to improve information flow between encoder and decoder. Familiarity with seq2seq setups clarifies why and how attention is applied.
 date: '2026-07-01'
-scheduled: '2026-12-02'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/tech-tree/sequence-to-sequence-modeling/

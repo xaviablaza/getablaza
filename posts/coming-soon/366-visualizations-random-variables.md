@@ -2,7 +2,7 @@
 title: random-variables
 description: 'Shows a random variable X as a mapping from outcomes ω in a sample space to numbers, then compares discrete vs continuous distributions. The bottom panels animate an interval (a,b] and demonstrate that P(a<X≤b)=F_X(b)-F_X(a): as a sum of PMF bars for a discrete RV and as an area under the PDF (integral) for a continuous RV, with the corresponding CDF step-curve vs smooth curve.'
 date: '2026-07-01'
-scheduled: '2027-07-01'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/random-variables/

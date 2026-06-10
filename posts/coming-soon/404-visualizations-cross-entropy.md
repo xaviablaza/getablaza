@@ -2,7 +2,7 @@
 title: cross-entropy
 description: Animated green-on-black visualization of cross-entropy as the average surprise of a model q on samples from a true distribution p. The left panel shows evolving class probabilities for p (true) and q (model). The right panel alternates between (1) the decomposition H(p,q)=H(p)+KL(p||q) with a stacked bar, and (2) the one-hot classification case where H(p,q) reduces to the negative log-likelihood -log q(y) of the correct class.
 date: '2026-07-01'
-scheduled: '2027-08-08'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/cross-entropy/

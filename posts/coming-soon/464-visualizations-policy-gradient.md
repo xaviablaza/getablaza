@@ -2,7 +2,7 @@
 title: policy-gradient-methods
 description: Visualizes a parameterized stochastic policy πθ(a|s) as action-probability bars for two states, then repeatedly samples a short trajectory under πθ. A moving cursor shows the current timestep’s score-function factor ∇θ log πθ(a|s) multiplied by return/advantage (baseline V), illustrating the policy gradient theorem as a sample-based estimator that drives updates and improves the running objective J(θ).
 date: '2026-07-01'
-scheduled: '2027-10-07'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/policy-gradient/

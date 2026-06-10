@@ -222,7 +222,7 @@ def build_page(page_url, index):
         m = re.search(r'\d{4}-\d{2}-\d{2}', str(source_date))
         if m:
             date = m.group(0)
-    scheduled = (dt.date(2026, 7, 1) + dt.timedelta(days=index)).isoformat()
+    scheduled = dt.date.today().isoformat()
     slug = slugify(source_path)
     filename = OUT / f'{index + 1:03d}-{slug}.md'
 
@@ -235,7 +235,7 @@ def build_page(page_url, index):
         'layout': 'layouts/post.njk',
         'templateEngineOverride': 'md',
         'image': '/img/xavi-linkedin-profile.jpg',
-        'draft': True,
+        'draft': False,
         'generated_by': 'templeton-deep-copy-import',
         'source_format': source_format,
         'inspiration_url': page_url,

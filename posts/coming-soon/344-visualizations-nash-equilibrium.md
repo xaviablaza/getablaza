@@ -2,7 +2,7 @@
 title: nash-equilibrium
 description: 'Shows a 2×2 strategy profile payoff matrix. A moving selection box represents the current strategy profile s=(s1,s2). Animated best-response arrows illustrate unilateral deviations: first Player 1’s best response to s−1, then Player 2’s best response to s−2. When both arrows point back to the selected cell, the panel confirms the Nash equilibrium condition (no profitable unilateral deviation) using the best-response inequalities.'
 date: '2026-07-01'
-scheduled: '2027-06-09'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/nash-equilibrium/

@@ -2,7 +2,7 @@
 title: continuity
 description: 'Shows continuity at x=a as a 3-item checklist: (1) f(a) is defined (filled point), (2) the limit exists (left/right approach markers agree), and (3) the limit equals the function value. The animation cycles through broken cases (a hole or a jump) and then smoothly fixes them so lim_{x->a} f(x)=f(a).'
 date: '2026-07-01'
-scheduled: '2027-07-03'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/continuity/

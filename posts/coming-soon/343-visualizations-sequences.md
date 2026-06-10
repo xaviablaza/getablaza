@@ -2,7 +2,7 @@
 title: sequences
 description: 'Visualizes a sequence as an indexed ordered list (n → a_n). The animation steps through terms and highlights the rule that generates the next term: arithmetic sequences add a constant difference d each step, while geometric sequences multiply by a constant ratio r each step. Recurrence and explicit formulas are shown side-by-side to connect “process” and “closed form.”'
 date: '2026-07-01'
-scheduled: '2027-06-08'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/sequences/

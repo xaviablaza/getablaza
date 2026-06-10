@@ -2,7 +2,7 @@
 title: cooperative-games
 description: Visualizes coalition formation in a 3-player transferable-utility cooperative game. The animation cycles through all player orderings (permutations). As each player joins the current coalition S, the canvas shows v(S), v(S∪{i}), and the marginal contribution v(S∪{i})−v(S). On the right, each player’s Shapley value φ_i is shown as the average marginal contribution over orderings (exact, plus a running sample average that repeatedly converges).
 date: '2026-07-01'
-scheduled: '2027-07-11'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/cooperative-games/

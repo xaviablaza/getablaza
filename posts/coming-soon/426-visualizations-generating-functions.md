@@ -2,7 +2,7 @@
 title: generating-functions
 description: 'Cycles through three linked views: (1) encoding a sequence a_n as an ordinary generating function A(x)=∑a_n x^n, (2) extracting a specific coefficient [x^n]A(x)=a_n with an animated scanner, and (3) showing how algebra on generating functions corresponds to sequence operations (index shift via x^k and convolution via the Cauchy product).'
 date: '2026-07-01'
-scheduled: '2027-08-30'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/generating-functions/

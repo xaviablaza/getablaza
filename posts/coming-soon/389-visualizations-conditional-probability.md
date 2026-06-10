@@ -2,7 +2,7 @@
 title: conditional-probability
 description: 'Shows conditional probability as restricting the sample space to event B on a grid of equally likely outcomes. The animation cycles through: the full universe, highlighting B, highlighting the overlap A∩B, and then reading P(A|B) as the fraction of B that lies in A. A final beat emphasizes the requirement P(B) > 0 by shrinking the visual B region.'
 date: '2026-07-01'
-scheduled: '2027-07-24'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/conditional-probability/

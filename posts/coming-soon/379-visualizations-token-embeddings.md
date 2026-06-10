@@ -2,7 +2,7 @@
 title: token-embeddings
 description: Shows how a discrete token id i selects a row from the embedding matrix E (a learnable lookup table). The selected row E[i] is highlighted and displayed as a length-d vector, while an animated “lookup packet” travels from the token list to the corresponding row. A simple training-like update continuously nudges only the selected row’s values to illustrate embeddings as learned parameters.
 date: '2026-07-01'
-scheduled: '2027-07-14'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/token-embeddings/

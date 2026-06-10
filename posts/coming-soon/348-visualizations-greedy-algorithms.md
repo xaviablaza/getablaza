@@ -2,7 +2,7 @@
 title: greedy-algorithms
 description: Visualizes greedy selection on an interval-scheduling timeline (using argmin(finish)) while showing the feasibility boundary after each choice. A dependency diagram highlights that the greedy-choice property relies on optimal substructure, and that each greedy step must preserve feasibility so the remaining subproblem stays valid.
 date: '2026-07-01'
-scheduled: '2027-06-13'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/greedy-algorithms/

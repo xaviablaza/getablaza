@@ -2,7 +2,7 @@
 title: options-basics
 description: Calls, puts, strike price, expiration, premium. Covered calls for income, protective puts for insurance. Why 90% of retail options traders lose money.
 date: '2026-07-01'
-scheduled: '2027-12-03'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/money-options/

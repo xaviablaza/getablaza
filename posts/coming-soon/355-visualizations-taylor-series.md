@@ -2,7 +2,7 @@
 title: taylor-series
 description: Shows a function f(x)=1/(1-x) (dim) and its Taylor polynomial P_N(x)=Σ_{k=0..N} x^k (bright). N increases over time to illustrate truncation approaching the full power series near the center a=0. A shaded band marks the radius of convergence |x-a|<1, and a moving probe displays the remainder magnitude |R_N(x)|=|f(x)-P_N(x)| to connect convergence with diminishing error where the series matches the function.
 date: '2026-07-01'
-scheduled: '2027-06-20'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/taylor-series/

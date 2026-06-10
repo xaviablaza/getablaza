@@ -2,7 +2,7 @@
 title: information-theoretic-bounds
 description: Visualizes entropy H(X) as the minimum bits needed to specify a solution, then animates an observation Y that transfers mutual information I(X;Y) (shown as an entropy ‘chunk’ removed). The remaining conditional entropy H(X|Y) is displayed alongside a Fano-style gauge indicating an unavoidable lower bound on probability of error when uncertainty remains.
 date: '2026-07-01'
-scheduled: '2027-06-26'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/information-theoretic-lower-bounds/

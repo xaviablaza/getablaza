@@ -2,7 +2,7 @@
 title: Sequence Masking (causal and padding masks)
 description: Techniques for masking positions in sequence models to prevent attention to padded elements or future tokens (causal masking) during autoregressive generation; includes mask construction and integration with attention score computation. Masks are crucial for correct training and inference in Transformers.
 date: '2026-07-01'
-scheduled: '2026-12-09'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/tech-tree/sequence-masking/

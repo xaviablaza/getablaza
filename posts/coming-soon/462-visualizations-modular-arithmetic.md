@@ -2,7 +2,7 @@
 title: modular-arithmetic
 description: Shows integers reduced to residues 0..n−1 on a modular ring, illustrating congruence (a == b (mod n) iff n divides a−b) and how residue classes partition the integers. In inverse mode it animates multiples of a on the ring to demonstrate that an inverse exists exactly when gcd(a,n)=1 (and highlights a^-1 where a·a^-1 == 1 (mod n)).
 date: '2026-07-01'
-scheduled: '2027-10-05'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/modular-arithmetic/

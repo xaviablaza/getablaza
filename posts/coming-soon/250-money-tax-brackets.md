@@ -2,7 +2,7 @@
 title: Tax Brackets
 description: Marginal vs effective rates. How the US progressive tax system actually works. Why earning more never costs you more than you earn.
 date: '2026-07-01'
-scheduled: '2027-03-07'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/money/tax-brackets/

@@ -2,7 +2,7 @@
 title: Cosine Similarity
 description: A measure of similarity between two vectors defined as the cosine of the angle between them (dot product normalized by norms); used as an attention scoring function and for comparing embeddings. It highlights direction-based similarity independent of vector magnitude.
 date: '2026-07-01'
-scheduled: '2026-11-30'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/tech-tree/cosine-similarity/

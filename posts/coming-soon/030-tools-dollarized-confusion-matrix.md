@@ -2,7 +2,7 @@
 title: The Dollarized Confusion Matrix
 description: Replace accuracy with dollars. Calculate optimal AI thresholds from the actual cost of being wrong in each direction. Stop setting thresholds by feel.
 date: '2026-07-01'
-scheduled: '2026-07-30'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/tools/dollarized-confusion-matrix/

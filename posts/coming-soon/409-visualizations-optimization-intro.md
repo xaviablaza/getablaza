@@ -2,7 +2,7 @@
 title: optimization-introduction
 description: 'Shows an optimization problem as (1) a feasible set X (hatched region from constraints) and (2) objective contours f(x). A point x moves into the feasible set, then performs projected descent to reduce f(x) while respecting constraints, and finally highlights first-order local optimality: the gradient ∇f is orthogonal to feasible (tangent) directions (no feasible descent direction).'
 date: '2026-07-01'
-scheduled: '2027-08-13'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/optimization-intro/

@@ -2,7 +2,7 @@
 title: generative-adversarial-networks
 description: 'Shows a GAN training loop as a minimax game: noise z flows into the Generator G to produce fake samples G(z), both real x and fake samples are scored by the Discriminator D(x)=p(real), and the animation alternates between updating D (better separation) and updating G (better imitation). The left panel displays real vs generated points in a 2D data space with a coarse discriminator confidence field; the right panel shows the z→G→D pipeline, probabilities, and which player is being updated each half-cycle.'
 date: '2026-07-01'
-scheduled: '2027-09-05'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/gan/

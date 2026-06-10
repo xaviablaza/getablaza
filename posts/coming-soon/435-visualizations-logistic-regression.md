@@ -2,7 +2,7 @@
 title: logistic-regression
 description: 'Visualizes the logistic regression pipeline for a single example: a linear score z = w·x is accumulated term-by-term (including bias), mapped through the sigmoid curve to a probability p, then converted into a per-example binary cross-entropy loss. A bottom panel shows the 2D decision boundary (z=0) and a coarse probability field that updates as weights and the example point change over time.'
 date: '2026-07-01'
-scheduled: '2027-09-08'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/logistic-regression/

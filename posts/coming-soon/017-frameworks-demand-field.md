@@ -2,7 +2,7 @@
 title: The Demand Field
 description: Demand is a force field on your optimization landscape. It is fixed, hidden, and acts on your product whether you measure it or not. Map it or crash into it.
 date: '2026-07-01'
-scheduled: '2026-07-17'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/frameworks/demand-field/

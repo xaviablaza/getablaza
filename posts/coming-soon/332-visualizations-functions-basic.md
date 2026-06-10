@@ -2,7 +2,7 @@
 title: functions
 description: 'Shows a function f: A -> B as a mapping from each domain element x in set A to exactly one codomain element y in set B. The animation steps through inputs x1..x5, draws the arrow to its assigned output f(x), and highlights the Range as the subset of B that actually gets hit (some outputs repeat to emphasize Range ⊆ B).'
 date: '2026-07-01'
-scheduled: '2027-05-28'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/functions-basic/

@@ -2,7 +2,7 @@
 title: layer-normalization
 description: 'Shows a batch of activation vectors (rows) being normalized per-sample across feature dimensions: compute μ and σ² for each row, normalize z=(x-μ)/√(σ²+ε), then apply learned per-feature affine parameters γ and β to produce the output y. Animation highlights one sample at a time to emphasize that statistics are not computed across the batch.'
 date: '2026-07-01'
-scheduled: '2027-09-11'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/layer-normalization/

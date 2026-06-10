@@ -2,7 +2,7 @@
 title: complexity-classes
 description: 'Visualizes the set relationships P ⊆ NP, plus the definitions of NP-hard and NP-complete using an animated reduction “funnel” (<=_p) that shows many NP problems reducing to a highlighted NP-complete target. Steps cycle through: P inside NP, certificate verification for NP, reductions defining NP-completeness, and NP-hardness extending beyond NP.'
 date: '2026-07-01'
-scheduled: '2027-08-27'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/complexity-classes/

@@ -2,7 +2,7 @@
 title: basis-and-dimension
 description: 'Two-panel visualization: in R^2 it animates from a single-vector span (a line) to two dependent vectors (still a line) to two independent vectors (fills the plane), emphasizing that a basis is a minimal spanning set. In R^3 it shows that two vectors span only a plane while three independent vectors fill space, reinforcing that dim(V) is the number of vectors in any basis. Pointer movement changes the coefficients in p = a·u (+ b·v) to make span(S) feel interactive.'
 date: '2026-07-01'
-scheduled: '2027-10-08'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/basis-dimension/

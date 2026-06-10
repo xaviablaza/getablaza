@@ -2,7 +2,7 @@
 title: machine-learning-introduction
 description: 'Shows the ML pipeline as three blocky panels: a dataset (with labels y in supervised mode, no labels in unsupervised), a parameterized model f(x; θ) with learnable parameters, and an empirical risk R(θ) that training minimizes. Animation cycles between supervised and unsupervised, and within each mode it shows θ updating over time while the risk decreases.'
 date: '2026-07-01'
-scheduled: '2027-09-27'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/ml-intro/

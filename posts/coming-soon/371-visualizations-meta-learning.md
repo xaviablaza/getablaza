@@ -2,7 +2,7 @@
 title: meta-learning
 description: 'Visualizes MAML-style meta-learning as a repeating cycle: sample a task from a task distribution, perform a few inner-loop gradient steps that adapt θ to θ′ using only a small task dataset (few-shot), then run an outer-loop meta-update that nudges shared meta-parameters θ to minimize the post-adaptation loss L_T(θ′) across tasks.'
 date: '2026-07-01'
-scheduled: '2027-07-06'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/meta-learning/

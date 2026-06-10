@@ -2,7 +2,7 @@
 title: Lexicon
 description: The operating vocabulary. Ablaza Ratio, Quality Ratchet, Oracle Gradient, and the language for treating knowledge work as a capital asset.
 date: '2026-07-01'
-scheduled: '2026-07-07'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/lexicon/

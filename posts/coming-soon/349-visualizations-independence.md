@@ -2,7 +2,7 @@
 title: independence
 description: 'Shows independence as a geometric/product rule: event A is a vertical strip and event B is a horizontal strip inside a sample-space rectangle, so the overlap area (A∩B) equals P(A)·P(B). A second panel compares P(A) to P(A|B) (and P(A|not B)) to emphasize that conditioning gives no new information when A and B are independent.'
 date: '2026-07-01'
-scheduled: '2027-06-14'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/independence/

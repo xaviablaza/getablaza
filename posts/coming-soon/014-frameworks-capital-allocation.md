@@ -2,7 +2,7 @@
 title: Capital Allocation
 description: Every operating decision is a capital allocation decision. Rank instruments by Sharpe, map tolerances, handle correlations, construct the portfolio.
 date: '2026-07-01'
-scheduled: '2026-07-14'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/frameworks/capital-allocation/

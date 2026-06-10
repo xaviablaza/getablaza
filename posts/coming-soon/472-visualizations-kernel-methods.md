@@ -2,7 +2,7 @@
 title: kernel-methods
 description: Shows how a kernel function k(x,x') replaces explicit inner products <phi(x),phi(x')> to operate in an implicit feature space. The animation alternates between (1) selecting two input points A,B and evaluating similarity via k(A,B) instead of computing phi, and (2) constructing a small Gram matrix and checking positive-semidefiniteness to illustrate Mercer’s condition for valid kernels.
 date: '2026-07-01'
-scheduled: '2027-10-15'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/kernel-methods/

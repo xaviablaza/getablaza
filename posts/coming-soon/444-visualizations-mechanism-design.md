@@ -2,7 +2,7 @@
 title: mechanism-design
 description: 'Blocky green-on-black animation showing how private types tᵢ feed into a mechanism M=(S,g), producing an outcome that should match the desired social choice function f(t). The visualization cycles through: (1) the goal f:T→O, (2) implementation via equilibrium play, (3) the revelation principle via a direct truthful mechanism, and (4) feasibility checks requiring Incentive Compatibility (IC) and Individual Rationality (IR).'
 date: '2026-07-01'
-scheduled: '2027-09-17'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/mechanism-design/

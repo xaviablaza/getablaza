@@ -2,7 +2,7 @@
 title: topological-sort
 description: 'Visualizes topological sorting on a DAG using Kahn’s algorithm: nodes with indegree 0 light up as the current frontier, one is selected each step and appended to the growing linear order. A second panel shows a directed cycle where the frontier becomes empty, illustrating that a topological ordering exists iff the graph is acyclic.'
 date: '2026-07-01'
-scheduled: '2027-09-18'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/topological-sort/

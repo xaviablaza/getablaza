@@ -2,7 +2,7 @@
 title: decision-trees
 description: Visualizes a decision tree node evaluating multiple candidate splits by computing node impurity I(node) (Gini or Entropy), selecting the split with maximum impurity reduction ΔI, then routing sample “packets” down the chosen branch to leaf nodes that predict the majority class.
 date: '2026-07-01'
-scheduled: '2027-08-19'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/decision-trees/

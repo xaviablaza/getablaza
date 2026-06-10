@@ -2,7 +2,7 @@
 title: binary-search-trees
 description: 'Visualizes the BST ordering invariant (left keys < key(node) < right keys), then animates a comparison-guided search for a target key by highlighting the visited path and showing each comparison/decision. Finally, it demonstrates a local update via insertion: a new node slides into the correct null position and a single parent->child link is attached, emphasizing how the invariant is preserved by local pointer changes.'
 date: '2026-07-01'
-scheduled: '2027-09-29'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/bst/

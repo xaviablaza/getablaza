@@ -2,7 +2,7 @@
 title: covariance-and-correlation
 description: Animated scatterplots show how covariance aggregates the signed products (X-EX)(Y-EY), and how correlation standardizes covariance by sigmaX*sigmaY to produce a unitless value in [-1,1]. The visualization cycles through negative correlation, positive correlation, and a zero-covariance-but-dependent (curved) case to emphasize that Cov=0 does not imply independence.
 date: '2026-07-01'
-scheduled: '2027-07-22'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/covariance-correlation/

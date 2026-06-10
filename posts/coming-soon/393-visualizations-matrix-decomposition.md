@@ -2,7 +2,7 @@
 title: matrix-decomposition
 description: Visualizes matrix factorization by fading between LU (A = L·U, with an optional P pivot hint) and QR (A = Q·R with QᵀQ = I). Animated cell sweeps suggest the stepwise construction of factors, and the bottom pipeline shows how solving A x = b reduces to simple forward/back triangular solves (LU) or projection + backsolve (QR).
 date: '2026-07-01'
-scheduled: '2027-07-28'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/matrix-decomposition/

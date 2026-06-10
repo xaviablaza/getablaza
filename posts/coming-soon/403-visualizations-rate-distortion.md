@@ -2,7 +2,7 @@
 title: rate-distortion-theory
 description: Visualizes the variational definition of the rate–distortion function. The animation sweeps a distortion target D, updates an R(D) curve (minimal bits per symbol), and shows a discrete test-channel p(x̂|x) that becomes sharper at low distortion (more informative, higher mutual information) and flatter at high distortion (less informative, lower mutual information).
 date: '2026-07-01'
-scheduled: '2027-08-07'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/rate-distortion/

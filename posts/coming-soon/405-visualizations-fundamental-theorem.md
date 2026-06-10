@@ -2,7 +2,7 @@
 title: fundamental-theorem-of-calculus
 description: 'Shows f(x) on the top panel with a moving upper limit x and blocky Riemann shading for the signed area ∫_a^x f(t)dt. The bottom panel graphs the accumulation function F(x) and draws a tangent whose slope dF/dx numerically matches the current f(x), illustrating FTC Part 1. A center annotation highlights FTC Part 2: ∫_a^b f(x)dx = F(b) − F(a).'
 date: '2026-07-01'
-scheduled: '2027-08-09'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/fundamental-theorem/

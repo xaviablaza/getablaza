@@ -2,7 +2,7 @@
 title: np-completeness
 description: 'Shows polynomial-time many-one reductions (<=_p) as moving “instance packets” along arrows: NP problems reduce to SAT (Cook–Levin), SAT reduces to 3-SAT, and NP-completeness as (in NP) + (every NP problem reduces to it). Final phase illustrates the key consequence: if A <=_p B and B is in P, then A would also be in P - polynomial-time solvability propagates backward through reductions.'
 date: '2026-07-01'
-scheduled: '2027-07-31'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/np-completeness/

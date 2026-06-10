@@ -2,7 +2,7 @@
 title: maximum-likelihood-estimation
 description: 'Visualizes maximum likelihood estimation with fixed Bernoulli data: θ moves along a slider while the likelihood L(θ) and log-likelihood ℓ(θ)=log L(θ) curves are plotted. The MLE θ̂ is highlighted as the argmax of both L(θ) and ℓ(θ), and a score indicator shows the first-order condition dℓ/dθ=0 at the maximizer.'
 date: '2026-07-01'
-scheduled: '2027-06-15'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/mle/

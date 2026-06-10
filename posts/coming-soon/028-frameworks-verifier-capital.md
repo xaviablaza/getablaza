@@ -2,7 +2,7 @@
 title: The Capital Value of Verifiers
 description: The verifier is one of the only capital assets that appreciates through operating use. Every adversarial case caught permanently raises the floor.
 date: '2026-07-01'
-scheduled: '2026-07-28'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/frameworks/verifier-capital/

@@ -2,7 +2,7 @@
 title: deep-learning
 description: Visualizes a deep network as a layered composition f_θ(x)=f_L(...f_2(f_1(x))). Animated packets flow left-to-right through layer blocks, while each layer’s representation vector h^l lights up as features are transformed into higher-level abstractions. A cycling “inductive bias” panel switches between CNN (locality + weight sharing), RNN (recurrence), and Attention (global mixing), showing how architecture constrains which connections exist and thus which function families are parameter-efficient and generalize well.
 date: '2026-07-01'
-scheduled: '2027-07-17'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/deep-learning/

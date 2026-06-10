@@ -2,7 +2,7 @@
 title: affine-transformations-(linear-layers)
 description: 'Visualizes an affine transformation in 2D as a two-step process: first a linear map (y = W·x) that mixes and reweights vector components via matrix multiplication, then a bias translation (+b) that shifts the result independent of the input. The animation cycles through the stages and highlights the corresponding parts of the equation y = W·x + b.'
 date: '2026-07-01'
-scheduled: '2027-06-22'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/affine-transformations/

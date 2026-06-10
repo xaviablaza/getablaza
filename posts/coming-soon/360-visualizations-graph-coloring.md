@@ -2,7 +2,7 @@
 title: graph-coloring
 description: 'Animated walkthrough of vertex coloring on a triangle graph (K3): it tries k=1 and k=2 colorings and highlights edge conflicts during an edge-by-edge verification sweep, then shows a proper k=3 coloring and the equivalent partition into 3 independent sets, concluding χ(G)=3.'
 date: '2026-07-01'
-scheduled: '2027-06-25'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/graph-coloring/

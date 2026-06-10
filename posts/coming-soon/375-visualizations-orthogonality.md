@@ -2,7 +2,7 @@
 title: orthogonality
 description: Shows two vectors whose angle oscillates through 90°, with a live dot-product bar that hits zero exactly at perpendicularity. In the same orthonormal (axis-aligned) basis, a moving vector v is decomposed into components c1 and c2 using dot products (c_i = e_i·v), and a tiny 2×2 Kronecker-delta grid reinforces e_i·e_j = δ_ij.
 date: '2026-07-01'
-scheduled: '2027-07-10'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/orthogonality/

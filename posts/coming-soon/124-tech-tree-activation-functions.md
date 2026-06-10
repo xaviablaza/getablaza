@@ -2,7 +2,7 @@
 title: Activation Functions
 description: Nonlinear functions applied elementwise to neuron outputs (e.g., ReLU, sigmoid, tanh) that enable networks to model complex, non-linear relationships and affect training dynamics. Understanding their properties (saturation, gradient behavior, sparsity) is important for architecture design and optimization.
 date: '2026-07-01'
-scheduled: '2026-11-01'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/tech-tree/activation-functions/

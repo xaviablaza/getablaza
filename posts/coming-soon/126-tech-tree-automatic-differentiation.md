@@ -2,7 +2,7 @@
 title: Automatic Differentiation
 description: An algorithmic technique to compute exact derivatives of functions expressed as programs by applying the chain rule systematically (forward- or reverse-mode), which underlies efficient backpropagation in modern frameworks. Knowing AD helps in understanding gradient computation costs and implementation choices.
 date: '2026-07-01'
-scheduled: '2026-11-03'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/tech-tree/automatic-differentiation/

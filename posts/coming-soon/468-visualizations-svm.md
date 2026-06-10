@@ -2,7 +2,7 @@
 title: support-vector-machines
 description: 'Two-panel, green-on-black blocky visualization of SVMs: (left) input space with the maximum-margin separating hyperplane and its ±1 margin lines (canonical scaling, margin = 1/||w||), highlighting that only support vectors (α_i>0) touch/define the margin; (right) the dual/kernelized decision function showing a nonlinear boundary produced by an RBF kernel K(x,x''). The animation morphs from linear to kernel behavior while pulsing the active (nonzero α) points to emphasize sparsity.'
 date: '2026-07-01'
-scheduled: '2027-10-11'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/svm/

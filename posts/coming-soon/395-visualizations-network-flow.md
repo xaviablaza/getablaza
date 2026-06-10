@@ -2,7 +2,7 @@
 title: network-flow
 description: Visualizes a directed capacitated graph with flows f(u,v) on edges (solid) and the residual network (dashed). The animation steps through Ford–Fulkerson augmenting paths, pushing flow by the bottleneck residual capacity. In the final step it highlights the residual-reachable set S, the induced s–t cut (S,T), and the cut capacity, illustrating max-flow min-cut and the fact that a flow is maximum iff no augmenting path exists.
 date: '2026-07-01'
-scheduled: '2027-07-30'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/network-flow/

@@ -2,7 +2,7 @@
 title: bias-variance-tradeoff
 description: Shows f(x) (true function) and multiple learned f_hat(x) curves from different training sets. At a fixed input x, it visualizes bias as the gap between f(x) and E[f_hat(x)], variance as the spread of f_hat(x) across datasets, and a stacked bar for noise + bias^2 + variance. Model complexity animates over time to demonstrate underfitting (high bias) to overfitting (high variance).
 date: '2026-07-01'
-scheduled: '2027-08-03'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/bias-variance/

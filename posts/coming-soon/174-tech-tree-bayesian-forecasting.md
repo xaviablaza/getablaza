@@ -2,7 +2,7 @@
 title: Bayesian Forecasting
 description: Posterior predictive distributions for time series. Structural time series models. Bayesian model averaging and model selection. Demand forecasting with uncertainty quantification.
 date: '2026-07-01'
-scheduled: '2026-12-21'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/tech-tree/bayesian-forecasting/

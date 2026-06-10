@@ -2,7 +2,7 @@
 title: amortized-analysis
 description: Visualizes amortized cost via the potential method using a dynamic array push sequence. Actual costs (including occasional resize-copy spikes) are shown alongside constant-ish amortized costs, while a potential “credit tank” Phi(S) stores and releases credit so that a_i = c_i + Phi(S_i) − Phi(S_{i−1}). The bottom panel shows the telescoping sum Σa_i = Σc_i + Phi(S_n) − Phi(S_0), illustrating how nonnegative potential bounds total actual work over the whole sequence.
 date: '2026-07-01'
-scheduled: '2027-09-25'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/amortized-analysis/

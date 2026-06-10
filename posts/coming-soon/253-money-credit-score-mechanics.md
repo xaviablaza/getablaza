@@ -2,7 +2,7 @@
 title: Credit Score
 description: 'FICO components: payment history (35%), utilization (30%), length (15%), mix (10%), inquiries (10%). How the game is scored.'
 date: '2026-07-01'
-scheduled: '2027-03-10'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/money/credit-score-mechanics/

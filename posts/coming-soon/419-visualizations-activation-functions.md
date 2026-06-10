@@ -2,7 +2,7 @@
 title: activation-functions
 description: Visualizes an activation function as an elementwise mapping a=f(z) and its local gradient f'(z) used in backprop. The animation scans z across the input range while cycling through ReLU, sigmoid, and tanh, showing how saturation (small f') causes vanishing gradients and how different nonlinearities change forward outputs and training dynamics.
 date: '2026-07-01'
-scheduled: '2027-08-23'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/activation-functions/

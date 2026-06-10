@@ -2,7 +2,7 @@
 title: determinants
 description: Shows det(A) as the signed area scaling of the unit square under a 2×2 linear map. The animation cycles through elementary row operations (swap, scale, row-add) by left-multiplying with an operation matrix E, while a side panel numerically confirms multiplicativity det(EA)=det(E)·det(A). When the area collapses toward 0, it highlights singularity (non-invertibility).
 date: '2026-07-01'
-scheduled: '2027-08-11'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/determinants/

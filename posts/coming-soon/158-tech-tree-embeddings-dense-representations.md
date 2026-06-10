@@ -2,7 +2,7 @@
 title: Embeddings (Dense Representations)
 description: Embeddings are learned low-dimensional continuous vectors that represent discrete items (e.g., tokens) so that semantic relationships are encoded in geometry. Attention operates over these vector representations, so familiarity with embeddings and their properties is important.
 date: '2026-07-01'
-scheduled: '2026-12-05'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/tech-tree/embeddings-dense-representations/

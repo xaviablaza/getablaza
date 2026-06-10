@@ -2,7 +2,7 @@
 title: rental-property-math
 description: 'Net operating income, cap rate, cash-on-cash return, DSCR, the 1% rule. Underwriting a deal: purchase price, rehab, rent, expenses, financing.'
 date: '2026-07-01'
-scheduled: '2027-11-22'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/money-rental-property/

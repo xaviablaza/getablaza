@@ -2,7 +2,7 @@
 title: variational-autoencoders
 description: 'Shows the VAE pipeline as an animated, blocky graph: an input x is encoded into variational parameters (μ_φ(x), σ_φ(x)) for q_φ(z|x), sampled via the reparameterization z=μ+σ⊙ε, then decoded through p_θ(x|z) to generate x~. A bottom panel animates the ELBO/KL decomposition as a stacked bar to emphasize that maximizing ELBO tightens the bound by reducing the KL gap.'
 date: '2026-07-01'
-scheduled: '2027-10-09'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/vae/

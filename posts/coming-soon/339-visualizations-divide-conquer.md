@@ -2,7 +2,7 @@
 title: divide-and-conquer
 description: Animated recursion tree showing the Divide→Conquer→Combine workflow. Blocks represent problem sizes shrinking as they split; highlights and moving flow markers show work moving down the tree (divide), leaf solutions being computed (conquer), and partial results flowing upward to merge into the final answer (combine). A panel ties correctness composition and cost composition to the visual tree via a recurrence.
 date: '2026-07-01'
-scheduled: '2027-06-04'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/divide-conquer/

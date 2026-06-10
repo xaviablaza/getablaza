@@ -2,7 +2,7 @@
 title: Business Entity Tax
 description: LLC, S-Corp, C-Corp, sole proprietorship. Pass-through deduction (QBI). S-Corp salary vs distribution split. When and why to structure business income.
 date: '2026-07-01'
-scheduled: '2027-04-16'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/money/business-entity-tax/

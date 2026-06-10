@@ -2,7 +2,7 @@
 title: jacobian
 description: 'Shows a 2D nonlinear map y=f(x) as a warped grid (right) compared to the original grid (left). A draggable point x0 highlights the Jacobian matrix Df(x0) as the best local linear approximation: the animated dx vector in x-space is mapped to y-space both by the true change f(x0+dx)-f(x0) and the linear prediction Df(x0)·dx. A small square around x0 illustrates local area scaling by |det(Df(x0))| (and orientation flip when det<0).'
 date: '2026-07-01'
-scheduled: '2027-09-19'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/jacobian/

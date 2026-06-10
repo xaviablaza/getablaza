@@ -2,7 +2,7 @@
 title: insurance-basics
 description: Health, auto, renters/homeowners, umbrella. Transferring catastrophic risk to insurers. Deductibles, premiums, and the coverage you actually need.
 date: '2026-07-01'
-scheduled: '2027-11-03'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/money-insurance/

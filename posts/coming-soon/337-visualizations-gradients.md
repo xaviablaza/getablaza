@@ -2,7 +2,7 @@
 title: gradients
 description: Shows a scalar field f(x,y) with animated contour lines (level sets). A movable sample point displays the gradient vector ∇f as the direction of steepest ascent, a tangent segment to the nearby contour (demonstrating ∇f ⟂ level sets), and a rotating unit direction u to illustrate the directional derivative D_u f = ∇f·u via a live dot-product bar.
 date: '2026-07-01'
-scheduled: '2027-06-02'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/gradients/

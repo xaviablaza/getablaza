@@ -2,7 +2,7 @@
 title: Curse of Dimensionality
 description: Phenomena that arise in high-dimensional spaces - such as sparse sampling, distance concentration, and exponential growth of volume - that affect modeling, generalization, and optimization of large parameter/tensor spaces in deep learning. Recognizing these effects guides choices in architecture, regularization, and feature handling.
 date: '2026-07-01'
-scheduled: '2026-11-04'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/tech-tree/curse-of-dimensionality/

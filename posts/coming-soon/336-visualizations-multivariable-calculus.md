@@ -2,7 +2,7 @@
 title: multivariable-calculus
 description: Visualizes a multivariable function z=f(x,y) as a gridded surface. Then it animates partial derivatives by taking x- and y-slices through a moving point and shrinking the step h in the difference quotient (holding the other variable fixed). Finally it shows the gradient vector ∇f, a rotating displacement Δx, and the first-order change approximation Δf ≈ ∇f·Δx, comparing linear prediction to the actual surface step.
 date: '2026-07-01'
-scheduled: '2027-06-01'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/multivariable-calculus/

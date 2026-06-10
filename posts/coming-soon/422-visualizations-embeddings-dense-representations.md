@@ -2,7 +2,7 @@
 title: embeddings-(dense-representations)
 description: 'Shows embeddings as a learned table of parameter vectors: a one-hot index selects a row v_x (lookup), and the chosen vectors live in a geometric space where semantic relatedness is measured by dot products and distances. The animation cycles through tokens, highlighting the selected embedding row and then visualizing similarity to another token in 2D with meters for v_x · v_y and ||v_x−v_y||.'
 date: '2026-07-01'
-scheduled: '2027-08-26'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/embeddings-dense-representations/

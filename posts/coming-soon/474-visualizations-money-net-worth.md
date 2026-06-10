@@ -2,7 +2,7 @@
 title: net-worth
 description: What you own minus what you owe. The single number that summarizes your financial position. Assets minus liabilities.
 date: '2026-07-01'
-scheduled: '2027-10-17'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/money-net-worth/

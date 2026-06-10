@@ -2,7 +2,7 @@
 title: causal-inference
 description: Side-by-side animated DAGs contrast observational conditioning P(Y|X=x) with intervention P(Y|do(X=x)). A confounder U creates a backdoor path that biases observation; the do-operator visually cuts incoming arrows into X, leaving only the causal effect X→Y. The visualization also hints at identification via backdoor adjustment when U is observed.
 date: '2026-07-01'
-scheduled: '2027-09-16'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/causal-inference/

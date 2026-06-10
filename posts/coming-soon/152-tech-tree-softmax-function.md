@@ -2,7 +2,7 @@
 title: Softmax Function
 description: A function that converts a vector of real values into a probability distribution by exponentiating and normalizing each entry; commonly used to produce attention weights. Understanding softmax behavior, numerical stability, and temperature scaling is important for interpreting attention scores.
 date: '2026-07-01'
-scheduled: '2026-11-29'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/tech-tree/softmax-function/

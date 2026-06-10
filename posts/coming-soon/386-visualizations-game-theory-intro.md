@@ -2,7 +2,7 @@
 title: game-theory-introduction
 description: Shows a 2×2 payoff matrix u_i(s) for two rational players. Animated scans highlight each player’s best responses (holding the other’s strategy fixed). Cells where both best-response markers overlap pulse to indicate a Nash equilibrium - no player can unilaterally deviate to improve payoff.
 date: '2026-07-01'
-scheduled: '2027-07-21'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/game-theory-intro/

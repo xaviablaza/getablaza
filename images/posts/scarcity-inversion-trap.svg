@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <title>The Trap: Loud Win, Quiet Collapse</title>
+  <desc>A time-series chart illustrating the divergence between reported throughput and true quality after AI deployment.</desc>
+
+  <!-- Background canvas -->
+  <g id="background-layer">
+    <rect x="0" y="0" width="800" height="600" fill="#09090b" />
+  </g>
+
+  <!-- Header titles -->
+  <g id="title-header">
+    <text x="400" y="46" fill="#f4f4f5" font-size="20" font-weight="700" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif">The Trap: Loud Win, Quiet Collapse</text>
+    <text x="400" y="74" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif">The production win arrives loud and early. The selector collapse arrives quiet and lagged.</text>
+  </g>
+
+  <!-- Shading representing the divergence gap (rendered below lines) -->
+  <g id="shading-layer">
+    <polygon points="160,358 230,200 330,182 480,176 690,170 690,400 570,366 460,332 330,318 230,330 160,358" fill="#f59e0b" fill-opacity="0.10" stroke="none" />
+  </g>
+
+  <!-- Chart axes and ticks -->
+  <g id="axes-and-labels">
+    <!-- Y Axis and Arrowhead -->
+    <line x1="95" y1="130" x2="95" y2="430" stroke="#3f3f46" stroke-width="1.5" />
+    <polygon points="92,132 95,124 98,132" fill="#3f3f46" />
+    <text x="78" y="140" fill="#71717a" font-size="12" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif">LEVEL</text>
+
+    <!-- X Axis and Arrowhead -->
+    <line x1="95" y1="430" x2="725" y2="430" stroke="#3f3f46" stroke-width="1.5" />
+    <polygon points="723,427 731,430 723,433" fill="#3f3f46" />
+    <text x="405" y="462" fill="#71717a" font-size="12" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif">TIME</text>
+  </g>
+
+  <!-- AI Deployment vertical marker -->
+  <g id="ai-marker">
+    <line x1="160" y1="136" x2="160" y2="430" stroke="#52525b" stroke-width="1" stroke-dasharray="4 4" />
+    <text x="160" y="124" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif">AI deployed</text>
+  </g>
+
+  <!-- Line 1: Reported Throughput (Emerald Green) -->
+  <g id="reported-throughput-line">
+    <polyline points="100,360 160,360 230,200 330,182 480,176 690,170" stroke="#10b981" stroke-width="3" fill="none" />
+    <text x="470" y="158" fill="#10b981" font-size="12" font-weight="600" text-anchor="start" font-family="system-ui, -apple-system, sans-serif">Reported throughput - stays green</text>
+  </g>
+
+  <!-- Line 2: True Output Quality (Amber) -->
+  <g id="true-quality-line">
+    <polyline points="100,360 160,356 230,330 330,318 460,332 570,366 690,400" stroke="#f59e0b" stroke-width="3" fill="none" />
+    <text x="178" y="384" fill="#f59e0b" font-size="12" font-weight="600" text-anchor="start" font-family="system-ui, -apple-system, sans-serif">True quality - silently decays</text>
+  </g>
+
+  <!-- Gap Annotation -->
+  <g id="gap-annotation">
+    <text x="470" y="262" fill="#fbbf24" font-size="12" font-weight="600" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif">the gap nobody sees</text>
+  </g>
+
+  <!-- Specific event callouts -->
+  <g id="event-annotations">
+    <!-- Bonus Paid Annotation -->
+    <text x="300" y="156" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif">bonus paid</text>
+    <line x1="300" y1="162" x2="320" y2="178" stroke="#a1a1aa" stroke-width="1" />
+
+    <!-- Impact Lands Annotation -->
+    <text x="638" y="420" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif">impact lands</text>
+    <line x1="656" y1="413" x2="684" y2="402" stroke="#a1a1aa" stroke-width="1" />
+  </g>
+
+  <!-- Explanatory Caption and Footer -->
+  <g id="caption-footer">
+    <text x="400" y="508" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif">Same dashboard, opposite truths. The diagnostic loop breaks before anyone notices.</text>
+    <text x="400" y="568" fill="#52525b" font-size="12" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif">templeton.host</text>
+  </g>
+</svg>

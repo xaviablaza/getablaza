@@ -2,7 +2,7 @@
 title: linear-programming
 description: 'Shows a 2D linear program: the feasible region as the intersection of linear constraints (a convex polygon), a moving objective direction c that defines iso-objective lines cᵀx = k, and a simplex-like process that pivots along polygon vertices (basic feasible solutions) to improve cᵀx until reaching an optimal extreme point.'
 date: '2026-07-01'
-scheduled: '2027-09-30'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/linear-programming/

@@ -2,7 +2,7 @@
 title: Real Estate Leverage
 description: 5:1 leverage on an appreciating asset. Amplified returns and amplified risks. How 20% down on a 3% appreciating asset produces 15% equity growth.
 date: '2026-07-01'
-scheduled: '2027-04-05'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/money/real-estate-leverage/

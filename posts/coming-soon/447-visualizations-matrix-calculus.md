@@ -2,7 +2,7 @@
 title: matrix-calculus
 description: Visualizes the differential as a linear operator Df(X) acting on a matrix perturbation dX, then shows how matrix derivatives are stored as a Jacobian acting on vec(dX) to produce vec(dY). The animation steps through (1) selecting a component of vec(dX), (2) a Jacobian row performing a dot-product, (3) the resulting component of vec(dY), and (4) the chain rule as composition (Jacobian multiplication). The bottom panel highlights Hessian symmetry by mirroring entries and depicts the quadratic-form view vᵀHv for second differentials after vectorization.
 date: '2026-07-01'
-scheduled: '2027-09-20'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/matrix-calculus/

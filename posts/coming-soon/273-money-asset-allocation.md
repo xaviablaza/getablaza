@@ -2,7 +2,7 @@
 title: Asset Allocation
 description: Your stocks/bonds split drives 90%+ of portfolio variance. Age-based rules, risk tolerance, glide paths. Target-date funds as the default answer.
 date: '2026-07-01'
-scheduled: '2027-03-30'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/money/asset-allocation/

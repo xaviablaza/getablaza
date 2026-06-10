@@ -2,7 +2,7 @@
 title: vector-spaces
 description: Animated, step-by-step view of a vector space as an additive abelian group of vectors (showing 0, inverses, and vector addition) together with a field F whose scalars act on vectors via scalar multiplication. The final scene presents a commutative-diagram style check of a compatibility axiom (distributivity), emphasizing that scalar action respects vector addition.
 date: '2026-07-01'
-scheduled: '2027-06-23'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/vector-spaces/

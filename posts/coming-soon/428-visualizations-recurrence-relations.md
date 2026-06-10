@@ -2,7 +2,7 @@
 title: recurrence-relations
 description: Visualizes the pipeline from a linear homogeneous constant-coefficient recurrence to its characteristic polynomial P(r), then shows how roots (and multiplicity) map to solution terms r^n and n^j r^n. A built-in example with a repeated root (r=1, multiplicity 2) demonstrates why the general solution gains an extra n factor, and interactive sliders let you change initial conditions x0 and x1 to see how they uniquely determine the linear-combination coefficients (c0, c1) and the resulting sequence values.
 date: '2026-07-01'
-scheduled: '2027-09-01'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/recurrence-relations/

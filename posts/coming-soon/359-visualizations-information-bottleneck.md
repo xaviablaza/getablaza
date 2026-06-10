@@ -2,7 +2,7 @@
 title: information-bottleneck
 description: Visualizes the Information Bottleneck trade-off by animating a Markov chain Y → X → T with a cycling β parameter. As β increases, the bottleneck T expands its effective capacity (more filled slots) and more “relevant” information packets flow from T to Y; as β decreases, fewer packets and a tighter T emphasize compression. Side meters show the changing balance between I(X;T) (capacity/complexity) and I(T;Y) (relevance/predictiveness).
 date: '2026-07-01'
-scheduled: '2027-06-24'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/information-bottleneck/

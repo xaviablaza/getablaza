@@ -2,7 +2,7 @@
 title: computational-graphs
 description: Visualizes a small computational graph where each node is an operation f(…) and each directed edge carries a tensor/value. The animation alternates between a forward pass (values move left→right through the graph) and a backward pass (gradients d/dx propagate right→left along the same dependencies), illustrating reverse-mode autodiff (backprop) via the chain rule.
 date: '2026-07-01'
-scheduled: '2027-07-05'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/computational-graphs/

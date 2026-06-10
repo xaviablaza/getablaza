@@ -2,7 +2,7 @@
 title: probability-(dice)
 description: A rolling die showing each face value with probability labels. Each outcome has equal 1/6 probability.
 date: '2026-07-01'
-scheduled: '2027-05-06'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/probability/

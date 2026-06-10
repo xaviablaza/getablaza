@@ -2,7 +2,7 @@
 title: Income & Expenses
 description: Cash inflows vs outflows. Fixed vs variable costs. The operating statement of your personal finances.
 date: '2026-07-01'
-scheduled: '2027-02-26'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/money/income-and-expenses/

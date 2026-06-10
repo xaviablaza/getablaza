@@ -2,7 +2,7 @@
 title: mcmc
 description: 'Visualizes Metropolis–Hastings MCMC on a 1D bimodal target density pi(x). The animation shows repeated propose-and-correct steps (a candidate x'' is proposed, then accepted/rejected with probability alpha to keep pi invariant). The bottom panel accumulates the empirical histogram and a running time-average g(x)=x, illustrating ergodicity: long-run averages along a single chain converge to expectations under pi.'
 date: '2026-07-01'
-scheduled: '2027-07-26'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/mcmc/

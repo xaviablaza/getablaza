@@ -2,7 +2,7 @@
 title: tries
 description: Shows a trie (prefix tree) where each node represents the prefix formed by edge labels from the root. An animated cursor performs searches one character at a time by following child_map[char] edges, highlighting the active path and checking the terminal marker to decide whether the traversed prefix is a complete stored key.
 date: '2026-07-01'
-scheduled: '2027-07-04'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/tries/

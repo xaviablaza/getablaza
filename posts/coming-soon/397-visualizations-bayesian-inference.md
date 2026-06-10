@@ -2,7 +2,7 @@
 title: bayesian-inference
 description: 'Visualizes a full Bayes update over a parameter θ in [0,1]: a Beta prior p(θ), a Binomial likelihood p(x|θ) from animated data (n trials, k successes), and the resulting posterior p(θ|x). The animation phases highlight the conceptual pipeline (prior → likelihood → multiply → normalize by evidence), while the equation and evidence term are shown in a HUD box.'
 date: '2026-07-01'
-scheduled: '2027-08-01'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/bayesian-inference/

@@ -2,7 +2,7 @@
 title: Token Embeddings
 description: Representation of discrete tokens (words, subwords, tokens) as continuous vectors used as input to neural models; includes learned embeddings and embedding lookup/initialization. Understanding embeddings covers dimensionality, lookup tables, and basic properties like semantic similarity in vector space.
 date: '2026-07-01'
-scheduled: '2026-12-06'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/tech-tree/token-embeddings/

@@ -2,7 +2,7 @@
 title: minimum-spanning-trees
 description: Visualizes MST construction using the cut property (safe edge is the lightest crossing a cut) and the cycle property (the heaviest edge on a cycle cannot be in any MST). The animation alternates between a greedy “safe-edge” selection view and a cycle-based exclusion view, highlighting why Kruskal/Prim work.
 date: '2026-07-01'
-scheduled: '2027-09-28'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/minimum-spanning-trees/

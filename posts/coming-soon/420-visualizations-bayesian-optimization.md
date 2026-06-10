@@ -2,7 +2,7 @@
 title: bayesian-optimization
 description: 'Animated closed-loop Bayesian Optimization: a hidden objective f(x) (faint), a probabilistic surrogate summarized by μ(x) and an uncertainty band (σ), and an acquisition function a(x) that trades exploitation (-μ) and exploration (κσ). Each cycle highlights x_next = argmax a(x), evaluates f(x_next) (falling sample), then updates the surrogate.'
 date: '2026-07-01'
-scheduled: '2027-08-24'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/bayesian-optimization/

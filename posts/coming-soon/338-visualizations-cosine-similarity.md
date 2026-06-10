@@ -2,7 +2,7 @@
 title: cosine-similarity
 description: Shows two vectors a and b on a 2D grid. Vector b rotates through negative to positive alignment while its length changes, demonstrating that cosine similarity depends on direction (angle θ) rather than magnitude. The dot product is visualized as b’s projection onto a, and a side panel displays dot(a,b), norms, and the normalized cosine similarity with a live [-1,1] meter.
 date: '2026-07-01'
-scheduled: '2027-06-03'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/cosine-similarity/

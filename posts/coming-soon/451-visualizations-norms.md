@@ -2,7 +2,7 @@
 title: norms
 description: 'Visualizes vector norms by morphing the 2D Lp unit ball (L1 diamond, L2 circle, L∞ square) and cycling through the three norm axioms: absolute homogeneity (scaling αv), triangle inequality (u+v head-to-tail vs ||u||+||v||), and positive-definiteness (vector shrinking to zero). A side panel shows the key formulas and live numeric values for ||v||1, ||v||2, and ||v||∞.'
 date: '2026-07-01'
-scheduled: '2027-09-24'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/norms/

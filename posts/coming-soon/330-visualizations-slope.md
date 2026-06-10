@@ -2,7 +2,7 @@
 title: slope-and-rate-of-change
 description: Shows two points on a grid, then animates the horizontal run (delta x) and vertical rise (delta y) between them. The visualization computes slope = (delta y)/(delta x), highlights how the sign indicates direction (increasing/decreasing/flat), and demonstrates “rate per 1 unit of x” with a one-grid-step example on the line.
 date: '2026-07-01'
-scheduled: '2027-05-26'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/slope/

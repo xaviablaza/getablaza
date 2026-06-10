@@ -2,7 +2,7 @@
 title: singular-value-decomposition
 description: Shows the geometric meaning of SVD by animating the unit circle in the domain as it is transformed step-by-step by Vᵀ (rotation), then Σ (nonnegative axis scaling by singular values), then U (rotation) into an ellipse. The left panel displays right singular vectors (columns of V) on the unit circle; the right panel displays the resulting ellipse with its principal axes aligned to left singular vectors (columns of U) and lengths proportional to σ₁ and σ₂. A step strip reinforces A = UΣVᵀ and the relationship σᵢ = √λᵢ for eigenvalues of AᵀA.
 date: '2026-07-01'
-scheduled: '2027-09-09'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/svd/

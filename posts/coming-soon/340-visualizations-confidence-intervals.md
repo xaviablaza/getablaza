@@ -2,7 +2,7 @@
 title: confidence-intervals
 description: 'Animates repeated sampling: each new sample produces a point estimate θ̂ and a confidence interval θ̂ ± z·se(θ̂). Intervals stack over time and are colored by whether they cover the true parameter θ, illustrating that the method has a long-run coverage rate (not that any single interval has a 95% probability of containing θ).'
 date: '2026-07-01'
-scheduled: '2027-06-05'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/confidence-intervals/

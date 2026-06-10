@@ -2,7 +2,7 @@
 title: monte-carlo-methods
 description: Visualizes expectations as integrals under a target distribution p(x), then approximates E_p[f(X)] with Monte Carlo averages. The animation alternates between direct sampling (X~p) and importance sampling (X~q with weights p/q), while a live error panel shows the characteristic 1/√N accuracy scaling and how variance controls estimator noise.
 date: '2026-07-01'
-scheduled: '2027-09-15'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/monte-carlo/

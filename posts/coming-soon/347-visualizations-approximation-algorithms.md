@@ -2,7 +2,7 @@
 title: approximation-algorithms
 description: 'Visualizes the formal performance guarantee of a ρ-approximation: a polynomial-time algorithm produces a feasible solution ALG whose cost (or value) is within a multiplicative factor ρ of the optimal OPT. Animated bars show OPT, the algorithm’s output, and the bound ρ·OPT while the inequality ALG/OPT ≤ ρ is highlighted.'
 date: '2026-07-01'
-scheduled: '2027-06-12'
+scheduled: '2026-06-10'
 tags:
 - p-and-l-engineering
 - coming-soon
@@ -10,7 +10,7 @@ tags:
 layout: layouts/post.njk
 templateEngineOverride: md
 image: /img/xavi-linkedin-profile.jpg
-draft: true
+draft: false
 generated_by: templeton-deep-copy-import
 source_format: html
 inspiration_url: https://templeton.host/visualizations/approximation-algorithms/
